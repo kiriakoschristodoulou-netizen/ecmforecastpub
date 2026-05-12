@@ -1,0 +1,150 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-12T08:00:00Z",
+  "feed_type": "personal",
+  "forecasts": [
+    {
+      "id": "armstrong-pc-2026-02-28",
+      "date": "2026-02-28",
+      "title": "Iran conflict Panic Cycle",
+      "subtitle": "Armstrong Panic Cycle",
+      "category": "ecm_panic_cycle",
+      "importance": "high",
+      "is_convergence": true,
+      "importance_justification": "Panic Cycle is rule-baseline HIGH; convergence with multiple Middle East tension indicators.",
+      "synthesis": "Armstrong's Panic Cycle for 28 Feb 2026 flagged a sudden geopolitical event window. The actual event - the killing of Iran's Supreme Leader and the opening of the US/Israel-Iran war - landed precisely on this date. The convergence with prior sovereign debt cycle warnings and the closing of Strait of Hormuz tension indicators made this one of the more concrete Panic Cycle calls in recent years.\n\nPost-event context: the war is ongoing as of pipeline date. Oil markets are pricing the war premium, US gasoline prices are up ~52% from pre-war levels, and the April ceasefire attempt failed. The forecast's value was not just the date but the type of event - sudden, violence-driven, market-disruptive.",
+      "source": {
+        "name": "Armstrong Economics",
+        "url": "https://www.armstrongeconomics.com/archives/iran-pc-feb-2026"
+      },
+      "related_events": [
+        {
+          "date": "2026-02-26",
+          "title": "Strait of Hormuz tension report",
+          "category": "military",
+          "url": "https://www.cfr.org/..."
+        },
+        {
+          "date": "2026-03-02",
+          "title": "Emergency IEA oil reserve release",
+          "category": "economic_data",
+          "url": "https://www.iea.org/..."
+        }
+      ]
+    },
+    {
+      "id": "armstrong-dc-2026-04-22",
+      "date": "2026-04-22",
+      "title": "Spring Directional Change",
+      "subtitle": "Armstrong ECM",
+      "category": "ecm_directional_change",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "ECM DC dates carry rule-baseline HIGH; single-source date with no scheduled-event convergence.",
+      "synthesis": "Armstrong flagged 22 Apr 2026 as a Directional Change inside the current ECM cycle. The expected manifestation was a shift in capital flows away from sovereign debt and toward defensive assets, triggered by escalating Iran war dynamics.\n\nIn practice the window passed without a clearly identifiable market turn. Sovereign debt spreads moved within their existing range, equity volatility was elevated but not pivotal. This is the kind of date where the ECM is harder to score - the model marks timing, but with no obvious headline event the 'directional change' is only visible in retrospect, if at all.",
+      "source": {
+        "name": "Armstrong Economics",
+        "url": "https://www.armstrongeconomics.com/archives/spring-dc-2026"
+      },
+      "related_events": []
+    },
+    {
+      "id": "armstrong-ecm-2026-05-08",
+      "date": "2026-05-08",
+      "title": "ECM micro-pivot",
+      "subtitle": "Armstrong sub-cycle",
+      "category": "ecm_turning_point",
+      "importance": "normal",
+      "is_convergence": false,
+      "synthesis": "A minor sub-cycle date inside the broader ECM. Armstrong has noted that micro-pivots in the May timeframe often relate to short-term capital flow rebalancing rather than headline-driving events.\n\nThis date is four days past. No obvious market dislocation occurred in the window. Score retrospectively if a clear effect becomes visible in coming weeks.",
+      "source": {
+        "name": "Armstrong Economics",
+        "url": "https://www.armstrongeconomics.com/archives/may-micro-2026"
+      },
+      "related_events": []
+    },
+    {
+      "id": "armstrong-ecm-dc-2026-07-01",
+      "date": "2026-07-01",
+      "title": "ECM Directional Change",
+      "subtitle": "Armstrong ECM",
+      "category": "ecm_directional_change",
+      "importance": "high",
+      "is_convergence": true,
+      "importance_justification": "USMCA review deadline and French OAT auction land within the same week.",
+      "synthesis": "Armstrong's Economic Confidence Model marks 1 Jul 2026 as a Directional Change - corrected from earlier published expectations of 1 Jun. The model is pointing at a confidence-shift window, not a specific event, but several scheduled real-world catalysts cluster on the same week.\n\nThe USMCA trade review formally opens this day. The French Treasury holds a major OAT (sovereign bond) auction four days later, during a period of acknowledged French fiscal stress and active discussion of IMF tutelage scenarios. Trump's tariff regime is in motion and the Iran war's oil-price effects are feeding through to European debt-servicing costs.\n\nThe combination is what triggers the CONVERGENCE flag: Armstrong's timing signal + a treaty review with real geopolitical teeth + a sovereign debt stress test, all within five days. This is the kind of window where the ECM thesis - confidence breaks need a trigger plus pre-existing fragility - has both stacked.",
+      "source": {
+        "name": "Armstrong Economics",
+        "url": "https://www.armstrongeconomics.com/archives/ecm-dc-jul-2026"
+      },
+      "related_events": [
+        {
+          "date": "2026-07-01",
+          "title": "USMCA six-year review opens",
+          "category": "treaty",
+          "url": "https://ustr.gov/usmca"
+        },
+        {
+          "date": "2026-07-05",
+          "title": "French OAT auction",
+          "category": "sovereign_debt",
+          "url": "https://www.aft.gouv.fr/en"
+        }
+      ]
+    },
+    {
+      "id": "armstrong-sov-2026-08-14",
+      "date": "2026-08-14",
+      "title": "Sovereign debt crisis pivot",
+      "subtitle": "Armstrong sovereign cycle",
+      "category": "armstrong_sovereign_debt",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Sovereign debt dates are rule-baseline HIGH; no scheduled-event clustering in window.",
+      "synthesis": "Armstrong's sovereign debt cycle has been pointing at 2025-2027 as the peak window for sovereign defaults globally, with 2026-08-14 marked as a sub-pivot. The model's underlying logic: post-COVID debt accumulation in major economies meets refinancing walls in mid-2026 against a backdrop of higher-for-longer rates.\n\nFrance is the canary most observers are watching - KBRA downgraded the sovereign in late 2025, debt-servicing is projected at \u20ac59B for 2026, and the political coalition is fragile. The UK is in similar territory. This date is the model's flag for a pivot from creeping deterioration to acute event.",
+      "source": {
+        "name": "Armstrong Economics",
+        "url": "https://www.armstrongeconomics.com/archives/sov-debt-aug-2026"
+      },
+      "related_events": []
+    },
+    {
+      "id": "armstrong-ecm-2026-11-12",
+      "date": "2026-11-12",
+      "title": "ECM micro-turn",
+      "subtitle": "Armstrong sub-cycle",
+      "category": "ecm_turning_point",
+      "importance": "normal",
+      "is_convergence": false,
+      "synthesis": "A sub-cycle date inside the ECM. Likely a short-term confidence-flow turn rather than a headline-driving event. Worth tracking against US post-midterm legislative dynamics if any major fiscal package is in flight.",
+      "source": {
+        "name": "Armstrong Economics",
+        "url": "https://www.armstrongeconomics.com/archives/nov-micro-2026"
+      },
+      "related_events": [
+        {
+          "date": "2026-11-15",
+          "title": "G20 Leaders' Summit",
+          "category": "summit",
+          "url": "https://g20.org/2026"
+        }
+      ]
+    },
+    {
+      "id": "armstrong-pc-2027-01-31",
+      "date": "2027-01-31",
+      "title": "Panic Cycle entry",
+      "subtitle": "Armstrong Panic Cycle",
+      "category": "ecm_panic_cycle",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Panic Cycle is rule-baseline HIGH; no scheduled-event clustering identified yet.",
+      "synthesis": "Armstrong has flagged early 2027 as a major Panic Cycle entry, with 31 Jan as the model's specific marker. Panic Cycles in the ECM framework correlate with sudden escalation events - typically war, sovereign defaults, or capital flight - rather than slow-moving processes.\n\nThe broader framing: the July 2026 ECM turn is treated as the prelude into this 2027 Panic phase, with the 2028 Yearly Panic Cycle as the deeper inflection point. If the July 2026 window resolves with a tangible confidence break, the January 2027 date becomes the next acceleration point. If July passes quietly, the Panic Cycle may shift in character or date.",
+      "source": {
+        "name": "Armstrong Economics",
+        "url": "https://www.armstrongeconomics.com/archives/panic-2027"
+      },
+      "related_events": []
+    }
+  ]
+}
