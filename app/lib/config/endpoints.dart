@@ -48,12 +48,15 @@ class Endpoints {
   static const String _privateRepoPat =
       String.fromEnvironment('PRIVATE_REPO_PAT', defaultValue: '');
 
-  // --- Telemetry worker (Cloudflare Workers, configured later) ---
+  // --- Telemetry worker (Cloudflare Workers) ---
   // /ping is called by all builds on launch. /stats is called by the
   // personal build only and is keyed with TELEMETRY_STATS_KEY.
-  static const String telemetryBase =
-      String.fromEnvironment('TELEMETRY_BASE',
-          defaultValue: 'https://ecm-telemetry.workers.dev');
+  // Default points at the deployed worker; can be overridden at build
+  // time for staging/testing.
+  static const String telemetryBase = String.fromEnvironment(
+    'TELEMETRY_BASE',
+    defaultValue: 'https://ecm-telemetry.brassworth-app.workers.dev',
+  );
 
   static const String telemetryPingPath = '/ping';
   static const String telemetryStatsPath = '/stats';
@@ -93,7 +96,8 @@ class Endpoints {
   static String get telemetryPingUrl => '$telemetryBase$telemetryPingPath';
 
   /// Full telemetry stats URL. Personal build only.
-  /// Returns null on friends build (which must never call this).
+  /// Returns null on friends build (which must never call this), or on
+  /// a personal build that wasn't compiled with TELEMETRY_STATS_KEY.
   static String? get telemetryStatsUrl {
     if (!isPersonalBuild) return null;
     if (_telemetryStatsKey.isEmpty) return null;

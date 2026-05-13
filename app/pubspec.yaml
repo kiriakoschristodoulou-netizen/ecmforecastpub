@@ -33,6 +33,7 @@ dependencies:
 
   # Date formatting (used for user-selectable date format setting)
   intl: ^0.19.0
+  timezone: ^0.9.4
 
   # Identifiers (anonymous install UUID for telemetry)
   uuid: ^4.5.1
