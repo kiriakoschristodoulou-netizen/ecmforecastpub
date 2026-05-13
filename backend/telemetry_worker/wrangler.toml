@@ -1,0 +1,31 @@
+# wrangler.toml
+#
+# Cloudflare Worker config for the ECM Forecasting Alerts telemetry endpoint.
+# Two routes:
+#   POST /ping  - anonymous install ping (called by all app builds)
+#   GET  /stats - aggregated stats (keyed; called by personal build only)
+#
+# The KV namespace stores one entry per install UUID. Key format:
+#   install:<uuid>
+# Value: JSON { app_version, last_seen_iso }
+
+name = "ecm-telemetry"
+main = "src/index.ts"
+compatibility_date = "2026-05-01"
+
+# The stats endpoint requires a secret key in the query string. Set this
+# via `wrangler secret put STATS_KEY` after first deploy; the placeholder
+# below is overridden by Cloudflare's secret store at runtime.
+# (No vars block needed - secrets are managed separately.)
+
+# KV namespace - stores install records.
+# The id below is a placeholder. After running
+#   wrangler kv namespace create TELEMETRY_KV
+# replace the id with the value wrangler prints.
+[[kv_namespaces]]
+binding = "TELEMETRY_KV"
+id = "6c5f0a5b38f14368a4fd77c17381950a"
+
+# Observability - free tier covers our volume.
+[observability]
+enabled = true
