@@ -1,0 +1,62 @@
+# ============================================================
+# .gitignore for ecmforecastpub
+# Covers: Node (backend/telemetry_worker), Flutter (app/), OS
+# ============================================================
+
+# --- Node / TypeScript (Cloudflare Worker side) ---
+node_modules/
+*.log
+npm-debug.log*
+.npm/
+.wrangler/
+package-lock.json
+
+# --- Flutter / Dart ---
+# Build artifacts
+app/build/
+app/.dart_tool/
+app/.flutter-plugins
+app/.flutter-plugins-dependencies
+app/.packages
+app/.pub-cache/
+app/.pub/
+app/pubspec.lock
+
+# IDE-specific (IntelliJ/Android Studio)
+app/.idea/
+app/*.iml
+app/*.iws
+app/.metadata
+
+# Android build / Gradle
+app/android/.gradle/
+app/android/captures/
+app/android/gradlew
+app/android/gradlew.bat
+app/android/local.properties
+app/android/key.properties
+app/android/**/GeneratedPluginRegistrant.*
+app/android/**/build/
+app/android/.idea/
+
+# Signing keystores - NEVER commit these
+*.jks
+*.keystore
+
+# --- Secrets ---
+# Files with --dart-define values, API keys, PATs, etc.
+.env
+.env.*
+*.secrets
+secrets.json
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Editor backups ---
+*~
+*.swp
+*.swo
+.vscode/
