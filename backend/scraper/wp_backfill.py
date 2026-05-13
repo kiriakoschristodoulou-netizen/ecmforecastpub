@@ -48,7 +48,7 @@ OUTPUT_PATH = SCRIPT_DIR.parent / "output" / "armstrong_raw_archive.json"
 WP_API_BASE = "https://www.armstrongeconomics.com/wp-json/wp/v2/posts"
 
 # Pull this many days of history. 2 months = 60 days.
-BACKFILL_DAYS = 60
+BACKFILL_DAYS = 180
 
 POSTS_PER_PAGE = 100  # WP REST API max
 REQUEST_TIMEOUT_SECS = 30
