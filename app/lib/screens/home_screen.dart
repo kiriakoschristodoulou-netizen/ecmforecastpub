@@ -7,7 +7,9 @@
 //   - Past forecasts (when expanded)
 //   - Today divider
 //   - Pinned nearest upcoming card
-//   - Other upcoming forecasts
+//   - Near-future upcoming forecasts (<= 10 years from today)
+//   - "Show N far-future forecasts" button (when far-future forecasts exist)
+//   - Far-future forecasts (when expanded; > 10 years from today)
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -18,6 +20,7 @@ import '../config/build_mode.dart';
 import '../models/events_feed.dart';
 import '../models/forecast.dart';
 import '../providers/events_provider.dart';
+import '../providers/expanded_far_future_provider.dart';
 import '../providers/expanded_past_provider.dart';
 import '../providers/update_provider.dart';
 import '../services/update_service.dart';
@@ -28,6 +31,11 @@ import 'settings_screen.dart';
 
 /// In-memory dismissal flag. Resets on app restart.
 final updateBannerDismissedProvider = StateProvider<bool>((ref) => false);
+
+/// Forecasts beyond this many days from today are considered "far future"
+/// and hidden behind a toggle by default. 10 years approximates the
+/// useful planning horizon for most ECM-derived cycle dates.
+const int _farFutureDayThreshold = 365 * 10;
 
 class HomeScreen extends ConsumerWidget {
   const HomeScreen({super.key});
@@ -53,8 +61,6 @@ class HomeScreen extends ConsumerWidget {
       ),
       body: Column(
         children: [
-          // Friends builds: no banner (final UX).
-          // Personal builds: keep the indicator so we always know which APK is running.
           if (isPersonalBuild) const _PersonalBuildBanner(),
           updateAsync.maybeWhen(
             data: (status) {
@@ -213,7 +219,8 @@ class _ForecastList extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final expanded = ref.watch(expandedPastProvider);
+    final expandedPast = ref.watch(expandedPastProvider);
+    final expandedFarFuture = ref.watch(expandedFarFutureProvider);
     final all = feed.sortedByDate;
 
     final past = all.where((f) => f.isPast()).toList();
@@ -221,9 +228,22 @@ class _ForecastList extends ConsumerWidget {
 
     final mainPast = past.where((f) => f.daysUntil() >= -60).toList();
 
-    final nearest = upcoming.isNotEmpty ? upcoming.first : null;
-    final restUpcoming =
-        upcoming.length <= 1 ? const <Forecast>[] : upcoming.sublist(1);
+    // Split upcoming into near-future (within 10 years) and far-future.
+    final nearUpcoming = upcoming
+        .where((f) => f.daysUntil() <= _farFutureDayThreshold)
+        .toList();
+    final farUpcoming = upcoming
+        .where((f) => f.daysUntil() > _farFutureDayThreshold)
+        .toList();
+
+    final nearest = nearUpcoming.isNotEmpty ? nearUpcoming.first : null;
+    final restNearUpcoming = nearUpcoming.length <= 1
+        ? const <Forecast>[]
+        : nearUpcoming.sublist(1);
+
+    final hasAnyContent = mainPast.isNotEmpty ||
+        nearUpcoming.isNotEmpty ||
+        farUpcoming.isNotEmpty;
 
     return ListView(
       padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 8),
@@ -232,11 +252,11 @@ class _ForecastList extends ConsumerWidget {
         if (mainPast.isNotEmpty) ...[
           _EarlierToggleButton(
             count: mainPast.length,
-            expanded: expanded,
+            expanded: expandedPast,
             onTap: () => ref.read(expandedPastProvider.notifier).state =
-                !expanded,
+                !expandedPast,
           ),
-          if (expanded) ...[
+          if (expandedPast) ...[
             const SizedBox(height: 4),
             ...mainPast.map((f) => EventCard(
                   forecast: f,
@@ -245,19 +265,19 @@ class _ForecastList extends ConsumerWidget {
                 )),
           ],
         ],
-        if (mainPast.isNotEmpty || upcoming.isNotEmpty) const _TodayDivider(),
+        if (hasAnyContent) const _TodayDivider(),
         if (nearest != null)
           EventCard(
             forecast: nearest,
             isPinned: true,
             onTap: () => _openDetail(context, nearest),
           ),
-        ...restUpcoming.map((f) => EventCard(
+        ...restNearUpcoming.map((f) => EventCard(
               forecast: f,
               isPinned: false,
               onTap: () => _openDetail(context, f),
             )),
-        if (upcoming.isEmpty)
+        if (nearUpcoming.isEmpty && farUpcoming.isEmpty)
           Padding(
             padding: const EdgeInsets.all(40),
             child: Center(
@@ -267,6 +287,24 @@ class _ForecastList extends ConsumerWidget {
               ),
             ),
           ),
+        if (farUpcoming.isNotEmpty) ...[
+          const SizedBox(height: 12),
+          _FarFutureToggleButton(
+            count: farUpcoming.length,
+            expanded: expandedFarFuture,
+            onTap: () =>
+                ref.read(expandedFarFutureProvider.notifier).state =
+                    !expandedFarFuture,
+          ),
+          if (expandedFarFuture) ...[
+            const SizedBox(height: 4),
+            ...farUpcoming.map((f) => EventCard(
+                  forecast: f,
+                  isPinned: false,
+                  onTap: () => _openDetail(context, f),
+                )),
+          ],
+        ],
         const SizedBox(height: 40),
       ],
     );
@@ -306,6 +344,45 @@ class _EarlierToggleButton extends StatelessWidget {
           onPressed: onTap,
           icon: Icon(
             expanded ? Icons.expand_more : Icons.expand_less,
+            size: 18,
+          ),
+          label: Text(label),
+          style: OutlinedButton.styleFrom(
+            minimumSize: const Size.fromHeight(40),
+            foregroundColor: colors.sectionLabel,
+            side: BorderSide(color: colors.buttonInactiveBorder, width: 0.5),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+class _FarFutureToggleButton extends StatelessWidget {
+  final int count;
+  final bool expanded;
+  final VoidCallback onTap;
+
+  const _FarFutureToggleButton({
+    required this.count,
+    required this.expanded,
+    required this.onTap,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = context.appColors;
+    final label = expanded
+        ? 'Hide far-future forecasts'
+        : 'Show $count far-future forecast${count == 1 ? '' : 's'} (10+ years out)';
+    return SizedBox(
+      width: double.infinity,
+      child: Padding(
+        padding: const EdgeInsets.symmetric(vertical: 4),
+        child: OutlinedButton.icon(
+          onPressed: onTap,
+          icon: Icon(
+            expanded ? Icons.expand_less : Icons.expand_more,
             size: 18,
           ),
           label: Text(label),

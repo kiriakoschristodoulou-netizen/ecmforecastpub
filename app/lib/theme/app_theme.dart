@@ -85,6 +85,29 @@ class AppColors extends ThemeExtension<AppColors> {
   final Color dividerSoft;
   final Color hintText;
 
+  // --- Category badges (one bg + one text per ForecastCategory) ---
+  // ECM panic / wave inflections - red family
+  final Color catEcmPanicBg;
+  final Color catEcmPanicText;
+  // Pi cycle target - purple family
+  final Color catPiTargetBg;
+  final Color catPiTargetText;
+  // Geopolitical cycle - blue family
+  final Color catGeopoliticalBg;
+  final Color catGeopoliticalText;
+  // Long cycle (war, religion) - bronze/brown family
+  final Color catLongCycleBg;
+  final Color catLongCycleText;
+  // Asset panic cycle - orange family
+  final Color catAssetPanicBg;
+  final Color catAssetPanicText;
+  // Natural disasters - teal family
+  final Color catNaturalBg;
+  final Color catNaturalText;
+  // Other / unknown - neutral grey
+  final Color catOtherBg;
+  final Color catOtherText;
+
   const AppColors({
     required this.nearestBg,
     required this.nearestBorder,
@@ -131,6 +154,20 @@ class AppColors extends ThemeExtension<AppColors> {
     required this.updateBannerTextStrong,
     required this.dividerSoft,
     required this.hintText,
+    required this.catEcmPanicBg,
+    required this.catEcmPanicText,
+    required this.catPiTargetBg,
+    required this.catPiTargetText,
+    required this.catGeopoliticalBg,
+    required this.catGeopoliticalText,
+    required this.catLongCycleBg,
+    required this.catLongCycleText,
+    required this.catAssetPanicBg,
+    required this.catAssetPanicText,
+    required this.catNaturalBg,
+    required this.catNaturalText,
+    required this.catOtherBg,
+    required this.catOtherText,
   });
 
   @override
@@ -180,6 +217,20 @@ class AppColors extends ThemeExtension<AppColors> {
     Color? updateBannerTextStrong,
     Color? dividerSoft,
     Color? hintText,
+    Color? catEcmPanicBg,
+    Color? catEcmPanicText,
+    Color? catPiTargetBg,
+    Color? catPiTargetText,
+    Color? catGeopoliticalBg,
+    Color? catGeopoliticalText,
+    Color? catLongCycleBg,
+    Color? catLongCycleText,
+    Color? catAssetPanicBg,
+    Color? catAssetPanicText,
+    Color? catNaturalBg,
+    Color? catNaturalText,
+    Color? catOtherBg,
+    Color? catOtherText,
   }) {
     return AppColors(
       nearestBg: nearestBg ?? this.nearestBg,
@@ -229,6 +280,20 @@ class AppColors extends ThemeExtension<AppColors> {
           updateBannerTextStrong ?? this.updateBannerTextStrong,
       dividerSoft: dividerSoft ?? this.dividerSoft,
       hintText: hintText ?? this.hintText,
+      catEcmPanicBg: catEcmPanicBg ?? this.catEcmPanicBg,
+      catEcmPanicText: catEcmPanicText ?? this.catEcmPanicText,
+      catPiTargetBg: catPiTargetBg ?? this.catPiTargetBg,
+      catPiTargetText: catPiTargetText ?? this.catPiTargetText,
+      catGeopoliticalBg: catGeopoliticalBg ?? this.catGeopoliticalBg,
+      catGeopoliticalText: catGeopoliticalText ?? this.catGeopoliticalText,
+      catLongCycleBg: catLongCycleBg ?? this.catLongCycleBg,
+      catLongCycleText: catLongCycleText ?? this.catLongCycleText,
+      catAssetPanicBg: catAssetPanicBg ?? this.catAssetPanicBg,
+      catAssetPanicText: catAssetPanicText ?? this.catAssetPanicText,
+      catNaturalBg: catNaturalBg ?? this.catNaturalBg,
+      catNaturalText: catNaturalText ?? this.catNaturalText,
+      catOtherBg: catOtherBg ?? this.catOtherBg,
+      catOtherText: catOtherText ?? this.catOtherText,
     );
   }
 
@@ -291,6 +356,25 @@ class AppColors extends ThemeExtension<AppColors> {
           Color.lerp(updateBannerTextStrong, other.updateBannerTextStrong, t)!,
       dividerSoft: Color.lerp(dividerSoft, other.dividerSoft, t)!,
       hintText: Color.lerp(hintText, other.hintText, t)!,
+      catEcmPanicBg: Color.lerp(catEcmPanicBg, other.catEcmPanicBg, t)!,
+      catEcmPanicText: Color.lerp(catEcmPanicText, other.catEcmPanicText, t)!,
+      catPiTargetBg: Color.lerp(catPiTargetBg, other.catPiTargetBg, t)!,
+      catPiTargetText: Color.lerp(catPiTargetText, other.catPiTargetText, t)!,
+      catGeopoliticalBg:
+          Color.lerp(catGeopoliticalBg, other.catGeopoliticalBg, t)!,
+      catGeopoliticalText:
+          Color.lerp(catGeopoliticalText, other.catGeopoliticalText, t)!,
+      catLongCycleBg: Color.lerp(catLongCycleBg, other.catLongCycleBg, t)!,
+      catLongCycleText:
+          Color.lerp(catLongCycleText, other.catLongCycleText, t)!,
+      catAssetPanicBg:
+          Color.lerp(catAssetPanicBg, other.catAssetPanicBg, t)!,
+      catAssetPanicText:
+          Color.lerp(catAssetPanicText, other.catAssetPanicText, t)!,
+      catNaturalBg: Color.lerp(catNaturalBg, other.catNaturalBg, t)!,
+      catNaturalText: Color.lerp(catNaturalText, other.catNaturalText, t)!,
+      catOtherBg: Color.lerp(catOtherBg, other.catOtherBg, t)!,
+      catOtherText: Color.lerp(catOtherText, other.catOtherText, t)!,
     );
   }
 }
@@ -353,6 +437,22 @@ const AppColors appColorsLight = AppColors(
 
   dividerSoft: Color(0xFFD3D1C7),
   hintText: Color(0xFF888780),
+
+  // Category badges - light palette. Soft pastel bgs with deep text.
+  catEcmPanicBg: Color(0xFFFBE1DC),
+  catEcmPanicText: Color(0xFF8E2A1B),
+  catPiTargetBg: Color(0xFFEDE2F4),
+  catPiTargetText: Color(0xFF5A2A82),
+  catGeopoliticalBg: Color(0xFFDDEAF5),
+  catGeopoliticalText: Color(0xFF1F4F80),
+  catLongCycleBg: Color(0xFFE9DFCD),
+  catLongCycleText: Color(0xFF5C4220),
+  catAssetPanicBg: Color(0xFFFCE3CB),
+  catAssetPanicText: Color(0xFF8A4A0E),
+  catNaturalBg: Color(0xFFD5ECEA),
+  catNaturalText: Color(0xFF1E5A55),
+  catOtherBg: Color(0xFFE0DED5),
+  catOtherText: Color(0xFF55544F),
 );
 
 /// Dark palette - same semantic structure, tuned for a near-black bg.
@@ -429,6 +529,22 @@ const AppColors appColorsDark = AppColors(
   // Misc.
   dividerSoft: Color(0xFF3A3936),
   hintText: Color(0xFF8E8C82),
+
+  // Category badges - dark palette. Deep saturated bgs with bright text.
+  catEcmPanicBg: Color(0xFF4A1F18),
+  catEcmPanicText: Color(0xFFF2BFB7),
+  catPiTargetBg: Color(0xFF2E1B47),
+  catPiTargetText: Color(0xFFD7BFEC),
+  catGeopoliticalBg: Color(0xFF15304E),
+  catGeopoliticalText: Color(0xFFB8D5F0),
+  catLongCycleBg: Color(0xFF3A2D17),
+  catLongCycleText: Color(0xFFE0C99A),
+  catAssetPanicBg: Color(0xFF4A2D10),
+  catAssetPanicText: Color(0xFFF2C28E),
+  catNaturalBg: Color(0xFF153833),
+  catNaturalText: Color(0xFFA7D8D3),
+  catOtherBg: Color(0xFF35342F),
+  catOtherText: Color(0xFFB8B6AD),
 );
 
 /// Convenience accessor. Use in widgets like:

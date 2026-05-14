@@ -1,4 +1,4 @@
-// lib/widgets/event_card.dart
+﻿// lib/widgets/event_card.dart
 //
 // One forecast card on the home screen. All visual state derives from
 // the Forecast object plus the isPinned flag plus the user's local
@@ -160,6 +160,8 @@ class EventCard extends ConsumerWidget {
           titleColor: v.titleColor,
           subtitleColor: v.subtitleColor,
           rightPadForBadge: _showConvergence,
+          category: forecast.category,
+          colors: colors,
         );
       case _CardLayout.large:
         return _LargeLayout(
@@ -169,6 +171,8 @@ class EventCard extends ConsumerWidget {
           titleColor: v.titleColor,
           subtitleColor: v.subtitleColor,
           rightPadForBadge: _showConvergence,
+          category: forecast.category,
+          colors: colors,
         );
       case _CardLayout.compact:
         return _CompactLayout(
@@ -180,6 +184,7 @@ class EventCard extends ConsumerWidget {
           isPast: _isPast,
           score: score,
           colors: colors,
+          category: forecast.category,
         );
     }
   }
@@ -211,6 +216,61 @@ class _CardVisuals {
   });
 }
 
+/// Small colored pill showing the forecast category. Color tokens come
+/// from AppColors so dark mode works correctly. Hidden for [other].
+class _CategoryBadge extends StatelessWidget {
+  final ForecastCategory category;
+  final AppColors colors;
+
+  const _CategoryBadge({
+    required this.category,
+    required this.colors,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    // Don't show a badge for the "other" fallback - it adds noise.
+    if (category == ForecastCategory.other) return const SizedBox.shrink();
+
+    final (Color bg, Color text) = _resolveColors();
+    return Container(
+      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+      decoration: BoxDecoration(
+        color: bg,
+        borderRadius: BorderRadius.circular(3),
+      ),
+      child: Text(
+        category.badgeLabel,
+        style: TextStyle(
+          fontSize: 9,
+          fontWeight: FontWeight.w600,
+          letterSpacing: 0.4,
+          color: text,
+        ),
+      ),
+    );
+  }
+
+  (Color, Color) _resolveColors() {
+    switch (category) {
+      case ForecastCategory.ecmPanic:
+        return (colors.catEcmPanicBg, colors.catEcmPanicText);
+      case ForecastCategory.ecmPiTarget:
+        return (colors.catPiTargetBg, colors.catPiTargetText);
+      case ForecastCategory.geopoliticalCycle:
+        return (colors.catGeopoliticalBg, colors.catGeopoliticalText);
+      case ForecastCategory.longCycle:
+        return (colors.catLongCycleBg, colors.catLongCycleText);
+      case ForecastCategory.assetPanicCycle:
+        return (colors.catAssetPanicBg, colors.catAssetPanicText);
+      case ForecastCategory.naturalDisasters:
+        return (colors.catNaturalBg, colors.catNaturalText);
+      case ForecastCategory.other:
+        return (colors.catOtherBg, colors.catOtherText);
+    }
+  }
+}
+
 class _PinnedLayout extends StatelessWidget {
   final String title;
   final String subtitle;
@@ -218,6 +278,8 @@ class _PinnedLayout extends StatelessWidget {
   final Color titleColor;
   final Color subtitleColor;
   final bool rightPadForBadge;
+  final ForecastCategory category;
+  final AppColors colors;
 
   const _PinnedLayout({
     required this.title,
@@ -226,6 +288,8 @@ class _PinnedLayout extends StatelessWidget {
     required this.titleColor,
     required this.subtitleColor,
     required this.rightPadForBadge,
+    required this.category,
+    required this.colors,
   });
 
   @override
@@ -234,14 +298,24 @@ class _PinnedLayout extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
       children: [
-        Text(
-          'UP NEXT',
-          style: TextStyle(
-            fontSize: 10,
-            letterSpacing: 0.5,
-            fontWeight: FontWeight.w500,
-            color: titleColor,
-          ),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text(
+              'UP NEXT',
+              style: TextStyle(
+                fontSize: 10,
+                letterSpacing: 0.5,
+                fontWeight: FontWeight.w500,
+                color: titleColor,
+              ),
+            ),
+            // Don't show category badge to the right when the CONVERGENCE
+            // badge is occupying that corner.
+            if (!rightPadForBadge)
+              _CategoryBadge(category: category, colors: colors),
+          ],
         ),
         const SizedBox(height: 3),
         Padding(
@@ -280,6 +354,8 @@ class _LargeLayout extends StatelessWidget {
   final Color titleColor;
   final Color subtitleColor;
   final bool rightPadForBadge;
+  final ForecastCategory category;
+  final AppColors colors;
 
   const _LargeLayout({
     required this.title,
@@ -288,6 +364,8 @@ class _LargeLayout extends StatelessWidget {
     required this.titleColor,
     required this.subtitleColor,
     required this.rightPadForBadge,
+    required this.category,
+    required this.colors,
   });
 
   @override
@@ -296,6 +374,13 @@ class _LargeLayout extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       mainAxisSize: MainAxisSize.min,
       children: [
+        // Category badge as small top-left pill (only when CONVERGENCE
+        // isn't taking the top-right).
+        if (!rightPadForBadge &&
+            category != ForecastCategory.other) ...[
+          _CategoryBadge(category: category, colors: colors),
+          const SizedBox(height: 6),
+        ],
         Padding(
           padding: EdgeInsets.only(right: rightPadForBadge ? 80 : 0),
           child: Text(
@@ -334,6 +419,7 @@ class _CompactLayout extends StatelessWidget {
   final bool isPast;
   final RetrospectiveScore? score;
   final AppColors colors;
+  final ForecastCategory category;
 
   const _CompactLayout({
     required this.title,
@@ -344,10 +430,12 @@ class _CompactLayout extends StatelessWidget {
     required this.isPast,
     required this.score,
     required this.colors,
+    required this.category,
   });
 
   @override
   Widget build(BuildContext context) {
+    final hasBadge = category != ForecastCategory.other;
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
@@ -368,11 +456,21 @@ class _CompactLayout extends StatelessWidget {
                 overflow: TextOverflow.ellipsis,
               ),
               const SizedBox(height: 2),
-              Text(
-                subtitle,
-                style: TextStyle(fontSize: 11, color: subtitleColor),
-                maxLines: 1,
-                overflow: TextOverflow.ellipsis,
+              Row(
+                children: [
+                  if (hasBadge) ...[
+                    _CategoryBadge(category: category, colors: colors),
+                    const SizedBox(width: 6),
+                  ],
+                  Flexible(
+                    child: Text(
+                      subtitle,
+                      style: TextStyle(fontSize: 11, color: subtitleColor),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
