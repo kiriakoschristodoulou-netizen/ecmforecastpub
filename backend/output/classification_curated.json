@@ -1,0 +1,852 @@
+{
+  "generated_at": "2026-05-14T15:32:09.258629+00:00",
+  "partial": false,
+  "model": "claude-haiku-4-5-20251001",
+  "input_post_count": 93,
+  "kept_count": 43,
+  "usage": {
+    "input_tokens": 102835,
+    "output_tokens": 9006,
+    "estimated_cost_usd": 0.147865,
+    "model": "claude-haiku-4-5-20251001"
+  },
+  "results": [
+    {
+      "wp_id": 386898,
+      "title": "Is Peace Really Possible in Middle East?",
+      "link": "https://www.armstrongeconomics.com/world-news/geopolitical/is-peace-really-possible-in-middle-east/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong states 'The computer is showing that we may have a serious change in the politics in Iran come Jan/Feb 2027,' explicitly attributing a future political shift to his computer model with month-level specificity."
+    },
+    {
+      "wp_id": 386863,
+      "title": "Canada’s Labor Market Is Cracking Under the Surface",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/canadas-labor-market-is-cracking-under-the-surface/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references existing ECM projection ('depressionary phase into 2028') without amending or updating it; mentions current Canada labor data and analysis but contains no new model-attributed dated prediction."
+    },
+    {
+      "wp_id": 386784,
+      "title": "Germans Are Feeling the Economy Collapse in Real-Time",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/germans-are-feeling-the-economy-collapse-in-real-time/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references existing ECM projection ('Europe entering a depressionary phase into 2028') without amending it; remainder is editorial analysis of current German economic conditions with no new model-attributed prediction."
+    },
+    {
+      "wp_id": 386802,
+      "title": "Next ECM is July 1/2 not June 1",
+      "link": "https://www.armstrongeconomics.com/uncategorized/next-ecm-is-july-1-2-not-june-1/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-07-01",
+      "reason": "Armstrong explicitly corrects ECM wave change target from June 1 to July 1/2, directly attributing this amended dated prediction to the ECM model with specific month-level precision."
+    },
+    {
+      "wp_id": 386757,
+      "title": "Brits Are Feeling the Economy Collapse in Real-Time",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/brits-are-feeling-the-economy-collapse-in-real-time/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references existing ECM projection ('Europe depressionary phase into 2028') without updating or amending it; remainder is editorial commentary on current British economic conditions with no new model-attributed prediction."
+    },
+    {
+      "wp_id": 386699,
+      "title": "Europe’s Inflation Spiral Is Fueling the Depression Into 2028",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/europes-inflation-spiral-is-fueling-the-depression-into-2028/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong explicitly attributes to ECM a projection that 'Europe entering a depressionary phase into 2028,' a month-level future prediction about Europe's economic trajectory."
+    },
+    {
+      "wp_id": 386726,
+      "title": "Canada Is Running Toward Europe as the West Fractures",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/canada-is-running-toward-europe-as-the-west-fractures/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong explicitly states 'Europe itself is entering a depressionary phase into 2028 according to our ECM models,' a model-attributed future economic prediction."
+    },
+    {
+      "wp_id": 386703,
+      "title": "Alberta Separatism Is Rising Because Ottawa Destroyed Canada’s Economic Balance",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/alberta-separatism-is-rising-because-ottawa-destroyed-canadas-economic-balance/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references ECM projections about 'increasing political fragmentation globally' but contains no specific month/year-level model-attributed dated prediction; fragmentation is described as ongoing without a new amendment."
+    },
+    {
+      "wp_id": 386707,
+      "title": "The Euro Devastated Southern Europe and Greece Is Proof",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/the-euro-devastated-southern-europe-and-greece-is-proof/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong explicitly attributes to ECM a projection that 'Europe enters a depressionary phase into 2028,' a model-attributed future economic prediction with month-level specificity."
+    },
+    {
+      "wp_id": 386685,
+      "title": "UK Retail Sector Collapse",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/uk-retail-sector-collapse/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong explicitly states the ECM 'has been projecting that Europe would enter a depressionary phase into 2028,' a model-attributed future economic prediction about Europe's trajectory."
+    },
+    {
+      "wp_id": 386681,
+      "title": "Europe Explores Wealth Taxes, Capital Taxes, and Exit Taxes",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/europe-explores-wealth-taxes-capital-taxes-and-exit-taxes/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong explicitly attributes to ECM a 'prolonged depressionary period into 2028' for Europe, presenting this as a model-derived prediction of future economic conditions."
+    },
+    {
+      "wp_id": 386625,
+      "title": "Portugal’s Defense Sector Rising",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/portugals-defense-sector-rising/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the 2026-2027 war cycle window but does not present a new model-attributed dated prediction; it analyzes ongoing capital shifts without amending or reporting a specific ECM forecast date."
+    },
+    {
+      "wp_id": 386665,
+      "title": "Iran &#038; the Drawn-Out Cold War",
+      "link": "https://www.armstrongeconomics.com/uncategorized/iran-the-drawn-out-cold-war/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-05-01",
+      "reason": "Armstrong explicitly states 'The computer shows this will begin to heat up from mid-May,' attributing a specific mid-May 2026 escalation forecast to his computer model regarding the Iran conflict."
+    },
+    {
+      "wp_id": 386600,
+      "title": "Russia Pledges to Support Tehran",
+      "link": "https://www.armstrongeconomics.com/world-news/war/russia-pledges-to-support-tehran/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the war model projecting volatility into 2026 but does not present a new model-attributed dated prediction; it analyzes geopolitical alignment without amending or reporting a specific ECM forecast date."
+    },
+    {
+      "wp_id": 386602,
+      "title": "Study: Soldiers Stop Caring About Survival After Prolonged Warfare",
+      "link": "https://www.armstrongeconomics.com/world-news/war/study-soldiers-stop-caring-about-survival-after-prolonged-warfare/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the 2026 Panic Cycle in international conflict and uses the war model as context but does not present a new model-attributed dated prediction; it analyzes Ukrainian manpower collapse without a specific forecast amendment."
+    },
+    {
+      "wp_id": 386550,
+      "title": "Germany Aims to Become EU’s Strongest Military Force by 2039",
+      "link": "https://www.armstrongeconomics.com/world-news/war/germany-aims-to-become-eus-strongest-military-force-by-2039/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references Germany's stated policy target of 2039 for military dominance and mentions ECM/war cycle convergence into 2026-2027, but makes no new model-attributed dated prediction; 2039 is a government policy date, not an ECM forecast."
+    },
+    {
+      "wp_id": 386594,
+      "title": "The Blockade &#038; the Future",
+      "link": "https://www.armstrongeconomics.com/world-news/geopolitical/the-blockade-the-future/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-06-01",
+      "reason": "Armstrong explicitly attributes to ECM: 'We have a ECM turning point coming in June' with specific model-dated prediction of a June turning point in 2026."
+    },
+    {
+      "wp_id": 386478,
+      "title": "Iran &#8211; the Great Global Mess",
+      "link": "https://www.armstrongeconomics.com/uncategorized/iran-the-great-global-mess/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong states 'we would expect Iran to fracture politically in early 2027' with implicit ECM attribution through earlier discussion of computer model cycles, though attribution could be more explicit."
+    },
+    {
+      "wp_id": 385957,
+      "title": "Netanyahu&#8217;s Relentless Quest for War",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/netanyahus-relentless-quest-for-war/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references existing ECM warnings about 2026-2028 depression period and mentions 2032 forecast without amending either; primarily editorial analysis of Netanyahu and geopolitics, not a new model-attributed prediction."
+    },
+    {
+      "wp_id": 385899,
+      "title": "No One Wants War — But No One Wants to Think Either",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/no-one-wants-war-but-no-one-wants-to-think-either/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references ECM showing political polarization during declining confidence but contains no new or amended model-attributed dated prediction; it is commentary on current political tribalism without a specific forecasted date."
+    },
+    {
+      "wp_id": 385877,
+      "title": "Trump Backs Down Again. What Netanyahu",
+      "link": "https://www.armstrongeconomics.com/uncategorized/trump-backs-down-again-what-netanyahu/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post contains editorial speculation about Trump and Netanyahu without model-attributed dated predictions; 'The computer does not show this is ending' is vague commentary, not a specific future date forecast."
+    },
+    {
+      "wp_id": 385833,
+      "title": "Trump to End Civilization? It Maybe the West&#8217;s!",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/trump-to-end-civilization-it-maybe-the-wests/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-07-01",
+      "reason": "War Model explicitly attributed with specific dated predictions: 'Directional Change in March escalating into April with a Panic Cycle in July' and 'sharp rise in volatility in China this week and we have an important shift in global trend next week' plus 'Panic Cycle this week in Natural Gas...extending into next week' and 'escalating into the end of April.'"
+    },
+    {
+      "wp_id": 385754,
+      "title": "The Great Separatist Movement",
+      "link": "https://www.armstrongeconomics.com/great-divide/385754/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "References model forecast ('given the model's forecast from May through September') but this is editorial application to Alberta referendum timing, not a new model-attributed dated prediction; the October 19th date is a government referendum date, not a model forecast."
+    },
+    {
+      "wp_id": 385739,
+      "title": "JOLTS February 2026",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/jolts-february-2026/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references ECM turning points and states 'volatility will increase into 2027' but provides no specific month-level dated prediction attributed to the model; this is analytical commentary aligned with existing model structure, not a new or amended forecast."
+    },
+    {
+      "wp_id": 385728,
+      "title": "Unrest in Ireland &#8211; Mass Migration Creates Violent Opposition",
+      "link": "https://www.armstrongeconomics.com/international-news/ireland/unrest-in-ireland-mass-migration-creates-violent-opposition/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references Economic Confidence Model framework to explain civil unrest dynamics but contains no specific model-attributed dated prediction; discussion of when 'social cohesion begins to fracture' is editorial analysis, not a forecasted date."
+    },
+    {
+      "wp_id": 385676,
+      "title": "Sending Children to War — History Repeats in Iran",
+      "link": "https://www.armstrongeconomics.com/world-news/war/sending-children-to-war-history-repeats-in-iran/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong attributes 'rising geopolitical instability into 2027 and beyond' to the Economic Confidence Model, but the date lacks month-level specificity (year-only with vague 'into' language), so it meets the minimum threshold but only at medium confidence."
+    },
+    {
+      "wp_id": 385620,
+      "title": "We Won?",
+      "link": "https://www.armstrongeconomics.com/uncategorized/we-won/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-07-01",
+      "reason": "Armstrong states 'The second array is the current one showing a Directional Change in March '26 escalating into April with a Panic Cycle in July' explicitly attributed to the computer/model arrays, predicting a July 2026 panic cycle."
+    },
+    {
+      "wp_id": 385601,
+      "title": "Why the Dollar is Really the Reserve Currency",
+      "link": "https://www.armstrongeconomics.com/history/americas-economic-history/why-the-dollar-is-really-the-reserve-currency/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-06-01",
+      "reason": "Armstrong states via Socrates model 'March could be a low and we have a Directional Change and the volatility rises sharply in June' with 'Panic Cycles in July,' providing month-level specificity for June 2026 directional change."
+    },
+    {
+      "wp_id": 385628,
+      "title": "The Cycles Warn The US Cannot Defeat Iran",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/the-cycles-warn-the-us-cannot-defeat-iran/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong attributes to 'the computer' a prediction that the war 'is going to extend into 2028' with a 'half-cycle turning point here in 2026,' but 'into 2028' lacks month-level specificity, so is_forecast is true but confidence is medium."
+    },
+    {
+      "wp_id": 385592,
+      "title": "Netanyahu Tries to Sabotage Trump&#8217;s Peace Plan",
+      "link": "https://www.armstrongeconomics.com/uncategorized/netanyahu-tries-to-sabotage-trumps-peace-plan/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-04-01",
+      "reason": "Armstrong states 'I do see a Directional Change in April for Israel' attributed to his analysis/arrays, predicting an April 2026 directional change, though attribution could be more explicit to the ECM."
+    },
+    {
+      "wp_id": 385563,
+      "title": "Is This the End of the World?",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/is-this-the-end-of-the-world/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references existing model dates (2032, 2027, post-2028) without presenting NEW or AMENDED predictions; primarily historical analysis of apocalyptic beliefs with no model-attributed amendment."
+    },
+    {
+      "wp_id": 385524,
+      "title": "Mapping the Ocean Floor – The Next War Will Be Fought in Silence",
+      "link": "https://www.armstrongeconomics.com/world-news/war/mapping-the-ocean-floor-the-next-war-will-be-fought-in-silence/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references ECM pointing to 'rising geopolitical tensions into this period' but provides no specific month-level model-attributed dated prediction; discussion of conflict infrastructure is editorial analysis, not a dated forecast."
+    },
+    {
+      "wp_id": 385469,
+      "title": "The Chaos, Confusion &#038; Israel&#8217;s Nuke Option",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-chaos-confusion-israels-nuke-option/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post attributes 60-75% probability to tactical nuclear strikes by Israel on Iran but does NOT provide a specific month-level dated prediction; mentions Dec 2028 crude futures as market data, not a model-attributed forecast."
+    },
+    {
+      "wp_id": 385346,
+      "title": "The Global Energy Crisis &#038; the Market Impact into 2028",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-global-energy-crisis-the-market-impact/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-06-01",
+      "reason": "Computer-attributed forecast states 'this may get worse starting this summer into 2028' regarding energy crisis and conflict escalation; 'summer' = June-August 2026, month-level specificity meets threshold."
+    },
+    {
+      "wp_id": 385402,
+      "title": "Trump Backs Down &#8211; Will Declare Victory",
+      "link": "https://www.armstrongeconomics.com/uncategorized/trump-backs-down-will-declare-victory/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-06-01",
+      "reason": "Armstrong explicitly states 'the computer has shown a March high and there should be a 2 to 3 month correction. But June is a Panic Cycle'—direct model-attributed dated prediction of June 2026 panic cycle."
+    },
+    {
+      "wp_id": 385301,
+      "title": "Takes Money to Kill Bad Guys",
+      "link": "https://www.armstrongeconomics.com/world-news/war/takes-money-to-kill-bad-guys/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the 2026 wave and 2024.35 phase as context for current war spending analysis, but makes no new or amended model-attributed prediction with a specific future date."
+    },
+    {
+      "wp_id": 385074,
+      "title": "When Will Trump Declare Victory? Will He Send In Troops?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/when-will-trump-declare-victory/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-05-01",
+      "reason": "Armstrong explicitly states 'If Trump sends boots on the ground, it may be late April into May/June,' attributing this military action timing to geopolitical circumstances discussed in conjunction with his Economic Confidence Model analysis."
+    },
+    {
+      "wp_id": 385323,
+      "title": "Crude Oil $200 Slingshot?",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/crude-oil-200-slingshot/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Armstrong reaffirms an existing long-standing forecast ('I still see oil is rising to $200 in the years ahead') without amending the date, making no new model-attributed prediction with specific timing."
+    },
+    {
+      "wp_id": 385249,
+      "title": "Historians Will Say World War III Already Began",
+      "link": "https://www.armstrongeconomics.com/world-news/war/historians-will-say-world-war-iii-already-began/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references existing ECM dates (2027 Panic Cycle, 2028 turning point) as context for analyzing current geopolitical trends, but makes no new or amended model-attributed prediction with specific future dates."
+    },
+    {
+      "wp_id": 385161,
+      "title": "US Director of National Counterterrorism Walks Away from War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/when-intelligence-walks-away-from-war/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the Economic Confidence Model's warning about 'rising geopolitical instability into 2027 and beyond' as context for analyzing a resignation event, but makes no new model-attributed prediction with specific month-level dates."
+    },
+    {
+      "wp_id": 385151,
+      "title": "The Computer That Predicts the End of the World",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ai-computers/the-computer-that-predicts-the-end-of-the-world/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post discusses Armstrong's 2032 forecast in response to Club of Rome/MIT predictions, but merely references existing model output without presenting a new or amended model-attributed dated prediction."
+    },
+    {
+      "wp_id": 385103,
+      "title": "The Canals Behind the War",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/the-canals-behind-the-war/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "ECM explicitly attributed: 'The ECM has consistently shown that 2026 is a geopolitical turning point, leading to rising tensions toward the 2027 Panic Cycle and ultimately the 2028 Panic Cycle,' predicting geopolitical escalation and trade route conflicts in 2027."
+    },
+    {
+      "wp_id": 385098,
+      "title": "Iran, Russia, China, and the Emerging Axis",
+      "link": "https://www.armstrongeconomics.com/world-news/war/iran-russia-china-and-the-emerging-axis/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "ECM explicitly attributed: 'The Economic Confidence Model has been projecting that the period around 2026 would become a geopolitical turning point, leading to rising confrontation toward the Panic Cycle in 2027 and ultimately the 2028 Panic Cycle year,' predicting alliance crystallization and bloc realignment in 2027."
+    },
+    {
+      "wp_id": 385062,
+      "title": "Iran&#8217;s War Tactics &#038; Risk of Nuclear War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/irans-war-tactics-risk-of-nuclear-war/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-02-21",
+      "reason": "Computer/ECM explicitly attributed: 'The first attack on Iran began in 2022 precisely on time for the final wave that peaks in ideally February 21st, 2027,' predicting a peak turning point on this specific date with subsequent instability through 2028."
+    },
+    {
+      "wp_id": 385063,
+      "title": "Oil &#038; Religion",
+      "link": "https://www.armstrongeconomics.com/uncategorized/oil-religion/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-06-01",
+      "reason": "Socrates model explicitly referenced: post states concern about 'June/July' timing in context of ongoing model warnings about stagflation and economic disruption, indicating a forecast period in June-July 2026."
+    },
+    {
+      "wp_id": 385043,
+      "title": "Liquidity Crisis 2026",
+      "link": "https://www.armstrongeconomics.com/world-news/liquidity-crusus/liquidity-crisis-2026/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-08-01",
+      "reason": "Armstrong explicitly states via his computer/ECM that 'We are in a global recession that will bottom in August 2028,' a specific model-attributed future dated prediction."
+    },
+    {
+      "wp_id": 385032,
+      "title": "Wheat has Toppled more Empires than Gunpowder",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/agriculture/wheat-has-toppled-more-empires-than-gunpowder/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references existing model dates (2032.95 wheat peak, 2021-2025 bear market cycle) and discusses model output but makes no new or amended model-attributed dated prediction with specific month-level precision."
+    },
+    {
+      "wp_id": 384960,
+      "title": "Wars Change Politics Not Just Destroy Targets",
+      "link": "https://www.armstrongeconomics.com/uncategorized/wars-change-politics-not-just-destroy-targets/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong states 'The computer is warning of a serious Directional Change in 2027 and this may all explode in 2028,' attributing the 2028 escalation warning to his computer model, though 2028 is year-only lacking month specificity."
+    },
+    {
+      "wp_id": 384837,
+      "title": "Israel&#8217;s Decapitations&#8217; Strategy &#8211; Brain Dead!",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/israels-decapitations-strategy-brain-dead/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post states 'Our computer continues to warn that this war could heat up from June to August' but lacks clarity on year and does not present a specific model-attributed dated prediction as a new or amended forecast."
+    },
+    {
+      "wp_id": 384772,
+      "title": "Neocons Advising Trump Are Destroying America",
+      "link": "https://www.armstrongeconomics.com/uncategorized/neocons-advising-trump-are-destroying-america/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-04-01",
+      "reason": "Armstrong states 'The computer has been waring rising volatility starts in April into July,' attributing April-July 2026 volatility forecast to his computer model."
+    },
+    {
+      "wp_id": 384491,
+      "title": "Great Nations Do Not Fight Endless Wars",
+      "link": "https://www.armstrongeconomics.com/world-news/war/great-nations-do-not-fight-endless-wars/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong explicitly attributes to the ECM/computer that 2027 will see a Panic Cycle with intensified pressures and geopolitical escalation risk, and 2028 is identified as a Yearly Panic Cycle representing potential systemic break—both future dates with model attribution."
+    },
+    {
+      "wp_id": 384119,
+      "title": "Will this Unfold as Widespread Middle East War?",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/will-this-unfold-as-widespread-middle-east-war/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post reports Socrates' March directional change and June panic cycle for crude oil, but these are commentary on existing model outputs without amending them; the post is primarily geopolitical analysis of Middle East conflict risk rather than a new or amended model-attributed dated prediction."
+    },
+    {
+      "wp_id": 384083,
+      "title": "Cyclical Nature of the Universe &#038; The Neocon Cancer Within",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/understanding-cycles/cyclical-nature-of-the-universe-the-neocon-cancer-within/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the computer targeting 2026 since 2014 and mentions a war cycle turning up in 2014, but these are references to pre-existing model outputs without amendment; discussion of 2032 is vague ('war cycle') and year-only without specific event attribution or month-level precision."
+    },
+    {
+      "wp_id": 383560,
+      "title": "Confidence in US Government – 1958 to Now",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/confidence-in-us-government-1958-to-now/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the 2032 ECM turning point as a known model date, but makes only vague editorial predictions about confidence migration 'into the late 2020s' and 'as we approach 2032'—no specific amendment to model output, no month-level precision, and discussion is speculative rather than model-derived."
+    },
+    {
+      "wp_id": 383405,
+      "title": "Business Bankruptcies on the Rise in the EU",
+      "link": "https://www.armstrongeconomics.com/uncategorized/business-bankruptcies-on-the-rise-in-the-eu/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the ECM warning that 2026 would mark rising volatility, but this is a reference to pre-existing model output without amendment; the post is economic analysis of EU bankruptcies rather than a new or amended model-attributed dated prediction."
+    },
+    {
+      "wp_id": 383318,
+      "title": "Canada Completes Construction of Nuclear Power Plant",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/canada-completes-construction-of-nuclear-power-plant/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references the 2026–2032 window as already-known model output without presenting a new or amended prediction; it analyzes Canada's nuclear project within that existing framework."
+    },
+    {
+      "wp_id": 383151,
+      "title": "Kim Jung-Un Names Successor",
+      "link": "https://www.armstrongeconomics.com/international-news/north-korea/kim-jung-un-names-successor/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references existing Socrates model dates (2026–2028 and 2032 inflection point) without amending them; it applies known geopolitical volatility windows to North Korea without introducing a new model-attributed prediction."
+    },
+    {
+      "wp_id": 383253,
+      "title": "Dutch Pass 36% Wealth Tax on Unrealized Gains",
+      "link": "https://www.armstrongeconomics.com/uncategorized/dutch-pass-36-wealth-tax-on-unrealized-gains/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "The tax effective date (January 1, 2028) is a government policy date, not a model-attributed prediction; the reference to 'end of Republics by 2032' is editorial commentary about the Computer's forecast, not a new or amended model output."
+    },
+    {
+      "wp_id": 383241,
+      "title": "The Euro vs Dollar",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/foreign-exchange/euro/the-euro-vs-dollar/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post discusses euro reversal trend expected in 'second half of 2026' but provides no specific month-level amendment or new model output; the statement 'It won't be long now' is vague editorial commentary without explicit model attribution to a specific future date."
+    },
+    {
+      "wp_id": 382898,
+      "title": "Strait of Hormuz",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/strait-of-hormuz/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references existing Panic Cycle dates (June, 2028) and known geopolitical volatility windows without amending them; oil price scenarios ($140–$240) are conditional editorial speculation on a hypothetical closure, not model-attributed predictions."
+    },
+    {
+      "wp_id": 382815,
+      "title": "The Economy into 2028",
+      "link": "https://www.armstrongeconomics.com/future-forecasts/ecm/the-economy-into-2028/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-08-01",
+      "reason": "Armstrong explicitly attributes to Socrates a model forecast of 'a Schumpeter Wave of Creative-Destruction into August 2028' with specific impacts on markets."
+    },
+    {
+      "wp_id": 382747,
+      "title": "What a Difference a Day Makes in Metals",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/understanding-cycles/what-a-difference-a-day-makes-in-metals/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post reports past model-attributed turning points (Jan 29 high, Feb 2 low) that have already occurred; the 2032 asteroid reference is a government/astronomical prediction, not a model-attributed economic forecast."
+    },
+    {
+      "wp_id": 382710,
+      "title": "Could Europe Defend Itself Without America?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/could-europe-defend-itself-without-america/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references the ECM's general 2026–2032 window for rising conflict risk but provides no specific month-level amendment or new model output; this is commentary on an existing known date range."
+    },
+    {
+      "wp_id": 382384,
+      "title": "Beware of February Onward",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/understanding-cycles/beware-of-february-onward/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post mentions Iran's 'early 2027' peak on ECM but only in passing without amending or refining a specific model forecast; the statement 'Volatility will rise from February' is editorial speculation, not model-attributed."
+    },
+    {
+      "wp_id": 382366,
+      "title": "IRAN into 2027",
+      "link": "https://www.armstrongeconomics.com/international-news/middle_east/iran-into-2027-2/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong model-attributes the risk of Middle East war to 2027 and states Iran's regime cycle peaks in early 2027, with the answer 'Unfortunately, yes' to the 2027 war risk question."
+    },
+    {
+      "wp_id": 382245,
+      "title": "Poland&#8217;s Death Wish?",
+      "link": "https://www.armstrongeconomics.com/international-news/eastern_europe/polands-death-wish/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong's model shows a Directional Change in 2027 with volatility rising in Poland from 2026 into 2034, explicitly attributed to the computer model, but year-only precision for 2027."
+    },
+    {
+      "wp_id": 382275,
+      "title": "Gold, Silver Glut &#038; Geopolitics",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/gold-silver-glut-geopolitics/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references existing model targets ($8,350-$10,000 gold by 2032 and euro crisis in 2029) without amending them; discusses general economic chaos through 2032 but makes no new dated model prediction."
+    },
+    {
+      "wp_id": 382272,
+      "title": "Consumer Confidence Collapsing to 12-year Low",
+      "link": "https://www.armstrongeconomics.com/future-forecasts/ecm/consumer-confidence-collapsing-to-12-year-low/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-07-01",
+      "reason": "Armstrong explicitly states 'The next ECM turning point will be July 2026' directly attributed to the Economic Confidence Model with month-level specificity."
+    },
+    {
+      "wp_id": 382230,
+      "title": "Zelensky &#8211; NATO&#8217;s puppet",
+      "link": "https://www.armstrongeconomics.com/international-news/russia/zelensky-natos-puppet/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-06-13",
+      "reason": "Armstrong states 'we will reach a very critical turning point June 13th, 2026' in the Ukraine-Russia blood war, and 'The target on NATO Agression is September 2nd, 2026,' presenting model-attributed future dates."
+    },
+    {
+      "wp_id": 382197,
+      "title": "Iran &#8211; Socrates &#038; Geopolitics",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ai-computers/iran-socrates-geopolitics/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-02-01",
+      "reason": "Armstrong explicitly states 'Iran would face a crisis in February 2026' and notes 'Socrates has been showing a sharp rise in volatility beginning in February into September,' directly attributed to Socrates computer model with month-level specificity."
+    },
+    {
+      "wp_id": 382094,
+      "title": "US Real Estate – 37.2% More Sellers than Buyers",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/real_estate/us-real-estate-37-2-more-sellers-than-buyers/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references existing model date (buyer's market until 2028) without amending it; merely contextualizing current real estate data against known model prediction."
+    },
+    {
+      "wp_id": 382007,
+      "title": "Neocons Working Hard to Manipulate Congress",
+      "link": "https://www.armstrongeconomics.com/world-news/war/neocons-working-hard-to-manipulate-congress/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post is editorial commentary on geopolitics and mentions future 'Cycle of War' update but contains no new or amended model-attributed dated prediction with specific month/day."
+    },
+    {
+      "wp_id": 381751,
+      "title": "Pentagon Considers Raising Budget by 50%",
+      "link": "https://www.armstrongeconomics.com/world-news/war/pentagon-considers-raising-budget-by-50/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-05-31",
+      "reason": "Computer model explicitly attributed to post-May 2026 volatility spike; Powell's term ends May 15, 2026, and Armstrong states 'sharp rise in volatility post May 2026' as a model-derived turning point."
+    },
+    {
+      "wp_id": 381791,
+      "title": "Trump Using Criminal Law to Intimidate the Federal Reserve?",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/bonds/trump-using-criminal-law-to-intimidate-the-federal-reserve/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-05-31",
+      "reason": "Armstrong explicitly states 'The computer has been showing a sharp rise in volatility post May 2026,' attributing the post-May 2026 turning point directly to ECM output."
+    },
+    {
+      "wp_id": 381694,
+      "title": "Trump Withdraws from 66 Globalist Organizations",
+      "link": "https://www.armstrongeconomics.com/international-news/great-reset/trump-withdraws-from-66-globalist-organizations/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post cites year-only dates (2031 for UN collapse, 2032 for government collapse) without month-level specificity; these lack the precision required and are too vague."
+    },
+    {
+      "wp_id": 381656,
+      "title": "China Loses Access to Venezuelan Oil",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/china-loses-access-to-venezuelan-oil/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post reports historical event (Venezuela takeover) and analyzes geopolitical fallout; mentions 'panic cycle set to explode in 2026' but provides no specific month/date amendment to model, only a year-level reference."
+    },
+    {
+      "wp_id": 381610,
+      "title": "Entering Geopolitical Chaos",
+      "link": "https://www.armstrongeconomics.com/world-news/geopolitical/entering-geopolitical-chaos/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-02-01",
+      "reason": "Computer explicitly attributes geopolitical chaos extending through 'first week of Feb' and warns to 'look out for April'—month-level model-attributed predictions of future events."
+    },
+    {
+      "wp_id": 381528,
+      "title": "Is the Fed Injecting Money Due to Silver? Or Is there a Different Crisis?",
+      "link": "https://www.armstrongeconomics.com/world-news/banking-crisis/is-the-fed-injecting-money-due-to-silver-or-is-there-a-different-crisis/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Mentions panic cycle in 2027 and crisis 2027-2028, but these are year-only references without month specificity; post is primarily analytical commentary on repo/FX swap markets rather than a new or amended model-dated prediction."
+    },
+    {
+      "wp_id": 381505,
+      "title": "Trump Invades Venezuela",
+      "link": "https://www.armstrongeconomics.com/world-news/war/trump-invades-venezuela/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-01-19",
+      "reason": "Computer explicitly targets 'first week of January for months now going into the key week of the 19th and then the first week of February'—model-attributed specific dates for geopolitical events."
+    },
+    {
+      "wp_id": 381456,
+      "title": "Taiwan &#8211; The Forgotten Next War",
+      "link": "https://www.armstrongeconomics.com/international-news/taiwan/taiwan-the-forgotten-next-war/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Notes 2026 as 'Directional Change' and January as 'Panic Cycle' but provides no month-specific or amended model prediction; references rising tensions 'into 2027' (year-only, too vague); primarily historical and policy analysis without new model-dated forecast."
+    },
+    {
+      "wp_id": 381449,
+      "title": "The Markets are Always Right",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/the-markets-are-always-right/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references existing model dates (2027, 2032) without amending them; states 'nothing has changed' and merely reaffirms long-standing 2025/2027 turning points rather than presenting new model-attributed predictions."
+    },
+    {
+      "wp_id": 381125,
+      "title": "Deflation v Inflation v Stagflation – Misconceptions Clarified",
+      "link": "https://www.armstrongeconomics.com/uncategorized/deflation-v-inflation-v-stagflation-misconceptions-clarified-2/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-01-01",
+      "reason": "Armstrong's computer explicitly anticipates unemployment surpassing 6% in 2026, a model-attributed forecast with month-level specificity (year 2026) about future economic conditions."
+    },
+    {
+      "wp_id": 380959,
+      "title": "November 2025 US Real Estate",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/real_estate/november-2025-us-real-estate/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-01-01",
+      "reason": "Model explicitly indicates current buyers market will persist into 2028 and real pressure will intensify at 2026 turning point; model-attributed forecast with month-level specificity for 2026."
+    },
+    {
+      "wp_id": 380988,
+      "title": "The Most Frequently Asked Question of 2025",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-most-frequently-asked-question-of-2025/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references existing model cycles (Q3 2024 peak, Q1 correction, Q2 directional change, Q3 2025) without presenting new dated predictions; primarily editorial commentary on geopolitics rather than model-attributed forecasts."
+    },
+    {
+      "wp_id": 381004,
+      "title": "2025: The Year Confidence Shifted",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/2025-the-year-confidence-shifted/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post is retrospective analysis of 2025 and general commentary on 2026 volatility without specific model-attributed dated predictions; states 'Economic Confidence Model points to heightened risk' but provides no specific month or date-level forecast."
+    },
+    {
+      "wp_id": 380701,
+      "title": "Lagarde: Europe Faces “Existential Crisis”",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/lagarde-europe-faces-existential-crisis/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the computer's long-standing warning about euro fragmentation but makes no NEW or AMENDED model-attributed dated prediction; only editorial analysis of Lagarde's statements."
+    },
+    {
+      "wp_id": 380819,
+      "title": "The Confusing World",
+      "link": "https://www.armstrongeconomics.com/international-news/nature/the-confusing-world/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2032-01-01",
+      "reason": "Armstrong explicitly attributes to Socrates/computer a global recession forecast extending into 2028, population collapse by 2032, and states 'This does not look like it will calm down before 2032'—model-attributed future date with month-level specificity implied through 2032 endpoint."
+    },
+    {
+      "wp_id": 380630,
+      "title": "The EU and Canada Collaborate on Digital IDs",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/the-eu-and-canada-collaborate-on-digital-ids/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the rising authoritarian wave 'into 2032' as a model forecast but does not present a NEW or AMENDED model prediction; this is commentary on existing known model output without specific amendment or new dated event."
+    },
+    {
+      "wp_id": 380441,
+      "title": "October 2025 Partial US Economic Data Blackout",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/october-2025-us-economic-data-blackout/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-01-01",
+      "reason": "Armstrong explicitly attributes to the Economic Confidence Model a 'political panic cycle' as the system moves toward 2026, presented as a specific future period of government crisis and data suppression."
+    },
+    {
+      "wp_id": 380273,
+      "title": "Will NATO &#038; Europe Be Down for the Count with WWIII?",
+      "link": "https://www.armstrongeconomics.com/history/europes-economic-history/will-europe-be-down-for-the-count-with-wwiii/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-01-11",
+      "reason": "Armstrong explicitly states via his computer: 'We are about to enter the 3rd Wave 2026.03137 (January 11-12, 2026)' and 'Europe will never accept peace...highly questionable if the EU will survive beyond 2030.330137'—model-attributed specific future dates."
+    },
+    {
+      "wp_id": 380041,
+      "title": "Maduro Refuses to Flee &#8211; US to Attack Venezuela",
+      "link": "https://www.armstrongeconomics.com/world-news/war/maduro-refuses-to-flee-us-to-attack-venezuela/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references existing ECM dates (2024.35 to 2026.05, start of 2026) without amending them; the Venezuela regime change is Armstrong's editorial speculation, not a model-attributed prediction."
+    },
+    {
+      "wp_id": 380011,
+      "title": "Tariffs &#8211; Legal or not to Be",
+      "link": "https://www.armstrongeconomics.com/world-news/taxes/tariffs-legal-or-not-to-be/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references the ECM forecast of recession from 2024 into 2028 as an existing known model output without amending or refining it; the year-only timeframe is too vague, and no new model-derived prediction is presented."
+    },
+    {
+      "wp_id": 379889,
+      "title": "Asteroid 2032 – 2024 YR4",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/asteroid-2032-2024-yr4/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2032-11-01",
+      "reason": "Armstrong explicitly attributes to his ECM computer a model-derived prediction that the grand Public Wave (309.6-year cycle) peaks in 2032.85, which is model output with month-level specificity for a future date."
+    }
+  ]
+}
