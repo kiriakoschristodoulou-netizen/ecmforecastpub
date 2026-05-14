@@ -2,7 +2,7 @@
   "generated_at": "2026-05-14T19:42:52.302091+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
-  "post_count": 9,
+  "post_count": 8,
   "usage": {
     "input_tokens": 58122,
     "output_tokens": 6108,
@@ -10,15 +10,6 @@
     "model": "claude-sonnet-4-6"
   },
   "results": [
-    {
-      "wp_id": 386802,
-      "title": "Next ECM is July 1/2 not June 1",
-      "link": "https://www.armstrongeconomics.com/uncategorized/next-ecm-is-july-1-2-not-june-1/",
-      "predicted_date": "2026-07-01",
-      "synthesis": "The original ECM wave change target was amended from June 1 to July 1/2, 2026, correcting a prior typographical error in the cycle's timing. This inflection point marks a potential shift in the directional energy of the current ECM wave, with global markets and geopolitical developments likely to reflect a turning point around that date. The July 1/2 target should now be treated as the operative near-term wave change marker.",
-      "category_suggestion": "ecm_panic",
-      "tag_suggestion": "wave_change"
-    },
     {
       "wp_id": 386699,
       "title": "Europe's Inflation Spiral Is Fueling the Depression Into 2028",

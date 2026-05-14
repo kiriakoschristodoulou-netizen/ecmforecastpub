@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-14T20:02:41.208167+00:00",
+  "generated_at": "2026-05-14T20:35:55.132865+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 9 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, manually curated). Merged and sorted ascending by event_date.",
-  "forecast_count": 48,
+  "source_summary": "39 chart-derived ECM cycle dates + 8 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, manually curated). Merged and sorted ascending by event_date.",
+  "forecast_count": 47,
   "forecasts": [
     {
       "id": "euro-wave2-trough-2026-01-11",
@@ -130,24 +130,6 @@
       },
       "related_events": [],
       "origin": "chart"
-    },
-    {
-      "id": "blog-386802",
-      "event_date": "2026-07-01",
-      "title": "Next ECM is July 1/2 not June 1",
-      "subtitle": "",
-      "category": "ecm_panic",
-      "tag": "wave_change",
-      "importance": "high",
-      "is_convergence": false,
-      "importance_justification": "Auto-derived from blog post synthesis. Explicit ECM date amendment.",
-      "synthesis": "The original ECM wave change target was amended from June 1 to July 1/2, 2026, correcting a prior typographical error in the cycle's timing. This inflection point marks a potential shift in the directional energy of the current ECM wave, with global markets and geopolitical developments likely to reflect a turning point around that date. The July 1/2 target should now be treated as the operative near-term wave change marker.",
-      "source": {
-        "name": "Armstrong Economics blog (public RSS)",
-        "url": "https://www.armstrongeconomics.com/uncategorized/next-ecm-is-july-1-2-not-june-1/"
-      },
-      "related_events": [],
-      "origin": "blog"
     },
     {
       "id": "blog-382272",
