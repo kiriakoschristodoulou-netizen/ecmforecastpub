@@ -2,7 +2,7 @@
   "generated_at": "2026-05-14T19:42:52.302091+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
-  "post_count": 7,
+  "post_count": 8,
   "usage": {
     "input_tokens": 58122,
     "output_tokens": 6108,
@@ -10,6 +10,15 @@
     "model": "claude-sonnet-4-6"
   },
   "results": [
+    {
+      "wp_id": 386699,
+      "title": "Europe's Inflation Spiral Is Fueling the Depression Into 2028",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/europes-inflation-spiral-is-fueling-the-depression-into-2028/",
+      "predicted_date": "2028-01-01",
+      "synthesis": "The ECM forecast projects Europe entering a depressionary phase running into 2028, a slow erosion of living standards rather than a sudden crash. Structural vulnerabilities — energy dependency, unsustainable sovereign debt, deindustrialization — were already present before the Iran conflict drove energy inflation to 10.9% year-over-year. The ECB remains trapped between fighting inflation and avoiding recession, with no monetary tool capable of resolving a geopolitical supply shock.",
+      "category_suggestion": "ecm_panic",
+      "tag_suggestion": "europe_depression_cycle"
+    },
     {
       "wp_id": 386665,
       "title": "Iran & the Drawn-Out Cold War",
@@ -76,7 +85,5 @@
   ],
   "cleaned_at": "2026-05-14T22:54:51.349793+03:00",
   "dropped_count": 34,
-  "recategorized_count": 1,
-  "auto_cleaned_at": "2026-05-14T23:54:44.989445+03:00",
-  "auto_clean_dropped": 1
+  "recategorized_count": 1
 }

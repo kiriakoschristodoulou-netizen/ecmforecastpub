@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-14T20:35:55.132865+00:00",
+  "generated_at": "2026-05-14T20:55:07.130024+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 8 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, manually curated). Merged and sorted ascending by event_date.",
-  "forecast_count": 47,
+  "source_summary": "39 chart-derived ECM cycle dates + 7 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, manually curated). Merged and sorted ascending by event_date.",
+  "forecast_count": 46,
   "forecasts": [
     {
       "id": "euro-wave2-trough-2026-01-11",
@@ -292,24 +292,6 @@
       },
       "related_events": [],
       "origin": "chart"
-    },
-    {
-      "id": "blog-386699",
-      "event_date": "2028-01-01",
-      "title": "Europe's Inflation Spiral Is Fueling the Depression Into 2028",
-      "subtitle": "",
-      "category": "ecm_panic",
-      "tag": "europe_depression_cycle",
-      "importance": "medium",
-      "is_convergence": false,
-      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
-      "synthesis": "The ECM forecast projects Europe entering a depressionary phase running into 2028, a slow erosion of living standards rather than a sudden crash. Structural vulnerabilities — energy dependency, unsustainable sovereign debt, deindustrialization — were already present before the Iran conflict drove energy inflation to 10.9% year-over-year. The ECB remains trapped between fighting inflation and avoiding recession, with no monetary tool capable of resolving a geopolitical supply shock.",
-      "source": {
-        "name": "Armstrong Economics blog (public RSS)",
-        "url": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/europes-inflation-spiral-is-fueling-the-depression-into-2028/"
-      },
-      "related_events": [],
-      "origin": "blog"
     },
     {
       "id": "blog-382815",
