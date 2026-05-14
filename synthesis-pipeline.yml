@@ -1,0 +1,97 @@
+name: Synthesis pipeline
+
+# Runs every 2 weeks on Sundays at 02:00 UTC. Picks up any posts in
+# armstrong_raw_archive.json that haven't been classified yet, runs them
+# through Pass 1 (Haiku classifier), Pass 1.5 (ECM-amendment refiner),
+# Pass 2 (Sonnet synthesis), auto_clean (rule-based filter), and finally
+# build_public_feed.py to merge with manual_events.json into the public
+# events_public.json.
+#
+# All scripts use cumulative-append semantics: existing classifications
+# and synthesis results are preserved; only previously-unseen wp_ids are
+# processed. So the workflow re-running on an unchanged archive is a
+# no-op (and exits cheap).
+#
+# Cost per run: typically $0.05-0.20 depending on how many new posts
+# accumulated since the last run. Budget: ~$1/month total.
+#
+# Commits any updated JSON files (classification_results, curated,
+# synthesis_results, events_public) back to main on success.
+
+on:
+  schedule:
+    # Every 2 weeks on Sundays at 02:00 UTC. cron has no native bi-weekly
+    # so we use "every Sunday at 02:00" and rely on workflow logic
+    # (cumulative append + no-op if nothing new) to keep us safe.
+    # If frequency becomes an issue, gate the run on a date check.
+    - cron: "0 2 * * 0"
+  workflow_dispatch:
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        working-directory: backend/scraper
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Pass 1 - classify
+        working-directory: backend/scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python claude_classify.py
+
+      - name: Pass 1.5 - refine ECM amendments
+        working-directory: backend/scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python claude_refine.py
+
+      - name: Pass 2 - synthesize
+        working-directory: backend/scraper
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python claude_synthesize.py
+
+      - name: Auto-clean (rule-based)
+        working-directory: backend/scraper
+        run: python auto_clean.py
+
+      - name: Build unified public feed
+        working-directory: backend/scraper
+        run: python build_public_feed.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet backend/output/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No output changes; nothing to commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Outputs changed; will commit."
+          fi
+
+      - name: Commit and push if changed
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "ecmforecast-bot"
+          git config user.email "ecmforecast-bot@users.noreply.github.com"
+          git add backend/output/classification_results.json \
+                  backend/output/classification_curated.json \
+                  backend/output/synthesis_results.json \
+                  backend/output/events_public.json
+          git commit -m "Auto: synthesis pipeline updated public feed"
+          git push origin main
