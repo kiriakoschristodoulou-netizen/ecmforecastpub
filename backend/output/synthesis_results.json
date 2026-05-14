@@ -1,0 +1,98 @@
+{
+  "generated_at": "2026-05-14T19:42:52.302091+00:00",
+  "partial": false,
+  "model": "claude-sonnet-4-6",
+  "post_count": 9,
+  "usage": {
+    "input_tokens": 58122,
+    "output_tokens": 6108,
+    "estimated_cost_usd": 0.265986,
+    "model": "claude-sonnet-4-6"
+  },
+  "results": [
+    {
+      "wp_id": 386802,
+      "title": "Next ECM is July 1/2 not June 1",
+      "link": "https://www.armstrongeconomics.com/uncategorized/next-ecm-is-july-1-2-not-june-1/",
+      "predicted_date": "2026-07-01",
+      "synthesis": "The original ECM wave change target was amended from June 1 to July 1/2, 2026, correcting a prior typographical error in the cycle's timing. This inflection point marks a potential shift in the directional energy of the current ECM wave, with global markets and geopolitical developments likely to reflect a turning point around that date. The July 1/2 target should now be treated as the operative near-term wave change marker.",
+      "category_suggestion": "ecm_panic",
+      "tag_suggestion": "wave_change"
+    },
+    {
+      "wp_id": 386699,
+      "title": "Europe's Inflation Spiral Is Fueling the Depression Into 2028",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/europes-inflation-spiral-is-fueling-the-depression-into-2028/",
+      "predicted_date": "2028-01-01",
+      "synthesis": "The ECM forecast projects Europe entering a depressionary phase running into 2028, a slow erosion of living standards rather than a sudden crash. Structural vulnerabilities — energy dependency, unsustainable sovereign debt, deindustrialization — were already present before the Iran conflict drove energy inflation to 10.9% year-over-year. The ECB remains trapped between fighting inflation and avoiding recession, with no monetary tool capable of resolving a geopolitical supply shock.",
+      "category_suggestion": "ecm_panic",
+      "tag_suggestion": "europe_depression_cycle"
+    },
+    {
+      "wp_id": 386665,
+      "title": "Iran & the Drawn-Out Cold War",
+      "link": "https://www.armstrongeconomics.com/uncategorized/iran-the-drawn-out-cold-war/",
+      "predicted_date": "2026-05-01",
+      "synthesis": "The computer model flags mid-May 2026 as a point of escalation in the Iran conflict, shifting from a stalled Cold War-style standoff toward active intensification. With the Strait of Hormuz closure dragging into its third month and nuclear program negotiations deadlocked, the cycle's timing aligns with mounting geopolitical pressure. Watch for moves around Iran's nuclear posture and energy supply disruptions as the model's mid-May window arrives.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "iran_escalation"
+    },
+    {
+      "wp_id": 385346,
+      "title": "The Global Energy Crisis & the Market Impact into 2028",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-global-energy-crisis-the-market-impact/",
+      "predicted_date": "2026-06-01",
+      "synthesis": "The computer model warns of an intensifying global energy crisis beginning summer 2026 and extending into 2028, coinciding with ongoing Middle East conflict disrupting key energy infrastructure. Netanyahu's strike on Iran's South Pars gas field — the world's largest — marks a qualitative escalation beyond prior theater-level exchanges. The cycle also flags rising civil unrest tied to war, making energy supply and domestic stability the key indicators to watch through 2028.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "energy_crisis_cycle"
+    },
+    {
+      "wp_id": 385062,
+      "title": "Iran's War Tactics & Risk of Nuclear War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/irans-war-tactics-risk-of-nuclear-war/",
+      "predicted_date": "2027-02-21",
+      "synthesis": "The ECM forecast pinpoints February 21, 2027 as the peak turning point of the current Middle East conflict wave, with instability projected to extend through 2031. The cycle flagged 2022 as the precise onset of this final wave, and ongoing hostilities with Iran — including economic warfare, Strait of Hormuz disruption, and the risk of nuclear escalation — align with that trajectory. A crude oil Panic Cycle flagged for 2028 reinforces the model's warning of a prolonged, destabilizing period ahead.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "mideast_war_peak"
+    },
+    {
+      "wp_id": 382815,
+      "title": "The Economy into 2028",
+      "link": "https://www.armstrongeconomics.com/future-forecasts/ecm/the-economy-into-2028/",
+      "predicted_date": "2028-08-01",
+      "synthesis": "The ECM forecast identifies a Schumpeter Wave of Creative Destruction running through August 2028, aligning with rising unemployment, declining consumer confidence, and weakening demand across lower- and mid-income tiers. The model flagged this recessionary trend years in advance, with the 6.6% unemployment threshold serving as a key trigger level to watch. False market moves with high apparent validity are expected as the cycle plays out toward its 2028 conclusion.",
+      "category_suggestion": "ecm_panic",
+      "tag_suggestion": "wave_trough"
+    },
+    {
+      "wp_id": 382272,
+      "title": "Consumer Confidence Collapsing to 12-year Low",
+      "link": "https://www.armstrongeconomics.com/future-forecasts/ecm/consumer-confidence-collapsing-to-12-year-low/",
+      "predicted_date": "2026-07-01",
+      "synthesis": "The ECM forecast places the next major turning point in July 2026, a date the model identifies as a convergence of high-volatility and Panic Cycle signals across multiple markets. Consumer confidence in the U.S. has already collapsed to a 12-year low, consistent with the global recessionary trend the model projects extending into 2028. The breadth of markets flagging July 2026 makes this a critical inflection window to monitor.",
+      "category_suggestion": "ecm_panic",
+      "tag_suggestion": "wave_inflection"
+    },
+    {
+      "wp_id": 382230,
+      "title": "Zelensky – NATO's puppet",
+      "link": "https://www.armstrongeconomics.com/international-news/russia/zelensky-natos-puppet/",
+      "predicted_date": "2026-06-13",
+      "synthesis": "The ECM forecast flags June 13, 2026 as a critical turning point in the Ukraine-Russia conflict, with a secondary NATO aggression target on September 2, 2026. The cycle suggests these dates mark inflection points in a war driven by deep ethnic and geopolitical fault lines that preclude standard negotiated resolution. Escalatory dynamics—assassination attempts, nuclear rhetoric, and NATO entrenchment—align with the model's signal of intensifying pressure through mid-2026.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "nato_inflection"
+    },
+    {
+      "wp_id": 379889,
+      "title": "Asteroid 2032 – 2024 YR4",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/asteroid-2032-2024-yr4/",
+      "predicted_date": "2032-11-01",
+      "synthesis": "The ECM forecast targets 2032.85 as the peak of the grand 309.6-year Public Wave cycle, coinciding with the culmination of the current 51.6-year ECM wave. This convergence historically marks the crest of civilizational confidence—comparable to the peak of Rome under Marcus Aurelius—after which capital and political gravity shift to new centers. The model does not predict extinction, but rather a major reorientation of global financial power toward Asia in the decades that follow.",
+      "category_suggestion": "natural_disasters",
+      "tag_suggestion": "asteroid_impact"
+    }
+  ],
+  "cleaned_at": "2026-05-14T22:54:51.349793+03:00",
+  "dropped_count": 34,
+  "recategorized_count": 1
+}
