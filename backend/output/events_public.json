@@ -1,55 +1,873 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-13T10:37:41.913638+00:00",
+  "generated_at": "2026-05-14T20:02:41.208167+00:00",
   "feed_type": "public",
+  "source_summary": "39 chart-derived ECM cycle dates + 9 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, manually curated). Merged and sorted ascending by event_date.",
+  "forecast_count": 48,
   "forecasts": [
     {
-      "id": "armstrong-us-real-estate-remains-stale",
-      "date": "2026-05-12T04:04:59+00:00",
-      "title": "US Real Estate Remains Stale",
-      "subtitle": null,
-      "category": "armstrong_ecm",
-      "importance": "normal",
+      "id": "euro-wave2-trough-2026-01-11",
+      "event_date": "2026-01-11",
+      "title": "Wave #2 European Project: 2026.03",
+      "subtitle": "Trough in 51.6-year European wave (1Jan 11, 2026)",
+      "category": "ecm_panic",
+      "tag": "euro_wave_trough",
+      "importance": "medium",
       "is_convergence": false,
-      "importance_justification": null,
-      "synthesis": "April existing home sales in the U.S. came in at an annualized pace of just 4.02 million units, barely rising 0.2% from March and missing expectations yet again. We are now looking at one of the weakest spring housing seasons in decades, despite population growth and years of underbuilding. Real estate has always been driven",
+      "importance_justification": "Labeled trough on Armstrong's Wave #2 European Project chart (51.6-year wave 2008.83 - 2060.43).",
+      "synthesis": "A trough in Armstrong's Wave #2 European Project, a 51.6-year wave overlapping the foundational ECM. Adjacent context: Euro $1.0341 Low Jan 2017 was a prior low marker on the same wave.",
       "source": {
-        "name": "Armstrong Economics",
-        "url": "https://www.armstrongeconomics.com/markets-by-sector/real_estate/us-real-estate-remains-stale/"
+        "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
+        "url": null
       },
-      "related_events": []
+      "related_events": [],
+      "origin": "chart"
     },
     {
-      "id": "armstrong-europe-s-push-for-an-eu-army-signals-the-beginning-of-nato-s-fragmentation",
-      "date": "2026-05-12T04:03:52+00:00",
-      "title": "Europe's Push for an EU Army Signals the Beginning of NATO's Fragmentation",
-      "subtitle": null,
-      "category": "armstrong_ecm",
-      "importance": "normal",
+      "id": "dow-panic-2026-04-01",
+      "event_date": "2026-04-01",
+      "title": "Dow Jones Panic Cycle (April 2026)",
+      "subtitle": "Yellow Panic Cycle block on Dow monthly timing array",
+      "category": "asset_panic_cycle",
+      "tag": "dow_panic",
+      "importance": "high",
       "is_convergence": false,
-      "importance_justification": null,
-      "synthesis": "The calls coming out of Spain for a unified European army are not some isolated political fantasy. This is part of a much larger shift taking place behind the curtain as Europe quietly prepares for a world where NATO may no longer function in its current form. What politicians are now openly discussing would have",
+      "importance_justification": "Yellow Panic Cycle block on the Dow Jones monthly timing array. Per Armstrong's commentary on the chart, a panic cycle is expected in April with potential knee-jerk reaction low.",
+      "synthesis": "A Panic Cycle marker on the Dow Jones monthly timing array. Armstrong's commentary on the chart indicates a risk of a high in early March followed by a Panic Cycle in April, possibly with a knee-jerk reaction low, then a trend into August. Dow peak still expected in 2032.",
       "source": {
-        "name": "Armstrong Economics",
-        "url": "https://www.armstrongeconomics.com/world-news/war/europes-push-for-an-eu-army-signals-the-beginning-of-natos-fragmentation/"
+        "name": "Armstrong Economics Dow Jones Monthly Timing Arrays (Chart 2)",
+        "url": null
       },
-      "related_events": []
+      "related_events": [],
+      "origin": "chart"
     },
     {
-      "id": "armstrong-canada-s-labor-market-is-cracking-under-the-surface",
-      "date": "2026-05-12T04:02:50+00:00",
-      "title": "Canada's Labor Market Is Cracking Under the Surface",
-      "subtitle": null,
-      "category": "armstrong_ecm",
-      "importance": "normal",
+      "id": "blog-386665",
+      "event_date": "2026-05-01",
+      "title": "Iran & the Drawn-Out Cold War",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "iran_escalation",
+      "importance": "medium",
       "is_convergence": false,
-      "importance_justification": null,
-      "synthesis": "Canada's unemployment rate has now climbed to 6.9%, the highest level in six months, after the economy unexpectedly lost 17,700 jobs in April while economists had projected gains instead. More importantly, the country has now lost approximately 112,000 jobs during the first four months of 2026 alone, marking the steepest four-month employment decline since early",
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The computer model flags mid-May 2026 as a point of escalation in the Iran conflict, shifting from a stalled Cold War-style standoff toward active intensification. With the Strait of Hormuz closure dragging into its third month and nuclear program negotiations deadlocked, the cycle's timing aligns with mounting geopolitical pressure. Watch for moves around Iran's nuclear posture and energy supply disruptions as the model's mid-May window arrives.",
       "source": {
-        "name": "Armstrong Economics",
-        "url": "https://www.armstrongeconomics.com/international-news/canada/canadas-labor-market-is-cracking-under-the-surface/"
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/uncategorized/iran-the-drawn-out-cold-war/"
       },
-      "related_events": []
+      "related_events": [],
+      "origin": "blog"
+    },
+    {
+      "id": "blog-385346",
+      "event_date": "2026-06-01",
+      "title": "The Global Energy Crisis & the Market Impact into 2028",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "energy_crisis_cycle",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The computer model warns of an intensifying global energy crisis beginning summer 2026 and extending into 2028, coinciding with ongoing Middle East conflict disrupting key energy infrastructure. Netanyahu's strike on Iran's South Pars gas field — the world's largest — marks a qualitative escalation beyond prior theater-level exchanges. The cycle also flags rising civil unrest tied to war, making energy supply and domestic stability the key indicators to watch through 2028.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/uncategorized/the-global-energy-crisis-the-market-impact/"
+      },
+      "related_events": [],
+      "origin": "blog"
+    },
+    {
+      "id": "blog-382230",
+      "event_date": "2026-06-13",
+      "title": "Zelensky – NATO's puppet",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "nato_inflection",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast flags June 13, 2026 as a critical turning point in the Ukraine-Russia conflict, with a secondary NATO aggression target on September 2, 2026. The cycle suggests these dates mark inflection points in a war driven by deep ethnic and geopolitical fault lines that preclude standard negotiated resolution. Escalatory dynamics—assassination attempts, nuclear rhetoric, and NATO entrenchment—align with the model's signal of intensifying pressure through mid-2026.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/international-news/russia/zelensky-natos-puppet/"
+      },
+      "related_events": [],
+      "origin": "blog"
+    },
+    {
+      "id": "ecm-wave-change-2026-07-01",
+      "event_date": "2026-07-01",
+      "title": "ECM Wave Change (2026.496)",
+      "subtitle": "Next major turning point in the 8.6-year cycle",
+      "category": "ecm_panic",
+      "tag": "wave_change",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Labeled inflection point on Armstrong's foundational ECM curve. Originally projected for June 1, amended to July 1/2 in recent commentary.",
+      "synthesis": "An ECM wave change point on the foundational 8.6-year Economic Confidence Model. Armstrong recently amended the target from June 1 to July 1/2. These wave change points typically coincide with shifts in market confidence and political turning points.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #157 (Chart 8)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "war-index-panic-2026-07-01",
+      "event_date": "2026-07-01",
+      "title": "AE War Index Panic Cycle (July 2026)",
+      "subtitle": "Yellow Panic Cycle block on AE War Index monthly timing array",
+      "category": "asset_panic_cycle",
+      "tag": "war_index_panic",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Yellow Panic Cycle block on the AE Equity War Index monthly timing array (Feb 2026 - Jan 2027 range). Panic Cycle hits July.",
+      "synthesis": "A Panic Cycle marker on Armstrong's AE War Index. Coincides with the ECM wave change July 1/2, 2026.",
+      "source": {
+        "name": "Armstrong Economics AE War Index Monthly Timing Arrays (Chart 1)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "blog-386802",
+      "event_date": "2026-07-01",
+      "title": "Next ECM is July 1/2 not June 1",
+      "subtitle": "",
+      "category": "ecm_panic",
+      "tag": "wave_change",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Explicit ECM date amendment.",
+      "synthesis": "The original ECM wave change target was amended from June 1 to July 1/2, 2026, correcting a prior typographical error in the cycle's timing. This inflection point marks a potential shift in the directional energy of the current ECM wave, with global markets and geopolitical developments likely to reflect a turning point around that date. The July 1/2 target should now be treated as the operative near-term wave change marker.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/uncategorized/next-ecm-is-july-1-2-not-june-1/"
+      },
+      "related_events": [],
+      "origin": "blog"
+    },
+    {
+      "id": "blog-382272",
+      "event_date": "2026-07-01",
+      "title": "Consumer Confidence Collapsing to 12-year Low",
+      "subtitle": "",
+      "category": "ecm_panic",
+      "tag": "wave_inflection",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast places the next major turning point in July 2026, a date the model identifies as a convergence of high-volatility and Panic Cycle signals across multiple markets. Consumer confidence in the U.S. has already collapsed to a 12-year low, consistent with the global recessionary trend the model projects extending into 2028. The breadth of markets flagging July 2026 makes this a critical inflection window to monitor.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/future-forecasts/ecm/consumer-confidence-collapsing-to-12-year-low/"
+      },
+      "related_events": [],
+      "origin": "blog"
+    },
+    {
+      "id": "gold-panic-2026-08-01",
+      "event_date": "2026-08-01",
+      "title": "Gold Panic Cycle (August 2026)",
+      "subtitle": "Yellow Panic Cycle block on NY Gold Futures monthly timing array",
+      "category": "asset_panic_cycle",
+      "tag": "gold_panic",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Yellow Panic Cycle block on the NY Gold Futures monthly timing array (May 2026 - April 2027 range). Panic Cycle hits August.",
+      "synthesis": "A Panic Cycle marker on Armstrong's NY Gold Futures monthly timing array. Panic cycle dates often coincide with major directional moves in the asset.",
+      "source": {
+        "name": "Armstrong Economics NY Gold Futures Monthly Timing Arrays (Chart 4)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "nato-cycle-2026-09-03",
+      "event_date": "2026-09-03",
+      "title": "NATO Cycle Inflection (Sep 2, 2026)",
+      "subtitle": "Labeled date on NATO cycle chart (2026.6712329)",
+      "category": "geopolitical_cycle",
+      "tag": "nato_inflection",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Specifically labeled date on Armstrong's NATO cycle chart.",
+      "synthesis": "A labeled inflection date on Armstrong's North Atlantic Treaty Organization cycle. Adjacent recent labeled events include 'Finland and Sweden confirm will join NATO (May 15, 2022)' and 'NATO Wants 5% of GDP (June 5, 2025)'. The next major NATO cycle peak is 2048.17.",
+      "source": {
+        "name": "Armstrong Economics NATO Cycle Chart (Chart 10)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "dow-panic-2026-12-01",
+      "event_date": "2026-12-01",
+      "title": "Dow Jones Panic Cycle (December 2026)",
+      "subtitle": "Yellow Panic Cycle block on Dow monthly timing array",
+      "category": "asset_panic_cycle",
+      "tag": "dow_panic",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Second yellow Panic Cycle block on Dow monthly timing array, late in 2026.",
+      "synthesis": "A second Panic Cycle marker on the Dow Jones monthly timing array for late 2026.",
+      "source": {
+        "name": "Armstrong Economics Dow Jones Monthly Timing Arrays (Chart 2)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "greek-bond-vol-2027",
+      "event_date": "2027-01-01",
+      "title": "Greek 10Y Bond - Internal Volatility (2027)",
+      "subtitle": "Red Internal Volatility block on Greece 10Y yearly timing array",
+      "category": "asset_panic_cycle",
+      "tag": "greek_bond_volatility",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Internal Volatility (red) block on Greece BMK 10Y Yield (Euro) yearly timing array. 2027 shows elevated internal volatility.",
+      "synthesis": "Internal volatility year on the Greek 10-year benchmark bond yield as marked on Armstrong's yearly timing array.",
+      "source": {
+        "name": "Armstrong Economics Greece BMK 10Y YLD Yearly Timing Arrays (Chart 9)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "ecm-wave-2027-02-15",
+      "event_date": "2027-02-15",
+      "title": "ECM Inflection (2027.124)",
+      "subtitle": "Mid-wave inflection point",
+      "category": "ecm_panic",
+      "tag": "wave_inflection",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Labeled point on Armstrong's ECM detail chart.",
+      "synthesis": "An ECM inflection point within the current wave. Typically marks a directional change in confidence.",
+      "source": {
+        "name": "Armstrong Economics ECM Detail Chart (Chart 8)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "blog-385062",
+      "event_date": "2027-02-21",
+      "title": "Iran's War Tactics & Risk of Nuclear War",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "mideast_war_peak",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast pinpoints February 21, 2027 as the peak turning point of the current Middle East conflict wave, with instability projected to extend through 2031. The cycle flagged 2022 as the precise onset of this final wave, and ongoing hostilities with Iran — including economic warfare, Strait of Hormuz disruption, and the risk of nuclear escalation — align with that trajectory. A crude oil Panic Cycle flagged for 2028 reinforces the model's warning of a prolonged, destabilizing period ahead.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/world-news/war/irans-war-tactics-risk-of-nuclear-war/"
+      },
+      "related_events": [],
+      "origin": "blog"
+    },
+    {
+      "id": "ecm-pi-target-2027-06-29",
+      "event_date": "2027-06-29",
+      "title": "Pi Target (2027.491)",
+      "subtitle": "Pi cycle target within the current wave",
+      "category": "ecm_pi_target",
+      "tag": "pi_cycle_peak",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Labeled Pi Target on Armstrong's ECM detail chart (June 28th).",
+      "synthesis": "A Pi cycle target derived from the 31.4-year Pi cycle within Armstrong's Economic Confidence Model. Pi targets historically mark significant inflection points in market and political confidence.",
+      "source": {
+        "name": "Armstrong Economics ECM Detail Chart (Chart 8)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "greek-bond-aggregate-shift-2028",
+      "event_date": "2028-01-01",
+      "title": "Greek 10Y Bond - Aggregate Direction Change (2028)",
+      "subtitle": "Aggregate shift on Greece 10Y yearly timing array",
+      "category": "asset_panic_cycle",
+      "tag": "greek_bond_direction",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Aggregate row shows distinct shift in 2028 on Greek 10Y yearly timing array.",
+      "synthesis": "An aggregate-row shift on the Greek 10-year bond yield yearly timing array, indicating directional change.",
+      "source": {
+        "name": "Armstrong Economics Greece BMK 10Y YLD Yearly Timing Arrays (Chart 9)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "blog-386699",
+      "event_date": "2028-01-01",
+      "title": "Europe's Inflation Spiral Is Fueling the Depression Into 2028",
+      "subtitle": "",
+      "category": "ecm_panic",
+      "tag": "europe_depression_cycle",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast projects Europe entering a depressionary phase running into 2028, a slow erosion of living standards rather than a sudden crash. Structural vulnerabilities — energy dependency, unsustainable sovereign debt, deindustrialization — were already present before the Iran conflict drove energy inflation to 10.9% year-over-year. The ECB remains trapped between fighting inflation and avoiding recession, with no monetary tool capable of resolving a geopolitical supply shock.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/europes-inflation-spiral-is-fueling-the-depression-into-2028/"
+      },
+      "related_events": [],
+      "origin": "blog"
+    },
+    {
+      "id": "blog-382815",
+      "event_date": "2028-08-01",
+      "title": "The Economy into 2028",
+      "subtitle": "",
+      "category": "ecm_panic",
+      "tag": "wave_trough",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast identifies a Schumpeter Wave of Creative Destruction running through August 2028, aligning with rising unemployment, declining consumer confidence, and weakening demand across lower- and mid-income tiers. The model flagged this recessionary trend years in advance, with the 6.6% unemployment threshold serving as a key trigger level to watch. False market moves with high apparent validity are expected as the cycle plays out toward its 2028 conclusion.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/future-forecasts/ecm/the-economy-into-2028/"
+      },
+      "related_events": [],
+      "origin": "blog"
+    },
+    {
+      "id": "ecm-civil-unrest-2028-08-25",
+      "event_date": "2028-08-25",
+      "title": "ECM 2028.65 - Civil Unrest",
+      "subtitle": "Major foundational ECM wave point",
+      "category": "ecm_panic",
+      "tag": "wave_change",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Labeled trough on Armstrong's Private Wave #157 foundational ECM chart, marked as Civil Unrest.",
+      "synthesis": "A major trough in Armstrong's foundational 8.6-year ECM wave, labeled as a Civil Unrest point on the published cycle chart. The combination with detail chart confirms August 25, 2028.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #157 (Chart 3 & Chart 8)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "war-cycle-2028-11-20",
+      "event_date": "2028-11-20",
+      "title": "Cycle of War: 2028.8871",
+      "subtitle": "First peak in the 150.8 year Cycle of War",
+      "category": "long_cycle",
+      "tag": "war_cycle_peak",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "First peak in Armstrong's Cycle of War (1964-2115). Marks intensification of warfare cycle.",
+      "synthesis": "A peak on Armstrong's Cycle of War, a 150.8-year wave composed of six sub-waves of approximately 25 years each. This 2028 peak is the first major war cycle peak following the 2014 trough. Armstrong notes that the peak in each wave has been moving closer to its beginning with the technological advancement in warfare.",
+      "source": {
+        "name": "Armstrong Economics Cycle of War (Chart 7)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "euro-wave2-peak-2030-05-01",
+      "event_date": "2030-05-01",
+      "title": "Wave #2 European Project: 2030.33 - High Volatility Cycle",
+      "subtitle": "Peak with High Volatility Cycle coincidence",
+      "category": "ecm_panic",
+      "tag": "euro_wave_peak",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Labeled peak on Wave #2 European Project chart, annotated as 'High Volatility Cycle Also Coincides at this time'.",
+      "synthesis": "A peak in Armstrong's Wave #2 European Project where a High Volatility Cycle also coincides, marking elevated risk.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "nato-cycle-2030-12-21",
+      "event_date": "2030-12-21",
+      "title": "NATO Cycle Point (2030.9712329)",
+      "subtitle": "NATO cycle inflection",
+      "category": "geopolitical_cycle",
+      "tag": "nato_inflection",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Labeled date on Armstrong's NATO cycle chart.",
+      "synthesis": "An inflection point on the NATO cycle, following the September 2026 point.",
+      "source": {
+        "name": "Armstrong Economics NATO Cycle Chart (Chart 10)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "blog-379889",
+      "event_date": "2032-11-01",
+      "title": "Asteroid 2032 – 2024 YR4",
+      "subtitle": "",
+      "category": "natural_disasters",
+      "tag": "asteroid_impact",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast targets 2032.85 as the peak of the grand 309.6-year Public Wave cycle, coinciding with the culmination of the current 51.6-year ECM wave. This convergence historically marks the crest of civilizational confidence—comparable to the peak of Rome under Marcus Aurelius—after which capital and political gravity shift to new centers. The model does not predict extinction, but rather a major reorientation of global financial power toward Asia in the decades that follow.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/asteroid-2032-2024-yr4/"
+      },
+      "related_events": [],
+      "origin": "blog"
+    },
+    {
+      "id": "ecm-peak-2032-12-12",
+      "event_date": "2032-12-12",
+      "title": "ECM 2032.95 - Peak in Western Culture",
+      "subtitle": "Major foundational ECM peak (Global ECM)",
+      "category": "ecm_panic",
+      "tag": "wave_peak",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Labeled major peak on Armstrong's Private Wave #157 chart, marked as Peak in Western Culture. Also marked as Global ECM 2032.95 on the European Project chart.",
+      "synthesis": "The major peak in Armstrong's foundational 8.6-year ECM Private Wave #157, labeled as the Peak in Western Culture. This is also referenced as Global ECM 2032.95 in his European Project wave overlay.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #157 (Chart 3) and Wave #2 European Project (Chart 11)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "yuan-panic-2034",
+      "event_date": "2034-01-01",
+      "title": "Chinese Yuan Panic Cycle (2034)",
+      "subtitle": "Yellow Panic Cycle block on Yuan yearly timing array",
+      "category": "asset_panic_cycle",
+      "tag": "yuan_panic",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Yellow Panic Cycle block on the Chinese Yuan Spot yearly timing array (2025-2036). Panic Cycle year is 2034.",
+      "synthesis": "A Panic Cycle marker on the Chinese Yuan yearly timing array. Coincides with the 2034 NATO and Greek bond inflection cluster.",
+      "source": {
+        "name": "Armstrong Economics Chinese Yuan Spot Yearly Timing Arrays (Chart 5)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "ecm-inflection-2034-01-10",
+      "event_date": "2034-01-10",
+      "title": "ECM Inflection (2034.025)",
+      "subtitle": "Post-peak inflection",
+      "category": "ecm_panic",
+      "tag": "wave_inflection",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Labeled point on Armstrong's Private Wave #157 chart.",
+      "synthesis": "An inflection point following the 2032 peak in the foundational ECM cycle.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #157 (Chart 3)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "euro-wave2-trough-2034-08-19",
+      "event_date": "2034-08-19",
+      "title": "Wave #2 European Project: 2034.63",
+      "subtitle": "Trough after Global ECM 2032.95",
+      "category": "ecm_panic",
+      "tag": "euro_wave_trough",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Labeled trough on Wave #2 European Project chart, immediately after the Global ECM 2032.95 peak.",
+      "synthesis": "A trough in the Wave #2 European Project chart immediately following the Global ECM 2032.95 peak.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "ecm-commodity-boom-2035-02-06",
+      "event_date": "2035-02-06",
+      "title": "ECM 2035.1 - Commodity Boom / Food Shortages",
+      "subtitle": "Labeled commodity boom inflection",
+      "category": "ecm_panic",
+      "tag": "wave_inflection",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Labeled point on Armstrong's Private Wave #157 chart, annotated as Commodity Boom Shortages in Food.",
+      "synthesis": "A post-peak ECM inflection labeled by Armstrong as a commodity boom point with potential food shortages.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #157 (Chart 3)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "nato-cycle-2035-04-10",
+      "event_date": "2035-04-10",
+      "title": "NATO Cycle Point (2035.2712329)",
+      "subtitle": "NATO cycle inflection",
+      "category": "geopolitical_cycle",
+      "tag": "nato_inflection",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Labeled date on Armstrong's NATO cycle chart.",
+      "synthesis": "An inflection point on the NATO cycle.",
+      "source": {
+        "name": "Armstrong Economics NATO Cycle Chart (Chart 10)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "ecm-shift-to-china-2037-04-02",
+      "event_date": "2037-04-02",
+      "title": "ECM 2037.25 - Shift to China (End of Wave #157)",
+      "subtitle": "End of Private Wave #157 (1985.65 - 2037.25)",
+      "category": "ecm_panic",
+      "tag": "wave_end",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "End point of Private Wave #157, labeled as Shift to China.",
+      "synthesis": "The end of Armstrong's foundational Private Wave #157 (1985.65 - 2037.25), labeled as a Shift to China.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #157 (Chart 3)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "euro-wave2-peak-2038-12-06",
+      "event_date": "2038-12-06",
+      "title": "Wave #2 European Project: 2038.93",
+      "subtitle": "Peak in Euro 51.6-year wave",
+      "category": "ecm_panic",
+      "tag": "euro_wave_peak",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Labeled peak on Wave #2 European Project chart.",
+      "synthesis": "A peak in the Wave #2 European Project chart, post the 2034 trough.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "war-cycle-2039-12-20",
+      "event_date": "2039-12-20",
+      "title": "Cycle of War: 2039.9671",
+      "subtitle": "Trough in Cycle of War",
+      "category": "long_cycle",
+      "tag": "war_cycle_trough",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Labeled point on Cycle of War chart.",
+      "synthesis": "A trough in Armstrong's Cycle of War, following the 2028 peak.",
+      "source": {
+        "name": "Armstrong Economics Cycle of War (Chart 7)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "euro-wave2-trough-2043-03-26",
+      "event_date": "2043-03-26",
+      "title": "Wave #2 European Project: 2043.23",
+      "subtitle": "Trough in Euro wave",
+      "category": "ecm_panic",
+      "tag": "euro_wave_trough",
+      "importance": "low",
+      "is_convergence": false,
+      "importance_justification": "Labeled trough on Wave #2 European Project chart.",
+      "synthesis": "A trough in the Wave #2 European Project chart.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "euro-wave2-peak-2047-07-13",
+      "event_date": "2047-07-13",
+      "title": "Wave #2 European Project: 2047.53",
+      "subtitle": "Peak in Euro wave",
+      "category": "ecm_panic",
+      "tag": "euro_wave_peak",
+      "importance": "low",
+      "is_convergence": false,
+      "importance_justification": "Labeled peak on Wave #2 European Project chart.",
+      "synthesis": "A peak in the Wave #2 European Project chart.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "nato-cycle-2048-03-03-peak",
+      "event_date": "2048-03-03",
+      "title": "NATO Cycle Peak (2048.17)",
+      "subtitle": "Major peak on NATO cycle",
+      "category": "geopolitical_cycle",
+      "tag": "nato_peak",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Major labeled peak on Armstrong's NATO cycle chart, the highest point of the next cycle.",
+      "synthesis": "A major peak in the NATO cycle, marking the highest intensity point in the post-2026 cycle.",
+      "source": {
+        "name": "Armstrong Economics NATO Cycle Chart (Chart 10)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "euro-wave2-trough-2051-10-31",
+      "event_date": "2051-10-31",
+      "title": "Wave #2 European Project: 2051.83",
+      "subtitle": "Trough in Euro wave",
+      "category": "ecm_panic",
+      "tag": "euro_wave_trough",
+      "importance": "low",
+      "is_convergence": false,
+      "importance_justification": "Labeled trough on Wave #2 European Project chart.",
+      "synthesis": "A trough in the Wave #2 European Project chart.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "nato-cycle-end-2052-06-21",
+      "event_date": "2052-06-21",
+      "title": "NATO Cycle End (2052.4712329)",
+      "subtitle": "End of NATO cycle",
+      "category": "geopolitical_cycle",
+      "tag": "nato_cycle_end",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "End point of Armstrong's NATO cycle chart.",
+      "synthesis": "The end of the NATO cycle as plotted on Armstrong's North Atlantic Treaty Organization chart.",
+      "source": {
+        "name": "Armstrong Economics NATO Cycle Chart (Chart 10)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "war-cycle-2053-12-20",
+      "event_date": "2053-12-20",
+      "title": "Cycle of War: 2053.9671",
+      "subtitle": "Second peak in Cycle of War",
+      "category": "long_cycle",
+      "tag": "war_cycle_peak",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Labeled peak on Armstrong's Cycle of War.",
+      "synthesis": "A peak in Armstrong's Cycle of War following the 2039 trough.",
+      "source": {
+        "name": "Armstrong Economics Cycle of War (Chart 7)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "euro-wave2-major-peak-2056-02-17",
+      "event_date": "2056-02-17",
+      "title": "Wave #2 European Project: 2056.13 (Major Peak)",
+      "subtitle": "Highest peak in the Euro Wave #2",
+      "category": "ecm_panic",
+      "tag": "euro_wave_major_peak",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Highest labeled peak on Wave #2 European Project chart, marks maximum intensity in the 51.6-year European wave.",
+      "synthesis": "The major peak in Armstrong's Wave #2 European Project (51.6-year cycle), marking maximum intensity of the European wave.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "euro-wave2-trough-2057-03-16",
+      "event_date": "2057-03-16",
+      "title": "Wave #2 European Project: 2057.205",
+      "subtitle": "Trough following the 2056 peak",
+      "category": "ecm_panic",
+      "tag": "euro_wave_trough",
+      "importance": "low",
+      "is_convergence": false,
+      "importance_justification": "Labeled trough on Wave #2 European Project chart.",
+      "synthesis": "A trough immediately following the 2056 major peak.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "euro-wave2-peak-2058-04-13",
+      "event_date": "2058-04-13",
+      "title": "Wave #2 European Project: 2058.28",
+      "subtitle": "Peak before end of wave",
+      "category": "ecm_panic",
+      "tag": "euro_wave_peak",
+      "importance": "low",
+      "is_convergence": false,
+      "importance_justification": "Labeled peak on Wave #2 European Project chart.",
+      "synthesis": "A peak in the Wave #2 European Project chart before the wave end.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "euro-wave2-end-2060-06-06",
+      "event_date": "2060-06-06",
+      "title": "Wave #2 European Project: 2060.43 (End of Wave)",
+      "subtitle": "End of 51.6-year Euro wave",
+      "category": "ecm_panic",
+      "tag": "euro_wave_end",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "End point of the Wave #2 European Project (2008.83 - 2060.43).",
+      "synthesis": "The end of Armstrong's Wave #2 European Project, a 51.6-year wave running 2008.83 to 2060.43.",
+      "source": {
+        "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "war-cycle-2065-01-18",
+      "event_date": "2065-01-18",
+      "title": "Cycle of War: 2065.0471",
+      "subtitle": "Trough in Cycle of War",
+      "category": "long_cycle",
+      "tag": "war_cycle_trough",
+      "importance": "low",
+      "is_convergence": false,
+      "importance_justification": "Labeled point on Armstrong's Cycle of War.",
+      "synthesis": "A trough in Armstrong's 150.8-year Cycle of War.",
+      "source": {
+        "name": "Armstrong Economics Cycle of War (Chart 7)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "war-cycle-2079-01-18",
+      "event_date": "2079-01-18",
+      "title": "Cycle of War: 2079.0471",
+      "subtitle": "Third major peak in Cycle of War",
+      "category": "long_cycle",
+      "tag": "war_cycle_peak",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Labeled peak on Armstrong's Cycle of War.",
+      "synthesis": "A peak in Armstrong's Cycle of War.",
+      "source": {
+        "name": "Armstrong Economics Cycle of War (Chart 7)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "war-cycle-2104-02-16-peak",
+      "event_date": "2104-02-16",
+      "title": "Cycle of War: 2104.1271 (Maximum Peak)",
+      "subtitle": "Highest peak in the 150.8 year Cycle of War",
+      "category": "long_cycle",
+      "tag": "war_cycle_max_peak",
+      "importance": "high",
+      "is_convergence": false,
+      "importance_justification": "Highest labeled peak on Armstrong's Cycle of War, marking maximum cyclical intensity.",
+      "synthesis": "The highest peak in Armstrong's 150.8-year Cycle of War, indicating maximum cyclical intensity of warfare.",
+      "source": {
+        "name": "Armstrong Economics Cycle of War (Chart 7)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "war-cycle-end-2115-03-17",
+      "event_date": "2115-03-17",
+      "title": "Cycle of War End: 2115.2071",
+      "subtitle": "End of 150.8 year Cycle of War",
+      "category": "long_cycle",
+      "tag": "war_cycle_end",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "End of Armstrong's plotted Cycle of War.",
+      "synthesis": "The end of the current 150.8-year Cycle of War as plotted by Armstrong.",
+      "source": {
+        "name": "Armstrong Economics Cycle of War (Chart 7)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
+    },
+    {
+      "id": "religion-cycle-2170",
+      "event_date": "2170-01-01",
+      "title": "Cycle of Religious Conflict Peak: 2170",
+      "subtitle": "Next major peak in 309.6-year Cycle of Religious Conflict",
+      "category": "long_cycle",
+      "tag": "religion_cycle_peak",
+      "importance": "low",
+      "is_convergence": false,
+      "importance_justification": "Labeled future peak on Armstrong's Cycle of Religious Conflict chart (306BC - Present). Date is year-only.",
+      "synthesis": "The next major peak in Armstrong's Cycle of Religious Conflict, a 309.6-year wave that has produced major religious-political transitions across history (e.g., Constantine adopting Christianity in 312.4 AD, Muhammad creating Islam in 622, the Protestant Reformation prompting the Council of Trent in 1550.8). Year-only specificity from the source chart.",
+      "source": {
+        "name": "Armstrong Economics Cycle of Religious Conflict (Chart 6)",
+        "url": null
+      },
+      "related_events": [],
+      "origin": "chart"
     }
   ]
 }
