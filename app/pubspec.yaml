@@ -4,7 +4,7 @@ publish_to: 'none'
 
 # Version follows SemVer + Android versionCode after the +.
 # Bump the part before + when shipping; bump the part after + on every Android build.
-version: 1.0.0+1
+version: 1.0.1+2
 
 environment:
   sdk: ^3.10.0

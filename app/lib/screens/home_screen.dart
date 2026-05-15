@@ -12,6 +12,7 @@
 //   - Far-future forecasts (when expanded; > 10 years from today)
 
 import 'package:flutter/material.dart';
+import 'about_ecm_screen.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
@@ -50,6 +51,13 @@ class HomeScreen extends ConsumerWidget {
       appBar: AppBar(
         title: const Text('ECM Forecasting Alerts'),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.help_outline),
+            tooltip: 'About the ECM',
+            onPressed: () => Navigator.of(context).push(
+              MaterialPageRoute(builder: (_) => const AboutEcmScreen()),
+            ),
+          ),
           IconButton(
             icon: const Icon(Icons.settings_outlined),
             tooltip: 'Settings',

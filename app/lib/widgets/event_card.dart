@@ -30,7 +30,7 @@ class EventCard extends ConsumerWidget {
 
   bool get _isPast => forecast.isPast();
   bool get _isHighImportance => forecast.importance == Importance.high;
-  bool get _showConvergence => forecast.isConvergence && _isHighImportance;
+  bool get _showConvergence => forecast.isConvergence;
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -176,16 +176,17 @@ class EventCard extends ConsumerWidget {
         );
       case _CardLayout.compact:
         return _CompactLayout(
-          title: forecast.title,
-          subtitle: subtitleLine,
-          daysUntil: daysUntil,
-          titleColor: v.titleColor,
-          subtitleColor: v.subtitleColor,
-          isPast: _isPast,
-          score: score,
-          colors: colors,
-          category: forecast.category,
-        );
+            title: forecast.title,
+            subtitle: subtitleLine,
+            daysUntil: daysUntil,
+            titleColor: v.titleColor,
+            subtitleColor: v.subtitleColor,
+            isPast: _isPast,
+            score: score,
+            colors: colors,
+            category: forecast.category,
+            showConvergence: _showConvergence,
+          );
     }
   }
 }
@@ -420,6 +421,7 @@ class _CompactLayout extends StatelessWidget {
   final RetrospectiveScore? score;
   final AppColors colors;
   final ForecastCategory category;
+  final bool showConvergence;
 
   const _CompactLayout({
     required this.title,
@@ -431,59 +433,81 @@ class _CompactLayout extends StatelessWidget {
     required this.score,
     required this.colors,
     required this.category,
+    required this.showConvergence,
   });
 
-  @override
+@override
   Widget build(BuildContext context) {
     final hasBadge = category != ForecastCategory.other;
-    return Row(
-      crossAxisAlignment: CrossAxisAlignment.center,
+
+    final titleAndSubtitle = Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      mainAxisSize: MainAxisSize.min,
       children: [
-        Expanded(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            mainAxisSize: MainAxisSize.min,
-            children: [
-              Text(
-                title,
-                style: TextStyle(
-                  fontSize: 13,
-                  fontWeight: FontWeight.w500,
-                  color: titleColor,
-                  height: 1.25,
-                ),
+        Text(
+          title,
+          style: TextStyle(
+            fontSize: 13,
+            fontWeight: FontWeight.w500,
+            color: titleColor,
+            height: 1.25,
+          ),
+          maxLines: 1,
+          overflow: TextOverflow.ellipsis,
+        ),
+        const SizedBox(height: 2),
+        Row(
+          children: [
+            if (hasBadge) ...[
+              _CategoryBadge(category: category, colors: colors),
+              const SizedBox(width: 6),
+            ],
+            Flexible(
+              child: Text(
+                subtitle,
+                style: TextStyle(fontSize: 11, color: subtitleColor),
                 maxLines: 1,
                 overflow: TextOverflow.ellipsis,
               ),
-              const SizedBox(height: 2),
-              Row(
-                children: [
-                  if (hasBadge) ...[
-                    _CategoryBadge(category: category, colors: colors),
-                    const SizedBox(width: 6),
-                  ],
-                  Flexible(
-                    child: Text(
-                      subtitle,
-                      style: TextStyle(fontSize: 11, color: subtitleColor),
-                      maxLines: 1,
-                      overflow: TextOverflow.ellipsis,
-                    ),
-                  ),
-                ],
-              ),
-            ],
+            ),
+          ],
+        ),
+      ],
+    );
+
+    final sideElement = _CompactSideElement(
+      isPast: isPast,
+      daysUntil: daysUntil,
+      score: score,
+      titleColor: titleColor,
+      subtitleColor: subtitleColor,
+      colors: colors,
+    );
+
+    // When CONVERGENCE badge occupies the top-right corner, the side
+    // element (days/score) drops to a second row so they don't overlap.
+    // Otherwise, the layout is the original side-by-side Row.
+    if (showConvergence) {
+      return Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          titleAndSubtitle,
+          const SizedBox(height: 8),
+          Align(
+            alignment: Alignment.centerRight,
+            child: sideElement,
           ),
-        ),
+        ],
+      );
+    }
+
+    return Row(
+      crossAxisAlignment: CrossAxisAlignment.center,
+      children: [
+        Expanded(child: titleAndSubtitle),
         const SizedBox(width: 8),
-        _CompactSideElement(
-          isPast: isPast,
-          daysUntil: daysUntil,
-          score: score,
-          titleColor: titleColor,
-          subtitleColor: subtitleColor,
-          colors: colors,
-        ),
+        sideElement,
       ],
     );
   }
@@ -574,25 +598,62 @@ class _ScorePill extends StatelessWidget {
   }
 }
 
-class _ConvergenceBadge extends StatelessWidget {
+class _ConvergenceBadge extends StatefulWidget {
   final AppColors colors;
   const _ConvergenceBadge({required this.colors});
 
   @override
+  State<_ConvergenceBadge> createState() => _ConvergenceBadgeState();
+}
+
+class _ConvergenceBadgeState extends State<_ConvergenceBadge>
+    with SingleTickerProviderStateMixin {
+  late final AnimationController _controller;
+  late final Animation<double> _opacity;
+  late final Animation<double> _scale;
+
+  @override
+  void initState() {
+    super.initState();
+    _controller = AnimationController(
+      vsync: this,
+      duration: const Duration(milliseconds: 1400),
+    )..repeat(reverse: true);
+    final curved = CurvedAnimation(
+      parent: _controller,
+      curve: Curves.easeInOut,
+    );
+    _opacity = Tween<double>(begin: 1.0, end: 0.55).animate(curved);
+    _scale = Tween<double>(begin: 1.0, end: 1.06).animate(curved);
+  }
+
+  @override
+  void dispose() {
+    _controller.dispose();
+    super.dispose();
+  }
+
+  @override
   Widget build(BuildContext context) {
-    return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 3),
-      decoration: BoxDecoration(
-        color: colors.convergenceBg,
-        borderRadius: BorderRadius.circular(4),
-      ),
-      child: Text(
-        'CONVERGENCE!',
-        style: TextStyle(
-          fontSize: 9,
-          fontWeight: FontWeight.w500,
-          letterSpacing: 0.6,
-          color: colors.convergenceText,
+    return FadeTransition(
+      opacity: _opacity,
+      child: ScaleTransition(
+        scale: _scale,
+        child: Container(
+          padding: const EdgeInsets.symmetric(horizontal: 7, vertical: 3),
+          decoration: BoxDecoration(
+            color: widget.colors.convergenceBg,
+            borderRadius: BorderRadius.circular(4),
+          ),
+          child: Text(
+            'CONVERGENCE!',
+            style: TextStyle(
+              fontSize: 9,
+              fontWeight: FontWeight.w500,
+              letterSpacing: 0.6,
+              color: widget.colors.convergenceText,
+            ),
+          ),
         ),
       ),
     );

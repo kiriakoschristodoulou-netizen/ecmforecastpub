@@ -88,8 +88,6 @@ class _FriendsBuildAbout extends StatelessWidget {
           'identifier generated on first install - no personal information, '
           'no device IDs, no location.',
         ),
-        SizedBox(height: 16),
-        _AboutParagraph("You're welcome to share this app with friends."),
         SizedBox(height: 24),
         _VersionInfo(),
       ],

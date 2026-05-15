@@ -5,16 +5,18 @@
 //   - DATE FORMAT: radio choices, persisted via dateFormatProvider
 //   - YOUR FORECASTING SCORE: HIT rate from local retrospectives
 //   - TELEMETRY: personal-build only, fetched fresh on each Settings open
-//   - OTHER: Archive + About
+//   - OTHER: Update entry (conditional) + Archive + About
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../config/build_mode.dart';
 import '../providers/date_format_provider.dart';
 import '../providers/events_provider.dart';
 import '../providers/retrospective.dart';
 import '../providers/theme_mode_provider.dart';
+import '../providers/update_provider.dart';
 import '../services/stats_service.dart';
 import '../theme/app_theme.dart';
 import 'about_screen.dart';
@@ -30,6 +32,7 @@ class SettingsScreen extends ConsumerWidget {
     final scores = ref.watch(retrospectiveProvider);
     final rates = _computeRates(scores);
     final feedAsync = ref.watch(eventsFeedProvider);
+    final updateAsync = ref.watch(updateStatusProvider);
 
     final archiveCount = feedAsync.maybeWhen(
       data: (feed) => feed.forecasts
@@ -97,6 +100,29 @@ class SettingsScreen extends ConsumerWidget {
             const _TelemetryPanel(),
           ],
           const _SectionHeader('OTHER'),
+          // Update entry: only shows when a newer version is published.
+          // Reachable here as a fallback for users who dismissed the
+          // home-screen update banner.
+          updateAsync.maybeWhen(
+            data: (status) {
+              if (!status.hasUpdate) return const SizedBox.shrink();
+              return ListTile(
+                leading: const Icon(Icons.system_update),
+                title: Text('Update available (v${status.latestVersion})'),
+                subtitle: status.releaseNotes == null ||
+                        status.releaseNotes!.isEmpty
+                    ? null
+                    : Text(
+                        status.releaseNotes!,
+                        maxLines: 2,
+                        overflow: TextOverflow.ellipsis,
+                      ),
+                trailing: const Icon(Icons.open_in_new),
+                onTap: () => _launchUpdateUrl(status.releaseUrl),
+              );
+            },
+            orElse: () => const SizedBox.shrink(),
+          ),
           ListTile(
             leading: const Icon(Icons.history),
             title: Text(
@@ -122,6 +148,13 @@ class SettingsScreen extends ConsumerWidget {
         ],
       ),
     );
+  }
+
+  Future<void> _launchUpdateUrl(String url) async {
+    final uri = Uri.parse(url);
+    if (await canLaunchUrl(uri)) {
+      await launchUrl(uri, mode: LaunchMode.externalApplication);
+    }
   }
 
   RetrospectiveRates _computeRates(Map<String, RetrospectiveScore> scores) {
