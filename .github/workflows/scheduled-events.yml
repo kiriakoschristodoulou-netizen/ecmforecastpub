@@ -1,13 +1,17 @@
 name: Scheduled events scrape
 
-# Runs monthly on the 1st at 03:00 UTC. Scrapes 3 free data sources for
-# scheduled events (Fed FOMC, NATO, Wikipedia electoral calendars),
-# merges them into scheduled_events.json, then re-runs build_public_feed.py
+# Runs monthly on the 1st at 03:00 UTC. Scrapes 2 free data sources for
+# scheduled events (Fed FOMC, Wikipedia electoral calendars), merges
+# them into scheduled_events.json, then re-runs build_public_feed.py
 # to attach related events to forecasts and detect convergence.
 #
+# NATO summits intentionally dropped in 8f: no clean source URL, only
+# ~1-2 events/year, easier to add manually to manual_events.json when
+# announced.
+#
 # All sources are free public APIs / HTML pages. No paid services. No
-# Apify dependency. The MediaWiki API and federalreserve.gov / nato.int
-# are rate-limit friendly for monthly low-volume queries.
+# Apify dependency. The MediaWiki API and federalreserve.gov are
+# rate-limit friendly for monthly low-volume queries.
 #
 # Individual scrapers can fail soft (exit code 2 if zero events parsed,
 # usually means page layout changed). The workflow continues and uses
@@ -16,7 +20,6 @@ name: Scheduled events scrape
 
 on:
   schedule:
-    # 1st of every month at 03:00 UTC.
     - cron: "0 3 1 * *"
   workflow_dispatch:
 
@@ -45,21 +48,12 @@ jobs:
         run: |
           python scheduled_events_fomc.py || code=$?
           if [ "${code:-0}" = "1" ]; then exit 1; fi
-        continue-on-error: false
-
-      - name: Scrape NATO
-        working-directory: backend/scraper
-        run: |
-          python scheduled_events_nato.py || code=$?
-          if [ "${code:-0}" = "1" ]; then exit 1; fi
-        continue-on-error: false
 
       - name: Scrape Wikipedia electoral calendars
         working-directory: backend/scraper
         run: |
           python scheduled_events_elections.py || code=$?
           if [ "${code:-0}" = "1" ]; then exit 1; fi
-        continue-on-error: false
 
       - name: Merge feeders into scheduled_events.json
         working-directory: backend/scraper
@@ -86,7 +80,6 @@ jobs:
           git config user.name "ecmforecast-bot"
           git config user.email "ecmforecast-bot@users.noreply.github.com"
           git add backend/output/scheduled_events_fomc.json \
-                  backend/output/scheduled_events_nato.json \
                   backend/output/scheduled_events_elections.json \
                   backend/output/scheduled_events.json \
                   backend/output/events_public.json
