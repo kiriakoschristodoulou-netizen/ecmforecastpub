@@ -1,0 +1,94 @@
+name: Scheduled events scrape
+
+# Runs monthly on the 1st at 03:00 UTC. Scrapes 3 free data sources for
+# scheduled events (Fed FOMC, NATO, Wikipedia electoral calendars),
+# merges them into scheduled_events.json, then re-runs build_public_feed.py
+# to attach related events to forecasts and detect convergence.
+#
+# All sources are free public APIs / HTML pages. No paid services. No
+# Apify dependency. The MediaWiki API and federalreserve.gov / nato.int
+# are rate-limit friendly for monthly low-volume queries.
+#
+# Individual scrapers can fail soft (exit code 2 if zero events parsed,
+# usually means page layout changed). The workflow continues and uses
+# whatever sources did succeed. Hard fails (exit code 1, e.g. network
+# outage) abort the workflow and email the maintainer.
+
+on:
+  schedule:
+    # 1st of every month at 03:00 UTC.
+    - cron: "0 3 1 * *"
+  workflow_dispatch:
+
+jobs:
+  scrape-and-merge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        working-directory: backend/scraper
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Scrape Fed FOMC
+        working-directory: backend/scraper
+        run: |
+          python scheduled_events_fomc.py || code=$?
+          if [ "${code:-0}" = "1" ]; then exit 1; fi
+        continue-on-error: false
+
+      - name: Scrape NATO
+        working-directory: backend/scraper
+        run: |
+          python scheduled_events_nato.py || code=$?
+          if [ "${code:-0}" = "1" ]; then exit 1; fi
+        continue-on-error: false
+
+      - name: Scrape Wikipedia electoral calendars
+        working-directory: backend/scraper
+        run: |
+          python scheduled_events_elections.py || code=$?
+          if [ "${code:-0}" = "1" ]; then exit 1; fi
+        continue-on-error: false
+
+      - name: Merge feeders into scheduled_events.json
+        working-directory: backend/scraper
+        run: python scheduled_events_build.py
+
+      - name: Rebuild events_public.json with attached related events
+        working-directory: backend/scraper
+        run: python build_public_feed.py
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet backend/output/; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No output changes; nothing to commit."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "Outputs changed; will commit."
+          fi
+
+      - name: Commit and push if changed
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "ecmforecast-bot"
+          git config user.email "ecmforecast-bot@users.noreply.github.com"
+          git add backend/output/scheduled_events_fomc.json \
+                  backend/output/scheduled_events_nato.json \
+                  backend/output/scheduled_events_elections.json \
+                  backend/output/scheduled_events.json \
+                  backend/output/events_public.json
+          git commit -m "Auto: scheduled events scrape + feed rebuild"
+          git push origin main
