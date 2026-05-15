@@ -1,17 +1,17 @@
 name: Scheduled events scrape
 
-# Runs monthly on the 1st at 03:00 UTC. Scrapes 2 free data sources for
-# scheduled events (Fed FOMC, Wikipedia electoral calendars), merges
-# them into scheduled_events.json, then re-runs build_public_feed.py
-# to attach related events to forecasts and detect convergence.
+# Runs monthly on the 1st at 03:00 UTC. Scrapes 5 free data sources for
+# scheduled events:
+#   - Fed FOMC (federalreserve.gov HTML scrape)
+#   - Wikipedia electoral calendars (MediaWiki API)
+#   - ECB monetary policy meetings (hardcoded, no scrape)
+#   - OPEC meetings (hardcoded, no scrape)
+#   - US Treasury 20Y/30Y bond auctions (fiscaldata.treasury.gov JSON API)
 #
-# NATO summits intentionally dropped in 8f: no clean source URL, only
-# ~1-2 events/year, easier to add manually to manual_events.json when
-# announced.
+# Hardcoded sources (ECB, OPEC) need annual manual update — see comment
+# at top of each scheduled_events_*.py file for update procedure.
 #
-# All sources are free public APIs / HTML pages. No paid services. No
-# Apify dependency. The MediaWiki API and federalreserve.gov are
-# rate-limit friendly for monthly low-volume queries.
+# All sources are free. No paid services. No Apify dependency.
 #
 # Individual scrapers can fail soft (exit code 2 if zero events parsed,
 # usually means page layout changed). The workflow continues and uses
@@ -55,6 +55,20 @@ jobs:
           python scheduled_events_elections.py || code=$?
           if [ "${code:-0}" = "1" ]; then exit 1; fi
 
+      - name: Build ECB schedule (hardcoded)
+        working-directory: backend/scraper
+        run: python scheduled_events_ecb.py
+
+      - name: Build OPEC schedule (hardcoded)
+        working-directory: backend/scraper
+        run: python scheduled_events_opec.py
+
+      - name: Scrape Treasury 20Y/30Y auctions
+        working-directory: backend/scraper
+        run: |
+          python scheduled_events_treasury.py || code=$?
+          if [ "${code:-0}" = "1" ]; then exit 1; fi
+
       - name: Merge feeders into scheduled_events.json
         working-directory: backend/scraper
         run: python scheduled_events_build.py
@@ -81,6 +95,9 @@ jobs:
           git config user.email "ecmforecast-bot@users.noreply.github.com"
           git add backend/output/scheduled_events_fomc.json \
                   backend/output/scheduled_events_elections.json \
+                  backend/output/scheduled_events_ecb.json \
+                  backend/output/scheduled_events_opec.json \
+                  backend/output/scheduled_events_treasury.json \
                   backend/output/scheduled_events.json \
                   backend/output/events_public.json
           git commit -m "Auto: scheduled events scrape + feed rebuild"
