@@ -1,10 +1,13 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-15T20:18:42.696933+00:00",
-  "event_count": 61,
+  "generated_at": "2026-05-15T21:04:28.804855+00:00",
+  "event_count": 132,
   "sources": [
     "fomc",
-    "wikipedia_electoral"
+    "wikipedia_electoral",
+    "ecb",
+    "opec",
+    "treasury_pattern"
   ],
   "events": [
     {
@@ -232,11 +235,25 @@
       "source": "fomc"
     },
     {
+      "date": "2025-01-30",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
+    },
+    {
       "date": "2025-02-19",
       "title": "FOMC meeting",
       "category": "central_bank",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "source": "fomc"
+    },
+    {
+      "date": "2025-03-06",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
     },
     {
       "date": "2025-04-09",
@@ -246,11 +263,25 @@
       "source": "fomc"
     },
     {
+      "date": "2025-04-17",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
+    },
+    {
       "date": "2025-05-28",
       "title": "FOMC meeting",
       "category": "central_bank",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "source": "fomc"
+    },
+    {
+      "date": "2025-06-05",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
     },
     {
       "date": "2025-07-09",
@@ -260,11 +291,25 @@
       "source": "fomc"
     },
     {
+      "date": "2025-07-24",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
+    },
+    {
       "date": "2025-08-20",
       "title": "FOMC meeting",
       "category": "central_bank",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "source": "fomc"
+    },
+    {
+      "date": "2025-09-11",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
     },
     {
       "date": "2025-10-08",
@@ -274,11 +319,25 @@
       "source": "fomc"
     },
     {
+      "date": "2025-10-30",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
+    },
+    {
       "date": "2025-11-19",
       "title": "FOMC meeting",
       "category": "central_bank",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "source": "fomc"
+    },
+    {
+      "date": "2025-12-18",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
     },
     {
       "date": "2025-12-30",
@@ -288,11 +347,46 @@
       "source": "fomc"
     },
     {
+      "date": "2026-01-04",
+      "title": "OPEC+ 'Eight' voluntary-cut group meeting",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
+      "date": "2026-01-14",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-01-21",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-02-01",
+      "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
       "date": "2026-02-08",
       "title": "Japan, House of Representatives",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
       "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2026-02-11",
+      "title": "30-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
     },
     {
       "date": "2026-02-12",
@@ -309,6 +403,20 @@
       "source": "fomc"
     },
     {
+      "date": "2026-02-18",
+      "title": "20-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-03-01",
+      "title": "OPEC+ 'Eight' voluntary-cut group meeting",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
       "date": "2026-03-03",
       "title": "Iran, Supreme Leader",
       "category": "election",
@@ -323,6 +431,27 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-03-11",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-03-18",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-03-19",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
+    },
+    {
       "date": "2026-03-22",
       "title": "Italy, Constitutional referendum",
       "category": "election",
@@ -330,11 +459,25 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-04-05",
+      "title": "OPEC+ 'Eight' voluntary-cut group meeting",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
       "date": "2026-04-08",
       "title": "FOMC meeting",
       "category": "central_bank",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "source": "fomc"
+    },
+    {
+      "date": "2026-04-08",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
     },
     {
       "date": "2026-04-12",
@@ -358,6 +501,34 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-04-22",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-04-30",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
+    },
+    {
+      "date": "2026-05-13",
+      "title": "30-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-05-20",
+      "title": "20-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
       "date": "2026-05-31",
       "title": "Colombia, President",
       "category": "election",
@@ -372,11 +543,109 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-06-07",
+      "title": "41st OPEC and non-OPEC Ministerial Meeting (full ONOMM)",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
+      "date": "2026-06-10",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-06-11",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
+    },
+    {
+      "date": "2026-06-17",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-07-08",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-07-22",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-07-23",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
+      "date": "2026-08-12",
+      "title": "30-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-08-19",
+      "title": "20-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-09-09",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-09-10",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
+    },
+    {
       "date": "2026-09-20",
       "title": "Russia, State Duma",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
       "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2026-09-23",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
     },
     {
       "date": "2026-10-04",
@@ -386,6 +655,20 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-10-14",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-10-21",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
       "date": "2026-10-27",
       "title": "Israel, Knesset",
       "category": "election",
@@ -393,11 +676,74 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-10-29",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
+    },
+    {
       "date": "2026-11-03",
       "title": "United States, House of Representatives and Senate",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
       "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2026-11-11",
+      "title": "30-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-11-18",
+      "title": "20-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-12-01",
+      "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
+      "date": "2026-12-09",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-12-17",
+      "title": "ECB Governing Council monetary policy meeting",
+      "category": "central_bank",
+      "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html",
+      "source": "ecb"
+    },
+    {
+      "date": "2026-12-23",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-01-13",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-01-20",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
     },
     {
       "date": "2027-01-26",
@@ -414,11 +760,67 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2027-02-10",
+      "title": "30-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-02-17",
+      "title": "20-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-03-10",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-03-24",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-04-14",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-04-21",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
       "date": "2027-04-29",
       "title": "FOMC meeting",
       "category": "central_bank",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "source": "fomc"
+    },
+    {
+      "date": "2027-05-12",
+      "title": "30-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-05-19",
+      "title": "20-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
     },
     {
       "date": "2027-06-06",
@@ -428,11 +830,109 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2027-06-09",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-06-23",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-07-14",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-07-21",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-08-11",
+      "title": "30-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-08-18",
+      "title": "20-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-09-08",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-09-22",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-10-13",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-10-20",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
       "date": "2027-10-24",
       "title": "Argentina, President, Senate and Chamber of Deputies",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
       "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2027-11-10",
+      "title": "30-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-11-17",
+      "title": "20-Year Bond auction",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-12-08",
+      "title": "30-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-12-22",
+      "title": "20-Year Bond auction (reopening)",
+      "category": "sovereign_debt",
+      "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
+      "source": "treasury_pattern"
     }
   ]
 }

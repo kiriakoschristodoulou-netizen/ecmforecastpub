@@ -60,9 +60,14 @@ CATEGORY_WINDOW_DAYS: dict[str, int] = {
 }
 DEFAULT_WINDOW_DAYS = 14
 
-# Per session-3 decision: a forecast with 2+ related events triggers
-# is_convergence=true and the CONVERGENCE! badge in the UI.
-CONVERGENCE_THRESHOLD = 2
+# Convergence semantics (refined session 8f-extension): a forecast
+# triggers is_convergence=true only when its related_events span 2+
+# DISTINCT categories. Two Treasury bond auctions in the same week
+# are one event cluster, not two — they shouldn't trip convergence.
+# Real convergence is multiple distinct forces aligning (e.g.
+# central_bank + sovereign_debt + summit), which is what the
+# CONVERGENCE! badge in the UI is meant to signal.
+CONVERGENCE_CATEGORY_THRESHOLD = 2
 
 # Cap on related_events attached to a single forecast. Cards render
 # fine with 3-5 related but more becomes clutter.
@@ -168,7 +173,9 @@ def attach_related_events(
 ) -> None:
     """For each forecast, attach scheduled events within the per-category
     window. Mutates forecast dicts in place. Sets is_convergence=true
-    when 2+ events attach."""
+    when attached events span 2+ DISTINCT categories (not just 2+ events,
+    which would over-fire on same-category clusters like 20Y + 30Y
+    bond auctions in the same week)."""
     if not scheduled:
         return
 
@@ -220,7 +227,12 @@ def attach_related_events(
         f["related_events"] = attached
         attach_count += len(attached)
 
-        if len(attached) >= CONVERGENCE_THRESHOLD:
+        # Convergence requires 2+ DISTINCT categories among attached
+        # events. Multiple events of the same category (e.g. two
+        # Treasury bond auctions in the same week) are one cluster,
+        # not multiple forces.
+        distinct_categories = {a["category"] for a in attached}
+        if len(distinct_categories) >= CONVERGENCE_CATEGORY_THRESHOLD:
             f["is_convergence"] = True
             convergence_set += 1
 

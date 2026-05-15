@@ -1,18 +1,20 @@
 """
 scheduled_events_build.py
 
-Combines the feeder outputs (FOMC + Wikipedia electoral calendars) into
-a single scheduled_events.json that build_public_feed.py reads and
-attaches to forecasts within +/-5 days.
+Combines all feeder outputs into a single scheduled_events.json that
+build_public_feed.py reads and attaches to forecasts within per-category
+windows.
 
-NATO feeder was attempted but dropped in session 8f: nato.int has no
-single calendar URL, NATO STO events are too technical for our use case,
-and NATO summit dates are rare enough (~1-2/year) that they're better
-added manually to manual_events.json when announced.
+Feeders (any that exist are loaded; missing ones soft-skip):
+    scheduled_events_fomc.json         (Fed FOMC, scraped)
+    scheduled_events_elections.json    (Wikipedia electoral calendars, scraped)
+    scheduled_events_ecb.json          (ECB monetary policy, hardcoded)
+    scheduled_events_opec.json         (OPEC meetings, hardcoded)
+    scheduled_events_treasury.json     (20Y/30Y bond auctions, scraped via API)
 
-Reads (any that exist):
-    backend/output/scheduled_events_fomc.json
-    backend/output/scheduled_events_elections.json
+NATO summits intentionally dropped in session 8f: no clean source URL,
+~1-2 events/year, easier to add manually to manual_events.json when
+announced.
 
 Writes:
     backend/output/scheduled_events.json
@@ -37,6 +39,9 @@ OUTPUT_DIR = SCRIPT_DIR.parent / "output"
 FEEDER_PATHS = [
     OUTPUT_DIR / "scheduled_events_fomc.json",
     OUTPUT_DIR / "scheduled_events_elections.json",
+    OUTPUT_DIR / "scheduled_events_ecb.json",
+    OUTPUT_DIR / "scheduled_events_opec.json",
+    OUTPUT_DIR / "scheduled_events_treasury.json",
 ]
 OUTPUT_PATH = OUTPUT_DIR / "scheduled_events.json"
 

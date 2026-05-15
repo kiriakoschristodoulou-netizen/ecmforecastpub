@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-15T20:26:43.452260+00:00",
+  "generated_at": "2026-05-15T21:10:16.614433+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 7 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 61 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date.",
+  "source_summary": "39 chart-derived ECM cycle dates + 7 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 132 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date.",
   "forecast_count": 46,
   "forecasts": [
     {
@@ -13,7 +13,7 @@
       "category": "ecm_panic",
       "tag": "euro_wave_trough",
       "importance": "medium",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Labeled trough on Armstrong's Wave #2 European Project chart (51.6-year wave 2008.83 - 2060.43).",
       "synthesis": "A trough in Armstrong's Wave #2 European Project, a 51.6-year wave overlapping the foundational ECM. Adjacent context: Euro $1.0341 Low Jan 2017 was a prior low marker on the same wave.",
       "source": {
@@ -21,6 +21,18 @@
         "url": null
       },
       "related_events": [
+        {
+          "date": "2026-01-14",
+          "title": "30-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        },
+        {
+          "date": "2026-01-04",
+          "title": "OPEC+ 'Eight' voluntary-cut group meeting",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
         {
           "date": "2025-12-30",
           "title": "FOMC meeting",
@@ -38,7 +50,7 @@
       "category": "asset_panic_cycle",
       "tag": "dow_panic",
       "importance": "high",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Yellow Panic Cycle block on the Dow Jones monthly timing array. Per Armstrong's commentary on the chart, a panic cycle is expected in April with potential knee-jerk reaction low.",
       "synthesis": "A Panic Cycle marker on the Dow Jones monthly timing array. Armstrong's commentary on the chart indicates a risk of a high in early March followed by a Panic Cycle in April, possibly with a knee-jerk reaction low, then a trend into August. Dow peak still expected in 2032.",
       "source": {
@@ -47,10 +59,28 @@
       },
       "related_events": [
         {
+          "date": "2026-04-05",
+          "title": "OPEC+ 'Eight' voluntary-cut group meeting",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
           "date": "2026-04-08",
           "title": "FOMC meeting",
           "category": "central_bank",
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
+        {
+          "date": "2026-04-08",
+          "title": "30-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
         }
       ],
       "origin": "chart"
@@ -70,7 +100,14 @@
         "name": "Armstrong Economics blog (public RSS)",
         "url": "https://www.armstrongeconomics.com/uncategorized/iran-the-drawn-out-cold-war/"
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2026-04-30",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        }
+      ],
       "origin": "blog"
     },
     {
@@ -81,7 +118,7 @@
       "category": "geopolitical_cycle",
       "tag": "energy_crisis_cycle",
       "importance": "medium",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
       "synthesis": "The computer model warns of an intensifying global energy crisis beginning summer 2026 and extending into 2028, coinciding with ongoing Middle East conflict disrupting key energy infrastructure. Netanyahu's strike on Iran's South Pars gas field — the world's largest — marks a qualitative escalation beyond prior theater-level exchanges. The cycle also flags rising civil unrest tied to war, making energy supply and domestic stability the key indicators to watch through 2028.",
       "source": {
@@ -94,6 +131,18 @@
           "title": "Colombia, President",
           "category": "election",
           "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "41st OPEC and non-OPEC Ministerial Meeting (full ONOMM)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
+          "date": "2026-06-11",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
         }
       ],
       "origin": "blog"
@@ -106,14 +155,39 @@
       "category": "geopolitical_cycle",
       "tag": "nato_inflection",
       "importance": "medium",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
       "synthesis": "The ECM forecast flags June 13, 2026 as a critical turning point in the Ukraine-Russia conflict, with a secondary NATO aggression target on September 2, 2026. The cycle suggests these dates mark inflection points in a war driven by deep ethnic and geopolitical fault lines that preclude standard negotiated resolution. Escalatory dynamics—assassination attempts, nuclear rhetoric, and NATO entrenchment—align with the model's signal of intensifying pressure through mid-2026.",
       "source": {
         "name": "Armstrong Economics blog (public RSS)",
         "url": "https://www.armstrongeconomics.com/international-news/russia/zelensky-natos-puppet/"
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2026-06-11",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        },
+        {
+          "date": "2026-06-10",
+          "title": "30-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        },
+        {
+          "date": "2026-06-17",
+          "title": "20-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "41st OPEC and non-OPEC Ministerial Meeting (full ONOMM)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        }
+      ],
       "origin": "blog"
     },
     {
@@ -131,7 +205,14 @@
         "name": "Armstrong Economics ECM Wave #157 (Chart 8)",
         "url": null
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2026-07-08",
+          "title": "30-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        }
+      ],
       "origin": "chart"
     },
     {
@@ -149,7 +230,14 @@
         "name": "Armstrong Economics AE War Index Monthly Timing Arrays (Chart 1)",
         "url": null
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2026-07-08",
+          "title": "30-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        }
+      ],
       "origin": "chart"
     },
     {
@@ -167,7 +255,14 @@
         "name": "Armstrong Economics blog (public RSS)",
         "url": "https://www.armstrongeconomics.com/future-forecasts/ecm/consumer-confidence-collapsing-to-12-year-low/"
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2026-07-08",
+          "title": "30-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        }
+      ],
       "origin": "blog"
     },
     {
@@ -178,14 +273,27 @@
       "category": "asset_panic_cycle",
       "tag": "gold_panic",
       "importance": "high",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Yellow Panic Cycle block on the NY Gold Futures monthly timing array (May 2026 - April 2027 range). Panic Cycle hits August.",
       "synthesis": "A Panic Cycle marker on Armstrong's NY Gold Futures monthly timing array. Panic cycle dates often coincide with major directional moves in the asset.",
       "source": {
         "name": "Armstrong Economics NY Gold Futures Monthly Timing Arrays (Chart 4)",
         "url": null
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2026-08-01",
+          "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        }
+      ],
       "origin": "chart"
     },
     {
@@ -196,14 +304,27 @@
       "category": "geopolitical_cycle",
       "tag": "nato_inflection",
       "importance": "high",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Specifically labeled date on Armstrong's NATO cycle chart.",
       "synthesis": "A labeled inflection date on Armstrong's North Atlantic Treaty Organization cycle. Adjacent recent labeled events include 'Finland and Sweden confirm will join NATO (May 15, 2022)' and 'NATO Wants 5% of GDP (June 5, 2025)'. The next major NATO cycle peak is 2048.17.",
       "source": {
         "name": "Armstrong Economics NATO Cycle Chart (Chart 10)",
         "url": null
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2026-09-09",
+          "title": "30-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        },
+        {
+          "date": "2026-09-10",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        }
+      ],
       "origin": "chart"
     },
     {
@@ -221,7 +342,14 @@
         "name": "Armstrong Economics Dow Jones Monthly Timing Arrays (Chart 2)",
         "url": null
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2026-12-01",
+          "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        }
+      ],
       "origin": "chart"
     },
     {
@@ -257,7 +385,20 @@
         "name": "Armstrong Economics ECM Detail Chart (Chart 8)",
         "url": null
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2027-02-17",
+          "title": "20-Year Bond auction",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        },
+        {
+          "date": "2027-02-10",
+          "title": "30-Year Bond auction",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        }
+      ],
       "origin": "chart"
     },
     {
@@ -275,7 +416,14 @@
         "name": "Armstrong Economics blog (public RSS)",
         "url": "https://www.armstrongeconomics.com/world-news/war/irans-war-tactics-risk-of-nuclear-war/"
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2027-02-17",
+          "title": "20-Year Bond auction",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        }
+      ],
       "origin": "blog"
     },
     {
@@ -293,7 +441,14 @@
         "name": "Armstrong Economics ECM Detail Chart (Chart 8)",
         "url": null
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2027-06-23",
+          "title": "20-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        }
+      ],
       "origin": "chart"
     },
     {

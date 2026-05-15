@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "source": "opec",
+  "generated_at": "2026-05-15T21:04:28.655100+00:00",
+  "last_verified": "2026-05-15",
+  "event_count": 8,
+  "events": [
+    {
+      "date": "2026-01-04",
+      "title": "OPEC+ 'Eight' voluntary-cut group meeting",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
+      "date": "2026-02-01",
+      "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
+      "date": "2026-03-01",
+      "title": "OPEC+ 'Eight' voluntary-cut group meeting",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
+      "date": "2026-04-05",
+      "title": "OPEC+ 'Eight' voluntary-cut group meeting",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "41st OPEC and non-OPEC Ministerial Meeting (full ONOMM)",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
+      "date": "2026-08-01",
+      "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
+      "date": "2026-10-01",
+      "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    },
+    {
+      "date": "2026-12-01",
+      "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+      "category": "summit",
+      "url": "https://www.opec.org/opec_web/en/press_room/",
+      "source": "opec"
+    }
+  ]
+}
