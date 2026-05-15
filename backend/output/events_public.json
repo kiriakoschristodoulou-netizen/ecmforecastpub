@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-14T20:55:07.130024+00:00",
+  "generated_at": "2026-05-15T20:26:43.452260+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 7 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, manually curated). Merged and sorted ascending by event_date.",
+  "source_summary": "39 chart-derived ECM cycle dates + 7 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 61 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date.",
   "forecast_count": 46,
   "forecasts": [
     {
@@ -20,7 +20,14 @@
         "name": "Armstrong Economics ECM Wave #2 European Project (Chart 11)",
         "url": null
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2025-12-30",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        }
+      ],
       "origin": "chart"
     },
     {
@@ -38,7 +45,14 @@
         "name": "Armstrong Economics Dow Jones Monthly Timing Arrays (Chart 2)",
         "url": null
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2026-04-08",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        }
+      ],
       "origin": "chart"
     },
     {
@@ -74,7 +88,14 @@
         "name": "Armstrong Economics blog (public RSS)",
         "url": "https://www.armstrongeconomics.com/uncategorized/the-global-energy-crisis-the-market-impact/"
       },
-      "related_events": [],
+      "related_events": [
+        {
+          "date": "2026-05-31",
+          "title": "Colombia, President",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        }
+      ],
       "origin": "blog"
     },
     {
