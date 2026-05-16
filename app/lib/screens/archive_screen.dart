@@ -8,6 +8,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../models/forecast.dart';
 import '../providers/events_provider.dart';
+import '../services/feed_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/event_card.dart';
 import 'event_detail_screen.dart';
@@ -23,17 +24,54 @@ class ArchiveScreen extends ConsumerWidget {
       appBar: AppBar(title: const Text('Archive')),
       body: feedAsync.when(
         loading: () => const Center(child: CircularProgressIndicator()),
-        error: (err, _) => Center(
-          child: Padding(
-            padding: const EdgeInsets.all(24),
-            child: Text(
-              'Failed to load: $err',
-              textAlign: TextAlign.center,
-              style: const TextStyle(fontSize: 12),
-            ),
-          ),
-        ),
+        error: (err, _) => _ArchiveErrorView(error: err),
         data: (feed) => _ArchiveBody(forecasts: feed.sortedByDate),
+      ),
+    );
+  }
+}
+
+class _ArchiveErrorView extends StatelessWidget {
+  final Object error;
+
+  const _ArchiveErrorView({required this.error});
+
+  @override
+  Widget build(BuildContext context) {
+    final colors = context.appColors;
+    final isOffline = error is FeedOfflineException;
+
+    final IconData iconData =
+        isOffline ? Icons.cloud_off_outlined : Icons.error_outline;
+    final Color iconColor =
+        isOffline ? colors.hintText : Colors.redAccent;
+    final String headline =
+        isOffline ? "You're offline" : 'Failed to load archive';
+    final String detail = isOffline
+        ? 'Pull to refresh once back online.'
+        : error.toString();
+
+    return Center(
+      child: Padding(
+        padding: const EdgeInsets.all(32),
+        child: Column(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Icon(iconData, size: 40, color: iconColor),
+            const SizedBox(height: 12),
+            Text(
+              headline,
+              textAlign: TextAlign.center,
+              style: const TextStyle(fontSize: 16, fontWeight: FontWeight.w500),
+            ),
+            const SizedBox(height: 6),
+            Text(
+              detail,
+              textAlign: TextAlign.center,
+              style: TextStyle(fontSize: 12, color: colors.hintText),
+            ),
+          ],
+        ),
       ),
     );
   }

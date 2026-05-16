@@ -7,14 +7,16 @@
 
 import 'dart:async';
 import 'dart:convert';
+import 'dart:io' show SocketException;
 
 import 'package:http/http.dart' as http;
 
 import '../config/endpoints.dart';
 import '../models/events_feed.dart';
 
-/// Thrown when the feed fetch fails for any reason. Wraps the underlying
-/// cause so the UI can surface a useful message.
+/// Thrown when the feed fetch fails for any reason OTHER THAN being
+/// offline. Wraps the underlying cause so the UI can surface a useful
+/// message. Use [FeedOfflineException] for "no network" specifically.
 class FeedFetchException implements Exception {
   final String message;
   final Object? cause;
@@ -26,8 +28,20 @@ class FeedFetchException implements Exception {
       'FeedFetchException: $message${cause == null ? '' : ' (cause: $cause)'}';
 }
 
+/// Thrown when the device has no network connectivity. Distinct from
+/// [FeedFetchException] so the UI can show a friendly offline message
+/// rather than a technical error string.
+class FeedOfflineException implements Exception {
+  final Object? cause;
+
+  FeedOfflineException({this.cause});
+
+  @override
+  String toString() => 'FeedOfflineException';
+}
+
 /// Stateless service responsible for fetching events.json over HTTP and
-/// turning it into a typed [EventsFeed]. No caching here — the provider
+/// turning it into a typed [EventsFeed]. No caching here -- the provider
 /// layer above handles cache-and-refresh.
 class FeedService {
   /// Default fetch timeout. Network requests that take longer than this
@@ -61,8 +75,23 @@ class FeedService {
           .timeout(_timeout);
     } on TimeoutException catch (e) {
       throw FeedFetchException(
-          'Feed fetch timed out after ${_timeout.inSeconds}s', cause: e);
+          'Feed fetch timed out after ${_timeout.inSeconds}s',
+          cause: e);
+    } on SocketException catch (e) {
+      // "Failed host lookup" (DNS unreachable) and "Network is
+      // unreachable" both throw SocketException. Treated as offline
+      // regardless of which underlying cause.
+      throw FeedOfflineException(cause: e);
     } catch (e) {
+      // Some platforms wrap SocketException inside http.ClientException
+      // or similar. Sniff the message as a defensive fallback so
+      // genuine offline failures still surface the friendly message.
+      final s = e.toString();
+      if (s.contains('SocketException') ||
+          s.contains('Failed host lookup') ||
+          s.contains('Network is unreachable')) {
+        throw FeedOfflineException(cause: e);
+      }
       throw FeedFetchException('Network error fetching feed', cause: e);
     }
 

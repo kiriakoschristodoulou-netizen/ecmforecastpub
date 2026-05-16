@@ -24,6 +24,7 @@ import '../providers/events_provider.dart';
 import '../providers/expanded_far_future_provider.dart';
 import '../providers/expanded_past_provider.dart';
 import '../providers/update_provider.dart';
+import '../services/feed_service.dart';
 import '../services/update_service.dart';
 import '../theme/app_theme.dart';
 import '../widgets/event_card.dart';
@@ -464,31 +465,45 @@ class _ErrorScroll extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final colors = context.appColors;
+    final isOffline = error is FeedOfflineException;
+
+    final IconData iconData =
+        isOffline ? Icons.cloud_off_outlined : Icons.error_outline;
+    final Color iconColor =
+        isOffline ? colors.hintText : Colors.redAccent;
+    final String headline =
+        isOffline ? "You're offline" : 'Feed fetch failed';
+    final String detail = isOffline
+        ? 'Pull to refresh once back online.'
+        : error.toString();
+
     return ListView(
       physics: const AlwaysScrollableScrollPhysics(),
       padding: const EdgeInsets.all(24),
       children: [
         const SizedBox(height: 60),
-        const Icon(Icons.error_outline, size: 48, color: Colors.redAccent),
+        Icon(iconData, size: 48, color: iconColor),
         const SizedBox(height: 16),
-        const Text(
-          'Feed fetch failed',
+        Text(
+          headline,
           textAlign: TextAlign.center,
-          style: TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
+          style: const TextStyle(fontSize: 18, fontWeight: FontWeight.w500),
         ),
         const SizedBox(height: 8),
         Text(
-          error.toString(),
+          detail,
           textAlign: TextAlign.center,
-          style: const TextStyle(fontSize: 12),
+          style: TextStyle(fontSize: 12, color: colors.hintText),
         ),
-        const SizedBox(height: 20),
-        Center(
-          child: Text(
-            'Pull to retry',
-            style: TextStyle(fontSize: 12, color: colors.hintText),
+        if (!isOffline) ...[
+          const SizedBox(height: 20),
+          Center(
+            child: Text(
+              'Pull to retry',
+              style: TextStyle(fontSize: 12, color: colors.hintText),
+            ),
           ),
-        ),
+        ],
       ],
     );
   }
