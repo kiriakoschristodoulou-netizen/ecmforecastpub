@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-14T14:52:54.567907+00:00",
+  "generated_at": "2026-05-17T09:15:58.342711+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 775,
-  "kept_count": 93,
+  "post_count": 786,
+  "kept_count": 94,
   "usage": {
-    "input_tokens": 713877,
-    "output_tokens": 63240,
-    "estimated_cost_usd": 1.030077,
+    "input_tokens": 12438,
+    "output_tokens": 911,
+    "estimated_cost_usd": 0.016993,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -6985,6 +6985,105 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Promotional post for book about the ECM; mentions Armstrong's model and Socrates but makes no specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 386930,
+      "title": "Canada's Military Recruitment Boom – Poverty or Patriotism?",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/canadas-military-recruitment-boom-poverty-or-patriotism/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current Canadian economic conditions and military recruitment trends without ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 386927,
+      "title": "They Are LYING About Inflation",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/they-are-lying-about-inflation/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on April 2026 producer price inflation data and systemic economic concerns without ECM reference or specific future dated prediction."
+    },
+    {
+      "wp_id": 386909,
+      "title": "Half a Million Waiting in Libya to Invade Europe",
+      "link": "https://www.armstrongeconomics.com/international-news/migration/europes-next-migrant-crisis-half-a-million-waiting-in-libya/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current migration crisis in Libya and Europe without ECM reference or specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 386953,
+      "title": "The COVID Cover Up- Is The New Virus A Sequel?",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-covid-cover-up-is-the-new-virus-a-sequel/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary/opinion piece speculating about rumors regarding virus and oil prices without ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 386925,
+      "title": "Skilled Trade Rises in Value",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/skilled-trade-rises-in-value/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing skilled trades wage trends and labor shortages with reference to 2030 labor projections but no ECM model reference or specific dated event prediction."
+    },
+    {
+      "wp_id": 386921,
+      "title": "Europe No Longer Trusts America With Its Data",
+      "link": "https://www.armstrongeconomics.com/government-surveillance/europe-no-longer-trusts-america-with-its-data/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current European tech policy trends and geopolitical fragmentation; no ECM reference, specific dated prediction, or future turning point forecast."
+    },
+    {
+      "wp_id": 386938,
+      "title": "Britain's Consumers Are Pulling Back as War and Inflation Collide",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/britains-consumers-are-pulling-back-as-war-and-inflation-collide/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current British consumer spending and inflation; mentions ongoing war and policy effects but makes no ECM-referenced or specifically dated future prediction."
+    },
+    {
+      "wp_id": 386963,
+      "title": "China & War",
+      "link": "https://www.armstrongeconomics.com/international-news/china/china-war/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-05-24",
+      "reason": "ECM forecast: Armstrong's computer array predicts a critical target \"next week\" (from May 17 context, approximately late May 2026) regarding Taiwan's market and economy reaching a major high, with broader war cycle and geopolitical escalation expected between 2026-2027."
+    },
+    {
+      "wp_id": 386911,
+      "title": "Singaporeans are Feeling the Economy Grow in Real-Time",
+      "link": "https://www.armstrongeconomics.com/uncategorized/singaporeans-are-feeling-the-economy-grow-in-real-time/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Singapore's current economic performance and capital inflows; no ECM reference, dated prediction, or specific future turning point forecast."
+    },
+    {
+      "wp_id": 386992,
+      "title": "PRIVATE BLOG – The Update on Markets & Risk of Miscalculation",
+      "link": "https://www.armstrongeconomics.com/world-news/geopolitical/private-blog-the-update-on-markets-risk-of-miscalculation/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional/teaser post for private Socrates subscriber content; no substantive forecast content or specific dated prediction provided."
+    },
+    {
+      "wp_id": 386976,
+      "title": "The Old Days of Open Cry Trading",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-old-days-of-open-cry-trading/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a Q&A commentary post about Armstrong's historical trading experiences and pattern recognition philosophy; it mentions Socrates in passing but contains no ECM reference and no specific dated predictions about future events."
     }
   ]
 }

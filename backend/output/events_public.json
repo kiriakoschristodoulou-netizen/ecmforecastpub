@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-15T21:10:16.614433+00:00",
+  "generated_at": "2026-05-17T09:18:21.865629+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 7 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 132 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date.",
-  "forecast_count": 46,
+  "source_summary": "39 chart-derived ECM cycle dates + 14 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 132 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date.",
+  "forecast_count": 53,
   "forecasts": [
     {
       "id": "euro-wave2-trough-2026-01-11",
@@ -41,6 +41,68 @@
         }
       ],
       "origin": "chart"
+    },
+    {
+      "id": "blog-380273",
+      "event_date": "2026-01-11",
+      "title": "Will NATO & Europe Be Down for the Count with WWIII?",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "nato_inflection",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM model targets January 11–12, 2026 (2026.03137) as the entry into a third wave, a critical geopolitical inflection tied to the NATO-Russia-Ukraine conflict. European leaders' refusal to pursue peace, combined with asset seizures that violate international norms, reflect the capital and confidence dynamics the cycle has long anticipated. The model further warns the EU's survival beyond 2030.33 is in serious doubt, making this wave transition a pivotal marker to watch.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/history/europes-economic-history/will-europe-be-down-for-the-count-with-wwiii/"
+      },
+      "related_events": [
+        {
+          "date": "2026-01-14",
+          "title": "30-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        },
+        {
+          "date": "2026-01-04",
+          "title": "OPEC+ 'Eight' voluntary-cut group meeting",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
+          "date": "2025-12-30",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        }
+      ],
+      "origin": "blog"
+    },
+    {
+      "id": "blog-381610",
+      "event_date": "2026-02-01",
+      "title": "Entering Geopolitical Chaos",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "geopolitical_chaos",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The computer model flagged geopolitical instability beginning the first week of January 2026, extending into early February, with a secondary escalation window in April 2026. The Venezuela crisis is identified as a precedent-setting event that could embolden similar state-level provocations globally. The cycle points to 2026 as a year of broadening geopolitical chaos, with multiple near-term flashpoints to monitor.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/world-news/geopolitical/entering-geopolitical-chaos/"
+      },
+      "related_events": [
+        {
+          "date": "2026-02-01",
+          "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        }
+      ],
+      "origin": "blog"
     },
     {
       "id": "dow-panic-2026-04-01",
@@ -86,23 +148,103 @@
       "origin": "chart"
     },
     {
-      "id": "blog-386665",
-      "event_date": "2026-05-01",
-      "title": "Iran & the Drawn-Out Cold War",
+      "id": "blog-384772",
+      "event_date": "2026-04-01",
+      "title": "Neocons Advising Trump Are Destroying America",
       "subtitle": "",
       "category": "geopolitical_cycle",
-      "tag": "iran_escalation",
+      "tag": "volatility_window",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast flags rising volatility beginning in April through July 2026, coinciding with escalating Middle East tensions following strikes on Iran. The cycle warns that conflicts rooted in religious ideology—unlike territorial disputes—carry unpredictable escalation paths that conventional military planning consistently underestimates. Watch for supply chain shocks in energy and food as key signals the model's April inflection is materializing.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/uncategorized/neocons-advising-trump-are-destroying-america/"
+      },
+      "related_events": [
+        {
+          "date": "2026-04-05",
+          "title": "OPEC+ 'Eight' voluntary-cut group meeting",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
+          "date": "2026-04-08",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
+        {
+          "date": "2026-04-08",
+          "title": "30-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        },
+        {
+          "date": "2026-03-19",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        }
+      ],
+      "origin": "blog"
+    },
+    {
+      "id": "blog-385074",
+      "event_date": "2026-05-01",
+      "title": "When Will Trump Declare Victory? Will He Send In Troops?",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "middle_east_escalation",
       "importance": "medium",
       "is_convergence": false,
       "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
-      "synthesis": "The computer model flags mid-May 2026 as a point of escalation in the Iran conflict, shifting from a stalled Cold War-style standoff toward active intensification. With the Strait of Hormuz closure dragging into its third month and nuclear program negotiations deadlocked, the cycle's timing aligns with mounting geopolitical pressure. Watch for moves around Iran's nuclear posture and energy supply disruptions as the model's mid-May window arrives.",
+      "synthesis": "The ECM forecast, projecting a global recession window from 2024 to 2028, aligns with escalating Middle East conflict that could send oil prices toward $200 per barrel. The cycle points to a potential ground troop deployment in the late April–June 2026 window as geopolitical pressure mounts. Watch the Strait of Hormuz and Kharg Island as flashpoints that could trigger the broader energy and economic disruption the model has flagged.",
       "source": {
         "name": "Armstrong Economics blog (public RSS)",
-        "url": "https://www.armstrongeconomics.com/uncategorized/iran-the-drawn-out-cold-war/"
+        "url": "https://www.armstrongeconomics.com/world-news/war/when-will-trump-declare-victory/"
       },
       "related_events": [
         {
           "date": "2026-04-30",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        }
+      ],
+      "origin": "blog"
+    },
+    {
+      "id": "blog-381751",
+      "event_date": "2026-05-31",
+      "title": "Pentagon Considers Raising Budget by 50%",
+      "subtitle": "",
+      "category": "ecm_panic",
+      "tag": "wave_inflection",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast points to a sharp rise in volatility post-May 2026, coinciding with a critical inflection point in the current wave cycle. A proposed 50% U.S. defense budget increase—framed around preparation for major geopolitical conflict—aligns with the model's historical pattern of sovereign debt stress converging with military escalation. The cycle suggests this is an escalation phase, not an initiation, with capital already rotating toward private assets as confidence in public institutions erodes.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/world-news/war/pentagon-considers-raising-budget-by-50/"
+      },
+      "related_events": [
+        {
+          "date": "2026-05-31",
+          "title": "Colombia, President",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "41st OPEC and non-OPEC Ministerial Meeting (full ONOMM)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
+          "date": "2026-06-11",
           "title": "ECB Governing Council monetary policy meeting",
           "category": "central_bank",
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
@@ -124,6 +266,80 @@
       "source": {
         "name": "Armstrong Economics blog (public RSS)",
         "url": "https://www.armstrongeconomics.com/uncategorized/the-global-energy-crisis-the-market-impact/"
+      },
+      "related_events": [
+        {
+          "date": "2026-05-31",
+          "title": "Colombia, President",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "41st OPEC and non-OPEC Ministerial Meeting (full ONOMM)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
+          "date": "2026-06-11",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        }
+      ],
+      "origin": "blog"
+    },
+    {
+      "id": "blog-386594",
+      "event_date": "2026-06-01",
+      "title": "The Blockade & the Future",
+      "subtitle": "",
+      "category": "ecm_panic",
+      "tag": "wave_inflection",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM flags a significant turning point arriving in June 2026, with the same inflection registering across multiple global markets simultaneously. Current geopolitical escalation around Iran and the Strait of Hormuz aligns with cycle dynamics the model has long associated with accelerating instability toward 2032. The cycle suggests these events are not isolated shocks but part of a broader structural deterioration that is compressing the timeline toward the longer-term forecast.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/world-news/geopolitical/the-blockade-the-future/"
+      },
+      "related_events": [
+        {
+          "date": "2026-05-31",
+          "title": "Colombia, President",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
+          "date": "2026-06-07",
+          "title": "41st OPEC and non-OPEC Ministerial Meeting (full ONOMM)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
+          "date": "2026-06-11",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        }
+      ],
+      "origin": "blog"
+    },
+    {
+      "id": "blog-385063",
+      "event_date": "2026-06-01",
+      "title": "Oil & Religion",
+      "subtitle": "",
+      "category": "asset_panic_cycle",
+      "tag": "oil_panic",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The model flags June/July 2026 as a critical window for oil market stress and stagflation dynamics, with the emergency SPR release providing only days of real supply buffer against a prolonged Strait of Hormuz disruption. The cycle has pointed to a U.S. stagflation environment emerging from the 2024 ECM turn, while Europe faces deeper depression-like conditions. Energy corridor control and a protracted religious-political conflict in Iran could accelerate the deterioration the model has been tracking.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/uncategorized/oil-religion/"
       },
       "related_events": [
         {
@@ -254,6 +470,31 @@
       "source": {
         "name": "Armstrong Economics blog (public RSS)",
         "url": "https://www.armstrongeconomics.com/future-forecasts/ecm/consumer-confidence-collapsing-to-12-year-low/"
+      },
+      "related_events": [
+        {
+          "date": "2026-07-08",
+          "title": "30-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        }
+      ],
+      "origin": "blog"
+    },
+    {
+      "id": "blog-385620",
+      "event_date": "2026-07-01",
+      "title": "We Won?",
+      "subtitle": "",
+      "category": "asset_panic_cycle",
+      "tag": "oil_panic",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The computer model's array flagged a Directional Change in March 2026 escalating into April, with a Panic Cycle targeted for July 2026 across multiple markets including oil, commodities, and Gulf State indices. The model's War Index had identified March as a volatility peak as early as November 2025, aligning with the outbreak of Middle East hostilities and the threat to the Strait of Hormuz. Markets and geopolitical developments heading into July warrant close monitoring as the Panic Cycle window approaches.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/uncategorized/we-won/"
       },
       "related_events": [
         {

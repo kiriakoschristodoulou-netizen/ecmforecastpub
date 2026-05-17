@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-14T15:32:09.258629+00:00",
+  "generated_at": "2026-05-17T09:16:01.157956+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 93,
+  "input_post_count": 94,
   "kept_count": 43,
   "usage": {
-    "input_tokens": 102835,
-    "output_tokens": 9006,
-    "estimated_cost_usd": 0.147865,
+    "input_tokens": 2773,
+    "output_tokens": 136,
+    "estimated_cost_usd": 0.003453,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -847,6 +847,15 @@
       "confidence": "high",
       "predicted_date": "2032-11-01",
       "reason": "Armstrong explicitly attributes to his ECM computer a model-derived prediction that the grand Public Wave (309.6-year cycle) peaks in 2032.85, which is model output with month-level specificity for a future date."
+    },
+    {
+      "wp_id": 386963,
+      "title": "China & War",
+      "link": "https://www.armstrongeconomics.com/international-news/china/china-war/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references existing known model dates (May 2026 Directional Change, August Panic Cycle, 2026 war cycle, 2028 economic downturn) without presenting NEW or AMENDED model-attributed predictions; vague reference to 'next week is a critical target' lacks month-level specificity and is too uncertain to qualify."
     }
   ]
 }
