@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-17T09:18:21.865629+00:00",
+  "generated_at": "2026-05-18T10:07:25.147493+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 14 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 132 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date.",
+  "source_summary": "39 chart-derived ECM cycle dates + 14 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 132 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
   "forecast_count": 53,
   "forecasts": [
     {
@@ -40,7 +40,8 @@
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         }
       ],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-380273",
@@ -77,7 +78,8 @@
           "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-381610",
@@ -102,7 +104,8 @@
           "url": "https://www.opec.org/opec_web/en/press_room/"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "dow-panic-2026-04-01",
@@ -145,7 +148,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
         }
       ],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-384772",
@@ -188,7 +192,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-385074",
@@ -213,7 +218,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-381751",
@@ -250,7 +256,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-385346",
@@ -287,7 +294,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-386594",
@@ -324,7 +332,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-385063",
@@ -361,7 +370,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-382230",
@@ -404,7 +414,8 @@
           "url": "https://www.opec.org/opec_web/en/press_room/"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "ecm-wave-change-2026-07-01",
@@ -429,7 +440,8 @@
           "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
         }
       ],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "war-index-panic-2026-07-01",
@@ -454,7 +466,8 @@
           "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
         }
       ],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-382272",
@@ -479,7 +492,8 @@
           "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-385620",
@@ -504,7 +518,8 @@
           "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "gold-panic-2026-08-01",
@@ -535,7 +550,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
         }
       ],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "nato-cycle-2026-09-03",
@@ -566,7 +582,8 @@
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
         }
       ],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "dow-panic-2026-12-01",
@@ -591,7 +608,8 @@
           "url": "https://www.opec.org/opec_web/en/press_room/"
         }
       ],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "greek-bond-vol-2027",
@@ -609,7 +627,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "ecm-wave-2027-02-15",
@@ -640,7 +659,8 @@
           "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
         }
       ],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-385062",
@@ -665,7 +685,8 @@
           "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
         }
       ],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "ecm-pi-target-2027-06-29",
@@ -690,7 +711,8 @@
           "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
         }
       ],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "greek-bond-aggregate-shift-2028",
@@ -708,7 +730,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-382815",
@@ -726,7 +749,8 @@
         "url": "https://www.armstrongeconomics.com/future-forecasts/ecm/the-economy-into-2028/"
       },
       "related_events": [],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "ecm-civil-unrest-2028-08-25",
@@ -744,7 +768,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "war-cycle-2028-11-20",
@@ -762,7 +787,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "euro-wave2-peak-2030-05-01",
@@ -780,7 +806,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "nato-cycle-2030-12-21",
@@ -798,7 +825,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "blog-379889",
@@ -816,7 +844,8 @@
         "url": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/asteroid-2032-2024-yr4/"
       },
       "related_events": [],
-      "origin": "blog"
+      "origin": "blog",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "ecm-peak-2032-12-12",
@@ -834,7 +863,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "yuan-panic-2034",
@@ -852,7 +882,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "ecm-inflection-2034-01-10",
@@ -870,7 +901,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "euro-wave2-trough-2034-08-19",
@@ -888,7 +920,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "ecm-commodity-boom-2035-02-06",
@@ -906,7 +939,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "nato-cycle-2035-04-10",
@@ -924,7 +958,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "ecm-shift-to-china-2037-04-02",
@@ -942,7 +977,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "euro-wave2-peak-2038-12-06",
@@ -960,7 +996,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "war-cycle-2039-12-20",
@@ -978,7 +1015,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "euro-wave2-trough-2043-03-26",
@@ -996,7 +1034,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "euro-wave2-peak-2047-07-13",
@@ -1014,7 +1053,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "nato-cycle-2048-03-03-peak",
@@ -1032,7 +1072,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "euro-wave2-trough-2051-10-31",
@@ -1050,7 +1091,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "nato-cycle-end-2052-06-21",
@@ -1068,7 +1110,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "war-cycle-2053-12-20",
@@ -1086,7 +1129,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "euro-wave2-major-peak-2056-02-17",
@@ -1104,7 +1148,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "euro-wave2-trough-2057-03-16",
@@ -1122,7 +1167,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "euro-wave2-peak-2058-04-13",
@@ -1140,7 +1186,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "euro-wave2-end-2060-06-06",
@@ -1158,7 +1205,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "war-cycle-2065-01-18",
@@ -1176,7 +1224,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "war-cycle-2079-01-18",
@@ -1194,7 +1243,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "war-cycle-2104-02-16-peak",
@@ -1212,7 +1262,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "war-cycle-end-2115-03-17",
@@ -1230,7 +1281,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
       "id": "religion-cycle-2170",
@@ -1248,7 +1300,8 @@
         "url": null
       },
       "related_events": [],
-      "origin": "chart"
+      "origin": "chart",
+      "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     }
   ]
 }
