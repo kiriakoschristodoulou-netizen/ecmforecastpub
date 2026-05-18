@@ -17,10 +17,17 @@ Per-category windows (the (delta) decision in session 8f):
 Convergence threshold: 2+ related events attach. A forecast with both
 a nearby FOMC and a nearby election IS genuinely a high-density period.
 
+first_seen_at tracking (session 8h):
+  - On each rebuild, read the previous events_public.json if it exists.
+  - For each id present in the previous file, preserve its first_seen_at.
+  - For each id NOT in the previous file, set first_seen_at = now (UTC).
+  - The Flutter app uses this to show a NEW badge for entries < 7 days old.
+
 Reads:
     backend/output/manual_events.json
     backend/output/synthesis_results.json
     backend/output/scheduled_events.json   (optional)
+    backend/output/events_public.json      (optional, for first_seen_at)
 
 Writes:
     backend/output/events_public.json
@@ -46,9 +53,7 @@ SCHEDULED_PATH = SCRIPT_DIR.parent / "output" / "scheduled_events.json"
 OUTPUT_PATH = SCRIPT_DIR.parent / "output" / "events_public.json"
 
 # Per-category +/-day windows. Falls back to DEFAULT_WINDOW_DAYS for
-# any category not listed. The (delta) decision in session 8f: tighter
-# window for elections (point events), wider for central bank meetings
-# (news-cycle events).
+# any category not listed.
 CATEGORY_WINDOW_DAYS: dict[str, int] = {
     "central_bank": 14,
     "election": 5,
@@ -60,17 +65,7 @@ CATEGORY_WINDOW_DAYS: dict[str, int] = {
 }
 DEFAULT_WINDOW_DAYS = 14
 
-# Convergence semantics (refined session 8f-extension): a forecast
-# triggers is_convergence=true only when its related_events span 2+
-# DISTINCT categories. Two Treasury bond auctions in the same week
-# are one event cluster, not two — they shouldn't trip convergence.
-# Real convergence is multiple distinct forces aligning (e.g.
-# central_bank + sovereign_debt + summit), which is what the
-# CONVERGENCE! badge in the UI is meant to signal.
 CONVERGENCE_CATEGORY_THRESHOLD = 2
-
-# Cap on related_events attached to a single forecast. Cards render
-# fine with 3-5 related but more becomes clutter.
 MAX_RELATED_PER_FORECAST = 6
 
 HIGH_IMPORTANCE_TITLES = {
@@ -78,8 +73,6 @@ HIGH_IMPORTANCE_TITLES = {
 }
 BLOG_DEFAULT_IMPORTANCE = "medium"
 
-# Sort priority for trimming when over the cap. Lower number = higher
-# priority (more likely to survive trim).
 _CATEGORY_PRIORITY = {
     "central_bank": 0,
     "election": 1,
@@ -167,20 +160,68 @@ def load_scheduled_events() -> list[dict]:
     return events
 
 
+def load_previous_first_seen() -> dict[str, str]:
+    """Read the previous events_public.json (if it exists) and build a
+    map of id -> first_seen_at. On any failure return an empty dict;
+    callers treat that as "no history available, everything is new".
+
+    Returns:
+        {id: first_seen_at_iso_string}. Entries without a first_seen_at
+        in the old file are simply absent from the map.
+    """
+    if not OUTPUT_PATH.exists():
+        print("[build_public_feed] No previous events_public.json; "
+              "all entries will be marked first_seen_at=now.")
+        return {}
+    try:
+        with OUTPUT_PATH.open("r", encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, json.JSONDecodeError) as e:
+        print(f"[build_public_feed] WARN: previous events_public.json "
+              f"unreadable ({e}); treating all entries as new.",
+              file=sys.stderr)
+        return {}
+    mapping: dict[str, str] = {}
+    for entry in data.get("forecasts", []):
+        eid = entry.get("id")
+        seen = entry.get("first_seen_at")
+        if eid and seen:
+            mapping[eid] = seen
+    print(f"[build_public_feed] Loaded {len(mapping)} first_seen_at "
+          f"timestamps from previous build.")
+    return mapping
+
+
+def apply_first_seen(
+    forecasts: list[dict],
+    previous: dict[str, str],
+    now_iso: str,
+) -> int:
+    """For each forecast, set first_seen_at. If id existed in previous
+    build, preserve old timestamp; otherwise set to now. Returns the
+    number of entries marked as new (i.e. first_seen_at == now)."""
+    new_count = 0
+    for f in forecasts:
+        eid = f.get("id")
+        if eid and eid in previous:
+            f["first_seen_at"] = previous[eid]
+        else:
+            f["first_seen_at"] = now_iso
+            new_count += 1
+    return new_count
+
+
 def attach_related_events(
     forecasts: list[dict],
     scheduled: list[dict],
 ) -> None:
     """For each forecast, attach scheduled events within the per-category
     window. Mutates forecast dicts in place. Sets is_convergence=true
-    when attached events span 2+ DISTINCT categories (not just 2+ events,
-    which would over-fire on same-category clusters like 20Y + 30Y
-    bond auctions in the same week)."""
+    when attached events span 2+ DISTINCT categories."""
     if not scheduled:
         return
 
-    # Pre-parse scheduled event dates once.
-    parsed_sched: list[tuple[date, dict, int]] = []  # (date, event, window_days)
+    parsed_sched: list[tuple[date, dict, int]] = []
     for ev in scheduled:
         d = _parse_iso_date(ev.get("date", ""))
         if d is None:
@@ -197,9 +238,7 @@ def attach_related_events(
         if f_date is None:
             continue
 
-        # An event attaches if it's within ITS OWN category-specific
-        # window of the forecast date.
-        nearby: list[tuple[int, dict]] = []  # (abs_days_offset, event)
+        nearby: list[tuple[int, dict]] = []
         for sched_date, sched_ev, window in parsed_sched:
             offset = abs((sched_date - f_date).days)
             if offset <= window:
@@ -208,7 +247,6 @@ def attach_related_events(
         if not nearby:
             continue
 
-        # Sort: closer dates first, then by category priority.
         nearby.sort(key=lambda t: (
             t[0],
             _CATEGORY_PRIORITY.get(t[1].get("category", "other"), 99),
@@ -227,10 +265,6 @@ def attach_related_events(
         f["related_events"] = attached
         attach_count += len(attached)
 
-        # Convergence requires 2+ DISTINCT categories among attached
-        # events. Multiple events of the same category (e.g. two
-        # Treasury bond auctions in the same week) are one cluster,
-        # not multiple forces.
         distinct_categories = {a["category"] for a in attached}
         if len(distinct_categories) >= CONVERGENCE_CATEGORY_THRESHOLD:
             f["is_convergence"] = True
@@ -284,6 +318,14 @@ def main() -> int:
     scheduled = load_scheduled_events()
     attach_related_events(all_forecasts, scheduled)
 
+    # Apply first_seen_at AFTER attaching (so the field lives alongside
+    # other content; doesn't matter for correctness either way).
+    previous_seen = load_previous_first_seen()
+    now_iso = datetime.now(timezone.utc).isoformat()
+    new_count = apply_first_seen(all_forecasts, previous_seen, now_iso)
+    print(f"[build_public_feed] Marked {new_count} entries as new "
+          f"(first_seen_at = now).")
+
     all_forecasts.sort(key=lambda f: f.get("event_date", "9999-01-01"))
 
     cat_counts = Counter(f.get("category", "") for f in all_forecasts)
@@ -308,9 +350,10 @@ def main() -> int:
         conv = " [CONV]" if f.get("is_convergence") else ""
         related_n = len(f.get("related_events", []))
         related_tag = f" (+{related_n} related)" if related_n else ""
+        new_tag = " [NEW]" if f.get("first_seen_at") == now_iso else ""
         print(
             f"    {f['event_date']} | {f['importance']:6s} | "
-            f"{f['origin']:5s} | {f['category']:20s} | {f['title']}{related_tag}{conv}"
+            f"{f['origin']:5s} | {f['category']:20s} | {f['title']}{related_tag}{conv}{new_tag}"
         )
 
     print(f"\n[build_public_feed] Last 5 (latest dates):")
@@ -318,9 +361,10 @@ def main() -> int:
         conv = " [CONV]" if f.get("is_convergence") else ""
         related_n = len(f.get("related_events", []))
         related_tag = f" (+{related_n} related)" if related_n else ""
+        new_tag = " [NEW]" if f.get("first_seen_at") == now_iso else ""
         print(
             f"    {f['event_date']} | {f['importance']:6s} | "
-            f"{f['origin']:5s} | {f['category']:20s} | {f['title']}{related_tag}{conv}"
+            f"{f['origin']:5s} | {f['category']:20s} | {f['title']}{related_tag}{conv}{new_tag}"
         )
 
     missing_fields: list[tuple[str, str]] = []
@@ -356,7 +400,7 @@ def main() -> int:
 
     payload = {
         "schema_version": "1.0",
-        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "generated_at": now_iso,
         "feed_type": "public",
         "source_summary": (
             f"{len(normalized_manual)} chart-derived ECM cycle dates + "
@@ -364,7 +408,8 @@ def main() -> int:
             f"(Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). "
             f"{len(scheduled)} scheduled events attached within per-category windows "
             f"(FOMC +/-14d, elections +/-5d). "
-            f"Merged and sorted ascending by event_date."
+            f"Merged and sorted ascending by event_date. "
+            f"first_seen_at preserved across rebuilds; new entries get now."
         ),
         "forecast_count": len(all_forecasts),
         "forecasts": all_forecasts,
