@@ -59,9 +59,18 @@ jobs:
 
       - name: Commit and push if changed
         if: steps.changes.outputs.changed == 'true'
+        env:
+          # Push via an explicit token-authenticated URL rather than
+          # relying on the credential persisted by actions/checkout.
+          # The persisted-credential path started failing with
+          # "could not read Username for https://github.com:
+          # No such device or address" (exit 128) on 2026-05-20.
+          # Constructing the remote URL from GITHUB_TOKEN is the robust
+          # pattern that doesn't depend on the credential helper.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "ecmforecast-bot"
           git config user.email "ecmforecast-bot@users.noreply.github.com"
           git add backend/output/armstrong_raw_archive.json
           git commit -m "Auto: RSS scrape appended new posts to archive"
-          git push origin main
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
