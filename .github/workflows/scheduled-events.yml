@@ -8,7 +8,7 @@ name: Scheduled events scrape
 #   - OPEC meetings (hardcoded, no scrape)
 #   - US Treasury 20Y/30Y bond auctions (fiscaldata.treasury.gov JSON API)
 #
-# Hardcoded sources (ECB, OPEC) need annual manual update — see comment
+# Hardcoded sources (ECB, OPEC) need annual manual update - see comment
 # at top of each scheduled_events_*.py file for update procedure.
 #
 # All sources are free. No paid services. No Apify dependency.
@@ -90,6 +90,12 @@ jobs:
 
       - name: Commit and push if changed
         if: steps.changes.outputs.changed == 'true'
+        env:
+          # Explicit token-URL push (see rss-scrape.yml). The credential
+          # persisted by actions/checkout started failing with exit 128
+          # "could not read Username" on 2026-05-20. Building the remote
+          # URL from GITHUB_TOKEN is the robust pattern.
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "ecmforecast-bot"
           git config user.email "ecmforecast-bot@users.noreply.github.com"
@@ -101,4 +107,4 @@ jobs:
                   backend/output/scheduled_events.json \
                   backend/output/events_public.json
           git commit -m "Auto: scheduled events scrape + feed rebuild"
-          git push origin main
+          git push "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" HEAD:main
