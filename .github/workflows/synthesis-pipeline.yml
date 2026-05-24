@@ -1,6 +1,6 @@
 name: Synthesis pipeline
 
-# Runs every 2 weeks on Sundays at 02:00 UTC. Picks up any posts in
+# Runs every 2 weeks on Sundays at 02:17 UTC. Picks up any posts in
 # armstrong_raw_archive.json that haven't been classified yet, runs them
 # through Pass 1 (Haiku classifier), Pass 1.5 (ECM-amendment refiner),
 # Pass 2 (Sonnet synthesis), auto_clean (rule-based filter), and finally
@@ -20,11 +20,13 @@ name: Synthesis pipeline
 
 on:
   schedule:
-    # Every 2 weeks on Sundays at 02:00 UTC. cron has no native bi-weekly
-    # so we use "every Sunday at 02:00" and rely on workflow logic
-    # (cumulative append + no-op if nothing new) to keep us safe.
-    # If frequency becomes an issue, gate the run on a date check.
-    - cron: "0 2 * * 0"
+    # Sundays at 02:17 UTC. Deliberately OFF the top of the hour:
+    # GitHub Actions drops/delays scheduled runs most often at :00
+    # under load (the 2026-05-24 run was silently skipped). An odd
+    # minute is delivered more reliably. cron has no native bi-weekly
+    # so this fires every Sunday; cumulative-append + no-op-if-nothing-
+    # new keeps re-runs cheap and safe.
+    - cron: "17 2 * * 0"
   workflow_dispatch:
 
 jobs:

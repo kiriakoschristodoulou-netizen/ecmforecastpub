@@ -20,7 +20,7 @@ name: Scheduled events scrape
 
 on:
   schedule:
-    - cron: "0 3 1 * *"
+    - cron: "23 3 1 * *"
   workflow_dispatch:
 
 jobs:
