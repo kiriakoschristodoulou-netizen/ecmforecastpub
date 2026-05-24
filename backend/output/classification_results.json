@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-17T09:15:58.342711+00:00",
+  "generated_at": "2026-05-24T07:40:35.635358+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 786,
-  "kept_count": 94,
+  "post_count": 809,
+  "kept_count": 98,
   "usage": {
-    "input_tokens": 12438,
-    "output_tokens": 911,
-    "estimated_cost_usd": 0.016993,
+    "input_tokens": 24979,
+    "output_tokens": 1957,
+    "estimated_cost_usd": 0.034764,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -7084,6 +7084,213 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "This is a Q&A commentary post about Armstrong's historical trading experiences and pattern recognition philosophy; it mentions Socrates in passing but contains no ECM reference and no specific dated predictions about future events."
+    },
+    {
+      "wp_id": 387007,
+      "title": "Planatir to Control Britain's Health Data",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/planatir-to-control-britains-health-data/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Opinion piece analyzing current Palantir/NHS data surveillance developments in Britain without referencing Armstrong's ECM model or making dated predictions."
+    },
+    {
+      "wp_id": 387011,
+      "title": "German Intelligence Deems Watermelon Emoji Hate Speech",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/german-intelligence-deems-watermelon-emoji-hate-speech/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on current German speech restrictions and watermelon emoji controversy without ECM reference or specific future dated predictions."
+    },
+    {
+      "wp_id": 387023,
+      "title": "EU Commissioner Blames Stagflation on War",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/eu-commissioner-blames-stagflation-on-war/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-01-01",
+      "reason": "Post references the ECM and states 'The 2026 Panic Cycle targeted Europe specifically' predicting European stagflationary collapse with a specific timing reference to 2026."
+    },
+    {
+      "wp_id": 387020,
+      "title": "Market Talk – May 18, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-may-18-2026/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting May 18, 2026 prices and movements with no ECM reference or future predictions."
+    },
+    {
+      "wp_id": 386959,
+      "title": "The Real Reason North Korea Fights for Russia",
+      "link": "https://www.armstrongeconomics.com/international-news/north-korea/the-real-reason-north-korea-fights-for-russia/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Analysis of North Korea's military participation in Ukraine and its strategic benefits without ECM reference or specific future dated predictions."
+    },
+    {
+      "wp_id": 386919,
+      "title": "America's Sovereign Debt Crisis Has Already Begun",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/americas-sovereign-debt-crisis-has-already-begun/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2032-01-01",
+      "reason": "Post references ECM model and predicts sovereign debt system collapse continuing \"until 2032 when we have the opportunity to perhaps get it right,\" though the specific event outcome is somewhat vague."
+    },
+    {
+      "wp_id": 386923,
+      "title": "Medical AI Breakthroughs – The Future of Medicine",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ai-computers/medical-ai-breakthroughs-the-future-of-medicine/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "General commentary on medical AI breakthroughs and trends without any ECM reference, specific predicted event, or future dated forecast."
+    },
+    {
+      "wp_id": 386885,
+      "title": "Japanese Are Feeling the Economy Collapse in Real-Time",
+      "link": "https://www.armstrongeconomics.com/international-news/japan/japanese-are-feeling-the-economy-collapse-in-real-time/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post mentions ECM model in passing but only references its historical projection of sovereign debt instability; discusses current conditions in Japan without predicting a specific future event on a specific date."
+    },
+    {
+      "wp_id": 387001,
+      "title": "Taiwan in the Crosshairs",
+      "link": "https://www.armstrongeconomics.com/international-news/china/taiwan-in-the-crosshairs/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-04-24",
+      "reason": "References ECM directional changes, panic cycle in July, and explicitly predicts 'the next major turning point in Taiwan is 2027.33' (late April 2027)."
+    },
+    {
+      "wp_id": 386996,
+      "title": "The Lockdowns Begin",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-lockdowns-begin/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting of Modi's lockdown announcement in India with speculation that Europe will eventually follow; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 387055,
+      "title": "Britain Desperate for Oil",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/britain-desperate-for-oil/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current UK energy policy and European economic trends; no ECM reference, specific dated prediction, or future forecast tied to the model."
+    },
+    {
+      "wp_id": 387048,
+      "title": "Merkel Awarded the European Order of Merit",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/merkel-awarded-the-european-order-of-merit/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "Explicitly references 'the computer has repeatedly warned that Europe was entering a period of political fragmentation and economic decline by 2028,' tying a specific predicted event (fragmentation and decline) to a future date via the ECM computer model."
+    },
+    {
+      "wp_id": 387046,
+      "title": "More Evidence Skilled Labor Is Rising in Value",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/more-evidence-skilled-labor-is-rising-in-value/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current labor market trends and historical patterns; mentions 2030 as a reference point for workforce projections but contains no ECM reference or specific dated ECM prediction."
+    },
+    {
+      "wp_id": 387058,
+      "title": "Market Talk – May 20, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-may-20-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup of asset prices and movements; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 387034,
+      "title": "Putin to Attend BRICS Summit in India",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/putin-to-attend-brics-summit-in-india/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News commentary on Putin's confirmed attendance at BRICS Summit in September 2026; reports a current/near-term event without ECM reference or predictive forecast tied to the model."
+    },
+    {
+      "wp_id": 387028,
+      "title": "$1.776 B Lawfare Spending Package Introduced",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/1-76-b-lawfare-spending-package-introduced/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references the ECM and discusses institutional collapse, but makes no specific dated prediction—only general historical commentary on how republics decline from loss of public trust."
+    },
+    {
+      "wp_id": 387031,
+      "title": "The Grocery Store Is Becoming a Surveillance Center",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/the-grocery-store-is-becoming-a-surveillance-center/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post provides analytical commentary on surveillance pricing trends and algorithmic discrimination in retail, with no ECM reference and no specific dated prediction."
+    },
+    {
+      "wp_id": 387088,
+      "title": "It's Time to Talk about Massie",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/its-time-to-talk-about-massie/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post is opinion/commentary on the Massie election outcome and foreign lobbying influence; it discusses a past election (May 19, 2026) and makes no ECM reference or future-dated prediction."
+    },
+    {
+      "wp_id": 387040,
+      "title": "Trump in China: What Happens Next for Global Markets?",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/trump-in-china-what-happens-next-for-global-markets/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; title alone does not constitute a forecast without supporting text and specific ECM-referenced dated predictions."
+    },
+    {
+      "wp_id": 387093,
+      "title": "Market Talk – May 22, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-may-22-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Standard daily market roundup reporting current and past market data with no ECM reference and no future-dated predictions."
+    },
+    {
+      "wp_id": 387076,
+      "title": "Japan's Citizenship Loophole Exploited",
+      "link": "https://www.armstrongeconomics.com/international-news/japan/japans-citizenship-loophole-exploited/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "While the post references the Economic Confidence Model, it only applies it as general context to explain Japan's demographic and debt situation without predicting a specific dated event or turning point."
+    },
+    {
+      "wp_id": 387070,
+      "title": "Cuban Crisis Escalating",
+      "link": "https://www.armstrongeconomics.com/world-news/war/cuban-crisis-escalating/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "The post references the War Cycle model predicting 2026-2027 will be 'increasingly unstable geopolitically,' but this is a general trend statement without a specific event or turning point tied to a precise date."
+    },
+    {
+      "wp_id": 387083,
+      "title": "Market Talk – May 21, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-may-21-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a daily market roundup reporting historical price data for May 21, 2026; it contains no ECM forecast, specific predicted event, or future-dated prediction."
     }
   ]
 }

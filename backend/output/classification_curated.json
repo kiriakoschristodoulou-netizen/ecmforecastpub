@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-17T09:16:01.157956+00:00",
+  "generated_at": "2026-05-24T07:40:40.367261+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 94,
-  "kept_count": 43,
+  "input_post_count": 98,
+  "kept_count": 45,
   "usage": {
-    "input_tokens": 2773,
-    "output_tokens": 136,
-    "estimated_cost_usd": 0.003453,
+    "input_tokens": 3864,
+    "output_tokens": 407,
+    "estimated_cost_usd": 0.005899,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -856,6 +856,42 @@
       "confidence": "low",
       "predicted_date": null,
       "reason": "Post references existing known model dates (May 2026 Directional Change, August Panic Cycle, 2026 war cycle, 2028 economic downturn) without presenting NEW or AMENDED model-attributed predictions; vague reference to 'next week is a critical target' lacks month-level specificity and is too uncertain to qualify."
+    },
+    {
+      "wp_id": 387023,
+      "title": "EU Commissioner Blames Stagflation on War",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/eu-commissioner-blames-stagflation-on-war/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the existing 2026 Panic Cycle targeting Europe without presenting a new or amended model-attributed dated prediction; the stagflation discussion is editorial analysis, not a model-derived forecast."
+    },
+    {
+      "wp_id": 386919,
+      "title": "America's Sovereign Debt Crisis Has Already Begun",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/americas-sovereign-debt-crisis-has-already-begun/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2032-01-01",
+      "reason": "Armstrong explicitly attributes to his model the prediction that 'The system will continue to collapse until 2032 when we have the opportunity to perhaps get it right,' indicating a sovereign debt crisis turning point in 2032."
+    },
+    {
+      "wp_id": 387001,
+      "title": "Taiwan in the Crosshairs",
+      "link": "https://www.armstrongeconomics.com/international-news/china/taiwan-in-the-crosshairs/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong explicitly states 'The next major turning point in Taiwan is 2027.33' as a model-attributed prediction; also mentions 'a Panic Cycle appears in July leading into August' (2026) as a directional change related to Taiwan conflict risk."
+    },
+    {
+      "wp_id": 387048,
+      "title": "Merkel Awarded the European Order of Merit",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/merkel-awarded-the-european-order-of-merit/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the existing 2028 political fragmentation and economic decline forecast without amending it; the statement 'the computer has repeatedly warned' merely invokes an existing known date without a new or amended prediction."
     }
   ]
 }
