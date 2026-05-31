@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-24T07:40:40.367261+00:00",
+  "generated_at": "2026-05-31T10:26:44.351408+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 98,
+  "input_post_count": 99,
   "kept_count": 45,
   "usage": {
-    "input_tokens": 3864,
-    "output_tokens": 407,
-    "estimated_cost_usd": 0.005899,
+    "input_tokens": 1446,
+    "output_tokens": 115,
+    "estimated_cost_usd": 0.0020210000000000002,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -892,6 +892,15 @@
       "confidence": "low",
       "predicted_date": null,
       "reason": "Post references the existing 2028 political fragmentation and economic decline forecast without amending it; the statement 'the computer has repeatedly warned' merely invokes an existing known date without a new or amended prediction."
+    },
+    {
+      "wp_id": 387131,
+      "title": "It is CRUCIAL to Understand the Economic Confidence Model",
+      "link": "https://www.armstrongeconomics.com/webinars/it-is-crucial-to-understand-the-economic-confidence-model/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references an existing ECM turning point 'immediately following' the June 30 webinar date but does not specify the exact predicted date with month-level precision; this is promotional content about understanding the model rather than a new or amended model-attributed dated prediction."
     }
   ]
 }
