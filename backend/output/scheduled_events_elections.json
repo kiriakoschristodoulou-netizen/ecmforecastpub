@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "source": "wikipedia_electoral",
-  "generated_at": "2026-05-15T20:18:42.595818+00:00",
-  "event_count": 17,
+  "generated_at": "2026-06-01T20:07:22.736755+00:00",
+  "event_count": 19,
   "events": [
     {
       "date": "2026-02-08",
@@ -68,8 +68,22 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-05-31",
+      "title": "Colombia, President (1st round)",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
       "date": "2026-06-07",
       "title": "Peru, President (second round)",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2026-06-21",
+      "title": "Colombia, President (2nd round)",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
       "source": "wikipedia_electoral"

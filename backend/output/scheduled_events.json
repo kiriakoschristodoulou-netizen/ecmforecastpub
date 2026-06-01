@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-15T21:04:28.804855+00:00",
-  "event_count": 132,
+  "generated_at": "2026-06-01T20:07:22.945528+00:00",
+  "event_count": 136,
   "sources": [
     "fomc",
     "wikipedia_electoral",
@@ -523,6 +523,13 @@
     },
     {
       "date": "2026-05-20",
+      "title": "FOMC meeting",
+      "category": "central_bank",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-05-20",
       "title": "20-Year Bond auction",
       "category": "sovereign_debt",
       "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
@@ -531,6 +538,13 @@
     {
       "date": "2026-05-31",
       "title": "Colombia, President",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2026-05-31",
+      "title": "Colombia, President (1st round)",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
       "source": "wikipedia_electoral"
@@ -569,6 +583,13 @@
       "category": "sovereign_debt",
       "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
       "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-06-21",
+      "title": "Colombia, President (2nd round)",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
     },
     {
       "date": "2026-07-08",
@@ -821,6 +842,13 @@
       "category": "sovereign_debt",
       "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
       "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-05-20",
+      "title": "FOMC meeting",
+      "category": "central_bank",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "fomc"
     },
     {
       "date": "2027-06-06",

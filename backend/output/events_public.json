@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-05-31T10:28:48.478789+00:00",
+  "generated_at": "2026-06-01T20:07:22.995698+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 14 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 132 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "source_summary": "39 chart-derived ECM cycle dates + 14 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 136 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
   "forecast_count": 53,
   "forecasts": [
     {
@@ -244,10 +244,22 @@
           "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
         },
         {
+          "date": "2026-05-31",
+          "title": "Colombia, President (1st round)",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
           "date": "2026-06-07",
           "title": "41st OPEC and non-OPEC Ministerial Meeting (full ONOMM)",
           "category": "summit",
           "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         },
         {
           "date": "2026-06-11",
@@ -282,6 +294,12 @@
           "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
         },
         {
+          "date": "2026-05-31",
+          "title": "Colombia, President (1st round)",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
           "date": "2026-06-07",
           "title": "41st OPEC and non-OPEC Ministerial Meeting (full ONOMM)",
           "category": "summit",
@@ -292,6 +310,12 @@
           "title": "ECB Governing Council monetary policy meeting",
           "category": "central_bank",
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         }
       ],
       "origin": "blog",
@@ -320,6 +344,12 @@
           "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
         },
         {
+          "date": "2026-05-31",
+          "title": "Colombia, President (1st round)",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
           "date": "2026-06-07",
           "title": "41st OPEC and non-OPEC Ministerial Meeting (full ONOMM)",
           "category": "summit",
@@ -330,6 +360,12 @@
           "title": "ECB Governing Council monetary policy meeting",
           "category": "central_bank",
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         }
       ],
       "origin": "blog",
@@ -358,6 +394,12 @@
           "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
         },
         {
+          "date": "2026-05-31",
+          "title": "Colombia, President (1st round)",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
           "date": "2026-06-07",
           "title": "41st OPEC and non-OPEC Ministerial Meeting (full ONOMM)",
           "category": "summit",
@@ -368,6 +410,12 @@
           "title": "ECB Governing Council monetary policy meeting",
           "category": "central_bank",
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        },
+        {
+          "date": "2026-05-20",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         }
       ],
       "origin": "blog",
