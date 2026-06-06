@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-31T10:26:42.125701+00:00",
+  "generated_at": "2026-06-06T21:56:16.474692+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 837,
-  "kept_count": 99,
+  "post_count": 861,
+  "kept_count": 101,
   "usage": {
-    "input_tokens": 25392,
-    "output_tokens": 2263,
-    "estimated_cost_usd": 0.036707000000000004,
+    "input_tokens": 24870,
+    "output_tokens": 2009,
+    "estimated_cost_usd": 0.034915,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -7543,6 +7543,222 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Daily market roundup reporting historical prices from May 29, 2026; no ECM reference or specific future dated prediction."
+    },
+    {
+      "wp_id": 387226,
+      "title": "Zelensky Betrays Poland",
+      "link": "https://www.armstrongeconomics.com/world-news/war/zelensky-betrays-poland/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current geopolitical events (Zelensky's decree honoring UPA) and historical context; no ECM reference, no specific dated prediction."
+    },
+    {
+      "wp_id": 387232,
+      "title": "Canada Slips Into Recession",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/canada-slips-into-recession/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of Canada's current recession (Q1 2026 data, past events) with economic commentary; mentions Bank of Canada's 2026 forecast but provides no ECM reference or specific future turning point prediction."
+    },
+    {
+      "wp_id": 387224,
+      "title": "Top AI Experts Forbidden to Leave China without Approval",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ai-computers/top-ai-experts-forbidden-to-leave-china-without-approval/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on China's AI talent restrictions and geopolitical AI competition; no ECM reference and no specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 387304,
+      "title": "Sovereignty for Sale in Ireland – UK's Starmer Hates White People",
+      "link": "https://www.armstrongeconomics.com/international-news/ireland/ireland-sovereignty-for-sale/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion and commentary on EU migration policy, UK policing, and immigration; no ECM reference and no specific dated prediction."
+    },
+    {
+      "wp_id": 387296,
+      "title": "Will France Be Allowed to Vote?",
+      "link": "https://www.armstrongeconomics.com/international-news/france/will-france-be-allowed-to-vote/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on French politics and Marine Le Pen's legal situation heading into 2027 election; mentions July court decision but provides no ECM reference or ECM-dated prediction of a specific turning point."
+    },
+    {
+      "wp_id": 387274,
+      "title": "When Health Insurance Costs More Than Your House",
+      "link": "https://www.armstrongeconomics.com/international-news/disease/when-health-insurance-costs-more-than-your-house/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is commentary on current healthcare costs and insurance crisis; while it references Armstrong's sovereign debt models in passing, it makes no specific dated prediction tied to the ECM."
+    },
+    {
+      "wp_id": 387299,
+      "title": "Market Talk – June 2, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-2-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a daily market roundup ('Market Talk') reporting current asset prices and movements with no ECM reference or future prediction."
+    },
+    {
+      "wp_id": 387286,
+      "title": "July 25 Conference in Tampa – Understanding the World Economy",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/july-25-conference-in-tampa-understanding-the-world-economy/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a promotional post advertising an educational conference on July 25, 2026; it mentions no ECM-dated forecast or specific predicted event."
+    },
+    {
+      "wp_id": 387265,
+      "title": "Google's Debug Project — When Silicon Valley Starts Releasing Insects",
+      "link": "https://www.armstrongeconomics.com/international-news/disease/googles-debug-project-when-silicon-valley-starts-releasing-insects/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is opinion/commentary on Google's mosquito release project and corporate overreach; no ECM reference or specific dated prediction is present."
+    },
+    {
+      "wp_id": 387252,
+      "title": "America's Fruit Has Become a Social Experiment",
+      "link": "https://www.armstrongeconomics.com/international-news/disease/americas-fruit-has-become-a-chemical-experiment/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is commentary on agricultural practices, pesticide use, and food supply control; no ECM reference or specific dated prediction is made."
+    },
+    {
+      "wp_id": 387268,
+      "title": "The Fed's Real Stress Test",
+      "link": "https://www.armstrongeconomics.com/world-news/central-banks/the-feds-real-stress-test/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece analyzing Fed credibility and institutional trust; no ECM reference, no specific dated prediction, no model-based forecast."
+    },
+    {
+      "wp_id": 387271,
+      "title": "Market Talk – June 1, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-1-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current price movements and data; standard Market Talk post with no ECM reference or future dated predictions."
+    },
+    {
+      "wp_id": 387261,
+      "title": "TICKETS AVAILABLE NOW: Understanding the World Economy – July 25",
+      "link": "https://www.armstrongeconomics.com/uncategorized/tickets-available-now-next-generation-conference-july-25/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post advertising live event on July 25; no ECM forecast, no specific predicted event or turning point."
+    },
+    {
+      "wp_id": 387350,
+      "title": "The Event China Still Cannot Forget",
+      "link": "https://www.armstrongeconomics.com/international-news/china/the-event-china-still-cannot-forget/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Historical commentary on June 4, 1989 Tiananmen events and China's political-economic development; no ECM reference, no future dated prediction."
+    },
+    {
+      "wp_id": 387346,
+      "title": "The New Cold War Is Being Fought on LinkedIn",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-new-cold-war-is-being-fought-on-linkedin/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Post explicitly references ECM model warning that '2026 would be a panic-cycle year' and predicts major geopolitical escalation in 2027 with economic crisis in 2028 and 'major ECM turning point in 2029.'"
+    },
+    {
+      "wp_id": 387357,
+      "title": "The War Is Expanding Whether They Admit It or Not",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-war-is-expanding-whether-they-admit-it-or-not/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Post explicitly references 'Our models have been warning that 2026 would be a panic-cycle year' and 'The risks continue building into 2027, which remains a major war-risk year in our forecasts,' predicting escalating geopolitical tensions and war risks for 2027 using the ECM model."
+    },
+    {
+      "wp_id": 387352,
+      "title": "Market Talk – June 4, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-4-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current market data from June 4, 2026; no ECM model reference, no specific dated prediction, no future event forecast."
+    },
+    {
+      "wp_id": 387335,
+      "title": "Why Turkey Matters More Than People Realize",
+      "link": "https://www.armstrongeconomics.com/international-news/turkey/why-turkey-matters-more-than-people-realize/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical analysis and opinion about Turkey's strategic position; while mentioning 'storms that are clearly gathering into 2027 and beyond,' no specific ECM-dated prediction or concrete event is forecast for a specific future date."
+    },
+    {
+      "wp_id": 387321,
+      "title": "Debt or Death – Economic Military Recruitment",
+      "link": "https://www.armstrongeconomics.com/world-news/war/debt-or-death-economic-military-recruitment/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Historical and contemporary commentary on economic-driven military recruitment patterns; no ECM model reference, no specific dated prediction, no concrete forecasted event."
+    },
+    {
+      "wp_id": 387330,
+      "title": "How Far Has New Jersey Fallen?",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/how-far-has-new-jersey-fallen/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Political opinion and criticism of New Jersey governance and a specific congressional candidate; no ECM model reference, no specific dated prediction, no forecasted event."
+    },
+    {
+      "wp_id": 387338,
+      "title": "Market Talk – June 3, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-3-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup with no ECM reference, specific prediction, or future dated forecast."
+    },
+    {
+      "wp_id": 387386,
+      "title": "Iran Internal Briefing on Potential War",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/iran-internal-briefing-on-potential-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Video link post with no ECM model reference or specific dated prediction about future events."
+    },
+    {
+      "wp_id": 387327,
+      "title": "Interview: WW3 After June- China Will Invade Taiwan",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/interview-ww3-after-june-china-will-invade-taiwan/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Interview title with empty body; no ECM reference or specific dated forecast in content provided."
+    },
+    {
+      "wp_id": 387375,
+      "title": "Market Talk – June 5, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-5-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup with no ECM reference, specific prediction, or future dated forecast."
     }
   ]
 }

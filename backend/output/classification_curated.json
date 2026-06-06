@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-05-31T10:26:44.351408+00:00",
+  "generated_at": "2026-06-06T21:56:19.327472+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 99,
+  "input_post_count": 101,
   "kept_count": 45,
   "usage": {
-    "input_tokens": 1446,
-    "output_tokens": 115,
-    "estimated_cost_usd": 0.0020210000000000002,
+    "input_tokens": 2582,
+    "output_tokens": 231,
+    "estimated_cost_usd": 0.003737,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -901,6 +901,24 @@
       "confidence": "low",
       "predicted_date": null,
       "reason": "Post references an existing ECM turning point 'immediately following' the June 30 webinar date but does not specify the exact predicted date with month-level precision; this is promotional content about understanding the model rather than a new or amended model-attributed dated prediction."
+    },
+    {
+      "wp_id": 387346,
+      "title": "The New Cold War Is Being Fought on LinkedIn",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-new-cold-war-is-being-fought-on-linkedin/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references existing known model dates (2026 panic cycle, 2027, 2028, 2029 ECM turning point) without presenting NEW or AMENDED model predictions; dates are editorial commentary on geopolitical trends, not model-attributed specific forecasts."
+    },
+    {
+      "wp_id": 387357,
+      "title": "The War Is Expanding Whether They Admit It or Not",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-war-is-expanding-whether-they-admit-it-or-not/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references existing known model dates (2026 panic cycle, 2027 war-risk year, 2028 collision, 2029 ECM turning point) without presenting NEW or AMENDED model predictions; discussion of geopolitical escalation is editorial analysis, not a model-attributed dated amendment."
     }
   ]
 }
