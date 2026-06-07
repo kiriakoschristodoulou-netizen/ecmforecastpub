@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-06T21:56:16.474692+00:00",
+  "generated_at": "2026-06-07T06:42:58.533161+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 861,
+  "post_count": 863,
   "kept_count": 101,
   "usage": {
-    "input_tokens": 24870,
-    "output_tokens": 2009,
-    "estimated_cost_usd": 0.034915,
+    "input_tokens": 1506,
+    "output_tokens": 153,
+    "estimated_cost_usd": 0.002271,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -7759,6 +7759,24 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Daily market roundup with no ECM reference, specific prediction, or future dated forecast."
+    },
+    {
+      "wp_id": 387366,
+      "title": "The Food Supply Has Been Compromised",
+      "link": "https://www.armstrongeconomics.com/international-news/disease/the-food-supply-has-been-compromised/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post discusses food supply concerns and synthetic food issues with no ECM reference, specific dated prediction, or future turning point prediction."
+    },
+    {
+      "wp_id": 387370,
+      "title": "Interview: Iran, Ukraine, Peace, Gold & Bitcoin",
+      "link": "https://www.armstrongeconomics.com/uncategorized/interview-iran-ukraine-peace-gold-bitcoin/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post title indicates an interview but body is empty; cannot classify as forecast without substantive content."
     }
   ]
 }

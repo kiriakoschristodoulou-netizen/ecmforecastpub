@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-06T21:58:30.763594+00:00",
+  "generated_at": "2026-06-07T06:45:03.109931+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
   "post_count": 14,
   "usage": {
     "input_tokens": 45181,
-    "output_tokens": 4994,
-    "estimated_cost_usd": 0.210453,
+    "output_tokens": 4866,
+    "estimated_cost_usd": 0.208533,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -137,6 +137,6 @@
       "tag_suggestion": "nato_inflection"
     }
   ],
-  "auto_cleaned_at": "2026-06-06T21:58:30.851195+00:00",
+  "auto_cleaned_at": "2026-06-07T06:45:03.194203+00:00",
   "auto_clean_dropped": 31
 }
