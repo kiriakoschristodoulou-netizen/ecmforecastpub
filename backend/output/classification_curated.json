@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-06T21:56:19.327472+00:00",
+  "generated_at": "2026-06-14T06:58:39.786183+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 101,
+  "input_post_count": 107,
   "kept_count": 45,
   "usage": {
-    "input_tokens": 2582,
-    "output_tokens": 231,
-    "estimated_cost_usd": 0.003737,
+    "input_tokens": 6334,
+    "output_tokens": 611,
+    "estimated_cost_usd": 0.009389,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -919,6 +919,60 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Post references existing known model dates (2026 panic cycle, 2027 war-risk year, 2028 collision, 2029 ECM turning point) without presenting NEW or AMENDED model predictions; discussion of geopolitical escalation is editorial analysis, not a model-attributed dated amendment."
+    },
+    {
+      "wp_id": 387373,
+      "title": "The Jobs Report Everyone Will Misread",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/the-jobs-report-everyone-will-misread/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references 2026 as a 'Panic Cycle year' but this is commentary on existing known model output, not a new or amended model-attributed dated prediction with specific month/day precision."
+    },
+    {
+      "wp_id": 387363,
+      "title": "The Drumbeat Around Taiwan Grows Louder",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-drumbeat-around-taiwan-grows-louder/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post discusses existing ECM warnings about 2026 panic cycle, 2027 war-risk year, 2028 recessionary pressures, and 2029 ECM turning point, but these are references to known model dates without amendments; no new model prediction is presented."
+    },
+    {
+      "wp_id": 387435,
+      "title": "The Pacific Prize",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-pacific-prize/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references the existing 2026 panic-cycle warning and mentions 2028-2029 vulnerability windows but cites government/military planning timelines, not new model-attributed predictions; no amendment to existing ECM dates."
+    },
+    {
+      "wp_id": 387443,
+      "title": "Europe's War on Crypto Is Really About Capital Controls",
+      "link": "https://www.armstrongeconomics.com/world-news/cryptocurrency/europes-war-on-crypto-is-really-about-capital-controls/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references the existing 2026 Panic Cycle year and notes Europe entering 'rising political and financial instability' but makes no new model-attributed dated prediction; discussion of historical government behavior during debt crises is editorial analysis, not a model-derived forecast."
+    },
+    {
+      "wp_id": 387432,
+      "title": "Bulgaria Finally Chooses Its Own Interests",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/bulgaria-finally-chooses-its-own-interests/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references the 2026 Panic Cycle year as an existing model framework and discusses expected European fractures, but presents no new or amended model-attributed dated prediction beyond commentary on known cycle expectations."
+    },
+    {
+      "wp_id": 387500,
+      "title": "Wholesale Inflation Confirms Energy Crisis",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/wholesale-inflation-confirms-energy-crisis/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references the existing 'Panic Cycle year' without presenting a NEW or AMENDED model-attributed dated prediction; discussion of current inflation trends and geopolitical analysis lacks specific future date attribution to the ECM."
     }
   ]
 }

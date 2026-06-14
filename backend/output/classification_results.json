@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-07T06:42:58.533161+00:00",
+  "generated_at": "2026-06-14T06:58:32.338082+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 863,
-  "kept_count": 101,
+  "post_count": 888,
+  "kept_count": 107,
   "usage": {
-    "input_tokens": 1506,
-    "output_tokens": 153,
-    "estimated_cost_usd": 0.002271,
+    "input_tokens": 23513,
+    "output_tokens": 2163,
+    "estimated_cost_usd": 0.034328,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -7777,6 +7777,231 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Post title indicates an interview but body is empty; cannot classify as forecast without substantive content."
+    },
+    {
+      "wp_id": 387381,
+      "title": "Amsterdam Bans Meat Ads as the War on Food Expands",
+      "link": "https://www.armstrongeconomics.com/international-news/disease/amsterdam-bans-meat-ads-as-the-war-on-food-expands/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece about food control policies and globalist agendas with no ECM reference, specific dated prediction, or turning point forecast."
+    },
+    {
+      "wp_id": 387411,
+      "title": "DIGITAL ID: THE LOCKDOWN THEY NEVER ABANDONED",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/digital-id-the-lockdown-they-never-abandoned/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on digital ID systems and government control with no ECM reference, specific dated prediction, or turning point forecast."
+    },
+    {
+      "wp_id": 387406,
+      "title": "Enemies of the State Infiltrate Govt",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/enemies-of-the-state-infiltrate-govt/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting and opinion on a political candidate with no ECM reference, specific dated prediction, or turning point forecast."
+    },
+    {
+      "wp_id": 387422,
+      "title": "PRIVATE BLOG – Market is Turmoil – Boom or Bust?",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/private-blog-market-is-turmoil-boom-or-bust/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private Socrates subscriber content with no actual forecast details provided."
+    },
+    {
+      "wp_id": 387417,
+      "title": "Market Talk – June 8, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-8-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price movements from June 8, 2026 with no ECM reference or dated prediction."
+    },
+    {
+      "wp_id": 387373,
+      "title": "The Jobs Report Everyone Will Misread",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/the-jobs-report-everyone-will-misread/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-01-01",
+      "reason": "References 'Panic Cycle year' (2026) with prediction of increased volatility and geopolitical tensions, but the specific events and timing are general rather than precise turning points."
+    },
+    {
+      "wp_id": 387378,
+      "title": "Russia Needs 800,000 Workers",
+      "link": "https://www.armstrongeconomics.com/international-news/russia/russia-needs-800000-workers/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current geopolitical and labor dynamics without ECM reference or specific dated prediction of an event."
+    },
+    {
+      "wp_id": 387363,
+      "title": "The Drumbeat Around Taiwan Grows Louder",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-drumbeat-around-taiwan-grows-louder/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2029-01-01",
+      "reason": "Explicitly references ECM models warning of 2026 as panic-cycle year, 2027 as major war-risk year, and 2029 as major ECM turning point with geopolitical escalation expected through these dates."
+    },
+    {
+      "wp_id": 387461,
+      "title": "China's Greatest Crime Is Competing Too Well",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/chinas-greatest-crime-is-competing-too-well/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on US-China economic competition and escalation without ECM model reference or specific dated prediction of an event."
+    },
+    {
+      "wp_id": 387435,
+      "title": "The Pacific Prize",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-pacific-prize/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-01-01",
+      "reason": "Explicitly references ECM models warning that 2026 is a panic-cycle year with rising volatility and escalating geopolitical tensions, and mentions vulnerability windows into 2028-2029."
+    },
+    {
+      "wp_id": 387459,
+      "title": "War Is Now Appearing in Inflation Data",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/war-is-now-appearing-in-inflation-data/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current May 2026 inflation data and energy prices; mentions 'Panic Cycle year' in passing but makes no specific ECM-derived prediction tied to a future date."
+    },
+    {
+      "wp_id": 387465,
+      "title": "61% of Israelis Against Netanyahu",
+      "link": "https://www.armstrongeconomics.com/international-news/israel/61-of-israelis-against-netanyahu/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A response discussing Israeli politics and geopolitical strategy; mentions 'major directional change in 2027' without specific event or ECM model reference, only general trend statement."
+    },
+    {
+      "wp_id": 387463,
+      "title": "PRIVATE BLOG – Gold Down & Dirty?",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/private-blog-gold-down-dirty/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private Socrates subscriber content; no forecast content provided."
+    },
+    {
+      "wp_id": 387443,
+      "title": "Europe's War on Crypto Is Really About Capital Controls",
+      "link": "https://www.armstrongeconomics.com/world-news/cryptocurrency/europes-war-on-crypto-is-really-about-capital-controls/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-01-01",
+      "reason": "References ECM models warning about Europe's rising political and financial instability; explicitly states '2026 Panic Cycle year' as prediction context for government control expansion and confidence erosion, though the specific event (capital controls/financial instability) is tied to 2026 as current/unfolding year."
+    },
+    {
+      "wp_id": 387438,
+      "title": "Israel Spies on the US – What Else is New?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/israel-spies-on-the-us-what-else-is-new/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on U.S.-Israel relations and federal debt crisis; discusses long-term structural problems and empire decline without ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 387432,
+      "title": "Bulgaria Finally Chooses Its Own Interests",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/bulgaria-finally-chooses-its-own-interests/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-01-01",
+      "reason": "Post references the 2026 Panic Cycle year and predicts that economic stress will force European governments to redirect resources inward and expose fractures within the EU, though the specific predicted event (fractures/policy shifts) and the exact timing within 2026 are somewhat general rather than pinpointed to a specific date or event."
+    },
+    {
+      "wp_id": 387445,
+      "title": "Market Talk – June 9, 2026",
+      "link": "https://www.armstrongeconomics.com/uncategorized/market-talk-june-9-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price data for June 9, 2026; contains no ECM references, model predictions, or future-dated forecasts."
+    },
+    {
+      "wp_id": 387574,
+      "title": "Interview: The Sovereign Debt Crisis Has Already Begun – and Iran Just Lit the Fuse",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/interview-the-sovereign-debt-crisis-has-already-begun-and-iran-just-lit-the-fuse/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot classify as forecast without content to evaluate."
+    },
+    {
+      "wp_id": 387609,
+      "title": "Market Talk – June 12, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-12-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price data for June 12, 2026; contains no ECM references, model predictions, or future-dated forecasts."
+    },
+    {
+      "wp_id": 387566,
+      "title": "STUDENT DISCOUNT NOW AVAILABLE!",
+      "link": "https://www.armstrongeconomics.com/uncategorized/student-discount-now-available/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post advertising a student discount for the July 25, 2026 Tampa seminar; contains no ECM-dated predictions or specific forecasts."
+    },
+    {
+      "wp_id": 387500,
+      "title": "Wholesale Inflation Confirms Energy Crisis",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/wholesale-inflation-confirms-energy-crisis/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-06-14",
+      "reason": "Post references 'Panic Cycle year' (ECM terminology) and predicts volatility in commodities, interest rates, and capital flows as we move deeper into this cycle period, though the specific prediction is somewhat general rather than tied to a precise future date."
+    },
+    {
+      "wp_id": 387497,
+      "title": "BRITAIN CANNOT AFFORD ITS EMPIRE",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/britain-cannot-afford-its-empire/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current UK defense spending crisis and sovereign debt problems without referencing ECM model or making a specific dated prediction; it discusses trends and historical patterns without ECM-based forecasting."
+    },
+    {
+      "wp_id": 387477,
+      "title": "Bill Gates Invests in Lab-Grown Baby Formula",
+      "link": "https://www.armstrongeconomics.com/international-news/disease/bill-gates-invests-in-lab-grown-baby-formula/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece analyzing concentration of power in biotech and agriculture sectors without ECM reference or specific dated predictions; discusses patterns and systemic risks without forecasting a particular event on a future date."
+    },
+    {
+      "wp_id": 387502,
+      "title": "Market Talk – June 11, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-11-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market data roundup reporting historical market performance from June 11, 2026 with no ECM reference or dated predictions."
+    },
+    {
+      "wp_id": 387479,
+      "title": "PRIVATE BLOG – Gold & Trump Escalating War",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/private-blog-gold-trump-escalating-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private Socrates subscriber content with no actual forecasting content visible."
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-07T06:45:03.244167+00:00",
+  "generated_at": "2026-06-14T07:00:43.197476+00:00",
   "feed_type": "public",
   "source_summary": "39 chart-derived ECM cycle dates + 14 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 136 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
   "forecast_count": 53,
