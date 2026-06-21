@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-14T06:58:32.338082+00:00",
+  "generated_at": "2026-06-21T07:10:58.282484+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 888,
-  "kept_count": 107,
+  "post_count": 914,
+  "kept_count": 114,
   "usage": {
-    "input_tokens": 23513,
-    "output_tokens": 2163,
-    "estimated_cost_usd": 0.034328,
+    "input_tokens": 25924,
+    "output_tokens": 2288,
+    "estimated_cost_usd": 0.037364,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -8002,6 +8002,240 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Promotional teaser for private Socrates subscriber content with no actual forecasting content visible."
+    },
+    {
+      "wp_id": 387587,
+      "title": "Britain Prioritizes War on Speech as the Economy Crumbles",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/britain-prioritizes-war-on-speech-as-the-economy-crumbles/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current UK political and economic conditions; no ECM reference, specific dated prediction, or future turning point forecast."
+    },
+    {
+      "wp_id": 387607,
+      "title": "Pokémon Go Data Used for Drone Warfare",
+      "link": "https://www.armstrongeconomics.com/world-news/war/pokemon-go-data-used-for-drone-warfare/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of Pokémon Go data collection and military technology; no ECM reference, specific dated prediction, or future turning point forecast."
+    },
+    {
+      "wp_id": 387580,
+      "title": "Russia's New Warning Shot From Space",
+      "link": "https://www.armstrongeconomics.com/world-news/war/russias-new-warning-shot-from-space/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-01-01",
+      "reason": "References '2026 Panic Cycle year' as having already begun and warns of entering 'the most dangerous phase of the geopolitical cycle' with implied ECM foundation, though the specific turning point prediction is general rather than a concrete dated event."
+    },
+    {
+      "wp_id": 387640,
+      "title": "Soros vs India – Trying to Change Foreign Countries",
+      "link": "https://www.armstrongeconomics.com/uncategorized/soros-vs-india/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of Soros, Gates, geopolitical conflicts, and historical commentary; no ECM reference, specific dated prediction, or future turning point forecast."
+    },
+    {
+      "wp_id": 387628,
+      "title": "New Movie on Financial Crisis",
+      "link": "https://www.armstrongeconomics.com/international-news/india/new-movie-on-financial-crisis/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot classify as forecast without substantive content."
+    },
+    {
+      "wp_id": 387633,
+      "title": "PRIVATE BLOG – Iran & Peace Deal",
+      "link": "https://www.armstrongeconomics.com/world-news/war/private-blog-iran-peace-deal/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser with no substantive content; promotional post directing readers to subscription service."
+    },
+    {
+      "wp_id": 387689,
+      "title": "Kevin Warsh and the End of the Powell Era",
+      "link": "https://www.armstrongeconomics.com/world-news/central-banks/kevin-warsh-and-the-end-of-the-powell-era/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "References Armstrong's models projecting a Panic Cycle year and warns that if geopolitical uncertainty continues rising into 2027, consequences will follow; ECM reference is explicit but the specific predicted event (market/economic impact) is somewhat implied rather than precisely stated."
+    },
+    {
+      "wp_id": 387684,
+      "title": "Will Lebanon Become the Next Gaza?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/will-lebanon-become-the-next-gaza/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical commentary on Gaza, Iran, and Lebanon; discusses war cycle expansion but makes no specific ECM-dated prediction for a future turning point or event."
+    },
+    {
+      "wp_id": 387682,
+      "title": "Nationalism Forbidden by EU",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/nationalism-forbidden-by-eu/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Political commentary on EU nationalism and Viktor Orbán; predicts eventual EU collapse but without ECM reference or specific future date."
+    },
+    {
+      "wp_id": 387700,
+      "title": "Trump said Netanyahu has \"no f—ing judgement.\"",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/trump-said-netanyahu-has-no-f-ing-judgement/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-08-01",
+      "reason": "Armstrong states he expects tensions to rise again 'especially in August' and may escalate into Q1 2027; references his analysis/forecasting but the prediction is moderately specific on timing and event (tensions rising) rather than a concrete turning point."
+    },
+    {
+      "wp_id": 387692,
+      "title": "Market Talk – June 16, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-16-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical prices from June 16, 2026; no ECM reference, no specific prediction, no future date."
+    },
+    {
+      "wp_id": 387675,
+      "title": "Netanyahu's War Is Not Over",
+      "link": "https://www.armstrongeconomics.com/world-news/war/netanyahus-war-is-not-over/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "References Economic Confidence Model and panic cycle year 2026, predicting geopolitical turning point into 2029 with war cycle turning up into 2027 and economic stress in 2028."
+    },
+    {
+      "wp_id": 387665,
+      "title": "The Strait of Hormuz May Reopen But the War Cycle Is Not Finished",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/the-strait-of-hormuz-may-reopen-but-the-war-cycle-is-not-finished/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "References Economic Confidence Model arrays warning that 2026 is a Panic Cycle year and predicts geopolitical volatility increasing into 2027."
+    },
+    {
+      "wp_id": 387662,
+      "title": "South Africa: The Lights Came Back On — The Economy Did Not",
+      "link": "https://www.armstrongeconomics.com/international-news/africa/south-africa-the-lights-came-back-on-the-economy-did-not/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Economic analysis and commentary on South Africa's infrastructure and employment challenges; no ECM reference, no dated prediction, no specific future event forecast."
+    },
+    {
+      "wp_id": 387672,
+      "title": "Market Talk – June 15, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-15-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical prices from June 15, 2026; no ECM reference, no specific prediction, no future date."
+    },
+    {
+      "wp_id": 387742,
+      "title": "Slovakia's Constitutional Court Fires a Warning Shot at Debt Addiction",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/slovakias-constitutional-court-fires-a-warning-shot-at-debt-addiction/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "Post explicitly references 'The ECM continues to warn' and predicts that 'by 2028 the economic pressures intensify, and by 2032 we are looking at the potential climax of the sovereign debt crisis,' establishing both ECM model reference and specific future dated predictions for sovereign debt crisis escalation."
+    },
+    {
+      "wp_id": 387738,
+      "title": "Israel's Conscription Crisis Exposes a Nation Divided",
+      "link": "https://www.armstrongeconomics.com/world-news/war/israels-conscription-crisis-exposes-a-nation-divided/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-08-01",
+      "reason": "Post references Armstrong's 'War Cycle' and explicitly predicts 'Come August, the cycle is turning up; peace, unfortunately, is not going to happen,' tying a specific geopolitical turning point (heated tensions) to August 2026."
+    },
+    {
+      "wp_id": 387695,
+      "title": "Ukraine's Army+ App Reveals a Much Larger Problem",
+      "link": "https://www.armstrongeconomics.com/world-news/war/ukraines-army-app-reveals-a-much-larger-problem/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post provides analysis and commentary on Ukraine's manpower crisis and Army+ app without referencing the ECM model, Socrates, or making any specific dated predictions; it is current events reporting and analysis."
+    },
+    {
+      "wp_id": 387749,
+      "title": "Market Talk – June 18, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-18-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a daily 'Market Talk' roundup reporting historical market data from June 18, 2026 (a past date relative to today); it contains no ECM references or predictions of future events."
+    },
+    {
+      "wp_id": 387721,
+      "title": "Clinton Blames Biden for Trump Presidency",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/clinton-blames-biden-for-trump-presidency/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post is political commentary and opinion on Biden, Clinton, and the Democratic Party's 2024 election strategy; it contains no ECM model reference or specific dated predictions of future events."
+    },
+    {
+      "wp_id": 387718,
+      "title": "Warsh's First Fed Meeting Sends a Message",
+      "link": "https://www.armstrongeconomics.com/world-news/central-banks/warshs-first-fed-meeting-sends-a-message/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on current Fed policy shift and Warsh's first meeting; no ECM reference, specific dated prediction, or future event forecast."
+    },
+    {
+      "wp_id": 387711,
+      "title": "The Divide Is No Longer Left vs Right",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/the-divide-is-no-longer-left-vs-right/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "While it references the 2007.15 ECM turning point and discusses confidence collapse, it is historical analysis of past events (2007-present) without a specific future dated prediction tied to the ECM model."
+    },
+    {
+      "wp_id": 387716,
+      "title": "Market Talk – June 17, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-17-2026/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current price movements; no ECM reference or future forecast."
+    },
+    {
+      "wp_id": 387731,
+      "title": "Interview: Will the US/Iran Deal Hold?",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/interview-will-the-us-iran-deal-hold/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Interview teaser with empty body; no ECM reference or specific dated forecast content."
+    },
+    {
+      "wp_id": 387759,
+      "title": "PRIVATE BLOG – Gold & Zelensky Trying to Start WWIII ASAP",
+      "link": "https://www.armstrongeconomics.com/world-news/war/private-blog-gold-zelensky-trying-to-start-wwiii-asap/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Promotional post for private blog subscribers; no actual forecast content provided, just a teaser directing to subscription service."
+    },
+    {
+      "wp_id": 387728,
+      "title": "Interview: Wars, AI, and the Great Reset",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/interview-wars-ai-and-the-great-reset/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post title indicates an interview format; body is empty, making content classification impossible, but format suggests media appearance/commentary rather than ECM-dated prediction."
     }
   ]
 }

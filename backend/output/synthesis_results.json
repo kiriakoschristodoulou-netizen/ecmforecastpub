@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-14T07:00:43.061321+00:00",
+  "generated_at": "2026-06-21T07:13:29.448343+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
-  "post_count": 14,
+  "post_count": 15,
   "usage": {
-    "input_tokens": 45181,
-    "output_tokens": 4817,
-    "estimated_cost_usd": 0.20779799999999998,
+    "input_tokens": 47770,
+    "output_tokens": 5656,
+    "estimated_cost_usd": 0.22815,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -135,8 +135,17 @@
       "synthesis": "The ECM model targets January 11–12, 2026 (2026.03137) as the entry into a third wave, a critical geopolitical inflection tied to the NATO-Russia-Ukraine conflict. European leaders' refusal to pursue peace, combined with asset seizures that violate international norms, reflect the capital and confidence dynamics the cycle has long anticipated. The model further warns the EU's survival beyond 2030.33 is in serious doubt, making this wave transition a pivotal marker to watch.",
       "category_suggestion": "geopolitical_cycle",
       "tag_suggestion": "nato_inflection"
+    },
+    {
+      "wp_id": 387700,
+      "title": "Trump said Netanyahu has \"no f—ing judgement.\"",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/trump-said-netanyahu-has-no-f-ing-judgement/",
+      "predicted_date": "2026-08-01",
+      "synthesis": "The ECM forecast points to August 2026 as a period of renewed tension in the Middle East, potentially escalating into Q1 2027. The cycle aligns with compounding political pressures: Netanyahu faces domestic unpopularity and needs a military win, while U.S. midterm dynamics create conflicting incentives around disengagement from Iran. August's cycle date is the near-term trigger to watch for an escalation event.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "mideast_inflection"
     }
   ],
-  "auto_cleaned_at": "2026-06-14T07:00:43.145622+00:00",
-  "auto_clean_dropped": 31
+  "auto_cleaned_at": "2026-06-21T07:13:29.529016+00:00",
+  "auto_clean_dropped": 32
 }

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-14T07:00:43.197476+00:00",
+  "generated_at": "2026-06-21T07:13:29.580383+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 14 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 136 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
-  "forecast_count": 53,
+  "source_summary": "39 chart-derived ECM cycle dates + 15 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 136 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "forecast_count": 54,
   "forecasts": [
     {
       "id": "euro-wave2-trough-2026-01-11",
@@ -600,6 +600,38 @@
       ],
       "origin": "chart",
       "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
+    },
+    {
+      "id": "blog-387700",
+      "event_date": "2026-08-01",
+      "title": "Trump said Netanyahu has \"no f—ing judgement.\"",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "mideast_inflection",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast points to August 2026 as a period of renewed tension in the Middle East, potentially escalating into Q1 2027. The cycle aligns with compounding political pressures: Netanyahu faces domestic unpopularity and needs a military win, while U.S. midterm dynamics create conflicting incentives around disengagement from Iran. August's cycle date is the near-term trigger to watch for an escalation event.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/international-news/iran/trump-said-netanyahu-has-no-f-ing-judgement/"
+      },
+      "related_events": [
+        {
+          "date": "2026-08-01",
+          "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
+          "date": "2026-07-23",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        }
+      ],
+      "origin": "blog",
+      "first_seen_at": "2026-06-21T07:13:29.580383+00:00"
     },
     {
       "id": "nato-cycle-2026-09-03",

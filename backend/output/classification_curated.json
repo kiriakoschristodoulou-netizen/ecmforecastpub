@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-14T06:58:39.786183+00:00",
+  "generated_at": "2026-06-21T07:11:08.736028+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 107,
-  "kept_count": 45,
+  "input_post_count": 114,
+  "kept_count": 47,
   "usage": {
-    "input_tokens": 6334,
-    "output_tokens": 611,
-    "estimated_cost_usd": 0.009389,
+    "input_tokens": 7612,
+    "output_tokens": 682,
+    "estimated_cost_usd": 0.011022,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -973,6 +973,69 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Post references the existing 'Panic Cycle year' without presenting a NEW or AMENDED model-attributed dated prediction; discussion of current inflation trends and geopolitical analysis lacks specific future date attribution to the ECM."
+    },
+    {
+      "wp_id": 387580,
+      "title": "Russia's New Warning Shot From Space",
+      "link": "https://www.armstrongeconomics.com/world-news/war/russias-new-warning-shot-from-space/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the 2026 Panic Cycle year as context for geopolitical analysis but contains no new or amended model-attributed dated prediction; only editorial speculation about future conflict."
+    },
+    {
+      "wp_id": 387689,
+      "title": "Kevin Warsh and the End of the Powell Era",
+      "link": "https://www.armstrongeconomics.com/world-news/central-banks/kevin-warsh-and-the-end-of-the-powell-era/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post mentions 'Panic Cycle year' and references declining confidence into 2027 as general framework, but contains no specific model-attributed month-level or day-level prediction; only commentary on economic conditions."
+    },
+    {
+      "wp_id": 387700,
+      "title": "Trump said Netanyahu has \"no f—ing judgement.\"",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/trump-said-netanyahu-has-no-f-ing-judgement/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-08-01",
+      "reason": "Armstrong explicitly states he expects 'tensions to rise again especially in August and this may escalate into the first quarter of 2027,' attributed to his geopolitical analysis cycle; August 2026 is future month-level prediction."
+    },
+    {
+      "wp_id": 387675,
+      "title": "Netanyahu's War Is Not Over",
+      "link": "https://www.armstrongeconomics.com/world-news/war/netanyahus-war-is-not-over/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the Economic Confidence Model and war cycle turning up into 2027 and major turning point into 2029, but these are existing known dates without amendment; no new model-attributed prediction with specific month-level precision."
+    },
+    {
+      "wp_id": 387665,
+      "title": "The Strait of Hormuz May Reopen But the War Cycle Is Not Finished",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/the-strait-of-hormuz-may-reopen-but-the-war-cycle-is-not-finished/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the Panic Cycle year and war cycle pointing toward geopolitical volatility into 2027, but cites existing model framework without presenting a new or amended model-attributed dated prediction; 2027 is year-only without month specificity."
+    },
+    {
+      "wp_id": 387742,
+      "title": "Slovakia's Constitutional Court Fires a Warning Shot at Debt Addiction",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/slovakias-constitutional-court-fires-a-warning-shot-at-debt-addiction/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references existing ECM dates (2028, 2032) without amending them; no new model-derived prediction is presented, only editorial commentary on sovereign debt crisis."
+    },
+    {
+      "wp_id": 387738,
+      "title": "Israel's Conscription Crisis Exposes a Nation Divided",
+      "link": "https://www.armstrongeconomics.com/world-news/war/israels-conscription-crisis-exposes-a-nation-divided/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-08-01",
+      "reason": "Armstrong attributes to War Cycle that 'Come August, the cycle is turning up,' presenting a new model-dated prediction for August 2026 regarding heated tensions."
     }
   ]
 }
