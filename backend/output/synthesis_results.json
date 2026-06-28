@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-21T07:13:29.448343+00:00",
+  "generated_at": "2026-06-28T06:40:30.400998+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
   "post_count": 15,
   "usage": {
-    "input_tokens": 47770,
-    "output_tokens": 5656,
-    "estimated_cost_usd": 0.22815,
+    "input_tokens": 48321,
+    "output_tokens": 5340,
+    "estimated_cost_usd": 0.225063,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -146,6 +146,6 @@
       "tag_suggestion": "mideast_inflection"
     }
   ],
-  "auto_cleaned_at": "2026-06-21T07:13:29.529016+00:00",
-  "auto_clean_dropped": 32
+  "auto_cleaned_at": "2026-06-28T06:40:30.486074+00:00",
+  "auto_clean_dropped": 34
 }

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-21T07:11:08.736028+00:00",
+  "generated_at": "2026-06-28T06:38:15.358698+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 114,
-  "kept_count": 47,
+  "input_post_count": 120,
+  "kept_count": 49,
   "usage": {
-    "input_tokens": 7612,
-    "output_tokens": 682,
-    "estimated_cost_usd": 0.011022,
+    "input_tokens": 6554,
+    "output_tokens": 609,
+    "estimated_cost_usd": 0.009599,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1036,6 +1036,60 @@
       "confidence": "medium",
       "predicted_date": "2026-08-01",
       "reason": "Armstrong attributes to War Cycle that 'Come August, the cycle is turning up,' presenting a new model-dated prediction for August 2026 regarding heated tensions."
+    },
+    {
+      "wp_id": 387773,
+      "title": "Canada's Inflation Problem Is Far From Over",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/canadas-inflation-problem-is-far-from-over/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "References existing model date (2032 sovereign debt turning point) without amending it; mentions 2026-2028 period only as vague reference to existing forecast, not a new prediction."
+    },
+    {
+      "wp_id": 387780,
+      "title": "Germany's Political Class Wants Your Children for War",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/germanys-political-class-wants-your-children-for-war/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-06-01",
+      "reason": "Armstrong explicitly attributes to his ECM model: '2026 marks a Panic Cycle year tied to rising geopolitical tensions and military escalation' with trend extending into 2027; states model warning about current 2026 panic cycle with month-level specificity."
+    },
+    {
+      "wp_id": 387767,
+      "title": "Starmer's Fall & The Rise of Farage",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/starmers-fall-the-rise-of-farage/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "References existing 2026 Panic Cycle model without amending it; post is political commentary analyzing Starmer/Farage, not a new model-dated prediction."
+    },
+    {
+      "wp_id": 387789,
+      "title": "Japan: The First Domino in the Sovereign Debt Crisis?",
+      "link": "https://www.armstrongeconomics.com/international-news/japan/japan-the-first-domino-in-the-sovereign-debt-crisis/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "References existing model date (into 2032 for sovereign debt crisis) without amending it; post is analysis of Japan's current debt situation, not a new model-attributed prediction."
+    },
+    {
+      "wp_id": 387847,
+      "title": "Inflation Remains Undefeated",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/inflation-remains-undefeated/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-06-01",
+      "reason": "Armstrong explicitly attributes to his ECM model: 'Our models continue to point toward rising volatility into 2026 as the Panic Cycle unfolds' with specific predicted events (war, capital migration, sovereign debt stress, declining confidence); current month-level specificity for ongoing panic cycle."
+    },
+    {
+      "wp_id": 387849,
+      "title": "China Moves on Taiwan – Ethnic Unity Law",
+      "link": "https://www.armstrongeconomics.com/world-news/war/china-moves-on-taiwan-ethnic-unity-law/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the existing '2027 War Cycle' model date in passing without presenting a new model-attributed prediction or amendment; the bulk is geopolitical analysis and policy reporting on China's Ethnic Unity Law."
     }
   ]
 }

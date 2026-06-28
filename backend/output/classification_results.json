@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-21T07:10:58.282484+00:00",
+  "generated_at": "2026-06-28T06:38:07.865938+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 914,
-  "kept_count": 114,
+  "post_count": 938,
+  "kept_count": 120,
   "usage": {
-    "input_tokens": 25924,
-    "output_tokens": 2288,
-    "estimated_cost_usd": 0.037364,
+    "input_tokens": 21700,
+    "output_tokens": 2142,
+    "estimated_cost_usd": 0.03241,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -8236,6 +8236,222 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Post title indicates an interview format; body is empty, making content classification impossible, but format suggests media appearance/commentary rather than ECM-dated prediction."
+    },
+    {
+      "wp_id": 387773,
+      "title": "Canada's Inflation Problem Is Far From Over",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/canadas-inflation-problem-is-far-from-over/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2032-01-01",
+      "reason": "Post references 'our long-term models' pointing to '2032 as a major sovereign debt turning point' and discusses 2026-2028 as aligned with 'broader forecasts for rising volatility, recessionary pressures, and increasing civil unrest,' but ECM is not explicitly named and the event is somewhat general."
+    },
+    {
+      "wp_id": 387780,
+      "title": "Germany's Political Class Wants Your Children for War",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/germanys-political-class-wants-your-children-for-war/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Post explicitly states 'Our models have been warning that 2026 marks a Panic Cycle year tied to rising geopolitical tensions and military escalation. The trend extending into 2027 becomes increasingly dangerous,' directly referencing the ECM Panic Cycle model with a specific future date and geopolitical escalation prediction."
+    },
+    {
+      "wp_id": 387767,
+      "title": "Starmer's Fall & The Rise of Farage",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/starmers-fall-the-rise-of-farage/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-01-01",
+      "reason": "Post explicitly references 'The 2026 Panic Cycle was never simply about markets. It is about confidence in institutions' and predicts continued political realignment and establishment party collapse aligned with this ECM cycle, with the specific event being loss of institutional confidence in 2026."
+    },
+    {
+      "wp_id": 387775,
+      "title": "Market Talk – June 22, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-22-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current price movements and data with no ECM reference, model prediction, or future event forecast—pure market commentary."
+    },
+    {
+      "wp_id": 387755,
+      "title": "Your Car Was Never the Target",
+      "link": "https://www.armstrongeconomics.com/government-surveillance/your-car-was-never-the-target/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of surveillance technology expansion and government overreach without reference to ECM, the model, or any dated forecast; general opinion piece on ongoing trends."
+    },
+    {
+      "wp_id": 387744,
+      "title": "England: Where the Police Investigate Babies",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/england-where-the-police-investigate-babies/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current UK policing practices with no ECM reference, specific dated prediction, or forecast of a future event."
+    },
+    {
+      "wp_id": 387735,
+      "title": "California's Hunt IPO Taxes",
+      "link": "https://www.armstrongeconomics.com/world-news/taxes/californias-hunt-for-the-ipo-tax-windfall/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on California tax policy and business climate trends with no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 387763,
+      "title": "PRIVATE BLOG – Germany Claims It's Ready to Fight Russia Tonight",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/private-blog-germany-claims-its-ready-to-fight-russia-tonight/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private blog content; no substantive forecast content provided."
+    },
+    {
+      "wp_id": 387803,
+      "title": "India's Russian Oil Imports Expose the Failure of Western Sanctions",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/indias-russian-oil-imports-expose-the-failure-of-western-sanctions/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current geopolitical trends and India's energy policy; mentions future fragmentation generally but no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 387838,
+      "title": "A Foreign-Born Judge Says States Cannot Verify Citizenship Before Elections",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/a-foreign-born-judge-says-states-cannot-verify-citizenship-before-elections/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current US election policy and court ruling with no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 387817,
+      "title": "Politicians Never Spend Their Own Money",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/canadian-politicians-never-spend-their-own-money/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Canadian government spending and inflation; no ECM reference, no specific dated prediction."
+    },
+    {
+      "wp_id": 387833,
+      "title": "Market Talk – June 24, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-24-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting past market movements on June 24, 2026; no ECM reference or prediction."
+    },
+    {
+      "wp_id": 387821,
+      "title": "China, Russia, Iran, and Europe along with the rest of the World are Free to Vote in US Elections",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/opinion/china-russia-iran-and-europe-along-with-the-rest-of-the-world-are-free-to-vote-in-us-elections/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on a court ruling and political opinion; mentions 'our model' vaguely but makes no specific ECM-dated prediction."
+    },
+    {
+      "wp_id": 387815,
+      "title": "PRIVATE BLOG – Gold & Mr. Bean on Crack",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/private-blog-gold-mr-bean-on-crack/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private blog post; no substantive content or ECM-dated prediction."
+    },
+    {
+      "wp_id": 387801,
+      "title": "The Death of Homeownership for the Next Generation",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/real_estate/the-death-of-homeownership-for-the-next-generation/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Analysis of housing trends and confidence erosion with reference to 'long-term models' suggesting 'regional divergence into the years ahead'; lacks explicit ECM reference and specific dated prediction (mentions conference 'next month' but not an ECM forecast date)."
+    },
+    {
+      "wp_id": 387789,
+      "title": "Japan: The First Domino in the Sovereign Debt Crisis?",
+      "link": "https://www.armstrongeconomics.com/international-news/japan/japan-the-first-domino-in-the-sovereign-debt-crisis/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2032-01-01",
+      "reason": "Post references Armstrong's models and predicts sovereign debt crisis as critical phase into 2032, but the specific event (Japan sovereign debt crisis) lacks explicit ECM dating; the 2032 reference is general forward-looking analysis rather than a precise turning point prediction."
+    },
+    {
+      "wp_id": 387783,
+      "title": "US Strikes Deal for Kenya's Rare Earth Minerals",
+      "link": "https://www.armstrongeconomics.com/international-news/africa/us-strikes-deal-for-kenyas-rare-earth-minerals/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current geopolitical events and resource competition; no ECM reference, no dated prediction of a specific future turning point."
+    },
+    {
+      "wp_id": 387808,
+      "title": "PRIVATE BLOG – Gold – Dancing with the Devil",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/private-blog-gold-dancing-with-the-devil/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private blog content; no substantive ECM forecast or dated prediction included."
+    },
+    {
+      "wp_id": 387812,
+      "title": "Interview: Taiwan is the Real Risk – Socrates Accurately Forecasts GOLD",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/interview-taiwan-is-the-real-risk/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; title only mentions Socrates accuracy on gold and Taiwan risk but provides no forecasting content or specific dated prediction."
+    },
+    {
+      "wp_id": 387865,
+      "title": "Market Talk – June 26, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-26-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and percentage changes with no ECM model reference or specific future event prediction."
+    },
+    {
+      "wp_id": 387845,
+      "title": "The Computer Was RIGHT About Gold",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/the-computer-was-right-about-gold/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "While the post references the computer model's past prediction of a 30% gold correction (which has now occurred in June 2026), it discusses a PAST turning point that has already materialized, making this commentary on historical model accuracy rather than a future ECM forecast."
+    },
+    {
+      "wp_id": 387847,
+      "title": "Inflation Remains Undefeated",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/inflation-remains-undefeated/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-01-01",
+      "reason": "The post explicitly references 'our models continue to point toward rising volatility into 2026 as the Panic Cycle unfolds,' predicting a specific event (panic cycle volatility and sovereign debt stress) tied to 2026, though the exact date within 2026 is not specified."
+    },
+    {
+      "wp_id": 387849,
+      "title": "China Moves on Taiwan – Ethnic Unity Law",
+      "link": "https://www.armstrongeconomics.com/world-news/war/china-moves-on-taiwan-ethnic-unity-law/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "The post references 'the 2027 War Cycle' and predicts Taiwan will remain a critical flashpoint and geopolitical flashpoint as we move toward that cycle, tying a specific predicted event (Taiwan conflict/geopolitical stress) to 2027."
+    },
+    {
+      "wp_id": 387851,
+      "title": "Market Talk – June 25, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-25-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a daily market roundup (Market Talk) reporting current price movements and market data; it contains no ECM model reference, no specific predicted event, and no future dated forecast."
     }
   ]
 }
