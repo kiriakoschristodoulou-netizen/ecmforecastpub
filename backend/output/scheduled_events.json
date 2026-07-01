@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-01T20:07:22.945528+00:00",
-  "event_count": 136,
+  "generated_at": "2026-07-01T07:52:39.906376+00:00",
+  "event_count": 140,
   "sources": [
     "fomc",
     "wikipedia_electoral",
@@ -501,6 +501,13 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-04-12",
+      "title": "Peru, President (1st round), Chamber of Deputies and Senate",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
       "date": "2026-04-22",
       "title": "20-Year Bond auction (reopening)",
       "category": "sovereign_debt",
@@ -552,6 +559,13 @@
     {
       "date": "2026-06-07",
       "title": "Peru, President (second round)",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "Peru, President (2nd round)",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
       "source": "wikipedia_electoral"
@@ -816,6 +830,13 @@
       "source": "treasury_pattern"
     },
     {
+      "date": "2027-04-18",
+      "title": "France, President",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
       "date": "2027-04-21",
       "title": "20-Year Bond auction (reopening)",
       "category": "sovereign_debt",
@@ -863,6 +884,13 @@
       "category": "sovereign_debt",
       "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
       "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-06-17",
+      "title": "FOMC meeting",
+      "category": "central_bank",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "fomc"
     },
     {
       "date": "2027-06-23",

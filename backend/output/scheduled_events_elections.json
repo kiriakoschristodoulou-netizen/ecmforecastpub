@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "source": "wikipedia_electoral",
-  "generated_at": "2026-06-01T20:07:22.736755+00:00",
-  "event_count": 19,
+  "generated_at": "2026-07-01T07:52:39.689530+00:00",
+  "event_count": 22,
   "events": [
     {
       "date": "2026-02-08",
@@ -61,6 +61,13 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-04-12",
+      "title": "Peru, President (1st round), Chamber of Deputies and Senate",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
       "date": "2026-05-31",
       "title": "Colombia, President",
       "category": "election",
@@ -77,6 +84,13 @@
     {
       "date": "2026-06-07",
       "title": "Peru, President (second round)",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2026-06-07",
+      "title": "Peru, President (2nd round)",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
       "source": "wikipedia_electoral"
@@ -119,6 +133,13 @@
     {
       "date": "2027-01-30",
       "title": "Germany, President",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2027-04-18",
+      "title": "France, President",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
       "source": "wikipedia_electoral"

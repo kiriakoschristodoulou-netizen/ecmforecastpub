@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-06-28T06:40:30.537350+00:00",
+  "generated_at": "2026-07-01T07:52:39.963151+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 15 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 136 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "source_summary": "39 chart-derived ECM cycle dates + 15 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 140 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
   "forecast_count": 54,
   "forecasts": [
     {
@@ -776,7 +776,7 @@
       "category": "ecm_pi_target",
       "tag": "pi_cycle_peak",
       "importance": "high",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Labeled Pi Target on Armstrong's ECM detail chart (June 28th).",
       "synthesis": "A Pi cycle target derived from the 31.4-year Pi cycle within Armstrong's Economic Confidence Model. Pi targets historically mark significant inflection points in market and political confidence.",
       "source": {
@@ -789,6 +789,12 @@
           "title": "20-Year Bond auction (reopening)",
           "category": "sovereign_debt",
           "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        },
+        {
+          "date": "2027-06-17",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         }
       ],
       "origin": "chart",
