@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T07:52:39.963151+00:00",
+  "generated_at": "2026-07-05T06:18:21.977164+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 15 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 140 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
-  "forecast_count": 54,
+  "source_summary": "39 chart-derived ECM cycle dates + 16 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 140 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "forecast_count": 55,
   "forecasts": [
     {
       "id": "euro-wave2-trough-2026-01-11",
@@ -767,6 +767,25 @@
       ],
       "origin": "blog",
       "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
+    },
+    {
+      "id": "blog-387938",
+      "event_date": "2027-03-01",
+      "title": "European Taxpayers Spend 3.9B Euros on Drones for Ukraine",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "war_cycle_escalation",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast identifies 2026 as a Panic Cycle year, with 2027 carrying the highest risk of broader war escalation. Europe's €211B+ in Ukraine support and new €90B loan program signal a shift toward a permanent war economy, aligning with the cycle's geopolitical pressure phase. The model warns 2028 will bring the economic consequences of these commitments. Watch for further NATO mobilization signals and sovereign debt stress as the 2027 window approaches.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/world-news/war/european-taxpayers-spend-3-9b-euros-on-drones-for-ukraine/"
+      },
+      "related_events": [],
+      "origin": "blog",
+      "first_seen_at": "2026-07-05T06:18:21.977164+00:00"
     },
     {
       "id": "ecm-pi-target-2027-06-29",

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-06-28T06:40:30.400998+00:00",
+  "generated_at": "2026-07-05T06:18:21.857825+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
-  "post_count": 15,
+  "post_count": 16,
   "usage": {
-    "input_tokens": 48321,
-    "output_tokens": 5340,
-    "estimated_cost_usd": 0.225063,
+    "input_tokens": 50869,
+    "output_tokens": 5510,
+    "estimated_cost_usd": 0.235257,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -144,8 +144,17 @@
       "synthesis": "The ECM forecast points to August 2026 as a period of renewed tension in the Middle East, potentially escalating into Q1 2027. The cycle aligns with compounding political pressures: Netanyahu faces domestic unpopularity and needs a military win, while U.S. midterm dynamics create conflicting incentives around disengagement from Iran. August's cycle date is the near-term trigger to watch for an escalation event.",
       "category_suggestion": "geopolitical_cycle",
       "tag_suggestion": "mideast_inflection"
+    },
+    {
+      "wp_id": 387938,
+      "title": "European Taxpayers Spend 3.9B Euros on Drones for Ukraine",
+      "link": "https://www.armstrongeconomics.com/world-news/war/european-taxpayers-spend-3-9b-euros-on-drones-for-ukraine/",
+      "predicted_date": "2027-03-01",
+      "synthesis": "The ECM forecast identifies 2026 as a Panic Cycle year, with 2027 carrying the highest risk of broader war escalation. Europe's €211B+ in Ukraine support and new €90B loan program signal a shift toward a permanent war economy, aligning with the cycle's geopolitical pressure phase. The model warns 2028 will bring the economic consequences of these commitments. Watch for further NATO mobilization signals and sovereign debt stress as the 2027 window approaches.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "war_cycle_escalation"
     }
   ],
-  "auto_cleaned_at": "2026-06-28T06:40:30.486074+00:00",
-  "auto_clean_dropped": 34
+  "auto_cleaned_at": "2026-07-05T06:18:21.917371+00:00",
+  "auto_clean_dropped": 35
 }

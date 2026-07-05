@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-06-28T06:38:07.865938+00:00",
+  "generated_at": "2026-07-05T06:15:47.115310+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 938,
-  "kept_count": 120,
+  "post_count": 967,
+  "kept_count": 126,
   "usage": {
-    "input_tokens": 21700,
-    "output_tokens": 2142,
-    "estimated_cost_usd": 0.03241,
+    "input_tokens": 26152,
+    "output_tokens": 2502,
+    "estimated_cost_usd": 0.038662,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -8452,6 +8452,267 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "This is a daily market roundup (Market Talk) reporting current price movements and market data; it contains no ECM model reference, no specific predicted event, and no future dated forecast."
+    },
+    {
+      "wp_id": 387881,
+      "title": "Volkswagen Is Germany's Warning",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/volkswagen-is-germanys-warning/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "The post references 'our computer' warning that 'Europe faces a prolonged economic decline' and confirms 'what the cycles have been projecting' regarding a downtrend in Germany and the EU, but does not specify a particular future date for this prediction."
+    },
+    {
+      "wp_id": 387861,
+      "title": "They Told You Your Dishwasher Could Spy on You",
+      "link": "https://www.armstrongeconomics.com/government-surveillance/they-told-you-your-dishwasher-could-spy-on-you/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is historical commentary and opinion about surveillance technology and CIA statements from 2012; it contains no ECM reference, no specific predicted event, and no future date prediction."
+    },
+    {
+      "wp_id": 387873,
+      "title": "Europe to Assist Zelensky's Conscription Effort",
+      "link": "https://www.armstrongeconomics.com/world-news/war/europe-to-assist-zelenskys-draft-effort/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is news commentary and analysis of current EU and Ukrainian policy regarding conscription and refugee protection; it contains no ECM reference and makes no specific dated predictions."
+    },
+    {
+      "wp_id": 387859,
+      "title": "SEE YOU NEXT MONTH!",
+      "link": "https://www.armstrongeconomics.com/uncategorized/see-you-next-month-2/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a promotional post advertising an in-person educational event about cycles and confidence theory; it explicitly states 'No market forecasts or investment recommendations will be discussed.'"
+    },
+    {
+      "wp_id": 387871,
+      "title": "Why It's Illegal for Farmers to Plant Their Own Seeds",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/agriculture/why-its-illegal-for-farmers-to-plant-their-own-seeds/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot be classified as a forecast without content."
+    },
+    {
+      "wp_id": 387890,
+      "title": "PRIVATE BLOG – The July Crash?",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/stock-indicies/dow-jones/private-blog-the-july-crash/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser with no substantive content; promotional post directing readers to subscription service without making any specific ECM-dated predictions."
+    },
+    {
+      "wp_id": 387938,
+      "title": "European Taxpayers Spend 3.9B Euros on Drones for Ukraine",
+      "link": "https://www.armstrongeconomics.com/world-news/war/european-taxpayers-spend-3-9b-euros-on-drones-for-ukraine/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Post explicitly references 'the computer' and states 'the computer has warned that 2026 is a Panic Cycle, 2027 carries the serious risk of broader war, and 2028 brings the economic consequences,' predicting a specific event (broader war) tied to 2027."
+    },
+    {
+      "wp_id": 387956,
+      "title": "Open Borders Contributed to Real Estate Inflation",
+      "link": "https://www.armstrongeconomics.com/real-estate/open-borders-contributed-to-real-estate-inflation/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "General economic analysis of housing inflation caused by immigration with reference to past computer projections ('our computer projected years ago'); contains no specific dated prediction for a future event."
+    },
+    {
+      "wp_id": 387951,
+      "title": "The Drone Has Replaced the Tank",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-drone-has-replaced-the-tank/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-01-01",
+      "reason": "Post states 'Our computer has consistently projected that 2026 marks the acceleration of the international War Cycle' and predicts specific military transformation outcomes (drone-dominated warfare), though the forecast appears to apply to the current year (2026) rather than a distinct future date."
+    },
+    {
+      "wp_id": 387959,
+      "title": "Market Talk – June 30, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-june-30-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting past trading data with no ECM references or future-dated predictions."
+    },
+    {
+      "wp_id": 387940,
+      "title": "Trump Blamed for Killing 1300 Frenchmen?",
+      "link": "https://www.armstrongeconomics.com/international-news/france/trump-blamed-for-killing-1300-frenchmen/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News commentary on current French heat wave and political criticism; no ECM reference, no specific dated prediction, and no forecast component."
+    },
+    {
+      "wp_id": 387934,
+      "title": "Giving It A Shot",
+      "link": "https://www.armstrongeconomics.com/armstrong-economics-upcoming-events/giving-it-a-shot/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post announcing July 25th 2026 conference and book release; mentions future date but only as event schedule, not as a specific ECM-dated prediction of an economic or geopolitical event."
+    },
+    {
+      "wp_id": 387908,
+      "title": "Rare Earths in Kazakhstan",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/rare-earths-in-kazakhstan/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News analysis and opinion on current Trump administration mining deals and corruption concerns; no ECM reference and no specific dated economic prediction despite discussing resource nationalism trends."
+    },
+    {
+      "wp_id": 387906,
+      "title": "The AI Arms Race Is Replacing Globalization",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ai-computers/the-ai-arms-race-is-replacing-globalization/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "References 'the computer' projecting globalization breaking apart and nations preparing for geopolitical confrontation, plus mentions convergence of sovereign debt crisis and 'War Cycle' accelerating 'into the Panic Cycle and beyond,' but lacks a specific future date for the predicted turning point."
+    },
+    {
+      "wp_id": 387901,
+      "title": "One Million Obamacare Filers Lack Social Security Numbers",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/one-million-obamacare-filers-lack-social-security-numbers/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Social Security fraud and sovereign debt crisis trends; mentions the sovereign debt cycle end-stage but provides no ECM reference, specific dated prediction, or forecast of a particular future event."
+    },
+    {
+      "wp_id": 387916,
+      "title": "Understanding the World Economy Free Download",
+      "link": "https://www.armstrongeconomics.com/uncategorized/understanding-the-world-economy-free-download/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post about a July 25th conference and book download; no ECM forecast or specific dated prediction about future events."
+    },
+    {
+      "wp_id": 388009,
+      "title": "Market Talk – July 2, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-2-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current market data from July 2, 2026; no ECM reference or prediction of future events."
+    },
+    {
+      "wp_id": 387967,
+      "title": "Ukraine Places Price Tag on Russian Lives – Gamified Warfare",
+      "link": "https://www.armstrongeconomics.com/world-news/war/ukraine-places-price-tag-on-russian-lives-gamified-warfare/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current Ukraine military incentive structures and war gamification; no ECM model reference or specific dated prediction."
+    },
+    {
+      "wp_id": 387970,
+      "title": "Europe Is Already Preparing for War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/europe-is-already-preparing-for-war/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "References 'the computer' ECM forecast predicting 2026 as Panic Cycle beginning, 2027 carries highest risk of broader international war, and 2028 recession/civil unrest; specific future dated predictions tied to ECM model."
+    },
+    {
+      "wp_id": 387977,
+      "title": "June ADP – Continued Trend in Labor",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/june-adp-continued-trend-in-labor/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "References 'our computer' and 2026 Panic Cycle forecast, but this post is primarily analysis of current June ADP employment data with general context about economic cycles; no new specific dated prediction beyond vague 'more volatile period ahead.'"
+    },
+    {
+      "wp_id": 387992,
+      "title": "July Conference is For Everyone",
+      "link": "https://www.armstrongeconomics.com/armstrong-economics-upcoming-events/july-conference-is-for-everyone/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post about a conference event with no ECM reference, specific prediction, or future dated forecast."
+    },
+    {
+      "wp_id": 387984,
+      "title": "Market Talk – July 1, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-1-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current/past market data with no ECM reference or future prediction."
+    },
+    {
+      "wp_id": 387980,
+      "title": "12-year-old Canadian Girl Exposes the Banks",
+      "link": "https://www.armstrongeconomics.com/uncategorized/12-year-old-canadian-girl-exposes-the-banks/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Brief commentary on banking system with no ECM reference, specific prediction, or future date."
+    },
+    {
+      "wp_id": 388010,
+      "title": "Interview: July-August Escalation, Gold's June Low & Why Capital is Fleeing to America",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/interview-july-august-escalation-golds-june-low-why-capital-is-fleeing-to-america/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post for Armstrong Economic Code book describing the ECM model in general terms without making a specific dated prediction in this post."
+    },
+    {
+      "wp_id": 388031,
+      "title": "Will The USA Split in Two Thanks to the LEFT?",
+      "link": "https://www.armstrongeconomics.com/history/americas-economic-history/will-the-usa-split-in-two-thanks-to-the-left/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong's computer forecasts US political fragmentation and civil unrest between 2026 and 2028 with economy taking a 'nose-dive' during this period, explicitly tied to the 2028 timeframe."
+    },
+    {
+      "wp_id": 387964,
+      "title": "Interview: GOLD – The Next Rally",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/interview-gold-the-next-rally/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot assess ECM forecast criteria."
+    },
+    {
+      "wp_id": 387841,
+      "title": "Finland: Landing a Summer Retail Job Is Now Harder Than Getting Into Medical School",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/finland-landing-a-summer-retail-job-is-now-harder-than-getting-into-medical-school/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current economic conditions in Finland; references general model warnings about Europe's stagnation but makes no specific ECM-dated prediction of a future event."
+    },
+    {
+      "wp_id": 387998,
+      "title": "French Govt Regulated Air Conditioning Accessibility",
+      "link": "https://www.armstrongeconomics.com/world-news/climate/french-govt-regulated-air-conditioning-accessibility/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece on French climate and energy policy; no ECM reference, no specific dated prediction, and no connection to Armstrong's forecasting model."
+    },
+    {
+      "wp_id": 387953,
+      "title": "America's Greatest Threat Is Internal Division",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/americas-greatest-threat-is-internal-division/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on American political division and historical context; references the computer's warning about generational/political divide but makes no specific dated ECM prediction."
     }
   ]
 }
