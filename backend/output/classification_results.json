@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-05T06:15:47.115310+00:00",
+  "generated_at": "2026-07-12T05:39:15.786155+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 967,
-  "kept_count": 126,
+  "post_count": 995,
+  "kept_count": 127,
   "usage": {
-    "input_tokens": 26152,
-    "output_tokens": 2502,
-    "estimated_cost_usd": 0.038662,
+    "input_tokens": 29680,
+    "output_tokens": 2387,
+    "estimated_cost_usd": 0.041615,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -8713,6 +8713,258 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Commentary on American political division and historical context; references the computer's warning about generational/political divide but makes no specific dated ECM prediction."
+    },
+    {
+      "wp_id": 388066,
+      "title": "Cuba's Power Grid Has Collapsed",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/cubas-power-grid-has-collapsed/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting and historical/economic commentary on Cuba's power grid collapse; no ECM reference, no specific dated future prediction."
+    },
+    {
+      "wp_id": 388050,
+      "title": "Canada Taps Germany for Naval Demand",
+      "link": "https://www.armstrongeconomics.com/world-news/war/canada-taps-germany-for-naval-demand/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical analysis and commentary on Canadian military procurement and global rearmament trends; mentions War Cycle in passing but makes no specific dated ECM prediction."
+    },
+    {
+      "wp_id": 388056,
+      "title": "US Debt Exceeds 100% of GDP for the first time since World War II",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/us-debt-exceeds-100-of-gdp-for-the-first-time-since-world-war-ii/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "References the computer model and sovereign debt crisis but only provides general trend analysis and historical context (CBO projections to 2036); no specific ECM-dated turning point prediction."
+    },
+    {
+      "wp_id": 388072,
+      "title": "Leak from Israel to Embarass Trump for NATO",
+      "link": "https://www.armstrongeconomics.com/international-news/israel/leak-from-israel-to-embarass-trump-for-nato/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting on leaked Israeli video regarding October 7, 2023 events (a past date); no ECM reference and no future-dated prediction."
+    },
+    {
+      "wp_id": 388064,
+      "title": "Market Talk – July 6, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-6-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market data roundup for July 6, 2026 (today/past); no ECM reference and no specific future dated prediction."
+    },
+    {
+      "wp_id": 388047,
+      "title": "The Most Hated Bull Market in History",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/stock-indicies/dow-jones/the-most-hated-bull-market-in-history-2/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a commentary post defending Armstrong's 2020 bullish call and discussing the current market as the \"most hated bull market in history\"; it references Socrates and the computer in passing but makes no specific future-dated ECM prediction in this post."
+    },
+    {
+      "wp_id": 387975,
+      "title": "The Supreme Court Finally Draws a Line on Digital Surveillance",
+      "link": "https://www.armstrongeconomics.com/government-surveillance/the-supreme-court-finally-draws-a-line-on-digital-surveillance/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on a recent Supreme Court ruling and digital surveillance trends; mentions the computer's warnings about government control but contains no specific future-dated event prediction."
+    },
+    {
+      "wp_id": 387926,
+      "title": "The War on Agriculture Never Ends",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/agriculture/the-war-on-agriculture-never-ends/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on agriculture, glyphosate, food security, and government control; mentions the computer has warned agriculture will be strategic \"into the next decade\" but provides no specific dated ECM prediction."
+    },
+    {
+      "wp_id": 388001,
+      "title": "Zelensky Angers Allies by Honoring Ukrainian Nazis",
+      "link": "https://www.armstrongeconomics.com/world-news/war/zelensky-angers-allies-by-honoring-ukrainian-nazis/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News commentary on Ukraine-Poland-Czech relations and alliance fracturing; references the computer's warning about European fragmentation but makes no specific future-dated prediction."
+    },
+    {
+      "wp_id": 388041,
+      "title": "Looking to Expand Surveillance? Is the World Just Losing Its Mind?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/looking-to-expand-surveillance-is-the-world-just-losing-its-mind/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2032-01-01",
+      "reason": "Post references the ECM model with specific turning points: May 8th, 2025 (past war cycle turn), July 1st, 2026 (recent ECM turning point), and explicitly states '2032 marking a critical turning point' and 'by 2028, the rising tide of conflicts will become unmistakable,' predicting major global realignment and increased conflicts."
+    },
+    {
+      "wp_id": 388127,
+      "title": "The Fed Is Split Because Inflation Is Political",
+      "link": "https://www.armstrongeconomics.com/world-news/central-banks/the-fed-is-split-because-inflation-is-political/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current Fed policy and inflation dynamics; analyzes recent June 2026 Fed minutes and existing conditions without referencing the ECM model or making a specific dated prediction."
+    },
+    {
+      "wp_id": 388105,
+      "title": "5 NATO Members Meet Early 3.5% GDP Obligations",
+      "link": "https://www.armstrongeconomics.com/world-news/war/5-nato-members-meet-early-3-5-gdp-obligations/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on NATO defense spending trends and geopolitical analysis; no ECM reference and no specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 388146,
+      "title": "Technical Training Conference",
+      "link": "https://www.armstrongeconomics.com/armstrong-economics-upcoming-events/technical-training-conference/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post about a potential technical training conference; mentions 2032 as context for urgency, not as a specific ECM-predicted event date."
+    },
+    {
+      "wp_id": 388144,
+      "title": "PRIVATE BLOG – Here we Go Into An Unwinnable War for 2027",
+      "link": "https://www.armstrongeconomics.com/world-news/war/private-blog-here-we-go-into-an-unwinnable-war-for-2027/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser with no substantive content; title mentions 2027 but is a promotional/paywall post without actual forecast details."
+    },
+    {
+      "wp_id": 388139,
+      "title": "Trump Ends the Ceasefire",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/trump-ends-the-ceasefire/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Q&A commentary where reader confirms Socrates was correct about a recent past event (ceasefire end); mentions Socrates but references an already-occurred prediction, not a future dated forecast."
+    },
+    {
+      "wp_id": 388121,
+      "title": "Market Talk – July 8, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-8-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market data report with no ECM reference, specific prediction, or future forecast date."
+    },
+    {
+      "wp_id": 388103,
+      "title": "Does Becoming Rich Create A God-Like Self-Image?",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/does-becoming-rich-create-a-god-like-self-image/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post analyzing historical business practices and wealth of Rockefellers, Gates, and Rothschilds with no ECM reference or future-dated prediction."
+    },
+    {
+      "wp_id": 388095,
+      "title": "NATO Member Claims Ukraine Won the War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/nato-member-claims-ukraine-won-the-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion/commentary on Ukraine war and NATO politics with no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 388090,
+      "title": "Madrid Requests European Army",
+      "link": "https://www.armstrongeconomics.com/world-news/war/madrid-requests-european-army/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical analysis of European defense policy and NATO strategy with no ECM reference or specific dated forecast."
+    },
+    {
+      "wp_id": 388079,
+      "title": "Dallas Fed Examines Biden's Open Border Policy Fallout",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/real_estate/dallas-fed-examines-bidens-open-border-policy-fallout/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Federal Reserve study of migration policy and housing impacts with no ECM reference or future-dated prediction."
+    },
+    {
+      "wp_id": 388176,
+      "title": "Market Talk – July 10, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-10-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price movements from July 10, 2026; no ECM reference, no specific future prediction, no dated forecast."
+    },
+    {
+      "wp_id": 388165,
+      "title": "The American Dream Now Comes with an $800 Monthly Car Payment",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/the-american-dream-now-comes-with-an-800-monthly-car-payment/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion commentary on current auto debt crisis and late-stage debt cycle dynamics; no ECM reference, no specific dated prediction, no model-based forecast."
+    },
+    {
+      "wp_id": 388129,
+      "title": "Housing Costs Soared Throughout EU in Q1",
+      "link": "https://www.armstrongeconomics.com/real-estate/housing-costs-soared-throughout-eu-in-q1/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of Q1 2026 EU housing data and current conditions; no ECM reference, no specific future event prediction, no dated forecast."
+    },
+    {
+      "wp_id": 388163,
+      "title": "Canada's Growing Aerospace and Defense Sector",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/canadas-growing-aerospace-and-defense-sector/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current Canadian aerospace and NATO defense spending trends; no ECM reference, no specific dated prediction, no model-based forecast."
+    },
+    {
+      "wp_id": 388167,
+      "title": "Market Talk – July 9, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-9-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price movements from July 9, 2026; no ECM reference, no specific future prediction, no dated forecast."
+    },
+    {
+      "wp_id": 388159,
+      "title": "PRIVATE BLOG – Ukraine Beware of September",
+      "link": "https://www.armstrongeconomics.com/international-news/ukraine/private-blog-ukraine-beware-of-september/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser with no substantive content, specific predictions, or dated forecasts—promotional post directing readers to subscription service."
+    },
+    {
+      "wp_id": 388152,
+      "title": "Ukraine & Zelensky's Ultimate Corruption",
+      "link": "https://www.armstrongeconomics.com/international-news/ukraine/ukraine-zelenskys-ultimate-corruption/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Historical commentary and analysis of past events (2011–2022 Ukraine timeline) with ECM model references used only to explain how capital flows were detected before the 2022 invasion; no future-dated prediction is made."
+    },
+    {
+      "wp_id": 388117,
+      "title": "The Reason Socialism Appeals to the Youth",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/the-reason-socialism-appeals-to-the-youth/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece on youth socialism and economic despair with no ECM model reference or specific future-dated prediction; includes a promotional note about a July 25 seminar but makes no dated forecast."
     }
   ]
 }
