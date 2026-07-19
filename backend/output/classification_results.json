@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-12T05:39:15.786155+00:00",
+  "generated_at": "2026-07-19T05:32:38.817043+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 995,
-  "kept_count": 127,
+  "post_count": 1028,
+  "kept_count": 130,
   "usage": {
-    "input_tokens": 29680,
-    "output_tokens": 2387,
-    "estimated_cost_usd": 0.041615,
+    "input_tokens": 32760,
+    "output_tokens": 2731,
+    "estimated_cost_usd": 0.046415,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -8965,6 +8965,303 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Opinion piece on youth socialism and economic despair with no ECM model reference or specific future-dated prediction; includes a promotional note about a July 25 seminar but makes no dated forecast."
+    },
+    {
+      "wp_id": 388226,
+      "title": "PRIVATE BLOG – ENERGY Into Year End",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/private-blog-energy-into-year-end/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional/teaser post for private subscriber content with no specific ECM-dated prediction in the post body."
+    },
+    {
+      "wp_id": 388219,
+      "title": "U.S. Senator Lindsey Graham Dead",
+      "link": "https://www.armstrongeconomics.com/uncategorized/u-s-senator-lindsey-graham-dead/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting and political commentary on Senator Graham's death; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 388209,
+      "title": "George Washington Waged a War of Attrition",
+      "link": "https://www.armstrongeconomics.com/world-news/war/george-washington-waged-a-war-of-attrition/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Historical analysis and Q&A response comparing military strategies; no ECM reference or specific dated prediction about future events."
+    },
+    {
+      "wp_id": 388100,
+      "title": "Interview: Bushfires of WW3, Debt Crises, AI Gulag, & Revolution",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/interview-bushfires-of-ww3-debt-crises-ai-gulag-revolution/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Interview title with no body content provided; cannot assess for ECM forecast criteria."
+    },
+    {
+      "wp_id": 388198,
+      "title": "PRIVATE BLOG – The European Fiscal & Debt Crisis Coming to a Head",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/private-blog-the-european-fiscal-debt-crisis-coming-to-a-head/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional/teaser post for private subscriber content with no specific ECM-dated prediction in the post body."
+    },
+    {
+      "wp_id": 388187,
+      "title": "Prejudice in Science Prevented New Discoveries",
+      "link": "https://www.armstrongeconomics.com/international-news/science/prejudice-in-science-prevented-new-discoveries/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; no ECM reference, dated prediction, or specific forecasted event present."
+    },
+    {
+      "wp_id": 388131,
+      "title": "SOCRATES FORECASTS JULY 6, 2026",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/socrates-forecasts-july-6-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; title references a past date (July 6, 2026, before today July 19, 2026), so even with SOCRATES in title, no future forecast can be assessed."
+    },
+    {
+      "wp_id": 388276,
+      "title": "Market Talk – July 14, 202",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-14-202/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price changes on July 14, 2026 (past date); no ECM reference, no specific future event predicted, no specific future date."
+    },
+    {
+      "wp_id": 388248,
+      "title": "Turkish FM Believes Israel is a Global Security Threat",
+      "link": "https://www.armstrongeconomics.com/world-news/war/turkey-has-never-abandoned-the-ottoman-dream/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical commentary mentioning that 'the computer has consistently shown that the War Cycle is not confined to Ukraine or Russia,' but no specific event, date, or ECM-derived dated prediction is made in this post."
+    },
+    {
+      "wp_id": 388243,
+      "title": "Career Politicians Do NOT Represent the People",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/career-politicians-do-not-represent-the-people/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece on career politicians and term limits; no ECM reference, no specific dated prediction, no forecasted event."
+    },
+    {
+      "wp_id": 388253,
+      "title": "Congress Never Authorized the Iran War",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/congress-never-authorized-the-iran-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece on constitutional issues regarding the Iran war; no ECM reference, no specific dated prediction, no model-based forecast."
+    },
+    {
+      "wp_id": 388255,
+      "title": "Market Talk – July 13, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-13-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup with current price data (\"Market Talk – July 13, 2026\"); no ECM reference, no specific future prediction, no model-based forecast."
+    },
+    {
+      "wp_id": 388182,
+      "title": "Italy Says NO to Blank Checks for Ukraine",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/italy-says-no-to-blank-checks-for-ukraine/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current political shifts in Europe regarding Ukraine funding; no ECM reference, no specific dated prediction, no model-based forecast."
+    },
+    {
+      "wp_id": 388170,
+      "title": "Texas Hospital Advertises Birth Tourism at Mexico Border",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/texas-hospital-advertises-birth-tourism-at-mexico-border/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece on birth tourism and citizenship law interpretation; no ECM reference, no specific dated prediction, no model-based forecast."
+    },
+    {
+      "wp_id": 388172,
+      "title": "June USA Home Sales – Prices Rise and Buyers Back Out",
+      "link": "https://www.armstrongeconomics.com/real-estate/june-home-sales-prices-rise-and-buyers-back-out/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of current June 2026 home sales data and housing market trends; no ECM reference, no specific future dated prediction, no model-based forecast."
+    },
+    {
+      "wp_id": 388228,
+      "title": "Promoting WWIII at the Berlinale",
+      "link": "https://www.armstrongeconomics.com/uncategorized/promoting-wwiii-at-the-berlinale/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "Post references ECM warning of 'MAJOR economic decline into 2028' with specific future year 2028, though the exact event timing within that year is not pinpointed to a specific date or quarter."
+    },
+    {
+      "wp_id": 388359,
+      "title": "Market Talk – July 16, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-16-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup ('Market Talk – July 16, 2026') reporting current/past market data with no ECM model reference or dated predictions for future events."
+    },
+    {
+      "wp_id": 388351,
+      "title": "We Are All Connected",
+      "link": "https://www.armstrongeconomics.com/products_services/we-are-all-connected/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post about a recorded conference event; no ECM forecast or specific dated prediction of future economic/political events."
+    },
+    {
+      "wp_id": 388336,
+      "title": "The Ebb & Flow",
+      "link": "https://www.armstrongeconomics.com/products_services/the-ebb-flow/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A-style response and personal commentary about Armstrong's career and philosophy; no ECM model reference or specific dated prediction of future events."
+    },
+    {
+      "wp_id": 388310,
+      "title": "The Fed Still Doesn't Understand Where Inflation Comes From",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/the-fed-still-doesnt-understand-where-inflation-comes-from/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-01-01",
+      "reason": "Post states 'our computer has consistently warned that increased worldwide conflict is coming in the near-term' referencing the ECM computer model, though 'near-term' is vague and no specific date is provided within the post body."
+    },
+    {
+      "wp_id": 388305,
+      "title": "US Wholesale Inflation Falls, but Governments Are Still Broke",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/us-wholesale-inflation-falls-but-governments-are-still-broke/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current inflation data and geopolitical events; discusses trends and structural economic problems without referencing ECM or predicting a specific dated event."
+    },
+    {
+      "wp_id": 388289,
+      "title": "Fed Chair Kevin Warsh's Testimony",
+      "link": "https://www.armstrongeconomics.com/uncategorized/fed-chair-kevin-warshs-testimony/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A and opinion piece about Fed Chair Warsh's testimony and monetary policy; includes a promotional notice for the July 25th seminar but makes no specific ECM-dated forecast."
+    },
+    {
+      "wp_id": 388317,
+      "title": "Rigging Elections",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/rigging-elections-2/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "References ECM arrays and Panic Cycle data; predicts that in 2028 'neither Democrats nor Republicans will win' and that an election may not occur, implying a major political/electoral turning point in 2028."
+    },
+    {
+      "wp_id": 388313,
+      "title": "Market Talk – July 15, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-15-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current market data and prices; no ECM reference or prediction."
+    },
+    {
+      "wp_id": 388299,
+      "title": "Viva la Vida",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/viva-la-vida/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Historical commentary comparing Roman emperors and song lyrics; no ECM reference or future prediction."
+    },
+    {
+      "wp_id": 388265,
+      "title": "Inflation Declines, But the Crisis Is Far From Over",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/inflation-declines-but-the-crisis-is-far-from-over/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the computer and panic cycle but discusses current inflation trends and geopolitical risks without predicting a specific dated event; analysis of present conditions rather than a future ECM turning point."
+    },
+    {
+      "wp_id": 388270,
+      "title": "Why Economic Models Fail & The Hidden Truth of Russia's 1998 Collapse (PT 1)",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/why-economic-models-fail-the-hidden-truth-of-russias-1998-collapse-pt-1/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot determine if it contains an ECM forecast or commentary."
+    },
+    {
+      "wp_id": 388384,
+      "title": "Market Talk – July 17, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-17-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market data roundup with no ECM reference, no specific prediction, and no future dated event forecast."
+    },
+    {
+      "wp_id": 388378,
+      "title": "The Documents Washington Never Wanted Released",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/the-documents-washington-never-wanted-released/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the computer regarding confidence as foundation of government but does not predict a specific dated event or turning point; discusses geopolitical risks and data security without an ECM-derived forecast."
+    },
+    {
+      "wp_id": 388353,
+      "title": "Bulgaria Refuses to Fund Zelensky's Endless War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/bulgaria-refuses-to-fund-zelenskys-endless-war/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post references the computer regarding alliance collapse but analyzes current geopolitical trends without predicting a specific dated event or ECM turning point."
+    },
+    {
+      "wp_id": 388357,
+      "title": "Americans Are Cutting Back on Groceries – Recession Watch",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/americans-are-cutting-back-on-groceries-recession-watch/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "General economic commentary on current consumer behavior, credit card debt, and food price trends without any ECM model reference or specific dated prediction."
+    },
+    {
+      "wp_id": 388292,
+      "title": "Finland Is Preparing to Hide an Entire City Underground",
+      "link": "https://www.armstrongeconomics.com/world-news/war/finland-is-preparing-to-hide-an-entire-city-underground/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "While the post references 'our computer' warning about future conflict and geopolitical instability, it does not predict a specific dated event or turning point; it offers general historical analysis and commentary on government preparations without an ECM-tied forecast date."
+    },
+    {
+      "wp_id": 388366,
+      "title": "Has Chuck Schummer Conspired with Netanyahu to Block Iran Peace before the Midterms?",
+      "link": "https://www.armstrongeconomics.com/international-news/israel/has-schummer-conspired-with-netanyahu-to-block-peace-before-the-midterms/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Political opinion and analysis of current U.S.-Iran conflict and Democratic strategy regarding midterm elections, with no ECM reference or specific future dated prediction."
     }
   ]
 }

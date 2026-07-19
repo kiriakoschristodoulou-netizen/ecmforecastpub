@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-12T05:39:18.773169+00:00",
+  "generated_at": "2026-07-19T05:32:43.515889+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 127,
+  "input_post_count": 130,
   "kept_count": 51,
   "usage": {
-    "input_tokens": 2333,
-    "output_tokens": 146,
-    "estimated_cost_usd": 0.0030629999999999998,
+    "input_tokens": 3652,
+    "output_tokens": 319,
+    "estimated_cost_usd": 0.005247,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1153,6 +1153,33 @@
       "confidence": "low",
       "predicted_date": null,
       "reason": "Post contains multiple references to existing ECM dates (May 8 2025 war cycle turn, July 1 2026 turning point) and editorial speculation about potential attacks/conflicts, but presents no NEW model-attributed dated prediction or amendment with future month-level specificity; 2028 and 2032 references lack model attribution clarity and are stated only as vague milestone years without month precision."
+    },
+    {
+      "wp_id": 388228,
+      "title": "Promoting WWIII at the Berlinale",
+      "link": "https://www.armstrongeconomics.com/uncategorized/promoting-wwiii-at-the-berlinale/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references existing ECM warning of 'MAJOR economic decline into 2028' but does not amend or provide new model output; the date is year-only (too vague) and merely mentioned in passing editorial commentary about geopolitical conflict."
+    },
+    {
+      "wp_id": 388310,
+      "title": "The Fed Still Doesn't Understand Where Inflation Comes From",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/the-fed-still-doesnt-understand-where-inflation-comes-from/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post states 'our computer has consistently warned that increased worldwide conflict is coming in the near-term' but provides no specific month-level or day-level dated prediction; this is general commentary about existing model warnings, not a new or amended forecast."
+    },
+    {
+      "wp_id": 388317,
+      "title": "Rigging Elections",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/rigging-elections-2/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references existing ECM arrays showing 'Panic Cycle in 2026 midterms' and notes '2028 could be extremely volatile' but provides no new model-attributed amendment with month-level specificity; discussion of model outputs without specific dated predictions."
     }
   ]
 }
