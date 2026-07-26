@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-19T05:32:43.515889+00:00",
+  "generated_at": "2026-07-26T05:42:23.844472+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 130,
-  "kept_count": 51,
+  "input_post_count": 131,
+  "kept_count": 52,
   "usage": {
-    "input_tokens": 3652,
-    "output_tokens": 319,
-    "estimated_cost_usd": 0.005247,
+    "input_tokens": 2479,
+    "output_tokens": 107,
+    "estimated_cost_usd": 0.0030139999999999998,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1180,6 +1180,15 @@
       "confidence": "medium",
       "predicted_date": null,
       "reason": "Post references existing ECM arrays showing 'Panic Cycle in 2026 midterms' and notes '2028 could be extremely volatile' but provides no new model-attributed amendment with month-level specificity; discussion of model outputs without specific dated predictions."
+    },
+    {
+      "wp_id": 388440,
+      "title": "Iran War More Unpopular than Vietnam or Iraq",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/iran-war-more-unpopular-than-vietnam-or-iraq/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong explicitly attributes to his computer model a forecast that Iran will experience 'the overthrow of the government in 2027' as part of the ECM's final up-leg analysis of Iran."
     }
   ]
 }

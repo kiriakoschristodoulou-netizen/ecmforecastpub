@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-19T05:32:38.817043+00:00",
+  "generated_at": "2026-07-26T05:42:21.807434+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1028,
-  "kept_count": 130,
+  "post_count": 1058,
+  "kept_count": 131,
   "usage": {
-    "input_tokens": 32760,
-    "output_tokens": 2731,
-    "estimated_cost_usd": 0.046415,
+    "input_tokens": 34251,
+    "output_tokens": 2373,
+    "estimated_cost_usd": 0.046116,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -9262,6 +9262,276 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Political opinion and analysis of current U.S.-Iran conflict and Democratic strategy regarding midterm elections, with no ECM reference or specific future dated prediction."
+    },
+    {
+      "wp_id": 388461,
+      "title": "Market Talk – July 20, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-20-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price data from July 20, 2026; no ECM reference, no specific future event prediction, no dated forecast."
+    },
+    {
+      "wp_id": 388382,
+      "title": "One of the Greatest Betrayals of Public Trust in American History",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/one-of-the-greatest-betrayals-of-public-trust-in-american-history/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion and commentary on alleged Chinese election meddling and government accountability; no ECM reference, no specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 388387,
+      "title": "Deep State Media Censorship",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/deep-state-media-censorship/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on media censorship and corporate consolidation; no ECM reference, no specific dated prediction of a future turning point."
+    },
+    {
+      "wp_id": 388362,
+      "title": "Wars End With An Invoice – IMF Drops Global Growth Forecast",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/wars-end-with-an-invoice-imf-drops-global-growth-forecast/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of IMF growth forecast reduction and geopolitical impacts on economics; no ECM reference, discusses general trends rather than a specific dated ECM prediction."
+    },
+    {
+      "wp_id": 388397,
+      "title": "Rigging Elections Has Been Around for Thousands of Years",
+      "link": "https://www.armstrongeconomics.com/international-news/ethics/rigging-elections-has-been-for-thousands-of-years/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post providing historical commentary on election rigging and political polarization; mentions Armstrong's computer warning about polarization but does not make a specific dated ECM prediction for a future event."
+    },
+    {
+      "wp_id": 388443,
+      "title": "Iran Expected to Expand the War Throughout the Middle East",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/iran-expected-to-expand-the-war-throughout-the-middle-east/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting on current Iranian military rhetoric and threats; no ECM reference, specific dated prediction, or reference to Armstrong's model."
+    },
+    {
+      "wp_id": 388440,
+      "title": "Iran War More Unpopular than Vietnam or Iraq",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/iran-war-more-unpopular-than-vietnam-or-iraq/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Explicit ECM model reference ('our model forecast,' 'the computer forecast') with specific predicted event (overthrow of Iranian government) tied to future date (2027)."
+    },
+    {
+      "wp_id": 388431,
+      "title": "Massive Protest Against Zelensky",
+      "link": "https://www.armstrongeconomics.com/international-news/ukraine/massive-protest-against-zelensky/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting on current Ukrainian protests with commentary on political situation; no ECM reference or dated prediction."
+    },
+    {
+      "wp_id": 388427,
+      "title": "Infiltration Instead of Invasion",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/voting-elections/infiltration-instead-of-invasion/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional/descriptive post about Mel K's book; no ECM model reference or specific dated forecast."
+    },
+    {
+      "wp_id": 388425,
+      "title": "PRIVATE BLOG – Gold an August Low?",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/private-blog-gold-an-august-low/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private blog post with no substantive content, specific event prediction, or explicit dated forecast in the post body."
+    },
+    {
+      "wp_id": 388534,
+      "title": "It is Always a Matter of TIME",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/basic-concepts/it-is-always-a-matter-of-time/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Educational commentary on Armstrong's TIME vs. PRICE methodology with historical examples; no specific future dated prediction or ECM forecast of an event."
+    },
+    {
+      "wp_id": 388530,
+      "title": "Market Talk – July 22, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-22-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market data roundup (Market Talk) reporting current prices and movements; not an ECM forecast."
+    },
+    {
+      "wp_id": 388515,
+      "title": "To My Surprise",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/to-my-surprise/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Brief promotional note about article republication in mainstream media; not an ECM forecast."
+    },
+    {
+      "wp_id": 388494,
+      "title": "Von der Leyen and Draghi Plot More Centralization to \"Save\" Europe",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/von-der-leyen-and-draghi-plot-more-centralization-to-save-europe/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece criticizing EU centralization policies and Draghi's competitiveness agenda; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 388450,
+      "title": "US Home Builder Sentiment Contracts for 15th Month",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/real_estate/us-home-builder-sentiment-contracts-for-15th-month/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on declining US housing sentiment and affordability crisis based on current data; no ECM model reference or specific future dated prediction."
+    },
+    {
+      "wp_id": 388489,
+      "title": "NEOCONS Usurping American Foreign Policy",
+      "link": "https://www.armstrongeconomics.com/world-news/neocons/neocons-usurping-american-foreign-policy/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece analyzing neoconservative foreign policy influence and historical context; no ECM model reference, no specific dated prediction, and no future event forecasted."
+    },
+    {
+      "wp_id": 388501,
+      "title": "Market Talk – July 21, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-21-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current market data and prices; no ECM reference and no prediction of future events."
+    },
+    {
+      "wp_id": 388465,
+      "title": "America's Food Supply Has Become Too Big to Fail – Cyclospora",
+      "link": "https://www.armstrongeconomics.com/international-news/disease/americas-food-supply-has-become-too-big-to-fail-cyclospora/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on food safety and regulatory failures using historical examples; no ECM reference and no specific dated prediction of future events."
+    },
+    {
+      "wp_id": 388468,
+      "title": "Mamdani Claims He Will Arrest Netanyahu",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/mamdani-claims-he-will-arrest-netanyahu/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News analysis of NYC Mayor's threat to arrest Netanyahu and explanation of constitutional/diplomatic barriers; no ECM reference and no prediction of a specific future outcome."
+    },
+    {
+      "wp_id": 388457,
+      "title": "Putin Meets with Top North Korean Diplomat",
+      "link": "https://www.armstrongeconomics.com/world-news/war/putin-meets-with-top-north-korean-diplomat/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical commentary analyzing current Russia-North Korea alliance and sanctions effects; no ECM reference and no specific dated prediction despite discussing long-term bloc formation."
+    },
+    {
+      "wp_id": 388578,
+      "title": "Market Talk – July 24, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-24-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current market data with no ECM reference, specific predictions, or future dated forecasts."
+    },
+    {
+      "wp_id": 388505,
+      "title": "Germany's Productive Class Is Looking for the Exit",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/germanys-productive-class-is-looking-for-the-exit/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current German economic trends, emigration patterns, and taxation policy without ECM reference or specific dated predictions."
+    },
+    {
+      "wp_id": 388560,
+      "title": "The Rise of the Ellison Empire",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/the-rise-of-the-ellison-empire/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece examining the Ellison family's business empire and concentration of power without ECM reference or specific future dated predictions."
+    },
+    {
+      "wp_id": 388544,
+      "title": "The Truth About the S&L Crisis Caused by Government & Endless Taxation",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/the-truth-about-the-sl-crisis-caused-by-government-endless-taxation/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A response providing historical analysis of the S&L Crisis and past tax legislation with no ECM reference or future predictions."
+    },
+    {
+      "wp_id": 388564,
+      "title": "Market Talk – July 23, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-23-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current market data with no ECM reference, specific predictions, or future dated forecasts."
+    },
+    {
+      "wp_id": 388555,
+      "title": "The Books to be Handed Out at the Seminar Are In",
+      "link": "https://www.armstrongeconomics.com/history/americas-economic-history/the-books-to-be-handed-out-at-the-seminar-are-in/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post about seminar book handouts; no ECM reference, no prediction, no future date."
+    },
+    {
+      "wp_id": 388527,
+      "title": "Vance Is Positioning Himself for 2028—But No Candidate Is Free",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/vance-is-positioning-himself-for-2028-but-no-candidate-is-free/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Political commentary on Vance's positioning; mentions 2028 only as a campaign context ('Vance can see 2028 coming') without an ECM-derived prediction of a specific event on a specific date."
+    },
+    {
+      "wp_id": 388521,
+      "title": "Main Street Is Breaking While Wall Street Celebrates",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/main-street-is-breaking-while-wall-street-celebrates/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Economic analysis of current bankruptcy trends and Main Street deterioration; references 'our computer has consistently warned' but without a specific dated prediction, only general observations about declining confidence concentrating economic power."
+    },
+    {
+      "wp_id": 388485,
+      "title": "Trade Between India and China Soars",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/trade-between-india-and-china-soars/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on India-China trade data; references 'our computer has always distinguished' but provides no specific future event prediction or dated forecast."
+    },
+    {
+      "wp_id": 388523,
+      "title": "Why Globalist are Against AFD in Germany",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/why-globalist-are-against-afd-in-germany/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Video clip and quote about AfD policy on Ukraine; no ECM reference, no specific prediction, no future date."
     }
   ]
 }
