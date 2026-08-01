@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-01T07:52:39.906376+00:00",
-  "event_count": 140,
+  "generated_at": "2026-08-01T06:12:19.471435+00:00",
+  "event_count": 143,
   "sources": [
     "fomc",
     "wikipedia_electoral",
@@ -607,6 +607,13 @@
     },
     {
       "date": "2026-07-08",
+      "title": "FOMC meeting",
+      "category": "central_bank",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "fomc"
+    },
+    {
+      "date": "2026-07-08",
       "title": "30-Year Bond auction (reopening)",
       "category": "sovereign_debt",
       "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
@@ -639,6 +646,13 @@
       "category": "sovereign_debt",
       "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
       "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Hungary, President",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
     },
     {
       "date": "2026-08-19",
@@ -912,6 +926,13 @@
       "category": "sovereign_debt",
       "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
       "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-07-29",
+      "title": "FOMC meeting",
+      "category": "central_bank",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "fomc"
     },
     {
       "date": "2027-08-11",

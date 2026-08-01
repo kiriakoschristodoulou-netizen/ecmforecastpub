@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "source": "fomc",
-  "generated_at": "2026-07-01T07:52:39.121402+00:00",
-  "event_count": 47,
+  "generated_at": "2026-08-01T06:12:18.229410+00:00",
+  "event_count": 49,
   "events": [
     {
       "date": "2021-01-05",
@@ -306,6 +306,13 @@
       "source": "fomc"
     },
     {
+      "date": "2026-07-08",
+      "title": "FOMC meeting",
+      "category": "central_bank",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "fomc"
+    },
+    {
       "date": "2027-01-26",
       "title": "FOMC meeting (rate decision)",
       "category": "central_bank",
@@ -328,6 +335,13 @@
     },
     {
       "date": "2027-06-17",
+      "title": "FOMC meeting",
+      "category": "central_bank",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "fomc"
+    },
+    {
+      "date": "2027-07-29",
       "title": "FOMC meeting",
       "category": "central_bank",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",

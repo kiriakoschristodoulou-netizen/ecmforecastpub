@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-07-26T05:44:56.824120+00:00",
+  "generated_at": "2026-08-01T06:12:19.537424+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 16 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 140 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "source_summary": "39 chart-derived ECM cycle dates + 16 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 143 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
   "forecast_count": 55,
   "forecasts": [
     {
@@ -473,7 +473,7 @@
       "category": "ecm_panic",
       "tag": "wave_change",
       "importance": "high",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Labeled inflection point on Armstrong's foundational ECM curve. Originally projected for June 1, amended to July 1/2 in recent commentary.",
       "synthesis": "An ECM wave change point on the foundational 8.6-year Economic Confidence Model. Armstrong recently amended the target from June 1 to July 1/2. These wave change points typically coincide with shifts in market confidence and political turning points.",
       "source": {
@@ -481,6 +481,12 @@
         "url": null
       },
       "related_events": [
+        {
+          "date": "2026-07-08",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
         {
           "date": "2026-07-08",
           "title": "30-Year Bond auction (reopening)",
@@ -499,7 +505,7 @@
       "category": "asset_panic_cycle",
       "tag": "war_index_panic",
       "importance": "high",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Yellow Panic Cycle block on the AE Equity War Index monthly timing array (Feb 2026 - Jan 2027 range). Panic Cycle hits July.",
       "synthesis": "A Panic Cycle marker on Armstrong's AE War Index. Coincides with the ECM wave change July 1/2, 2026.",
       "source": {
@@ -507,6 +513,12 @@
         "url": null
       },
       "related_events": [
+        {
+          "date": "2026-07-08",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
         {
           "date": "2026-07-08",
           "title": "30-Year Bond auction (reopening)",
@@ -525,7 +537,7 @@
       "category": "ecm_panic",
       "tag": "wave_inflection",
       "importance": "medium",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
       "synthesis": "The ECM forecast places the next major turning point in July 2026, a date the model identifies as a convergence of high-volatility and Panic Cycle signals across multiple markets. Consumer confidence in the U.S. has already collapsed to a 12-year low, consistent with the global recessionary trend the model projects extending into 2028. The breadth of markets flagging July 2026 makes this a critical inflection window to monitor.",
       "source": {
@@ -533,6 +545,12 @@
         "url": "https://www.armstrongeconomics.com/future-forecasts/ecm/consumer-confidence-collapsing-to-12-year-low/"
       },
       "related_events": [
+        {
+          "date": "2026-07-08",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
         {
           "date": "2026-07-08",
           "title": "30-Year Bond auction (reopening)",
@@ -551,7 +569,7 @@
       "category": "asset_panic_cycle",
       "tag": "oil_panic",
       "importance": "medium",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
       "synthesis": "The computer model's array flagged a Directional Change in March 2026 escalating into April, with a Panic Cycle targeted for July 2026 across multiple markets including oil, commodities, and Gulf State indices. The model's War Index had identified March as a volatility peak as early as November 2025, aligning with the outbreak of Middle East hostilities and the threat to the Strait of Hormuz. Markets and geopolitical developments heading into July warrant close monitoring as the Panic Cycle window approaches.",
       "source": {
@@ -559,6 +577,12 @@
         "url": "https://www.armstrongeconomics.com/uncategorized/we-won/"
       },
       "related_events": [
+        {
+          "date": "2026-07-08",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
         {
           "date": "2026-07-08",
           "title": "30-Year Bond auction (reopening)",

@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "source": "wikipedia_electoral",
-  "generated_at": "2026-07-01T07:52:39.689530+00:00",
-  "event_count": 22,
+  "generated_at": "2026-08-01T06:12:19.235936+00:00",
+  "event_count": 23,
   "events": [
     {
       "date": "2026-02-08",
@@ -98,6 +98,13 @@
     {
       "date": "2026-06-21",
       "title": "Colombia, President (2nd round)",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2026-08-18",
+      "title": "Hungary, President",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
       "source": "wikipedia_electoral"
