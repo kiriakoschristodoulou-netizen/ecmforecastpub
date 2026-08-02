@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-26T05:42:23.844472+00:00",
+  "generated_at": "2026-08-02T05:37:25.732604+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 131,
+  "input_post_count": 132,
   "kept_count": 52,
   "usage": {
-    "input_tokens": 2479,
-    "output_tokens": 107,
-    "estimated_cost_usd": 0.0030139999999999998,
+    "input_tokens": 2964,
+    "output_tokens": 115,
+    "estimated_cost_usd": 0.003539,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1189,6 +1189,15 @@
       "confidence": "high",
       "predicted_date": "2027-01-01",
       "reason": "Armstrong explicitly attributes to his computer model a forecast that Iran will experience 'the overthrow of the government in 2027' as part of the ECM's final up-leg analysis of Iran."
+    },
+    {
+      "wp_id": 388680,
+      "title": "Only the Tip of the COVID Conspiracy Has Surfaced",
+      "link": "https://www.armstrongeconomics.com/international-news/disease/only-the-tip-of-the-covid-scam-has-surfaced/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post is editorial analysis of COVID origins and conspiracy theories; mentions model forecasts (2028 downturn, 2027-2028 disease cycle) but makes no NEW or AMENDED model-attributed predictions with specific dates—only references existing known model outputs."
     }
   ]
 }

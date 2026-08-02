@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-26T05:42:21.807434+00:00",
+  "generated_at": "2026-08-02T05:37:23.328017+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1058,
-  "kept_count": 131,
+  "post_count": 1082,
+  "kept_count": 132,
   "usage": {
-    "input_tokens": 34251,
-    "output_tokens": 2373,
-    "estimated_cost_usd": 0.046116,
+    "input_tokens": 30956,
+    "output_tokens": 1898,
+    "estimated_cost_usd": 0.040446,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -9532,6 +9532,222 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Video clip and quote about AfD policy on Ukraine; no ECM reference, no specific prediction, no future date."
+    },
+    {
+      "wp_id": 388667,
+      "title": "Market Talk – July 28, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-28-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and percentage changes with no ECM reference, specific prediction, or future date."
+    },
+    {
+      "wp_id": 388670,
+      "title": "Canada's Unique Energy Crisis",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/canadas-unique-energy-crisis/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post explaining Canada's energy infrastructure and refinery configurations with no ECM model reference or dated prediction."
+    },
+    {
+      "wp_id": 388660,
+      "title": "PRIVATE BLOG – Crude into 2028: Crisis or Hype?",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/private-blog-crude-into-2028-crisis-or-hype/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser with no substantive content, ECM prediction, or specific forecast—only a subscription prompt."
+    },
+    {
+      "wp_id": 388638,
+      "title": "The H-1B Visa Scam: Importing Cheap Labor While Americans Are Laid Off",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/the-h-1b-visa-scam-importing-cheap-labor-while-americans-are-laid-off/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece analyzing H-1B visa fraud and labor policy with no ECM reference or dated prediction."
+    },
+    {
+      "wp_id": 388587,
+      "title": "New Jersey Bans Grocers From Building a Surveillance Economy",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/new-jersey-bans-grocers-from-building-a-surveillance-economy/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on New Jersey's surveillance pricing legislation and broader societal trends with no ECM model reference or specific dated forecast."
+    },
+    {
+      "wp_id": 388621,
+      "title": "Netanyahu the Dangerous Neocon",
+      "link": "https://www.armstrongeconomics.com/uncategorized/netanyahu-the-dangerous-neocon/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Opinion piece criticizing Netanyahu's neoconservative ideology and Israeli policy; no ECM reference, no specific dated prediction."
+    },
+    {
+      "wp_id": 388643,
+      "title": "Market Talk – July 27, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-27-2026/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and daily movements with no ECM reference or future dated predictions."
+    },
+    {
+      "wp_id": 388573,
+      "title": "Japan Is the First Domino in the Sovereign Debt Crisis",
+      "link": "https://www.armstrongeconomics.com/international-news/japan/japan-is-the-first-domino-in-the-sovereign-debt-crisis/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Analysis of Japan's sovereign debt crisis with projections to 2029, but no ECM model reference and no specific dated turning point prediction."
+    },
+    {
+      "wp_id": 388581,
+      "title": "America's Local Police Are Becoming Intelligence Agencies",
+      "link": "https://www.armstrongeconomics.com/government-surveillance/americas-local-police-are-becoming-intelligence-agencies/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on surveillance technology and police militarization trends; no ECM reference and no specific dated prediction."
+    },
+    {
+      "wp_id": 388590,
+      "title": "The Random Walk Theory",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/the-random-walk-theory/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Theoretical essay critiquing Random Walk Theory and explaining Armstrong's cyclical approach; mentions the ECM and Socrates in passing but makes no specific future dated prediction in this post."
+    },
+    {
+      "wp_id": 388731,
+      "title": "PRIVATE BLOG – The Panic Cycle of 2027 in Russia",
+      "link": "https://www.armstrongeconomics.com/international-news/russia/private-blog-the-panic-cycle-of-2027-in-russia/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser with no substantive content or specific dated prediction; promotional post directing readers to subscribe."
+    },
+    {
+      "wp_id": 388727,
+      "title": "Market Talk – July 30, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-30-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and movements from July 30, 2026; no ECM reference or future dated prediction."
+    },
+    {
+      "wp_id": 388695,
+      "title": "Can India Become the Next Factory of the World?",
+      "link": "https://www.armstrongeconomics.com/international-news/india/can-india-become-the-next-factory-of-the-world/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Strategic analysis of India's manufacturing growth and long-term industrial positioning without ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 388663,
+      "title": "Europe's Wealthiest Households Are Drowning in Debt",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/europes-wealthiest-households-are-drowning-in-debt/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on European household debt levels and mortgage structures using 2024–2025 data; no ECM reference or future dated prediction."
+    },
+    {
+      "wp_id": 388709,
+      "title": "The Fed Holds While Inflation Refuses to Die",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/the-fed-holds-while-inflation-refuses-to-die/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of Federal Reserve policy and current inflation dynamics without ECM reference; mentions market expectations for September but does not present Armstrong's dated ECM forecast."
+    },
+    {
+      "wp_id": 388680,
+      "title": "Only the Tip of the COVID Conspiracy Has Surfaced",
+      "link": "https://www.armstrongeconomics.com/international-news/disease/only-the-tip-of-the-covid-scam-has-surfaced/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "References Armstrong's model forecasting 'a major shift in trend would take place from January 2020' with 'peak in 2024 and then turn down sharply into 2028' and mentions 'risk of a surge in COVID-derivatives with a major outbreak in the 2027-2028 time period,' predicting a specific disease event tied to future dates."
+    },
+    {
+      "wp_id": 388701,
+      "title": "Market Talk – July 29, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-july-29-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current price data and movements from July 29, 2026 with no ECM model reference or future dated predictions."
+    },
+    {
+      "wp_id": 388636,
+      "title": "The Student Loan Crisis Is Exploding",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/the-student-loan-crisis-is-exploding/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on the current student loan crisis and historical policy failures without any ECM model reference or specific dated forecast predictions."
+    },
+    {
+      "wp_id": 388641,
+      "title": "Garbage Trucks Surveillance Florida Neighborhoods",
+      "link": "https://www.armstrongeconomics.com/government-surveillance/garbage-trucks-surveillance-neighborhoods/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece on surveillance technology and government overreach without any ECM model reference or specific dated predictions."
+    },
+    {
+      "wp_id": 388626,
+      "title": "The Dark Side of Washington – Money Before Country",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-dark-side-of-washington/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Political commentary on historical corruption and Neocon foreign policy without any ECM model reference or specific dated forecast predictions."
+    },
+    {
+      "wp_id": 388704,
+      "title": "Mukoyōshi",
+      "link": "https://www.armstrongeconomics.com/international-news/japan/mukoyoshi/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Historical commentary on Japanese business succession practices (mukoyōshi) with no ECM reference, specific dated prediction, or future forecast."
+    },
+    {
+      "wp_id": 388720,
+      "title": "The Debt to GDP Ratio",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/the-debt-to-gdp-ratio/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of debt-to-GDP ratios and sovereign debt crises with no ECM reference or specific dated prediction of future events."
+    },
+    {
+      "wp_id": 388722,
+      "title": "Pfizer Altered America's Cheese Supply",
+      "link": "https://www.armstrongeconomics.com/international-news/disease/pfizer-altered-americas-cheese-supply/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Historical and regulatory commentary on Pfizer's fermentation-produced chymosin in cheese production with no ECM reference or future prediction."
+    },
+    {
+      "wp_id": 388733,
+      "title": "Sanctions & American Distaste for Wars",
+      "link": "https://www.armstrongeconomics.com/world-news/geopolitical/sanctions-american-distaste-for-wars/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post discussing historical sanctions and American anti-war sentiment with no ECM reference or specific dated future forecast."
     }
   ]
 }
