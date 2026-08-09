@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-02T05:37:23.328017+00:00",
+  "generated_at": "2026-08-09T03:53:38.212938+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1082,
-  "kept_count": 132,
+  "post_count": 1111,
+  "kept_count": 136,
   "usage": {
-    "input_tokens": 30956,
-    "output_tokens": 1898,
-    "estimated_cost_usd": 0.040446,
+    "input_tokens": 35743,
+    "output_tokens": 2485,
+    "estimated_cost_usd": 0.048167999999999996,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -9748,6 +9748,267 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Q&A post discussing historical sanctions and American anti-war sentiment with no ECM reference or specific dated future forecast."
+    },
+    {
+      "wp_id": 388749,
+      "title": "Japan – The Debt Crisis Coming Home",
+      "link": "https://www.armstrongeconomics.com/uncategorized/japan-the-debt-crisis-coming-home/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post analyzes current Japan debt crisis and historical context (1987 Crash, 1997 Asian crisis, 1971 Nixon decision) but contains no ECM-specific prediction tied to a future date; references past interventions and analysis without forecasting a specific dated event."
+    },
+    {
+      "wp_id": 388698,
+      "title": "The World Order Is Being Renegotiated",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/the-world-order-is-being-renegotiated/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post title only with no body content; cannot classify as forecast without substantive predictions or ECM references."
+    },
+    {
+      "wp_id": 388816,
+      "title": "The Relentless Highs",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/the-relentless-highs/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-08-01",
+      "reason": "Post explicitly references Socrates calling the July low and directional change during week of July 27, identifies August as 'key target geopolitically,' and states markets will decline/rally based on geopolitical events in August 2026."
+    },
+    {
+      "wp_id": 388808,
+      "title": "Market Talk – August 4, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-4-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and movements as of August 4, 2026; no ECM references, no future predictions, purely informational data reporting."
+    },
+    {
+      "wp_id": 388783,
+      "title": "US Manufacturing Booms But the Supply Chain Is Worse Than the Pandemic",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/manufacturing-is-booming-while-the-supply-chain-is-worse-than-the-pandemic/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current manufacturing data, supply chain conditions, and Fed policy challenges; no ECM model reference, no specific dated future prediction, analysis of present trends without forecasting a specific event."
+    },
+    {
+      "wp_id": 388767,
+      "title": "Spain Created the Invasion and Then Pretended to Be the Victim",
+      "link": "https://www.armstrongeconomics.com/international-news/spain/spain-created-the-invasion-and-then-pretended-to-be-the-victim/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on the Spain migration crisis; analyzes past policy decisions and their consequences without referencing the ECM, computer model, or making a specific dated prediction."
+    },
+    {
+      "wp_id": 388773,
+      "title": "Fauci's Pandemic of Vanity",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/faucis-pandemic-of-vanity/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Fauci's diary and pandemic-era behavior; opinion piece without ECM reference or dated prediction."
+    },
+    {
+      "wp_id": 388790,
+      "title": "The Everything Bubble – It's Not the First Time",
+      "link": "https://www.armstrongeconomics.com/history/americas-economic-history/the-everything-bubble-itd-not-the-first-time/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post answering a reader question about Armstrong's personal coin-dealing history and lessons from the 1966 and 1970 crashes; discusses past events and experiences, not future ECM-dated predictions."
+    },
+    {
+      "wp_id": 388770,
+      "title": "Market Talk – August 3, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-3-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market data roundup for August 3, 2026 (a past date relative to today); reporting of current/recent market prices without ECM forecast or specific dated prediction."
+    },
+    {
+      "wp_id": 388728,
+      "title": "New Forever Chemicals Coming to US Farms",
+      "link": "https://www.armstrongeconomics.com/international-news/disease/new-forever-chemicals-coming-to-us-farms/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on EPA approval of new pesticides and broader agricultural policy concerns; analysis of current events and contradictions in regulatory messaging without ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 388725,
+      "title": "Government Will Steal Your Land to Feed the AI Machine",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/government-will-steal-your-land-to-feed-the-ai-machine/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is an opinion essay on eminent domain abuse and AI infrastructure with no ECM reference, specific dated prediction, or forecast mechanism."
+    },
+    {
+      "wp_id": 388743,
+      "title": "China – Middle East & 2027",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/china-middle-east-2027/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Post references the ECM computer model and predicts 'serious confrontation in 2027' involving China, Middle East, and Iran as a specific future turning point aligned with the model's cycle."
+    },
+    {
+      "wp_id": 389041,
+      "title": "Market Talk – August 6, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-6-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and percentage changes with no ECM reference or dated prediction of a future event."
+    },
+    {
+      "wp_id": 389009,
+      "title": "The Global Outlook",
+      "link": "https://www.armstrongeconomics.com/products_services/products/the-global-outlook/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-01-01",
+      "reason": "Post explicitly references the 8.6-year ECM and predicts the 'Panic Cycle of 2026' as the current period, with a 'significant economic low in 2028' and systemic collapse projected by 2032, tied to specific future dates."
+    },
+    {
+      "wp_id": 389004,
+      "title": "PRIVATE BLOG – Gold the August Rally (PRO)",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/private-blog-gold-the-august-rally-pro/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a promotional teaser for a private subscriber-only blog post with no substantive content, ECM reference, or forecast."
+    },
+    {
+      "wp_id": 388854,
+      "title": "THE WATER WARS HAVE BEGUN",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/the-water-wars-have-begun/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current WEF water policy initiatives and political power dynamics; no ECM reference, specific dated prediction, or model-based forecast."
+    },
+    {
+      "wp_id": 388843,
+      "title": "Denmark Is Drafting Its Youth for Europe's Manufactured War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/denmark-is-drafting-its-youth-for-europes-manufactured-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Denmark's military conscription expansion and NATO spending trends; mentions 2033 and 2035 as trend contexts without ECM reference or specific event prediction."
+    },
+    {
+      "wp_id": 388859,
+      "title": "The Old Are Volunteering the Young for War",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/the-old-are-volunteering-the-young-for-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece criticizing conscription and generational inequality in military service advocacy; no ECM reference or dated prediction."
+    },
+    {
+      "wp_id": 388899,
+      "title": "Neocon & Their Lies",
+      "link": "https://www.armstrongeconomics.com/uncategorized/neocon-their-lies/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post where Armstrong discusses personal views on neoconservatism and its historical roots; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 388868,
+      "title": "The Gold Paradox",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/the-gold-paradox/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2032-01-01",
+      "reason": "Post references projections into 2032 regarding gold's real driving forces and implies model-based analysis, but lacks explicit ECM/Socrates reference and specific event prediction."
+    },
+    {
+      "wp_id": 388847,
+      "title": "Market Talk – August 5, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-5-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current and past market data with no ECM reference, specific event prediction, or future date forecast."
+    },
+    {
+      "wp_id": 388856,
+      "title": "PRIVATE BLOG – The Crash",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/trading/private-blog-the-crash/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private blog content with no ECM forecast, specific dated prediction, or substantive content."
+    },
+    {
+      "wp_id": 389039,
+      "title": "The Republic Will End in 2032",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/the-republic-will-end-in-2032/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post has title referencing 2032 but contains no body content; cannot verify ECM reference or specific event prediction."
+    },
+    {
+      "wp_id": 389079,
+      "title": "The Unwinnable Iran War",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/the-unwinnable-iran-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Political and geopolitical commentary on Iran, Netanyahu, and past military conflicts; mentions computer warning about geopolitical tensions but makes no specific dated ECM forecast for a future event."
+    },
+    {
+      "wp_id": 389097,
+      "title": "Market Talk – August 7, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-7-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current and past market data with no ECM reference, specific event prediction, or future date forecast."
+    },
+    {
+      "wp_id": 389093,
+      "title": "Netanyahu's Scorched Earth Tactics",
+      "link": "https://www.armstrongeconomics.com/uncategorized/netanyahus-scorched-earth-tactics/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This post is news reporting and historical analysis of Netanyahu's scorched earth tactics in Lebanon and Gaza with no ECM reference, specific predicted event, or future date prediction."
+    },
+    {
+      "wp_id": 389013,
+      "title": "The Countries That Will Pay for the UN Tax Experiment",
+      "link": "https://www.armstrongeconomics.com/world-news/united-nations/the-countries-that-will-pay-for-the-un-tax-experiment/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This post is analysis and opinion about a UN tax proposal with no ECM reference, no specific predicted event, and no future date prediction."
+    },
+    {
+      "wp_id": 389046,
+      "title": "Polls Show Europe Wants War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/polls-show-europe-wants-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This post reports polling data and commentary on European attitudes toward war with no ECM reference, specific predicted event, or future date prediction."
+    },
+    {
+      "wp_id": 389049,
+      "title": "Russia Prepares Children for War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/russia-prepares-children-for-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This post describes Russia's current military education policy and mentions a ten-year plan through 2036 as context, but makes no specific ECM-referenced prediction or predicted event tied to a future date."
     }
   ]
 }

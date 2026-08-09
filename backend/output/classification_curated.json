@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-02T05:37:25.732604+00:00",
+  "generated_at": "2026-08-09T03:53:43.791224+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 132,
-  "kept_count": 52,
+  "input_post_count": 136,
+  "kept_count": 54,
   "usage": {
-    "input_tokens": 2964,
-    "output_tokens": 115,
-    "estimated_cost_usd": 0.003539,
+    "input_tokens": 3746,
+    "output_tokens": 423,
+    "estimated_cost_usd": 0.005861,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1198,6 +1198,42 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Post is editorial analysis of COVID origins and conspiracy theories; mentions model forecasts (2028 downturn, 2027-2028 disease cycle) but makes no NEW or AMENDED model-attributed predictions with specific dates—only references existing known model outputs."
+    },
+    {
+      "wp_id": 388816,
+      "title": "The Relentless Highs",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/the-relentless-highs/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references Socrates calling the July low and discussing August geopolitical targets, but does not present a NEW or AMENDED model-dated prediction with specific future date precision; references existing known model dates without amendment."
+    },
+    {
+      "wp_id": 388743,
+      "title": "China – Middle East & 2027",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/china-middle-east-2027/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong explicitly attributes to the computer a prediction of serious confrontation in 2027 involving Iran, with context that it 'appears to be headed into serious confrontation in 2027'; model-attributed geopolitical turning point for 2027."
+    },
+    {
+      "wp_id": 389009,
+      "title": "The Global Outlook",
+      "link": "https://www.armstrongeconomics.com/products_services/products/the-global-outlook/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-01-01",
+      "reason": "Armstrong's ECM model explicitly identifies the 'Panic Cycle of 2026' (current year), a 'significant global trend shift in 2027', and 'a significant economic low in 2028'; model-attributed future predictions but 2026 panic is partially concurrent and year-only specificity for other dates limits precision."
+    },
+    {
+      "wp_id": 388868,
+      "title": "The Gold Paradox",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/the-gold-paradox/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post is promotional summary mentioning 'projections into 2032' but provides no specific model-attributed dated prediction or amendment; lacks sufficient detail on actual forecast content."
     }
   ]
 }
