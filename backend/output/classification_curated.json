@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T03:13:44.801572+00:00",
+  "generated_at": "2026-08-23T03:16:25.975949+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 139,
-  "kept_count": 55,
+  "input_post_count": 140,
+  "kept_count": 56,
   "usage": {
-    "input_tokens": 3412,
-    "output_tokens": 289,
-    "estimated_cost_usd": 0.004857,
+    "input_tokens": 1649,
+    "output_tokens": 136,
+    "estimated_cost_usd": 0.0023290000000000003,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1261,6 +1261,15 @@
       "confidence": "medium",
       "predicted_date": null,
       "reason": "Post announces availability of a computer forecast report through 2036 but provides no specific model-attributed dated predictions in the excerpt; references 2032 redesign only as a general milestone without a specific event or amendment."
+    },
+    {
+      "wp_id": 389981,
+      "title": "The Bond Crisis",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/bonds/the-bond-crisis/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong attributes to Socrates a model-derived panic cycle date of 2028 for bonds with no end in sight before then, and references his 2020 model output showing a 2028 Panic Cycle; date is year-only (2028) but contextually refers to the full year as the forecast window."
     }
   ]
 }

@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-16T03:16:15.147794+00:00",
+  "generated_at": "2026-08-23T03:19:08.668461+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
-  "post_count": 16,
+  "post_count": 17,
   "usage": {
-    "input_tokens": 57131,
-    "output_tokens": 6141,
-    "estimated_cost_usd": 0.26350799999999996,
+    "input_tokens": 57832,
+    "output_tokens": 6346,
+    "estimated_cost_usd": 0.268686,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -153,8 +153,17 @@
       "synthesis": "The ECM forecast identifies 2026 as a Panic Cycle year, with 2027 carrying the highest risk of broader war escalation. Europe's €211B+ in Ukraine support and new €90B loan program signal a shift toward a permanent war economy, aligning with the cycle's geopolitical pressure phase. The model warns 2028 will bring the economic consequences of these commitments. Watch for further NATO mobilization signals and sovereign debt stress as the 2027 window approaches.",
       "category_suggestion": "geopolitical_cycle",
       "tag_suggestion": "war_cycle_escalation"
+    },
+    {
+      "wp_id": 385043,
+      "title": "Liquidity Crisis 2026",
+      "link": "https://www.armstrongeconomics.com/world-news/liquidity-crusus/liquidity-crisis-2026/",
+      "predicted_date": "2028-08-01",
+      "synthesis": "The ECM forecast places the bottom of the current global recession in August 2028, with no relief expected before mid-2027. Private credit markets are already showing stress as major asset managers freeze withdrawals amid negative cash flows across roughly 40% of their loan books. The war with Iran compounds the outlook by threatening energy and fertilizer flows through the Strait of Hormuz, with the model projecting oil potentially reaching $200–$225 by 2028.",
+      "category_suggestion": "asset_panic_cycle",
+      "tag_suggestion": "oil_panic"
     }
   ],
-  "auto_cleaned_at": "2026-08-16T03:16:15.225646+00:00",
+  "auto_cleaned_at": "2026-08-23T03:19:08.790689+00:00",
   "auto_clean_dropped": 39
 }

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T03:13:40.982823+00:00",
+  "generated_at": "2026-08-23T03:16:23.602008+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1139,
-  "kept_count": 139,
+  "post_count": 1168,
+  "kept_count": 140,
   "usage": {
-    "input_tokens": 27909,
-    "output_tokens": 2342,
-    "estimated_cost_usd": 0.039619,
+    "input_tokens": 32499,
+    "output_tokens": 2361,
+    "estimated_cost_usd": 0.044303999999999996,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -10261,6 +10261,267 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "This is a detailed analysis of current inflation data and commentary on geopolitical risks; it contains no ECM model reference, specific dated prediction, or forecast of a concrete future event."
+    },
+    {
+      "wp_id": 389772,
+      "title": "The Two Versions of AI",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ai-computers/the-two-versions-of-ai/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post about AI technology and Socrates' architecture; discusses past development and capabilities without making a specific dated prediction."
+    },
+    {
+      "wp_id": 389744,
+      "title": "Britain – the End of an Empire?",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/britain-the-end-of-an-empire/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current UK political events and migrant policy; mentions 'forecasts for the next two years remain unchanged' without specifying an ECM-derived event or specific future date."
+    },
+    {
+      "wp_id": 389706,
+      "title": "The Computer IS Showing We're Heading Into WW3",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/the-computer-is-showing-were-heading-into-ww3/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot classify without content."
+    },
+    {
+      "wp_id": 389976,
+      "title": "Market Talk – August 18, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-18-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup (Market Talk) reporting current market data and prices; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 389973,
+      "title": "PRIVATE BLOG – Comment from Poland",
+      "link": "https://www.armstrongeconomics.com/international-news/poland/private-blog-comment-from-poland/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser; promotional post directing readers to Socrates subscription service without making a specific dated prediction."
+    },
+    {
+      "wp_id": 389961,
+      "title": "PRIVATE BLOG –War with Russia in Weeks?",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-war-with-russia-in-weeks/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser with no substantive content; promotional post directing readers to subscribe to Socrates, not a dated ECM forecast."
+    },
+    {
+      "wp_id": 389932,
+      "title": "Trump Punishes South Korea for Refusing to Join the Iran War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/trump-punishes-south-korea-for-refusing-to-join-the-iran-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Current events commentary on Trump's military policy toward South Korea and Iran; no ECM reference, computer model prediction, or specific dated forecast."
+    },
+    {
+      "wp_id": 389922,
+      "title": "The Democrats Are No Longer Hiding Their Socialism",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/the-democrats-are-no-longer-hiding-their-socialism/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece analyzing long-term trend of Democratic Party shift toward socialism with historical polling data; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 389934,
+      "title": "Britain Can No Longer Afford the Welfare State It Created",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/britain-can-no-longer-afford-the-welfare-state-it-created/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Britain's welfare state and Reform UK proposals; mentions 2030 as a projection context but no ECM reference or specific dated event prediction."
+    },
+    {
+      "wp_id": 389867,
+      "title": "When the Rule of Law Fails This is a Warning of End of a Government",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/opinion/when-the-rule-of-law-fails-this-is-a-warning-of-end-of-a-government/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references 'by 2032' collapse of rule of law and fall of government but provides no ECM model reference, Socrates prediction, or specific dated event; reads as historical/political analysis with speculative timeline rather than an ECM-generated forecast."
+    },
+    {
+      "wp_id": 389937,
+      "title": "Market Talk – August 17, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-17-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price data from August 17, 2026; no ECM reference, no specific future prediction, no dated forecast."
+    },
+    {
+      "wp_id": 389766,
+      "title": "Government Has Become the Enemy of the Farmer",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/agriculture/government-has-become-the-enemy-of-the-farmer/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece analyzing government regulation of farmers and property rights; no ECM reference, no model-based prediction, no future dated forecast."
+    },
+    {
+      "wp_id": 389756,
+      "title": "China No Longer Needs Germany",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/china-no-longer-needs-germany/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of Germany's trade deficit with China and industrial decline; no ECM reference, no specific future event prediction, no dated forecast."
+    },
+    {
+      "wp_id": 390036,
+      "title": "Market Talk – August 20, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-20-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price data from August 20, 2026; no ECM reference, no specific future prediction, no dated forecast."
+    },
+    {
+      "wp_id": 389999,
+      "title": "Will the Diesel Crisis Decide the 2026 Elections?",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/will-the-diesel-crisis-decide-the-2026-elections/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Analysis of diesel crisis and 2026 midterm election impact with reference to 'computer forecast' mentioning potential Democratic House gains, but the post references the computer model without making a specific new dated prediction in this post—it discusses outcomes that may occur by November without stating the model's specific forecast date or turning point."
+    },
+    {
+      "wp_id": 389993,
+      "title": "Fauci's Advisor Pleads Guilty",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/faucis-advisor-pleads-guilty/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting and opinion commentary on Fauci advisor's guilty plea and pandemic policy failures; no ECM reference, specific predicted event, or future date prediction."
+    },
+    {
+      "wp_id": 390007,
+      "title": "UAE Trade Ban on Iran",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/uae-trade-ban-on-iran/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Historical and geopolitical commentary on UAE-Iran trade ban and sanctions consequences; no ECM reference or specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 390014,
+      "title": "Dismantling the ICC",
+      "link": "https://www.armstrongeconomics.com/international-news/rule-of-law/dismantling-the-icc/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post addressing reader question about ICC sanctions policy; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 390009,
+      "title": "Market Talk – August 19, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-19-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current trading data as of August 19, 2026; no ECM reference or future prediction."
+    },
+    {
+      "wp_id": 390004,
+      "title": "PRIVATE BLOG – Japan & Pending Sovereign Debt Crisis",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/private-blog-japan-pending-sovereign-debt-crisis/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private Socrates subscriber content with no actual forecast content provided."
+    },
+    {
+      "wp_id": 389940,
+      "title": "Extra Welfare for Britain's Polygamist Migrants",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/extra-welfare-for-britains-polygamist-migrants/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current UK welfare policy and political principle; no ECM reference, no specific dated prediction, and no forecast model involved."
+    },
+    {
+      "wp_id": 389969,
+      "title": "South Korea Wants Military Independence — Good, Let Them Pay for It",
+      "link": "https://www.armstrongeconomics.com/world-news/war/south-korea-wants-military-independence-good-let-them-pay-for-it/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece analyzing current geopolitical strategy regarding South Korea and NATO; no ECM reference and no specific dated prediction."
+    },
+    {
+      "wp_id": 389981,
+      "title": "The Bond Crisis",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/bonds/the-bond-crisis/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "References Socrates computer model and ECM panic cycles with specific predictions: 2023 as a turning point (past), 2026 panic cycle in Moody's AAA Corporate, and explicitly states 'There is no end in sight before 2028' regarding bond crisis."
+    },
+    {
+      "wp_id": 390067,
+      "title": "PRIVATE BLOG – The 30-Year Treasury: The Canary in the Coal Mine of a Dying System",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/interest-rates/private-blog-the-30-year-treasury-the-canary-in-the-coal-mine-of-a-dying-system/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser with no substantive content; promotional post directing readers to subscribe."
+    },
+    {
+      "wp_id": 390027,
+      "title": "An Interview on Russia Today TV",
+      "link": "https://www.armstrongeconomics.com/uncategorized/an-interview-on-russia-today-tv/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Media appearance promotion linking to video; no ECM forecast or specific dated prediction."
+    },
+    {
+      "wp_id": 390047,
+      "title": "Market Talk – August 21, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-21-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and movements with no ECM reference, specific predicted event, or future date prediction."
+    },
+    {
+      "wp_id": 390031,
+      "title": "The Strait of Hormuz Is Repricing the Entire World Economy",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/the-strait-of-hormuz-is-repricing-the-entire-world-economy/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical and economic analysis of the Strait of Hormuz conflict and its systemic impacts; no ECM reference, specific predicted event, or future date prediction."
+    },
+    {
+      "wp_id": 390034,
+      "title": "Saudi Arabia Is Borrowing to Preserve Vision 2030",
+      "link": "https://www.armstrongeconomics.com/international-news/middle_east/saudi-arabia-is-borrowing-to-preserve-vision-2030/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Economic analysis of Saudi Arabia's budget deficit, Vision 2030 spending, and borrowing trends; no ECM reference, specific predicted event, or future date prediction."
+    },
+    {
+      "wp_id": 390020,
+      "title": "Marjorie Taylor Greene & Trump Using Nuclear Weapons",
+      "link": "https://www.armstrongeconomics.com/uncategorized/marjorie-taylor-greene-trump-using-nuclear-weapons/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion and historical commentary on neoconservative foreign policy and nuclear weapons discussions; no ECM reference, specific predicted event, or future date prediction."
     }
   ]
 }

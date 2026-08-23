@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-16T03:16:15.270250+00:00",
+  "generated_at": "2026-08-23T03:19:08.850199+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 16 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 143 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
-  "forecast_count": 55,
+  "source_summary": "39 chart-derived ECM cycle dates + 17 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 143 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "forecast_count": 56,
   "forecasts": [
     {
       "id": "euro-wave2-trough-2026-01-11",
@@ -880,6 +880,25 @@
       "related_events": [],
       "origin": "blog",
       "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
+    },
+    {
+      "id": "blog-385043",
+      "event_date": "2028-08-01",
+      "title": "Liquidity Crisis 2026",
+      "subtitle": "",
+      "category": "asset_panic_cycle",
+      "tag": "oil_panic",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast places the bottom of the current global recession in August 2028, with no relief expected before mid-2027. Private credit markets are already showing stress as major asset managers freeze withdrawals amid negative cash flows across roughly 40% of their loan books. The war with Iran compounds the outlook by threatening energy and fertilizer flows through the Strait of Hormuz, with the model projecting oil potentially reaching $200–$225 by 2028.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/world-news/liquidity-crusus/liquidity-crisis-2026/"
+      },
+      "related_events": [],
+      "origin": "blog",
+      "first_seen_at": "2026-08-23T03:19:08.850199+00:00"
     },
     {
       "id": "ecm-civil-unrest-2028-08-25",
