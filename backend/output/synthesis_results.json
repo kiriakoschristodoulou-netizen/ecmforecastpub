@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-23T03:19:08.668461+00:00",
+  "generated_at": "2026-08-30T08:23:20.467960+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
-  "post_count": 17,
+  "post_count": 20,
   "usage": {
-    "input_tokens": 57832,
-    "output_tokens": 6346,
-    "estimated_cost_usd": 0.268686,
+    "input_tokens": 63057,
+    "output_tokens": 6744,
+    "estimated_cost_usd": 0.290331,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -162,8 +162,35 @@
       "synthesis": "The ECM forecast places the bottom of the current global recession in August 2028, with no relief expected before mid-2027. Private credit markets are already showing stress as major asset managers freeze withdrawals amid negative cash flows across roughly 40% of their loan books. The war with Iran compounds the outlook by threatening energy and fertilizer flows through the Strait of Hormuz, with the model projecting oil potentially reaching $200–$225 by 2028.",
       "category_suggestion": "asset_panic_cycle",
       "tag_suggestion": "oil_panic"
+    },
+    {
+      "wp_id": 390123,
+      "title": "The CBDC Ban Expires with the Economic Confidence Model in 2030",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/the-cbdc-ban-expires-with-the-economic-confidence-model-in-2030/",
+      "predicted_date": "2030-01-18",
+      "synthesis": "The ECM's 2030.05 turning point—approximately January 18, 2030—marks a profound shift in confidence toward government, and Congress has set the U.S. CBDC ban to expire December 31, 2030, placing the question of programmable money directly inside that critical window. The model forecasts converging pressures: a War Cycle acceleration from August 2026 building through 2027–2029, a Chinese conflict risk in 2029, and an intensifying Sovereign Debt Crisis by 2030. Watch for whether post-2030 political conditions—shaped by war borrowing and collapsing institutional confidence—create the crisis narrative governments typically use to justify emergency financial controls.",
+      "category_suggestion": "ecm_panic",
+      "tag_suggestion": "wave_inflection"
+    },
+    {
+      "wp_id": 390264,
+      "title": "Correlating Forecasts",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/understanding-cycles/correlating-forecasts/",
+      "predicted_date": "2026-09-02",
+      "synthesis": "The ECM forecast identifies September 2, 2026 as the start of rising volatility across the final three waves of the current cycle, with the NATO inflection point acting as the trigger. Multiple independent timing arrays—spanning over 70 individual models—converge on the week of September 7th as a key global turning point, suggesting an internationally coordinated shift rather than a regional event. The correlation of geopolitical stress around NATO with the ECM's structural wave progression mirrors the model's prior track record of lining up multiple cycles—such as the 1989 collapse of Soviet communism—to identify high-probability turning points.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "nato_inflection"
+    },
+    {
+      "wp_id": 390255,
+      "title": "Beware the Ides of October?",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/beware-the-ides-of-october/",
+      "predicted_date": "2026-10-05",
+      "synthesis": "The computer model identifies a Panic Cycle for both Russia and Britain during the week of October 5th, 2026, with the Euro also flagged — but notably not the U.S. This suggests geopolitical stress concentrated within the EU-Russia axis, aligning with escalating Ukraine conflict dynamics and Russia's September Duma elections. The cycle also points to a major inflection for London in 2028, making near-term escalation a potential precursor to watch.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "russia_britain_panic"
     }
   ],
-  "auto_cleaned_at": "2026-08-23T03:19:08.790689+00:00",
-  "auto_clean_dropped": 39
+  "auto_cleaned_at": "2026-08-30T08:23:20.548225+00:00",
+  "auto_clean_dropped": 40
 }

@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-23T03:19:08.850199+00:00",
+  "generated_at": "2026-08-30T08:23:20.591839+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 17 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 143 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
-  "forecast_count": 56,
+  "source_summary": "39 chart-derived ECM cycle dates + 20 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 143 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "forecast_count": 59,
   "forecasts": [
     {
       "id": "euro-wave2-trough-2026-01-11",
@@ -658,6 +658,38 @@
       "first_seen_at": "2026-06-21T07:13:29.580383+00:00"
     },
     {
+      "id": "blog-390264",
+      "event_date": "2026-09-02",
+      "title": "Correlating Forecasts",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "nato_inflection",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast identifies September 2, 2026 as the start of rising volatility across the final three waves of the current cycle, with the NATO inflection point acting as the trigger. Multiple independent timing arrays—spanning over 70 individual models—converge on the week of September 7th as a key global turning point, suggesting an internationally coordinated shift rather than a regional event. The correlation of geopolitical stress around NATO with the ECM's structural wave progression mirrors the model's prior track record of lining up multiple cycles—such as the 1989 collapse of Soviet communism—to identify high-probability turning points.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/armstrongeconomics101/understanding-cycles/correlating-forecasts/"
+      },
+      "related_events": [
+        {
+          "date": "2026-09-09",
+          "title": "30-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        },
+        {
+          "date": "2026-09-10",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        }
+      ],
+      "origin": "blog",
+      "first_seen_at": "2026-08-30T08:23:20.591839+00:00"
+    },
+    {
       "id": "nato-cycle-2026-09-03",
       "event_date": "2026-09-03",
       "title": "NATO Cycle Inflection (Sep 2, 2026)",
@@ -688,6 +720,38 @@
       ],
       "origin": "chart",
       "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
+    },
+    {
+      "id": "blog-390255",
+      "event_date": "2026-10-05",
+      "title": "Beware the Ides of October?",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "russia_britain_panic",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The computer model identifies a Panic Cycle for both Russia and Britain during the week of October 5th, 2026, with the Euro also flagged — but notably not the U.S. This suggests geopolitical stress concentrated within the EU-Russia axis, aligning with escalating Ukraine conflict dynamics and Russia's September Duma elections. The cycle also points to a major inflection for London in 2028, making near-term escalation a potential precursor to watch.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/international-news/britain/beware-the-ides-of-october/"
+      },
+      "related_events": [
+        {
+          "date": "2026-10-04",
+          "title": "Brazil, President, Chamber of Deputies and Senate",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
+          "date": "2026-10-01",
+          "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        }
+      ],
+      "origin": "blog",
+      "first_seen_at": "2026-08-30T08:23:20.591839+00:00"
     },
     {
       "id": "dow-panic-2026-12-01",
@@ -937,6 +1001,25 @@
       "related_events": [],
       "origin": "chart",
       "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
+    },
+    {
+      "id": "blog-390123",
+      "event_date": "2030-01-18",
+      "title": "The CBDC Ban Expires with the Economic Confidence Model in 2030",
+      "subtitle": "",
+      "category": "ecm_panic",
+      "tag": "wave_inflection",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM's 2030.05 turning point—approximately January 18, 2030—marks a profound shift in confidence toward government, and Congress has set the U.S. CBDC ban to expire December 31, 2030, placing the question of programmable money directly inside that critical window. The model forecasts converging pressures: a War Cycle acceleration from August 2026 building through 2027–2029, a Chinese conflict risk in 2029, and an intensifying Sovereign Debt Crisis by 2030. Watch for whether post-2030 political conditions—shaped by war borrowing and collapsing institutional confidence—create the crisis narrative governments typically use to justify emergency financial controls.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/the-cbdc-ban-expires-with-the-economic-confidence-model-in-2030/"
+      },
+      "related_events": [],
+      "origin": "blog",
+      "first_seen_at": "2026-08-30T08:23:20.591839+00:00"
     },
     {
       "id": "euro-wave2-peak-2030-05-01",

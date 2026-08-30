@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T03:16:23.602008+00:00",
+  "generated_at": "2026-08-30T08:20:16.301017+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1168,
-  "kept_count": 140,
+  "post_count": 1193,
+  "kept_count": 145,
   "usage": {
-    "input_tokens": 32499,
-    "output_tokens": 2361,
-    "estimated_cost_usd": 0.044303999999999996,
+    "input_tokens": 27263,
+    "output_tokens": 2302,
+    "estimated_cost_usd": 0.038773,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -10522,6 +10522,231 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Opinion and historical commentary on neoconservative foreign policy and nuclear weapons discussions; no ECM reference, specific predicted event, or future date prediction."
+    },
+    {
+      "wp_id": 390089,
+      "title": "Market Talk – August 24, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-24-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price data from August 24, 2026; no ECM reference, no specific future prediction, no dated forecast."
+    },
+    {
+      "wp_id": 390044,
+      "title": "China and Egypt Unite",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/china-and-egypt-unite/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical analysis of current China-Egypt military and economic relations; no ECM reference and no specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 390050,
+      "title": "Brazil's Rare Earths and the Coming Resource War",
+      "link": "https://www.armstrongeconomics.com/international-news/emerging-markets/brazils-rare-earths-and-the-coming-resource-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Brazil's rare-earth reserves and geopolitical positioning; no ECM reference and no specific dated prediction despite discussing future trends."
+    },
+    {
+      "wp_id": 390053,
+      "title": "Indiana's Blackout Exposes America's Decaying Power Grid",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/indianas-blackout-exposes-americas-decaying-power-grid/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of Indiana power grid failure and infrastructure vulnerabilities; no ECM reference and no specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 390078,
+      "title": "JFK vs the Press 1961",
+      "link": "https://www.armstrongeconomics.com/world-news/press/jfk-vs-the-press-1961/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; insufficient content to classify as a forecast."
+    },
+    {
+      "wp_id": 390076,
+      "title": "PRIVATE BLOG – The Share Market vs Debt",
+      "link": "https://www.armstrongeconomics.com/world-news/geopolitical/private-blog-the-share-market-vs-debt/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser with no substantive content or ECM-dated predictions; promotional post directing readers to subscribe."
+    },
+    {
+      "wp_id": 390059,
+      "title": "The Future of Crude & the Fate of the World",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/the-future-of-crude-the-fate-of-the-world/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "Post references 'the computer' and 'we are showing 2028 as a major turning point' predicting oil will either reach a major high or low in 2028, with specific warning trigger (closing above $111 by year-end)."
+    },
+    {
+      "wp_id": 390176,
+      "title": "The Economy Is Stagnating",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/the-economy-is-stagnating/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "General economic analysis and commentary on current inflation, employment, and stagnation trends; no ECM model reference, no specific dated prediction, and no future turning point forecast."
+    },
+    {
+      "wp_id": 390167,
+      "title": "Will WAR Bankrupt the West?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/will-war-bankrupt-the-west/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Analysis of war and sovereign debt crisis with reference to 'War Cycle' and 'Sovereign Debt Crisis' but no specific dated ECM prediction; while it mentions the 2030 ECM turning point in final paragraph, it does not make a specific forecast for 2030, only contextualizes the timeframe as coinciding with existing pressures."
+    },
+    {
+      "wp_id": 390150,
+      "title": "Europe's Digital Euro Is Coming in 2029",
+      "link": "https://www.armstrongeconomics.com/world-news/central-banks/europes-digital-euro-is-coming-in-2029/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post reports on digital euro implementation timeline (2027 pilot, 2029 issuance) and discusses 2030 ECM turning point as context, but makes no specific ECM-derived forecast for 2029 or 2030; references the model only to situate policy timing against existing economic cycles without predicting a specific event tied to the ECM model."
+    },
+    {
+      "wp_id": 390201,
+      "title": "The Middle East Turkey vs Israel",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-middle-east-turkey-vs-israel/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Post explicitly references ECM model with specific predictions: 'We have an important Directional Change in Israel in 2027 and the critical turning point aligns with the ECM in 2028' plus 'rising volatility was to begin here in August and escalate into November,' establishing 2027 as a future ECM-predicted turning point for Middle East geopolitics."
+    },
+    {
+      "wp_id": 390179,
+      "title": "Market Talk – August 26, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-26-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current and past market data with no ECM reference, specific event predictions, or future-dated forecasts."
+    },
+    {
+      "wp_id": 390100,
+      "title": "Syria Is Converting a Russian Military Pier into a Trade Route",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/syria-is-converting-a-russian-military-pier-into-a-trade-route/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical analysis and historical commentary on Syria's port conversion with no ECM model reference, specific event predictions, or future-dated turning points."
+    },
+    {
+      "wp_id": 390123,
+      "title": "The CBDC Ban Expires with the Economic Confidence Model in 2030",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/the-cbdc-ban-expires-with-the-economic-confidence-model-in-2030/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2030-01-01",
+      "reason": "Post explicitly references ECM model predicting that the 2030 turning point (2030.05, approximately January 18, 2030) aligns with a Sovereign Debt Crisis intensification, and notes Congress deliberately set the CBDC ban expiration for December 31, 2030, placing programmable currency policy directly within the ECM's critical 2030 window."
+    },
+    {
+      "wp_id": 390131,
+      "title": "CBDCs Controlling the Debt Market",
+      "link": "https://www.armstrongeconomics.com/international-news/india/cbdcs-controlling-the-debt-market/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of India's CBDC and tokenized bond pilot program with discussion of how governments may use such systems during debt crises, but no ECM reference, specific event prediction, or future-dated turning point forecast."
+    },
+    {
+      "wp_id": 390162,
+      "title": "Moscow & Secret US Plane Landing",
+      "link": "https://www.armstrongeconomics.com/international-news/russia/moscow-secret-us-plane-landing/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post addressing reader questions about Armstrong's past Reagan-era work and current Russian TV appearances; references 1989.95 ECM turning point but only as historical context of a past event, not a future dated prediction."
+    },
+    {
+      "wp_id": 390157,
+      "title": "1996 WEC 4 Economies Within the USA",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/1996-wec-4-economies-within-the-usa/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Video link only with no accompanying text; insufficient content to classify as a forecast."
+    },
+    {
+      "wp_id": 390146,
+      "title": "Operation Economic Outcast",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/operation-economic-outcast/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Empty post body; no forecast content present."
+    },
+    {
+      "wp_id": 390264,
+      "title": "Correlating Forecasts",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/understanding-cycles/correlating-forecasts/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-09-02",
+      "reason": "ECM model explicitly referenced with specific dated prediction: September 2nd, 2026 turning point on NATO, plus September 7th week as key global turning point identified in timing arrays."
+    },
+    {
+      "wp_id": 390255,
+      "title": "Beware the Ides of October?",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/beware-the-ides-of-october/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-10-05",
+      "reason": "Computer forecasts explicitly cited with multiple specific future dates: Panic Cycle for week of October 5th in Russia, Britain, and Euro; also references 2028 London turning point and 2027 Russia panic cycle on yearly level."
+    },
+    {
+      "wp_id": 390184,
+      "title": "They Will Do Anything to Avoid Returning to Cash",
+      "link": "https://www.armstrongeconomics.com/international-news/switzerland/they-will-do-anything-to-avoid-returning-to-cash/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "General opinion and analysis about government cashless policy, digital currencies, and payment systems; no ECM reference, no specific dated prediction, and no reference to Armstrong's model or computer."
+    },
+    {
+      "wp_id": 390221,
+      "title": "The Entire Financial System Is Chained to Government Debt",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/the-entire-financial-system-is-chained-to-government-debt/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on sovereign debt risks and financial system vulnerabilities with vague forward-looking language ('beyond 2031', 'will eventually'); no ECM reference, no specific dated prediction of a concrete event, and dates mentioned only as general context."
+    },
+    {
+      "wp_id": 390226,
+      "title": "Washington Wants to Turn Chinese Banks Into the Next Battlefield",
+      "link": "https://www.armstrongeconomics.com/world-news/war/washington-wants-to-turn-chinese-banks-into-the-next-battlefield/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of geopolitical risks and sanctions policy with no ECM reference, no specific dated prediction, and no reference to Armstrong's model or computer forecasts."
+    },
+    {
+      "wp_id": 390223,
+      "title": "Market Talk – August 27, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-27-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current price data and movements; standard Market Talk post with no ECM reference or dated predictions."
+    },
+    {
+      "wp_id": 390212,
+      "title": "Armstrong on RT August 25th",
+      "link": "https://www.armstrongeconomics.com/uncategorized/armstrong-on-rt-august-25th/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post announcing a media appearance (RT August 25th); no forecast content or ECM-derived predictions."
     }
   ]
 }
