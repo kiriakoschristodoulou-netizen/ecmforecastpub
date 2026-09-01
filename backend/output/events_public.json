@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-08-30T08:23:20.591839+00:00",
+  "generated_at": "2026-09-01T08:46:59.262734+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 20 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 143 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "source_summary": "39 chart-derived ECM cycle dates + 20 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 149 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
   "forecast_count": 59,
   "forecasts": [
     {
@@ -684,6 +684,12 @@
           "title": "ECB Governing Council monetary policy meeting",
           "category": "central_bank",
           "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        },
+        {
+          "date": "2026-08-19",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         }
       ],
       "origin": "blog",
