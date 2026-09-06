@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-30T08:20:16.301017+00:00",
+  "generated_at": "2026-09-06T07:08:42.281345+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1193,
-  "kept_count": 145,
+  "post_count": 1223,
+  "kept_count": 148,
   "usage": {
-    "input_tokens": 27263,
-    "output_tokens": 2302,
-    "estimated_cost_usd": 0.038773,
+    "input_tokens": 34914,
+    "output_tokens": 2449,
+    "estimated_cost_usd": 0.047159,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -10747,6 +10747,276 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Promotional post announcing a media appearance (RT August 25th); no forecast content or ECM-derived predictions."
+    },
+    {
+      "wp_id": 390232,
+      "title": "The $29 Trillion Debt Rollover Nightmare",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/the-29-trillion-debt-rollover-nightmare/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current $29 trillion debt rollover crisis and structural issues in government finance; no ECM reference, specific predicted event, or future dated prediction."
+    },
+    {
+      "wp_id": 390260,
+      "title": "Mexico Is Growing Because It Still Produces Something",
+      "link": "https://www.armstrongeconomics.com/international-news/mexico/mexico-is-growing-because-it-still-produces-something/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Mexico's recent Q2 2026 economic growth and manufacturing trends; no ECM reference or specific dated forecast."
+    },
+    {
+      "wp_id": 390284,
+      "title": "$40 Trillion in Debt and the Interest Bill Keeps Growing",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/40-trillion-in-debt-and-the-interest-bill-keeps-growing/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current $40 trillion US federal debt and interest burden through July 2026, with CBO projection to 2036 as context; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 390321,
+      "title": "Has Netanyahu Undermined the US?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/has-netanyahu-undermined-the-us-ai-bubble-the-new-ai-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece on Netanyahu and Iran conflict with passing mention of 'I did not see a change in the government until 2027' as general commentary, not an ECM-derived specific prediction with ECM reference."
+    },
+    {
+      "wp_id": 390349,
+      "title": "PRIVATE BLOG – Korea the Uninteded Consequence",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-korea-the-uninteded-consequence/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private blog post; no forecast content provided."
+    },
+    {
+      "wp_id": 390211,
+      "title": "Exclusive Forecasts to 2032, Sovereign Debt Contagion & The Four-Front War",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/exclusive-forecasts-to-2032-sovereign-debt-contagion-the-four-front-war/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Promotional post teasing exclusive forecasts; no specific ECM-dated prediction or event detailed in the body."
+    },
+    {
+      "wp_id": 390314,
+      "title": "PRIVATE BLOG – Here We Go – Hold On!",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/foreign-exchange/usd/private-blog-here-we-go-hold-on/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Private blog teaser post directing readers to subscription service; no ECM forecast or specific dated prediction provided."
+    },
+    {
+      "wp_id": 390374,
+      "title": "The Treasury Is Now Supporting Its Own Debt Market",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/the-treasury-is-now-supporting-its-own-debt-market/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on current Treasury intervention and sovereign debt crisis; no ECM model reference and no specific future event prediction with a dated turning point."
+    },
+    {
+      "wp_id": 390365,
+      "title": "India Is Rising in Real Time",
+      "link": "https://www.armstrongeconomics.com/international-news/india/india-is-rising-in-real-time/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on India's current economic performance and structural transformation; no ECM reference or specific dated ECM prediction."
+    },
+    {
+      "wp_id": 390376,
+      "title": "Iceland Has Chosen Sovereignty Over Brussels",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/iceland-has-chosen-sovereignty-over-brussels/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on Iceland's referendum outcome and EU political tensions; no ECM model reference or specific dated ECM forecast."
+    },
+    {
+      "wp_id": 390371,
+      "title": "Market Talk – August 31, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-31-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current market prices and movements with no ECM reference, specific predictions, or future dated forecasts."
+    },
+    {
+      "wp_id": 390429,
+      "title": "The Digital Euro Is Being Sold Through Fear of America",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/the-digital-euro-is-being-sold-through-fear-of-america/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing EU digital euro policy and geopolitical implications; mentions 2029 and 2027 as timelines for implementation but does not predict a specific ECM-dated event or turning point."
+    },
+    {
+      "wp_id": 390420,
+      "title": "Singapore: Capital Is Voting With Its Feet",
+      "link": "https://www.armstrongeconomics.com/international-news/southeast_asia/singapore-capital-is-voting-with-its-feet/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Singapore's economic growth and capital migration trends; no ECM reference, computer model, or specific dated prediction of a future turning point."
+    },
+    {
+      "wp_id": 390414,
+      "title": "The Netherlands Is Moving Its Gold as Trust in the Financial System Collapses",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/the-netherlands-is-moving-its-gold-as-trust-in-the-financial-system-collapses/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing Netherlands' gold relocation and geopolitical instability; no ECM reference, model forecast, or specific dated prediction, despite discussing systemic risks."
+    },
+    {
+      "wp_id": 390433,
+      "title": "Here Comes the Future",
+      "link": "https://www.armstrongeconomics.com/armstrong-economics-upcoming-events/world-economic-conference/here-comes-the-future/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A response discussing Armstrong's past forecasts (2022, 2011, 2020), historical cycles, and WEC agenda topics; while it references the computer and ECM cycles extensively, it does not make a specific new dated prediction for a future turning point in this post."
+    },
+    {
+      "wp_id": 390442,
+      "title": "Bessent Destroying the Dollar",
+      "link": "https://www.armstrongeconomics.com/world-news/sanctions/bessent-destroying-the-dollar/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2030-01-01",
+      "reason": "Post references Armstrong's 'computer forecast' predicting a specific event (panic cycle/dollar collapse) tied to a specific future date: 'as soon as 2030 where we have a Panic Cycle.'"
+    },
+    {
+      "wp_id": 390426,
+      "title": "Market Talk – August 2, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-august-2-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current/recent market data with no ECM reference, no specific dated prediction, and no forecast of future events."
+    },
+    {
+      "wp_id": 390418,
+      "title": "PRIVATE BLOG – Will Trump Nuke Iran?",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-will-trump-nuke-iran/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional/teaser post for private blog subscribers with no substantive content, ECM reference, or specific dated prediction."
+    },
+    {
+      "wp_id": 390384,
+      "title": "Marine Le Pen and the Nationalist Trend the Establishment Cannot Stop",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/marine-le-pen-and-the-nationalist-trend-the-establishment-cannot-stop/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Political commentary analyzing nationalist trend in Europe and Le Pen's polling ahead of 2027 election; no ECM reference, no specific dated prediction of a turning point, and no computer model forecast."
+    },
+    {
+      "wp_id": 390392,
+      "title": "Vietnam: Another Economy Rising in Real Time",
+      "link": "https://www.armstrongeconomics.com/international-news/emerging-markets/vietnam-another-economy-rising-in-real-time/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Economic analysis and commentary on Vietnam's strong GDP growth and manufacturing expansion with no ECM reference, no specific dated prediction, and no computer-model forecast."
+    },
+    {
+      "wp_id": 390338,
+      "title": "Sanctions Undermining the US Economy Long Term",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/sanctions-undermining-the-us-economy-long-term/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "Post references Armstrong's computer projecting China will become the New Financial Capital displacing the US, with 2027 identified as a critical turning point, though the specific event mechanism within 2027 is not granularly detailed."
+    },
+    {
+      "wp_id": 390381,
+      "title": "The Hidden Economics Behind the Wars! Escalation Ahead?",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/the-hidden-economics-behind-the-wars-escalation-ahead/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot classify as forecast without substantive content."
+    },
+    {
+      "wp_id": 390504,
+      "title": "Did Putin Propose Peace With USA?",
+      "link": "https://www.armstrongeconomics.com/international-news/russia/did-putin-propose-peace-with-usa/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post discussing Putin's statements on restored US-Russia relations and historical context; no ECM model reference or specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 390500,
+      "title": "Market Talk – September 4, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-4-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current and past market data with no ECM reference or future-dated prediction."
+    },
+    {
+      "wp_id": 390464,
+      "title": "The Ukraine Money Pit — Estonia's €70 Million Scandal",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/the-ukraine-money-pit-estonias-e70-million-scandal/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Estonia's defense spending scandal and European military procurement practices; no ECM model reference or specific dated prediction."
+    },
+    {
+      "wp_id": 390362,
+      "title": "Authoritarianism Rises as Government Fear Losing Power",
+      "link": "https://www.armstrongeconomics.com/world-news/government-surveilance/authoritarianism-rises-as-government-fear-losing-power/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Historical commentary on authoritarianism and government control without ECM model reference or specific dated prediction."
+    },
+    {
+      "wp_id": 390474,
+      "title": "Our September Webinar Series is Here",
+      "link": "https://www.armstrongeconomics.com/uncategorized/our-september-webinar-series-is-here/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Promotional post advertising educational webinars about ECM methodology; no specific dated prediction about future economic events."
+    },
+    {
+      "wp_id": 390478,
+      "title": "Ratcliffe's Secret Urgent Meeting",
+      "link": "https://www.armstrongeconomics.com/world-news/geopolitical/ratcliffes-secret-urgent-meeting/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-09-02",
+      "reason": "Post references Socrates model and predicts a geopolitical turning point: 'Our model on NATO turns up September 2nd, 2026' with elevated geopolitical tensions expected during this period."
+    },
+    {
+      "wp_id": 390471,
+      "title": "Market Talk – September 3, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-3-2026/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current stock, currency, commodity, and bond prices with no ECM reference or specific dated future prediction."
+    },
+    {
+      "wp_id": 390461,
+      "title": "PRIVATE BLOG – Ursula's EU Adopts Hitler's Nazi Capital Controls",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-ursulas-eu-adopts-hitlers-nazi-capital-controls/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Private blog teaser with no accessible content; promotional link only."
     }
   ]
 }

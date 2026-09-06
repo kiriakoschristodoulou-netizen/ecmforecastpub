@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-08-30T08:23:20.467960+00:00",
+  "generated_at": "2026-09-06T07:11:47.289144+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
   "post_count": 20,
   "usage": {
-    "input_tokens": 63057,
-    "output_tokens": 6744,
-    "estimated_cost_usd": 0.290331,
+    "input_tokens": 63979,
+    "output_tokens": 6793,
+    "estimated_cost_usd": 0.293832,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -191,6 +191,6 @@
       "tag_suggestion": "russia_britain_panic"
     }
   ],
-  "auto_cleaned_at": "2026-08-30T08:23:20.548225+00:00",
-  "auto_clean_dropped": 40
+  "auto_cleaned_at": "2026-09-06T07:11:47.376923+00:00",
+  "auto_clean_dropped": 43
 }

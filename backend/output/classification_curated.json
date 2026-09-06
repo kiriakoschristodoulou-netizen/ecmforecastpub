@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-30T08:20:24.400424+00:00",
+  "generated_at": "2026-09-06T07:08:46.452796+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 145,
-  "kept_count": 60,
+  "input_post_count": 148,
+  "kept_count": 63,
   "usage": {
-    "input_tokens": 6256,
-    "output_tokens": 587,
-    "estimated_cost_usd": 0.009191000000000001,
+    "input_tokens": 4679,
+    "output_tokens": 288,
+    "estimated_cost_usd": 0.006119,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1315,6 +1315,33 @@
       "confidence": "high",
       "predicted_date": "2026-10-05",
       "reason": "Model-attributed Panic Cycle forecast: 'We have Panic Cycle in both Russia and Britain for the week of October 5th'; also states London has 'HUGE MAJOR turning point in 2028' from cyclical analysis."
+    },
+    {
+      "wp_id": 390442,
+      "title": "Bessent Destroying the Dollar",
+      "link": "https://www.armstrongeconomics.com/world-news/sanctions/bessent-destroying-the-dollar/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2030-01-01",
+      "reason": "Armstrong attributes to his computer forecast a Panic Cycle in 2030 affecting the dollar and world economy, though the prediction lacks month-level specificity."
+    },
+    {
+      "wp_id": 390338,
+      "title": "Sanctions Undermining the US Economy Long Term",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/sanctions-undermining-the-us-economy-long-term/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong attributes to his computer a forecast targeting 2027 as a critical turning point for China becoming the New Financial Capital displacing the US, though month-level specificity is absent."
+    },
+    {
+      "wp_id": 390478,
+      "title": "Ratcliffe's Secret Urgent Meeting",
+      "link": "https://www.armstrongeconomics.com/world-news/geopolitical/ratcliffes-secret-urgent-meeting/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-09-02",
+      "reason": "Armstrong states his model 'turns up September 2nd, 2026' for NATO tensions as a geopolitical turning point, though the body is incomplete and specific predicted event details are unclear."
     }
   ]
 }
