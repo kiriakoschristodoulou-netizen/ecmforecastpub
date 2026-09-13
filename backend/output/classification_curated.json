@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-06T07:08:46.452796+00:00",
+  "generated_at": "2026-09-13T07:29:32.239148+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 148,
-  "kept_count": 63,
+  "input_post_count": 154,
+  "kept_count": 67,
   "usage": {
-    "input_tokens": 4679,
-    "output_tokens": 288,
-    "estimated_cost_usd": 0.006119,
+    "input_tokens": 9561,
+    "output_tokens": 622,
+    "estimated_cost_usd": 0.012671,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1342,6 +1342,60 @@
       "confidence": "medium",
       "predicted_date": "2026-09-02",
       "reason": "Armstrong states his model 'turns up September 2nd, 2026' for NATO tensions as a geopolitical turning point, though the body is incomplete and specific predicted event details are unclear."
+    },
+    {
+      "wp_id": 390525,
+      "title": "Is Iran Winning & Can Midterms be a Clean Democratic Sweep?",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/is-iran-winning/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post contains editorial speculation and historical/political analysis, not model-attributed dated predictions; mentions 2029 in context of missile production timelines (policy/military capacity, not an ECM forecast)."
+    },
+    {
+      "wp_id": 390492,
+      "title": "Operation Twist 2.0, The 2032 Gold Target & 100,000 Robotic Soldiers",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/operation-twist-2-0-the-2032-gold-target-100000-robotic-soldiers/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2032-01-01",
+      "reason": "Armstrong explicitly attributes a 2032 gold macro peak projection to his economic cycle model ('he projects gold's long-term macro peak won't arrive until 2032'), though the post lacks month-level specificity."
+    },
+    {
+      "wp_id": 390609,
+      "title": "Armstrong on RT",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/armstrong-on-rt/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong explicitly attributes to Socrates a Panic Cycle in Gasoline for 2027 ('we have a Panic Cycle in Gasoline for 2027. This is where Socrates becomes so important'), though year-only precision limits confidence slightly."
+    },
+    {
+      "wp_id": 390572,
+      "title": "European Revolution 2026",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/european-revolution-2026/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2029-01-01",
+      "reason": "Armstrong explicitly attributes to his computer model a 2029 date when NYC will lose its financial capital status ('the model points to 2029 when NYC will completely lose its status'), though year-only precision limits confidence."
+    },
+    {
+      "wp_id": 390584,
+      "title": "North Korean Missiles Used to Hit Kiev & US Attacks Iranian Tankers",
+      "link": "https://www.armstrongeconomics.com/international-news/ukraine/north-korean-missiles-used-to-hit-kiev-us-attacks-iranian-tankers/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong explicitly attributes to his computer a first quarter 2027 shift date for possible Iranian government change ('The computer projected the only possible shift in the Iranian government would come during the first quarter 2027')."
+    },
+    {
+      "wp_id": 390673,
+      "title": "The Neocon Cancer: Endless Wars, Economic Ruin, and the Collapse of the West",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-neocon-cancer-endless-wars-economic-ruin-and-the-collapse-of-the-west/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post contains only year-only reference ('post-2032') without month/quarter specificity, and the China/USA financial capital claim is editorial geopolitical analysis, not a new or amended ECM model output with specific dated predictions."
     }
   ]
 }
