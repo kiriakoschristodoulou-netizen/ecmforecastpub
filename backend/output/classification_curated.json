@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-13T07:29:32.239148+00:00",
+  "generated_at": "2026-09-20T07:46:05.837939+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
   "input_post_count": 154,
   "kept_count": 67,
   "usage": {
-    "input_tokens": 9561,
-    "output_tokens": 622,
-    "estimated_cost_usd": 0.012671,
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "estimated_cost_usd": 0.0,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [

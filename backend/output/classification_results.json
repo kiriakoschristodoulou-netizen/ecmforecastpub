@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-13T07:29:24.165594+00:00",
+  "generated_at": "2026-09-20T07:45:48.689061+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1258,
-  "kept_count": 154,
+  "post_count": 1286,
+  "kept_count": 156,
   "usage": {
-    "input_tokens": 38925,
-    "output_tokens": 2886,
-    "estimated_cost_usd": 0.053355,
+    "input_tokens": 34429,
+    "output_tokens": 2380,
+    "estimated_cost_usd": 0.046329,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -11332,6 +11332,258 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Private blog teaser with no substantive content, ECM reference, or dated prediction available; promotional post."
+    },
+    {
+      "wp_id": 390808,
+      "title": "Ukraine Allegedly Spends $190 Million Daily on War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/ukraine-allegedly-spends-190-million-daily-on-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current and historical costs of the Ukraine war with no ECM reference, computer model prediction, or specific future dated forecast."
+    },
+    {
+      "wp_id": 390801,
+      "title": "Brussels' Version of Democracy: Pick a Bird",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/brussels-version-of-democracy-pick-a-bird/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on EU democracy and ECB banknote redesign process with a vague reference to \"end of 2026\" as timing for ECB decision, but no ECM model reference or specific dated prediction of a concrete event."
+    },
+    {
+      "wp_id": 390812,
+      "title": "Italy Calls for EU Member Sovereignty",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/italy-calls-for-eu-member-sovereignty/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Meloni's EU sovereignty proposal and European political arguments with no ECM reference or specific dated future prediction."
+    },
+    {
+      "wp_id": 390810,
+      "title": "Market Talk – September 14, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-14-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price movements from September 14, 2026; no ECM reference or forecast element."
+    },
+    {
+      "wp_id": 390733,
+      "title": "Costs Up, Wages Down – Inflation Prevails",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/costs-up-wages-down-inflation-prevails/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current inflation trends and Fed policy dynamics with no ECM model reference or specific dated future event prediction."
+    },
+    {
+      "wp_id": 390730,
+      "title": "Free Cash for Drugs – Vote Democrat",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/free-cash-for-drugs-vote-democrat/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current election fraud allegations and voter registration schemes; no ECM model reference, no specific future dated prediction."
+    },
+    {
+      "wp_id": 390719,
+      "title": "Normalizing Constant Surveillance",
+      "link": "https://www.armstrongeconomics.com/world-news/technology-world-news/normalizing-the-surveillance/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece criticizing corporate and government surveillance practices; no ECM reference, no specific dated event prediction."
+    },
+    {
+      "wp_id": 390782,
+      "title": "The Next Documentary",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/the-next-documentary/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post contains only a title with empty body; promotional/teaser content with no forecast content."
+    },
+    {
+      "wp_id": 390777,
+      "title": "The Middle East – The Cyclical View",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-middle-east-the-cyclical-view/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong's computer model explicitly predicted the May 8, 2025 turning point in Middle East conflict (past confirmation), and the post states 'this is showing up as a Panic Cycle for 2027' indicating a future ECM-derived panic cycle forecast for 2027."
+    },
+    {
+      "wp_id": 390785,
+      "title": "Ukraine Coming to a Head",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/ukraine-coming-to-a-head/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "While the post warns 'Beware of October' regarding Ukraine conflict escalation, it lacks explicit ECM model reference and the specific nature of the predicted October event is vague (false flag, escalation); without clear ECM attribution and specific dated prediction, this is advisory commentary rather than a formal forecast."
+    },
+    {
+      "wp_id": 390864,
+      "title": "Spain Never Solved the Catalonia Problem",
+      "link": "https://www.armstrongeconomics.com/international-news/spain/spain-never-solved-the-catalonia-problem/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary analyzing Spain's Catalonia crisis and separatism trends; mentions past events (2017 referendum, 2024 amnesty) and general future trends without ECM reference or specific dated predictions."
+    },
+    {
+      "wp_id": 390869,
+      "title": "Brussels Finally Admits Borders Matter",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/brussels-finally-admits-borders-matter/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on EU migration policy and border control; discusses recent events (Ceuta crisis, June 2026 pact) and sovereignty issues without ECM reference or specific dated predictions."
+    },
+    {
+      "wp_id": 390872,
+      "title": "The Fed Is Raising Rates",
+      "link": "https://www.armstrongeconomics.com/world-news/central-banks/the-fed-is-raising-rates/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on Fed rate increase and monetary policy analysis; discusses current economic conditions and general future pressures without ECM reference or specific dated predictions."
+    },
+    {
+      "wp_id": 390866,
+      "title": "Market Talk – September 16, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-16-2026/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and movements for September 16, 2026; no ECM reference or forecasted events."
+    },
+    {
+      "wp_id": 390843,
+      "title": "Trading Westminster for Brussels?",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/trading-westminster-for-brussels/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on UK separatism and political trends; references past ECM analysis (2012 Berlin Conference, 2014 forecast) and polling data but makes no specific dated future prediction tied to the ECM model."
+    },
+    {
+      "wp_id": 390827,
+      "title": "Germany Is Rejecting Brussels",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/germany-is-rejecting-brussels/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current German political trends (AfD election results from September 6, 2026) and European centralization without referencing ECM, computer model, or making a specific dated prediction for a future event."
+    },
+    {
+      "wp_id": 390847,
+      "title": "Trump Sees the Breakup of Britain Coming",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/trump-sees-the-breakup-of-britain-coming/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary discussing Trump's recent statements on UK breakup and current nationalist movements across Europe, with a passing reference to 'Cycle of War and civil unrest models' but no specific ECM-dated forecast or future turning point prediction in this post."
+    },
+    {
+      "wp_id": 390852,
+      "title": "Bravado Always Fails",
+      "link": "https://www.armstrongeconomics.com/future-forecasts/bravado-always-fails/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary and Q&A consisting of personal correspondence and Armstrong's replies about past market events and historical forecasts, without making a specific dated prediction for a future ECM turning point."
+    },
+    {
+      "wp_id": 390858,
+      "title": "PRIVATE BLOG – A Ukraine Russia Briefing",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-a-ukraine-russia-briefing/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private blog content with no substantive forecast content provided."
+    },
+    {
+      "wp_id": 390845,
+      "title": "Market Talk – September 15, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-15-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current closing prices and movements from September 15, 2026, without ECM reference or future dated predictions."
+    },
+    {
+      "wp_id": 390917,
+      "title": "Can the US Rein In the Eurodollar? If Not, What Should Trump Do?",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/can-the-us-rein-in-the-eurodollar-if-not-what-should-trump-do/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot evaluate for ECM forecast content."
+    },
+    {
+      "wp_id": 390933,
+      "title": "Market Talk – September 18, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-18-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and index movements without ECM reference or future dated predictions."
+    },
+    {
+      "wp_id": 390922,
+      "title": "The Decline & Fall of Brussels",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-decline-fall-of-brussels/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "References 'turning point that took place on September 2nd, 2026' and mentions updating timing on Private Blog for future ECM-predicted events, but the specific future ECM forecast dates are deferred to the Private Blog and not explicitly stated in this post."
+    },
+    {
+      "wp_id": 390891,
+      "title": "Now Even English Villages Want to Leave Britain",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/now-even-english-villages-want-to-leave-britain/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current political fragmentation in Britain and Europe without referencing Armstrong's ECM model or making specific dated predictions."
+    },
+    {
+      "wp_id": 390889,
+      "title": "Economic Illiteracy Is No Barrier to Public Office",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/economic-illiteracy-is-no-barrier-to-public-office/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece on political and economic illiteracy without ECM reference or future dated predictions."
+    },
+    {
+      "wp_id": 390896,
+      "title": "AI Said She Was Guilty — So They Put Her in Jail",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ai-computers/ai-said-she-was-guilty-so-they-put-her-in-jail/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a news/opinion commentary about facial recognition technology and the Angela Lipps case; it contains no ECM reference, computer model prediction, or specific future dated forecast."
+    },
+    {
+      "wp_id": 390902,
+      "title": "Russian Elections – Zelensky & Boris Johnson",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/russian-elections-zelensky-boris-johnson/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is political commentary on Russian elections occurring September 18–20, 2026 (dates that are today or in the past relative to the reference date); it contains no ECM reference or specific future dated prediction."
+    },
+    {
+      "wp_id": 390894,
+      "title": "Market Talk – September 17, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-17-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a daily market data roundup reporting historical prices for September 17, 2026; it contains no ECM reference, computer model prediction, or future dated forecast."
     }
   ]
 }
