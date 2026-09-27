@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-20T07:49:14.809465+00:00",
+  "generated_at": "2026-09-27T12:10:15.601450+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
-  "post_count": 20,
+  "post_count": 22,
   "usage": {
-    "input_tokens": 70002,
-    "output_tokens": 7318,
-    "estimated_cost_usd": 0.319776,
+    "input_tokens": 73480,
+    "output_tokens": 7869,
+    "estimated_cost_usd": 0.33847499999999997,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -189,8 +189,26 @@
       "synthesis": "The computer model identifies a Panic Cycle for both Russia and Britain during the week of October 5th, 2026, with the Euro also flagged — but notably not the U.S. This suggests geopolitical stress concentrated within the EU-Russia axis, aligning with escalating Ukraine conflict dynamics and Russia's September Duma elections. The cycle also points to a major inflection for London in 2028, making near-term escalation a potential precursor to watch.",
       "category_suggestion": "geopolitical_cycle",
       "tag_suggestion": "russia_britain_panic"
+    },
+    {
+      "wp_id": 390994,
+      "title": "Merz Refuses to Relinguish Power in Germany?",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/merz-refuses-to-relinguish-power-in-germany/",
+      "predicted_date": "2026-08-24",
+      "synthesis": "The model flagged a string of Directional Changes from late August through the September 14 German election window, aligning with the CDU's historic collapse in Mecklenburg-Vorpommern. Political instability in Germany is significant given the ECM's indication that the EU faces structural dissolution pressure post-2029. Watch for further fragmentation of centrist parties as the cycle's geopolitical stress phase deepens.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "election_cycle"
+    },
+    {
+      "wp_id": 390979,
+      "title": "Beware Ukraine False Flag",
+      "link": "https://www.armstrongeconomics.com/world-news/war/beware-ukraine-false-flag/",
+      "predicted_date": "2026-09-28",
+      "synthesis": "The ECM forecast flagged the weeks of September 28 and October 5, 2026 as a critical window for potential geopolitical escalation, specifically tied to false-flag risk in the Ukraine conflict. The model has tracked the war cycle's upward trajectory since its 2014 turn, and current battlefield desperation narratives align with the cycle's most volatile phase. The October 5 window should be monitored closely for any triggering incident that could broaden the conflict into a wider European or global war.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "war_cycle_peak"
     }
   ],
-  "auto_cleaned_at": "2026-09-20T07:49:14.908131+00:00",
-  "auto_clean_dropped": 47
+  "auto_cleaned_at": "2026-09-27T12:10:15.699046+00:00",
+  "auto_clean_dropped": 48
 }

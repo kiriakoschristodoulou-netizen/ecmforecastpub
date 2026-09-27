@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-20T07:45:48.689061+00:00",
+  "generated_at": "2026-09-27T12:06:41.725579+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1286,
-  "kept_count": 156,
+  "post_count": 1322,
+  "kept_count": 159,
   "usage": {
-    "input_tokens": 34429,
-    "output_tokens": 2380,
-    "estimated_cost_usd": 0.046329,
+    "input_tokens": 39450,
+    "output_tokens": 2995,
+    "estimated_cost_usd": 0.054425,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -11584,6 +11584,330 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "This is a daily market data roundup reporting historical prices for September 17, 2026; it contains no ECM reference, computer model prediction, or future dated forecast."
+    },
+    {
+      "wp_id": 390914,
+      "title": "Bessent: I AM THE HOUSE NOW",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/bessent-i-am-the-house-now/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current Treasury bond market dynamics and Bessent's policy actions; no ECM reference, computer model prediction, or dated forecast of a specific future event."
+    },
+    {
+      "wp_id": 390929,
+      "title": "Bessent Tells Japan to Do What Washington Refuses to Do",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/bessent-tells-japan-to-do-what-washington-refuses-to-do/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Japan and U.S. sovereign debt crisis dynamics; discusses the unfolding Sovereign Debt Crisis in real time but contains no ECM reference, computer prediction, or specific dated forecast."
+    },
+    {
+      "wp_id": 390931,
+      "title": "Who Really Controls Interest Rates?",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/economics/who-really-controls-interest-rates/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on who controls interest rates (Bessent vs. Warsh) and historical context; no ECM reference, computer model, or specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 391004,
+      "title": "Estonian Politicians Want Russia Broken Up",
+      "link": "https://www.armstrongeconomics.com/uncategorized/estonian-politicians-want-russian-broken-up/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Estonian and Russian geopolitical tensions, historical analysis of inherited guilt doctrine, and criticism of current leadership; no ECM reference, computer prediction, or specific dated forecast."
+    },
+    {
+      "wp_id": 391008,
+      "title": "Ukraine Interfering in US Elections",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/ukraine-interfering-in-us-elections/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current Ukrainian and Israeli interference in U.S. elections and Congress voting records; no ECM reference, computer model, or specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 390994,
+      "title": "Merz Refuses to Relinguish Power in Germany?",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/merz-refuses-to-relinguish-power-in-germany/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2029-01-01",
+      "reason": "The computer model predicts the EU will not exist post-2029, referencing a specific future date and geopolitical outcome; ECM reference explicit but prediction is somewhat general."
+    },
+    {
+      "wp_id": 390979,
+      "title": "Beware Ukraine False Flag",
+      "link": "https://www.armstrongeconomics.com/world-news/war/beware-ukraine-false-flag/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-09-28",
+      "reason": "The computer has been warning about 'the weeks of September 28/October 5' with a predicted FALSE FLAG event in Ukraine; explicit ECM reference and specific near-term dated prediction."
+    },
+    {
+      "wp_id": 390942,
+      "title": "Armstrong of Financial Sense",
+      "link": "https://www.armstrongeconomics.com/uncategorized/armstrong-of-financial-sense/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post is empty or promotional (media appearance); contains no ECM forecast or substantive content."
+    },
+    {
+      "wp_id": 390936,
+      "title": "Pfizer Inserts Undisclosed DNA in mRNA Vaccines?",
+      "link": "https://www.armstrongeconomics.com/international-news/vaccine/pfizer-inserts-undisclosed-dna-in-mrna-vaccines/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "General commentary on vaccine safety and government trust without ECM model reference or dated predictions."
+    },
+    {
+      "wp_id": 390963,
+      "title": "PRIVATE BLOG – The Dow Down & Dirty into October",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/stock-indicies/dow-jones/private-blog-the-dow-down-dirty-into-october/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post for private subscriber content with no substantive forecast or analysis included."
+    },
+    {
+      "wp_id": 391052,
+      "title": "Yemen Is Unraveling as the War Spreads Across the Red Sea",
+      "link": "https://www.armstrongeconomics.com/world-news/war/yemen-is-unraveling-as-the-war-spreads-across-the-red-sea/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting and geopolitical analysis of current Yemen crisis; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 391050,
+      "title": "The Houthis Have Saudi Arabia Trapped Between Two Chokepoints",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/the-houthis-have-saudi-arabia-trapped-between-two-chokepoints/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical analysis of Houthi control and Saudi strategic vulnerability; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 391054,
+      "title": "Saudi Arabia Turns to China to Restrain Iran and the Houthis",
+      "link": "https://www.armstrongeconomics.com/international-news/china/saudi-arabia-turns-to-china-to-restrain-iran-and-the-houthis/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current China-Saudi-Iran diplomacy and geopolitical power shifts; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 391060,
+      "title": "This is Why CNN is Fake News – Appalling",
+      "link": "https://www.armstrongeconomics.com/world-news/press/this-is-why-cnn-is-fake-news-appalling/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece criticizing media coverage and historical war narratives; no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 353889,
+      "title": "Next Generation World Economic Conference",
+      "link": "https://www.armstrongeconomics.com/qa/next-generation-world-economic-conference/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post about launching Next Generation WEC after 2032; mentions post-2032 timeframe only as context without ECM model reference or specific dated prediction."
+    },
+    {
+      "wp_id": 391057,
+      "title": "Market Talk – September 22, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-22-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current/recent market data with no ECM reference, specific predicted event, or future date prediction."
+    },
+    {
+      "wp_id": 391027,
+      "title": "Sanctions Have Become Economic Warfare",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/sanctions-have-become-economic-warfare/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece analyzing current geopolitical sanctions policy and economic consequences; no ECM reference, model prediction, or specific dated forecast of a future event."
+    },
+    {
+      "wp_id": 391024,
+      "title": "Flock Is Discovering That Americans Do Not Want to Live in a Surveillance State",
+      "link": "https://www.armstrongeconomics.com/government-surveillance/flock-is-discovering-that-americans-do-not-want-to-live-in-a-surveillance-state/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on surveillance technology and Flock company backlash; no ECM reference, model prediction, or specific dated forecast."
+    },
+    {
+      "wp_id": 390967,
+      "title": "Will AI Kill All Humanity by 2032?",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ai-computers/will-ai-kill-all-humanity-by-2032/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "While the title mentions 2032 and the post discusses AI risk, this is speculative commentary refuting doomsday AI claims, not an ECM-based dated prediction of a specific event; Socrates is mentioned only in context of its capabilities vs. ChatGPT, not as the source of a forecast."
+    },
+    {
+      "wp_id": 391042,
+      "title": "PRIVATE BLOG – Is China Preparing for War But Not USA?",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-is-china-preparing-for-war-but-not-usa/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private Socrates subscriber-only content with no substantive forecast information provided."
+    },
+    {
+      "wp_id": 391125,
+      "title": "Milei Takes on \"Arrogant Parasites\" at United Nations",
+      "link": "https://www.armstrongeconomics.com/world-news/united-nations/milei-takes-on-arrogant-parasites-in-united-nations/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Milei's UN speech criticizing international bureaucracies; no ECM model reference, no specific dated prediction, and no reference to Armstrong's computer or panic cycle."
+    },
+    {
+      "wp_id": 391129,
+      "title": "When Did a Military Coup Become Acceptable in America?",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/when-did-a-military-coup-become-acceptable-in-america/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Political opinion piece analyzing military coup acceptance and political violence in America; no ECM reference, no specific dated prediction, and no connection to Armstrong's forecasting model."
+    },
+    {
+      "wp_id": 391115,
+      "title": "Kamala Insists Cleaning the Voter Rolls Is Cheating",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/kamala-insists-cleaning-the-voter-rolls-is-cheating/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on voter roll purges and election administration policy; no ECM reference, no specific dated prediction, and no model-based forecast."
+    },
+    {
+      "wp_id": 391118,
+      "title": "Britain's New Ministry of Truth",
+      "link": "https://www.armstrongeconomics.com/world-news/government-surveilance/britains-new-ministry-of-truth/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Historical analysis of free speech suppression with a passing technical comment on GBP/USD (\"close BELOW 13160\" or \"ABOVE 13550\") without explicit ECM model reference or specific event prediction tied to a future date."
+    },
+    {
+      "wp_id": 391140,
+      "title": "The Duma Landslide for Putin",
+      "link": "https://www.armstrongeconomics.com/international-news/russia/the-duma-landslide-for-putin/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post-event commentary on Russia's September 2026 Duma elections (already occurred) with a retrospective validation that 'Socrates does it again'; the ECM reference and computer model are mentioned but only to confirm a past prediction, not to forecast a future event."
+    },
+    {
+      "wp_id": 391121,
+      "title": "Market Talk – September 24, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-24-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current and past market data with no ECM reference, specific predicted event, or future date prediction."
+    },
+    {
+      "wp_id": 391123,
+      "title": "PRIVATE BLOG – Why WWIII Comes in 2027",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-why-wwiii-comes-in-2027/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Private blog teaser explicitly references Socrates (Armstrong's computer model) and predicts WWIII in 2027, a specific future dated event."
+    },
+    {
+      "wp_id": 391091,
+      "title": "Iran Is Watching Its Economy Collapse in Real Time",
+      "link": "https://www.armstrongeconomics.com/world-news/war/iran-is-watching-its-economy-collapse-in-real-time/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analytical commentary on Iran's current economic collapse with no ECM reference, computer model citation, or specific dated forecast prediction."
+    },
+    {
+      "wp_id": 391087,
+      "title": "One Hostage and One Million People Will Pay?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/one-hostage-and-one-million-people-will-pay/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Legal and policy analysis commentary on Israeli defense statements and international humanitarian law with no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 391070,
+      "title": "The New Arms Race Is Artificial Intelligence",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-new-arms-race-is-artificial-intelligence/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Strategic analysis of AI militarization and South Korea's 2027 policy response; no ECM reference or specific predicted event/turning point, only policy context."
+    },
+    {
+      "wp_id": 391169,
+      "title": "DOLLAR Collapse NOT Coming Yet: De Dollarization After 2032",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/dollar-collapse-not-coming-yet-de-dollarization-after-2032/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post body is empty; title mentions 'After 2032' but without body content, no ECM reference or specific event prediction can be verified."
+    },
+    {
+      "wp_id": 391189,
+      "title": "Interview from Spain",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/interview-from-spain/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post body is empty; title alone does not constitute an ECM forecast."
+    },
+    {
+      "wp_id": 391110,
+      "title": "FOLLOW ARMSTRONG ECONOMICS",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/follow-armstrong-economics-2/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a promotional/administrative post warning about fraudulent social media accounts; contains no ECM reference or prediction."
+    },
+    {
+      "wp_id": 391191,
+      "title": "Putin & Trump",
+      "link": "https://www.armstrongeconomics.com/world-news/geopolitical/putin-trump/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a Q&A commentary post about geopolitical history and personal anecdotes; it references no ECM model, computer predictions, or specific future dated forecast events."
+    },
+    {
+      "wp_id": 391181,
+      "title": "Market Talk – September 25, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-25-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a daily market roundup reporting historical price data from September 25, 2026; contains no ECM reference or future prediction."
+    },
+    {
+      "wp_id": 391157,
+      "title": "AI the Real Danger?",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ai-computers/ai-the-real-danger/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post discusses AI risks and mentions Socrates in passing as a comparison tool, but contains no ECM-referenced dated prediction of a specific future event or turning point."
     }
   ]
 }

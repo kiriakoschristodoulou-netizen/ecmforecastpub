@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-20T07:49:14.970344+00:00",
+  "generated_at": "2026-09-27T12:10:15.759615+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 20 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 149 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
-  "forecast_count": 59,
+  "source_summary": "39 chart-derived ECM cycle dates + 22 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 149 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "forecast_count": 61,
   "forecasts": [
     {
       "id": "euro-wave2-trough-2026-01-11",
@@ -658,6 +658,44 @@
       "first_seen_at": "2026-06-21T07:13:29.580383+00:00"
     },
     {
+      "id": "blog-390994",
+      "event_date": "2026-08-24",
+      "title": "Merz Refuses to Relinguish Power in Germany?",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "election_cycle",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The model flagged a string of Directional Changes from late August through the September 14 German election window, aligning with the CDU's historic collapse in Mecklenburg-Vorpommern. Political instability in Germany is significant given the ECM's indication that the EU faces structural dissolution pressure post-2029. Watch for further fragmentation of centrist parties as the cycle's geopolitical stress phase deepens.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/international-news/germany/merz-refuses-to-relinguish-power-in-germany/"
+      },
+      "related_events": [
+        {
+          "date": "2026-08-20",
+          "title": "Bangladesh, President",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
+          "date": "2026-08-19",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        },
+        {
+          "date": "2026-08-19",
+          "title": "20-Year Bond auction",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        }
+      ],
+      "origin": "blog",
+      "first_seen_at": "2026-09-27T12:10:15.759615+00:00"
+    },
+    {
       "id": "blog-390264",
       "event_date": "2026-09-02",
       "title": "Correlating Forecasts",
@@ -726,6 +764,44 @@
       ],
       "origin": "chart",
       "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
+    },
+    {
+      "id": "blog-390979",
+      "event_date": "2026-09-28",
+      "title": "Beware Ukraine False Flag",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "war_cycle_peak",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast flagged the weeks of September 28 and October 5, 2026 as a critical window for potential geopolitical escalation, specifically tied to false-flag risk in the Ukraine conflict. The model has tracked the war cycle's upward trajectory since its 2014 turn, and current battlefield desperation narratives align with the cycle's most volatile phase. The October 5 window should be monitored closely for any triggering incident that could broaden the conflict into a wider European or global war.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/world-news/war/beware-ukraine-false-flag/"
+      },
+      "related_events": [
+        {
+          "date": "2026-09-27",
+          "title": "France, Senate (series 2)",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
+          "date": "2026-10-01",
+          "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
+          "date": "2026-09-23",
+          "title": "20-Year Bond auction (reopening)",
+          "category": "sovereign_debt",
+          "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        }
+      ],
+      "origin": "blog",
+      "first_seen_at": "2026-09-27T12:10:15.759615+00:00"
     },
     {
       "id": "blog-390255",

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-20T07:46:05.837939+00:00",
+  "generated_at": "2026-09-27T12:06:48.148547+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 154,
-  "kept_count": 67,
+  "input_post_count": 159,
+  "kept_count": 70,
   "usage": {
-    "input_tokens": 0,
-    "output_tokens": 0,
-    "estimated_cost_usd": 0.0,
+    "input_tokens": 4276,
+    "output_tokens": 582,
+    "estimated_cost_usd": 0.007186,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1396,6 +1396,51 @@
       "confidence": "low",
       "predicted_date": null,
       "reason": "Post contains only year-only reference ('post-2032') without month/quarter specificity, and the China/USA financial capital claim is editorial geopolitical analysis, not a new or amended ECM model output with specific dated predictions."
+    },
+    {
+      "wp_id": 390777,
+      "title": "The Middle East – The Cyclical View",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-middle-east-the-cyclical-view/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references past model-attributed dates (May 8, 2025 turning point; June 21-22, 2025 Operation Midnight Hammer) and mentions a future 'Panic Cycle for 2027' but provides no specific month/date for the 2027 prediction, only year-level vagueness."
+    },
+    {
+      "wp_id": 390922,
+      "title": "The Decline & Fall of Brussels",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-decline-fall-of-brussels/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-09-02",
+      "reason": "Armstrong explicitly attributes to 'our models' a turning point on September 2nd, 2026, which marks a directional change in the EU/NATO crisis; however, this date is in the past (today is 2026-09-27), so the prediction has already occurred."
+    },
+    {
+      "wp_id": 390994,
+      "title": "Merz Refuses to Relinguish Power in Germany?",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/merz-refuses-to-relinguish-power-in-germany/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-08-24",
+      "reason": "Armstrong states 'our computer showed a string of Directional Changes from the last week of August right up to this week of elections September 14th' with explicit model attribution; however, these dates (late August through September 14) are in the past relative to today (2026-09-27)."
+    },
+    {
+      "wp_id": 390979,
+      "title": "Beware Ukraine False Flag",
+      "link": "https://www.armstrongeconomics.com/world-news/war/beware-ukraine-false-flag/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-09-28",
+      "reason": "Armstrong states 'This may be what the computer has been warning about with the weeks of September 28/October 5' regarding a potential Ukrainian false flag that could trigger WWIII, with implicit ECM attribution; September 28 is within one day of today and represents a specific week-level prediction."
+    },
+    {
+      "wp_id": 391123,
+      "title": "PRIVATE BLOG – Why WWIII Comes in 2027",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-why-wwiii-comes-in-2027/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post title mentions 'Why WWIII Comes in 2027' but the body is a paywall stub with no actual content or model-attributed specific date predictions; year-only reference is too vague."
     }
   ]
 }
