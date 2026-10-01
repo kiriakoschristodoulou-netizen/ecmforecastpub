@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-01T08:46:59.207985+00:00",
-  "event_count": 149,
+  "generated_at": "2026-10-01T10:18:55.554253+00:00",
+  "event_count": 150,
   "sources": [
     "fomc",
     "wikipedia_electoral",
@@ -996,6 +996,13 @@
       "category": "sovereign_debt",
       "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
       "source": "treasury_pattern"
+    },
+    {
+      "date": "2027-09-16",
+      "title": "FOMC meeting",
+      "category": "central_bank",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "fomc"
     },
     {
       "date": "2027-09-22",

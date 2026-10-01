@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "source": "fomc",
-  "generated_at": "2026-09-01T08:46:57.990632+00:00",
-  "event_count": 51,
+  "generated_at": "2026-10-01T10:18:54.420547+00:00",
+  "event_count": 52,
   "events": [
     {
       "date": "2021-01-05",
@@ -356,6 +356,13 @@
     },
     {
       "date": "2027-08-19",
+      "title": "FOMC meeting",
+      "category": "central_bank",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "fomc"
+    },
+    {
+      "date": "2027-09-16",
       "title": "FOMC meeting",
       "category": "central_bank",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",

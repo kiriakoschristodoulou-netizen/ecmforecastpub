@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-09-27T12:10:15.759615+00:00",
+  "generated_at": "2026-10-01T10:18:55.589177+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 22 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 149 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "source_summary": "39 chart-derived ECM cycle dates + 22 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 150 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
   "forecast_count": 61,
   "forecasts": [
     {
