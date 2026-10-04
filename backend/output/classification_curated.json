@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-27T12:06:48.148547+00:00",
+  "generated_at": "2026-10-04T08:28:29.531185+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 159,
-  "kept_count": 70,
+  "input_post_count": 161,
+  "kept_count": 72,
   "usage": {
-    "input_tokens": 4276,
-    "output_tokens": 582,
-    "estimated_cost_usd": 0.007186,
+    "input_tokens": 4550,
+    "output_tokens": 233,
+    "estimated_cost_usd": 0.0057150000000000005,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1441,6 +1441,24 @@
       "confidence": "low",
       "predicted_date": null,
       "reason": "Post title mentions 'Why WWIII Comes in 2027' but the body is a paywall stub with no actual content or model-attributed specific date predictions; year-only reference is too vague."
+    },
+    {
+      "wp_id": 391285,
+      "title": "The Road to 2028",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/the-road-to-2028/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong explicitly attributes to his computer a projection that crude oil could reach $234 by 2028, with a specific warning that a year-end 2026 close above $111 signals this trajectory; this is a model-derived amendment to oil price forecasting."
+    },
+    {
+      "wp_id": 391347,
+      "title": "The '26 Midterms – the Demise of Both Republicans & Democrats",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-26-midterms-the-demise-of-both-republicans-democrats/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong states the Economic Confidence Model 'projects a sharp global recession into 2028' and references a Double Directional Change in 2027 with Panic Cycles around the 2028 election, explicitly attributing these dated predictions to the computer model."
     }
   ]
 }

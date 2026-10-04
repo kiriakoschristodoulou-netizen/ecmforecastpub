@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-27T12:06:41.725579+00:00",
+  "generated_at": "2026-10-04T08:28:25.924909+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1322,
-  "kept_count": 159,
+  "post_count": 1349,
+  "kept_count": 161,
   "usage": {
-    "input_tokens": 39450,
-    "output_tokens": 2995,
-    "estimated_cost_usd": 0.054425,
+    "input_tokens": 37372,
+    "output_tokens": 2206,
+    "estimated_cost_usd": 0.048402,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -11908,6 +11908,249 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Post discusses AI risks and mentions Socrates in passing as a comparison tool, but contains no ECM-referenced dated prediction of a specific future event or turning point."
+    },
+    {
+      "wp_id": 391258,
+      "title": "French Arms Chief Asks Parents to ACCEPT LOSING THEIR CHILDREN",
+      "link": "https://www.armstrongeconomics.com/world-news/war/french-arms-chief-asks-parents-to-accept-losing-their-children/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current European military and demographic trends without ECM reference or specific dated predictions."
+    },
+    {
+      "wp_id": 391260,
+      "title": "Spain's Housing Crisis Is Exploding Into the Streets",
+      "link": "https://www.armstrongeconomics.com/international-news/spain/spains-housing-crisis-is-exploding-into-the-streets/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Spain's ongoing housing crisis and political responses; no ECM reference or specific dated predictions."
+    },
+    {
+      "wp_id": 391262,
+      "title": "Your House Is Private Property Until the Government Decides It Needs It",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/your-house-is-private-property-until-the-government-decides-it-needs-it/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Britain's property rights policy changes and European housing trends; no ECM reference or specific dated predictions."
+    },
+    {
+      "wp_id": 391251,
+      "title": "Armageddon & Iran",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/armageddon-iran/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post discussing historical and theological roots of Armageddon concept and Iran geopolitics; no ECM reference or specific dated predictions."
+    },
+    {
+      "wp_id": 391267,
+      "title": "PRIVATE BLOG – House Prices – Public to Private Flows",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/real_estate/private-blog-house-prices-public-to-private-flows/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private blog post; no actual content or predictions provided."
+    },
+    {
+      "wp_id": 391264,
+      "title": "Market Talk – September 28, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-28-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and movements with no ECM reference, specific prediction, or future-dated forecast."
+    },
+    {
+      "wp_id": 391178,
+      "title": "\"Made in Germany\" Does Not Mean What It Once Did",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/made-in-germany-does-not-mean-what-it-once-did/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion/analysis piece on German manufacturing competitiveness and Chinese automotive competition with no ECM reference or dated predictions; mentions '2030' only as context for an industry estimate, not as an ECM forecast."
+    },
+    {
+      "wp_id": 391176,
+      "title": "The Blockade Has Done What Sanctions Could Not",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/the-blockade-has-done-what-sanctions-could-not/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical commentary on Iran's blockade and oil exports with no ECM reference or specific dated prediction of a future turning point."
+    },
+    {
+      "wp_id": 391183,
+      "title": "Germany's Young People Are Saying: We Will Not Fight Your War",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/germanys-young-people-are-saying-we-will-not-fight-your-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece on German student protests against military conscription with no ECM reference or specific dated prediction; mentions 2035 as a policy target but not as an ECM forecast."
+    },
+    {
+      "wp_id": 391172,
+      "title": "The Persian Gulf & Garden of Eden",
+      "link": "https://www.armstrongeconomics.com/international-news/middle_east/the-persian-gulf-armageddon/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A response discussing ancient history, biblical narratives, and geological cycles; references 2032 as a historical cycle calculation (6,500 years back to ~4500 BC) but does not predict a specific future event tied to that date."
+    },
+    {
+      "wp_id": 391318,
+      "title": "Washington Loses Up to Half a Trillion Dollars Every Year to Fraud",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/washington-loses-up-to-half-a-trillion-dollars-every-year-to-fraud/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current federal fraud losses reported by the GAO; no ECM reference, no specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 391310,
+      "title": "Washington Lost the Equivalent of Two Apples. Did Anyone Notice?",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/washington-lost-the-equivalent-of-two-apples-did-anyone-notice/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing federal workforce reductions and their economic implications; no ECM reference, no specific dated prediction of a future turning point."
+    },
+    {
+      "wp_id": 391326,
+      "title": "The Light at The End of the Tunnel – It's Not All Doom & Gloom",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-light-at-the-end-of-the-tunnel-its-not-all-doom-gloom/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post references Armstrong's computer identifying 'waves of political change' and discusses sovereign debt crises as inevitable, but does not make a specific dated prediction tied to a future date; primarily historical and philosophical commentary on long-term decline patterns."
+    },
+    {
+      "wp_id": 391322,
+      "title": "Market Talk – September 30, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-30-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical prices and market movements from September 30, 2026; no ECM reference, no prediction of future events."
+    },
+    {
+      "wp_id": 391279,
+      "title": "Where Are Another 60,000 Ukrainian Soldiers Every Month Supposed to Come From?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/where-are-another-60000-ukrainian-soldiers-every-month-supposed-to-come-from/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Ukraine's current manpower crisis and demographic challenges; no ECM reference, no specific dated prediction of a future geopolitical or economic turning point."
+    },
+    {
+      "wp_id": 391276,
+      "title": "What Happened to Swiss Neutrality?",
+      "link": "https://www.armstrongeconomics.com/international-news/switzerland/what-happened-to-swiss-neutrality/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on Swiss neutrality referendum and geopolitical shifts; no ECM reference, specific dated prediction, or future event forecast."
+    },
+    {
+      "wp_id": 391283,
+      "title": "When Confidence Turns, the Economy Follows",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/when-confidence-turns-the-economy-follows/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on current Consumer Confidence Index data and economic indicators; no ECM model reference or specific future dated prediction."
+    },
+    {
+      "wp_id": 391285,
+      "title": "The Road to 2028",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/the-road-to-2028/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "Post explicitly references 'what the computer is projecting' and states 'crude oil could reach as high as $234 by 2028' and 'it is going to get ugly from 2028 onward,' making a specific dated ECM prediction for 2028."
+    },
+    {
+      "wp_id": 391281,
+      "title": "Market Talk – September 29, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-september-29-2026/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Daily market roundup (Market Talk) reporting current prices and index movements; no ECM reference or future dated prediction."
+    },
+    {
+      "wp_id": 391315,
+      "title": "Armstrong on the World Economy",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/armstrong-on-the-world-economy/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Promotional/media appearance post announcing Armstrong's segment; no ECM forecast or specific dated prediction."
+    },
+    {
+      "wp_id": 391312,
+      "title": "US 10-Year Yield Smashes 5.30%",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/martin-armstrongs-financial-endgame-why-money-wont-disappear-government-debt-will-force-a-reset/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; no content to classify."
+    },
+    {
+      "wp_id": 391391,
+      "title": "Market Talk – October 2, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-2-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting past market data from October 2, 2026 with no ECM reference or future dated prediction."
+    },
+    {
+      "wp_id": 391344,
+      "title": "The Inflationary Backlog",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/the-inflationary-backlog/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing September ISM manufacturing data and inflationary pressures without ECM reference or specific dated forecast."
+    },
+    {
+      "wp_id": 391357,
+      "title": "Taxpayers Are Paying for Federal Buildings Nobody Uses",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/taxpayers-are-paying-for-federal-buildings-nobody-uses/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion commentary on federal real estate waste and government inefficiency with no ECM reference or future dated prediction."
+    },
+    {
+      "wp_id": 391354,
+      "title": "Developed World Resembles Emerging Markets With Debt Spiral",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/developed-world-resembles-emerging-markets-with-debt-spiral/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of current sovereign debt crisis and rising interest rates across developed nations with no ECM reference or specific dated forecast."
+    },
+    {
+      "wp_id": 391347,
+      "title": "The '26 Midterms – the Demise of Both Republicans & Democrats",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-26-midterms-the-demise-of-both-republicans-democrats/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "Post references Armstrong's Economic Confidence Model computer projecting a sharp global recession into 2028, with specific political turning points (Double Directional Change in 2027, Panic Cycle following 2028 election) tied to these future dates."
+    },
+    {
+      "wp_id": 391363,
+      "title": "Market Talk – October 1, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-1-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current market data from October 1, 2026 (a past date relative to today 2026-10-04); no ECM forecast or prediction for future dated events."
     }
   ]
 }

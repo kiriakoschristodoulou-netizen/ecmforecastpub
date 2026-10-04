@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-09-27T12:10:15.601450+00:00",
+  "generated_at": "2026-10-04T08:31:45.975265+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
   "post_count": 22,
   "usage": {
-    "input_tokens": 73480,
-    "output_tokens": 7869,
-    "estimated_cost_usd": 0.33847499999999997,
+    "input_tokens": 75658,
+    "output_tokens": 7845,
+    "estimated_cost_usd": 0.344649,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -209,6 +209,6 @@
       "tag_suggestion": "war_cycle_peak"
     }
   ],
-  "auto_cleaned_at": "2026-09-27T12:10:15.699046+00:00",
-  "auto_clean_dropped": 48
+  "auto_cleaned_at": "2026-10-04T08:31:46.051935+00:00",
+  "auto_clean_dropped": 50
 }
