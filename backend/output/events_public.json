@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-04T08:31:46.099046+00:00",
+  "generated_at": "2026-10-11T08:57:53.157291+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 22 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 150 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
-  "forecast_count": 61,
+  "source_summary": "39 chart-derived ECM cycle dates + 24 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 150 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "forecast_count": 63,
   "forecasts": [
     {
       "id": "euro-wave2-trough-2026-01-11",
@@ -990,6 +990,32 @@
       "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
     },
     {
+      "id": "blog-391446",
+      "event_date": "2027-07-01",
+      "title": "Zelensky Calling for World War III Now",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "ukraine_war_cycle",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast identifies July 2027 as the next critical turning point in the Ukraine-Russia conflict, preceded by a Panic Cycle in May 2027 and a Russia-specific Panic Cycle in June 2027. The model's June 2026 inflection aligned precisely with a massive Russian missile barrage and an emergency EU-Zelensky summit, validating the cycle's geopolitical accuracy. Watch for escalating NATO-Russia tensions into early 2027 as the model suggests the conflict intensifies before any potential resolution.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/international-news/europes-current-economy/zelensky-calling-for-world-war-iii-now/"
+      },
+      "related_events": [
+        {
+          "date": "2027-06-17",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        }
+      ],
+      "origin": "blog",
+      "first_seen_at": "2026-10-11T08:57:53.157291+00:00"
+    },
+    {
       "id": "greek-bond-aggregate-shift-2028",
       "event_date": "2028-01-01",
       "title": "Greek 10Y Bond - Aggregate Direction Change (2028)",
@@ -1083,6 +1109,25 @@
       "related_events": [],
       "origin": "chart",
       "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
+    },
+    {
+      "id": "blog-391477",
+      "event_date": "2029-07-01",
+      "title": "Merz – Follow the Money",
+      "subtitle": "",
+      "category": "ecm_pi_target",
+      "tag": "pi_cycle_geopolitical",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast points to Q3 2029 as a Pi cycle target beyond which Ukraine may not survive as a coherent state, with a corresponding major turning point flagged for BlackRock at that same time. With BlackRock holding an $800 billion Ukraine reconstruction fund alongside nearly $40 billion in defense contractor stakes, the financial incentives driving war escalation are substantial. The cycle suggests 2029 marks a structural inflection for both the conflict's resolution and the financial interests entangled in its outcome.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/uncategorized/merz-follow-the-money/"
+      },
+      "related_events": [],
+      "origin": "blog",
+      "first_seen_at": "2026-10-11T08:57:53.157291+00:00"
     },
     {
       "id": "blog-390123",

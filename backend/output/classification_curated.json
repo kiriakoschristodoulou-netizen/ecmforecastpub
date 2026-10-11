@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-04T08:28:29.531185+00:00",
+  "generated_at": "2026-10-11T08:54:27.577026+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 161,
-  "kept_count": 72,
+  "input_post_count": 165,
+  "kept_count": 74,
   "usage": {
-    "input_tokens": 4550,
-    "output_tokens": 233,
-    "estimated_cost_usd": 0.0057150000000000005,
+    "input_tokens": 5186,
+    "output_tokens": 400,
+    "estimated_cost_usd": 0.007186,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1459,6 +1459,42 @@
       "confidence": "high",
       "predicted_date": "2028-01-01",
       "reason": "Armstrong states the Economic Confidence Model 'projects a sharp global recession into 2028' and references a Double Directional Change in 2027 with Panic Cycles around the 2028 election, explicitly attributing these dated predictions to the computer model."
+    },
+    {
+      "wp_id": 391434,
+      "title": "The War Cycle Is Turning Up",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-war-cycle-is-turning-up/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references the War Cycle turning point on October 5 (already passed; today is 2026-10-11) and discusses current/recent events, not a future model-attributed prediction."
+    },
+    {
+      "wp_id": 391446,
+      "title": "Zelensky Calling for World War III Now",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/zelensky-calling-for-world-war-iii-now/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-07-01",
+      "reason": "Armstrong's ECM explicitly predicts the next critical turning point in July 2027 following a Panic Cycle in May 2027, with further escalation into January and a Russia Panic Cycle in June 2027; Ukraine predicted to flatline by Pi target 2029-2030."
+    },
+    {
+      "wp_id": 391477,
+      "title": "Merz – Follow the Money",
+      "link": "https://www.armstrongeconomics.com/uncategorized/merz-follow-the-money/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2029-07-01",
+      "reason": "Armstrong's ECM model predicts Ukraine will not survive beyond the Pi target for Q3 2029, with a major turning point on BlackRock at that time."
+    },
+    {
+      "wp_id": 391527,
+      "title": "Trump Threatens the Fed as he Cuts a Deal with Putin",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/trump-threatens-the-fed-as-he-cuts-a-deal-with-putin/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post contains Armstrong's editorial speculation ('serious economic catastrophe into 2028') and discussion of policy issues, but no explicit model-attributed dated prediction with future specificity beyond year-only reference."
     }
   ]
 }

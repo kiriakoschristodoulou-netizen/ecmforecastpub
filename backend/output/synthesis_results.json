@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-04T08:31:45.975265+00:00",
+  "generated_at": "2026-10-11T08:57:53.030343+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
-  "post_count": 22,
+  "post_count": 24,
   "usage": {
-    "input_tokens": 75658,
-    "output_tokens": 7845,
-    "estimated_cost_usd": 0.344649,
+    "input_tokens": 78502,
+    "output_tokens": 8138,
+    "estimated_cost_usd": 0.357576,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -207,8 +207,26 @@
       "synthesis": "The ECM forecast flagged the weeks of September 28 and October 5, 2026 as a critical window for potential geopolitical escalation, specifically tied to false-flag risk in the Ukraine conflict. The model has tracked the war cycle's upward trajectory since its 2014 turn, and current battlefield desperation narratives align with the cycle's most volatile phase. The October 5 window should be monitored closely for any triggering incident that could broaden the conflict into a wider European or global war.",
       "category_suggestion": "geopolitical_cycle",
       "tag_suggestion": "war_cycle_peak"
+    },
+    {
+      "wp_id": 391446,
+      "title": "Zelensky Calling for World War III Now",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/zelensky-calling-for-world-war-iii-now/",
+      "predicted_date": "2027-07-01",
+      "synthesis": "The ECM forecast identifies July 2027 as the next critical turning point in the Ukraine-Russia conflict, preceded by a Panic Cycle in May 2027 and a Russia-specific Panic Cycle in June 2027. The model's June 2026 inflection aligned precisely with a massive Russian missile barrage and an emergency EU-Zelensky summit, validating the cycle's geopolitical accuracy. Watch for escalating NATO-Russia tensions into early 2027 as the model suggests the conflict intensifies before any potential resolution.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "ukraine_war_cycle"
+    },
+    {
+      "wp_id": 391477,
+      "title": "Merz – Follow the Money",
+      "link": "https://www.armstrongeconomics.com/uncategorized/merz-follow-the-money/",
+      "predicted_date": "2029-07-01",
+      "synthesis": "The ECM forecast points to Q3 2029 as a Pi cycle target beyond which Ukraine may not survive as a coherent state, with a corresponding major turning point flagged for BlackRock at that same time. With BlackRock holding an $800 billion Ukraine reconstruction fund alongside nearly $40 billion in defense contractor stakes, the financial incentives driving war escalation are substantial. The cycle suggests 2029 marks a structural inflection for both the conflict's resolution and the financial interests entangled in its outcome.",
+      "category_suggestion": "ecm_pi_target",
+      "tag_suggestion": "pi_cycle_geopolitical"
     }
   ],
-  "auto_cleaned_at": "2026-10-04T08:31:46.051935+00:00",
+  "auto_cleaned_at": "2026-10-11T08:57:53.114262+00:00",
   "auto_clean_dropped": 50
 }

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-04T08:28:25.924909+00:00",
+  "generated_at": "2026-10-11T08:54:21.963211+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1349,
-  "kept_count": 161,
+  "post_count": 1381,
+  "kept_count": 165,
   "usage": {
-    "input_tokens": 37372,
-    "output_tokens": 2206,
-    "estimated_cost_usd": 0.048402,
+    "input_tokens": 31616,
+    "output_tokens": 2744,
+    "estimated_cost_usd": 0.045336,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -12151,6 +12151,294 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Daily market roundup reporting current market data from October 1, 2026 (a past date relative to today 2026-10-04); no ECM forecast or prediction for future dated events."
+    },
+    {
+      "wp_id": 391377,
+      "title": "Americans Are Spending More Because Everything Costs More",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/americans-are-spending-more-because-everything-costs-more/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of current consumer spending, inflation, and savings trends with no ECM reference, specific predicted event, or future dated prediction."
+    },
+    {
+      "wp_id": 391379,
+      "title": "The Stagflationary Squeeze on Employment",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/the-stagflationary-squeeze-on-employment/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on September jobs report and stagflationary squeeze with no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 391386,
+      "title": "The Housing Market Is Being Crushed by the Bond Market",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/real_estate/the-housing-market-is-being-crushed-by-the-bond-market/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of current housing market crisis driven by bond yields and government debt with no ECM reference or specific future dated prediction."
+    },
+    {
+      "wp_id": 391366,
+      "title": "Who is the Real Aggressor – NATO or Russia?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/who-is-the-real-aggressor-nato-or-russia/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Historical and political commentary on NATO expansion, Minsk agreements, and Western-Russia relations with no ECM reference or forecasting of future events."
+    },
+    {
+      "wp_id": 391416,
+      "title": "Higher War Chances = Higher Interest Rates",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/bonds/higher-war-chances-higher-interest-rates/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Title-only post with no body content, ECM reference, or specific dated prediction; appears to be a headline teaser or promotional stub."
+    },
+    {
+      "wp_id": 391397,
+      "title": "European Population Replacement Going Spectacular",
+      "link": "https://www.armstrongeconomics.com/uncategorized/european-population-replacement-going-spectacular/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post analyzes current European migration patterns and demographics with 2026 data; no ECM model reference, no specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 391389,
+      "title": "Europe & Middle East Wars Converge",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/europe-middle-east-wars-converge/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot classify as forecast without content."
+    },
+    {
+      "wp_id": 391430,
+      "title": "Dyed Diesel Regulations",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/dyed-diesel-regulations/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post provides analysis of current energy crisis, diesel regulations, and economic policy; no ECM reference or specific dated prediction of a future turning point."
+    },
+    {
+      "wp_id": 391438,
+      "title": "Germany Warns of the Shadow War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/germany-warns-of-the-shadow-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post reports on Germany's October 5, 2026 intelligence warnings about Russia and NATO; no ECM model reference or specific future-dated prediction—discusses current geopolitical situation."
+    },
+    {
+      "wp_id": 391434,
+      "title": "The War Cycle Is Turning Up",
+      "link": "https://www.armstrongeconomics.com/world-news/war/the-war-cycle-is-turning-up/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-10-05",
+      "reason": "Post states 'We have been watching October 5 on the War Cycle' and analyzes the War Cycle turning point around that date; the ECM War Cycle is referenced and October 5 is identified as a key turning point, though the post primarily analyzes events already unfolding rather than predicting future outcomes."
+    },
+    {
+      "wp_id": 391440,
+      "title": "Europe Simply Needs War",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/europe-simply-needs-war/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current EU political dynamics and war rhetoric; mentions October 5th as context for Merz's statements but makes no specific ECM-dated prediction about a future event."
+    },
+    {
+      "wp_id": 391446,
+      "title": "Zelensky Calling for World War III Now",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/zelensky-calling-for-world-war-iii-now/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-07-01",
+      "reason": "Post explicitly references ECM model turning point in June 2026 and predicts escalation with next critical turning point in July 2027 following a May 2027 Panic Cycle, plus June 2027 Panic Cycle in Russia, with Ukraine not surviving beyond 2029-2030 Pi target."
+    },
+    {
+      "wp_id": 391421,
+      "title": "France Is Losing Control of Its Streets",
+      "link": "https://www.armstrongeconomics.com/world-news/civil-unrest/france-is-losing-control-of-its-streets/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on current civil unrest in France and structural economic problems; mentions Economic Confidence Model in passing as a general concept but makes no specific dated ECM prediction about a future event."
+    },
+    {
+      "wp_id": 391423,
+      "title": "Chile Is Back in the Streets",
+      "link": "https://www.armstrongeconomics.com/world-news/civil-unrest/chile-is-back-in-the-streets/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Commentary on Chile's budget crisis and civil unrest patterns; references Economic Confidence Model generally but makes no specific dated ECM prediction about a future turning point."
+    },
+    {
+      "wp_id": 391411,
+      "title": "J. Edgar Hoover- Quest for Honest Government",
+      "link": "https://www.armstrongeconomics.com/international-news/rule-of-law/j-edgar-hoover/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Q&A post about J. Edgar Hoover and honest government; contains no ECM model reference, dated prediction, or specific forecasted event."
+    },
+    {
+      "wp_id": 391425,
+      "title": "Market Talk – October 5, 2026",
+      "link": "https://www.armstrongeconomics.com/uncategorized/market-talk-october-5-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and index movements with no ECM reference, specific event prediction, or future dated forecast."
+    },
+    {
+      "wp_id": 391474,
+      "title": "France – A Date with Destiny",
+      "link": "https://www.armstrongeconomics.com/uncategorized/france-a-date-with-destiny/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "References Socrates and predicts unemployment will continue rising in 2028, but the prediction lacks specificity about a concrete turning point event and reads as general trend commentary rather than a dated ECM forecast."
+    },
+    {
+      "wp_id": 391496,
+      "title": "The Black Sea Is Becoming Uninsurable",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/the-black-sea-is-becoming-uninsurable/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical analysis of current Black Sea shipping disruptions with reference to the War Cycle, but contains no specific dated ECM prediction or turning point tied to a future date."
+    },
+    {
+      "wp_id": 391501,
+      "title": "Trucking Bankruptcies",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/trucking-bankruptcies/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on recent trucking bankruptcies (late August–September 21) and economic analysis of freight industry pressure, with no ECM reference or specific future dated forecast."
+    },
+    {
+      "wp_id": 391505,
+      "title": "The Energy Crisis Is Making Travel More Expensive",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/the-energy-crisis-is-making-travel-more-expensive/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of current airline fuel cost pressures and executive forecasts (e.g., O'Leary's '12 to 18 months' outlook), but no ECM reference and no specific dated ECM prediction."
+    },
+    {
+      "wp_id": 391508,
+      "title": "Market Talk – October 8, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-8-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price movements and data from October 8, 2026; no ECM reference, no specific future prediction, no dated forecast."
+    },
+    {
+      "wp_id": 391471,
+      "title": "Debt Crisis Reflected in Bond Market",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/debt-crisis-reflected-in-bond-market/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current bond market conditions and sovereign debt crisis dynamics; no ECM model reference, no specific dated prediction, no reference to Armstrong's computer or panic cycle."
+    },
+    {
+      "wp_id": 391469,
+      "title": "The Fed Does Not Control Your Mortgage",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/real_estate/the-fed-does-not-control-your-mortgage/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece explaining Fed policy and mortgage rate mechanics; no ECM reference, no specific future event prediction, no dated forecast."
+    },
+    {
+      "wp_id": 391466,
+      "title": "The Fed Cannot Bring Back the Pandemic Housing Market",
+      "link": "https://www.armstrongeconomics.com/real-estate/the-fed-cannot-bring-back-the-pandemic-housing-market/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post responding to reader question about real estate and Fed policy; no ECM reference, no specific dated prediction about future events."
+    },
+    {
+      "wp_id": 391477,
+      "title": "Merz – Follow the Money",
+      "link": "https://www.armstrongeconomics.com/uncategorized/merz-follow-the-money/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2029-07-01",
+      "reason": "Post references Armstrong's Pi target and a major turning point on BlackRock at 3rd quarter 2029, predicting Ukraine will not survive beyond that date; ECM reference is present ('Pi target') and specific future quarter/year is stated, though the exact event timing connection is somewhat implicit."
+    },
+    {
+      "wp_id": 391489,
+      "title": "Plagues & Election Cycle?",
+      "link": "https://www.armstrongeconomics.com/humor/plagues-election-cycle/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion/commentary on election cycles and lockdowns without ECM reference, specific dated prediction, or model-derived forecast."
+    },
+    {
+      "wp_id": 391498,
+      "title": "What Happens When Governments Stop Listening?",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/what-happens-when-governments-stop-listening/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot classify as forecast without substantive content referencing ECM model and dated predictions."
+    },
+    {
+      "wp_id": 391463,
+      "title": "What the Trump-Xi Meeting Was Really All About",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/what-the-trump-xi-meeting-was-really-all-about/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot classify as forecast without substantive content referencing ECM model and dated predictions."
+    },
+    {
+      "wp_id": 391516,
+      "title": "Gold's Correction is Running Out of Time",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/golds-next-move-in-november/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot classify as forecast without substantive content referencing ECM model and dated predictions."
+    },
+    {
+      "wp_id": 391534,
+      "title": "Sarah Westall & Martin Armstrong",
+      "link": "https://www.armstrongeconomics.com/uncategorized/sarah-westall-martin-armstrong/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot classify as forecast without substantive content referencing ECM model and dated predictions."
+    },
+    {
+      "wp_id": 391527,
+      "title": "Trump Threatens the Fed as he Cuts a Deal with Putin",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/trump-threatens-the-fed-as-he-cuts-a-deal-with-putin/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "Post references Armstrong's analysis and predicts a 'serious economic catastrophe into 2028' as a consequence of Trump's rate-cutting threats, but the specific event and ECM model reference are implicit rather than explicit."
+    },
+    {
+      "wp_id": 391524,
+      "title": "Market Talk – October 9, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-9-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and changes on October 9, 2026; no ECM reference, no specific future prediction, no dated forecast."
     }
   ]
 }
