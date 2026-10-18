@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-11T08:57:53.157291+00:00",
+  "generated_at": "2026-10-18T07:18:23.724474+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 24 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 150 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
-  "forecast_count": 63,
+  "source_summary": "39 chart-derived ECM cycle dates + 25 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 150 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "forecast_count": 64,
   "forecasts": [
     {
       "id": "euro-wave2-trough-2026-01-11",
@@ -956,6 +956,25 @@
       "related_events": [],
       "origin": "blog",
       "first_seen_at": "2026-07-05T06:18:21.977164+00:00"
+    },
+    {
+      "id": "blog-391577",
+      "event_date": "2027-03-01",
+      "title": "Kallas & Zelensky Cannot Sleep as Long As One Russian is Still Breathing",
+      "subtitle": "",
+      "category": "asset_panic_cycle",
+      "tag": "oil_panic",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast points to a final high in diesel fuel and heating oil by March 2027, with war-driven refinery damage accelerating the move. Diesel underpins global food supply chains—from farming to maritime shipping—making this forecast far broader than an energy trade. A year-end close above 4.78 in heating oil would confirm the bullish trajectory into that target.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/international-news/europes-current-economy/kallas-zelensky-cannot-sleep-as-long-as-one-russian-is-still-breathing/"
+      },
+      "related_events": [],
+      "origin": "blog",
+      "first_seen_at": "2026-10-18T07:18:23.724474+00:00"
     },
     {
       "id": "ecm-pi-target-2027-06-29",

@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-11T08:54:21.963211+00:00",
+  "generated_at": "2026-10-18T07:14:43.371410+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1381,
-  "kept_count": 165,
+  "post_count": 1410,
+  "kept_count": 170,
   "usage": {
-    "input_tokens": 31616,
-    "output_tokens": 2744,
-    "estimated_cost_usd": 0.045336,
+    "input_tokens": 33526,
+    "output_tokens": 2562,
+    "estimated_cost_usd": 0.046336,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -12439,6 +12439,267 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Daily market roundup reporting current prices and changes on October 9, 2026; no ECM reference, no specific future prediction, no dated forecast."
+    },
+    {
+      "wp_id": 391590,
+      "title": "France Is Discovering That Creditors Have a Choice",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/france-is-discovering-that-creditors-have-a-choice/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing France's current debt crisis and borrowing costs with historical context; no ECM model reference, specific predicted event, or future dated forecast."
+    },
+    {
+      "wp_id": 391575,
+      "title": "Migrants Account for 87% of Criminal Suspects in Germany",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/migrants-account-for-87-of-criminal-suspects-in-germany/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary reporting on Germany's arrest warrant statistics and migration-related crime; no ECM reference or dated prediction."
+    },
+    {
+      "wp_id": 391586,
+      "title": "Hackers Target French Grocers",
+      "link": "https://www.armstrongeconomics.com/world-news/technology-world-news/hackers-target-french-grocers/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing a recent cyberattack on French supermarkets and vulnerabilities in networked systems; no ECM model reference or dated prediction."
+    },
+    {
+      "wp_id": 391577,
+      "title": "Kallas & Zelensky Cannot Sleep as Long As One Russian is Still Breathing",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/kallas-zelensky-cannot-sleep-as-long-as-one-russian-is-still-breathing/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-03-01",
+      "reason": "Post predicts diesel fuel/heating oil will reach 'a final high next March' with reference to the ECM-derived directional change model and wheat forecasting mentioned; specific event and future date (March 2027) but ECM reference is implicit rather than explicit."
+    },
+    {
+      "wp_id": 391612,
+      "title": "PRIVATE BLOG – 2028 & The Great Convergence",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/private-blog-2028-the-great-convergence/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private blog content; no actual forecast details provided, only a link to subscription service."
+    },
+    {
+      "wp_id": 391594,
+      "title": "This Year's Book",
+      "link": "https://www.armstrongeconomics.com/products_services/products/this-years-book/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Book promotional post discussing historical parallels between Caesar and today without any ECM model reference, specific predicted event, or future dated prediction."
+    },
+    {
+      "wp_id": 391588,
+      "title": "Market Talk – October 12, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-12-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market data roundup with no ECM reference, no predicted event, and no future date prediction."
+    },
+    {
+      "wp_id": 391563,
+      "title": "European Leaders Determined to Create WWIII",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/european-leaders-determined-to-create-wwiii/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion commentary on European political leadership and war risk with mention of 'next World Economic Conference' for timing review, but no specific dated ECM prediction or concrete predicted event."
+    },
+    {
+      "wp_id": 391520,
+      "title": "Americans Are Losing Faith in the Economy",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/americans-are-losing-faith-in-the-economy/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of current consumer sentiment data and cost-of-living trends without ECM reference, specific predicted event, or future dated prediction."
+    },
+    {
+      "wp_id": 391514,
+      "title": "India Buys Oil on Price, Not Political Loyalty",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/india-buys-oil-on-price-not-political-loyalty/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on India's current oil purchasing decisions and market economics without ECM reference or specific dated future prediction."
+    },
+    {
+      "wp_id": 391662,
+      "title": "Inflation Is Rising on Top of Inflation",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/inflation-is-rising-on-top-of-inflation/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current September 2026 CPI inflation data and economic conditions; no ECM model reference, no specific dated prediction, and no future turning point forecast."
+    },
+    {
+      "wp_id": 391604,
+      "title": "Zelensky – No Peace",
+      "link": "https://www.armstrongeconomics.com/international-news/ukraine/zelensky-no-peace/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2032-01-01",
+      "reason": "References the computer model showing no peace ahead and mentions a 2032 forecast for political reform requiring chaos; however, the specific predicted event (political reform/resolution) is vague and the 2032 date appears in reader context rather than Armstrong's explicit prediction in the body."
+    },
+    {
+      "wp_id": 391705,
+      "title": "Technical Analysis Session WEC 2026",
+      "link": "https://www.armstrongeconomics.com/armstrong-economics-upcoming-events/world-economic-conference/technical-analysis-session-wec-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post discussing historical forecasting accuracy (1996 conference, past predictions), Armstrong's philosophy on markets and technical analysis, and promotional information about WEC 2026 conference; no new ECM-derived dated prediction for future events."
+    },
+    {
+      "wp_id": 391674,
+      "title": "Market Talk – October 14, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-14-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting October 14, 2026 closing prices and movements across global markets; no ECM reference, no specific event prediction, and no future date forecast."
+    },
+    {
+      "wp_id": 391650,
+      "title": "Russia vs. Ukraine – The Real Objective",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/russia-vs-ukraine-the-real-objective/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on geopolitical situation in Russia-Ukraine conflict, EU sovereign debt crisis, and current political developments; while referencing the computer model's past geopolitical forecasts and current assessments, it contains no specific dated prediction for a future turning point event."
+    },
+    {
+      "wp_id": 391668,
+      "title": "Is NATO Pushing Propaganda to Keep the Money Flowing?",
+      "link": "https://www.armstrongeconomics.com/world-news/nato/is-nato-pushing-propaganda-to-keep-the-money-flowing/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a Q&A commentary analyzing NATO military capabilities and historical military strategy; it contains no ECM model reference, no specific dated prediction, and no forecasted turning point."
+    },
+    {
+      "wp_id": 391624,
+      "title": "Russians Not Welcome In Europe?",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/a-russian-passport-does-not-make-someone-responsible-for-putin/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is opinion/commentary on EU visa policy toward Russians; it contains no ECM model reference, no specific dated prediction, and analyzes current geopolitical consequences without forecasting a future dated event."
+    },
+    {
+      "wp_id": 391628,
+      "title": "Europe Is Regulating Its Auto Industry Into Retreat",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/europe-is-regulating-its-auto-industry-into-retreat/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is policy analysis and commentary on EU automotive regulations and industry impacts; while it references the 2030 and 2035 emissions targets, these are regulatory deadlines being analyzed, not ECM-derived forecasts of specific dated events."
+    },
+    {
+      "wp_id": 391622,
+      "title": "The Sheer Ignorance Of What's At Stake Globally",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/the-sheer-ignorance-of-whats-at-stake-globally/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2032-01-01",
+      "reason": "Post references Armstrong's computer model projecting diesel prices to $10+ per gallon by 2032 and stagflation into 2028, with specific predictions of global diesel crisis and economic collapse tied to these future dates derived from the model."
+    },
+    {
+      "wp_id": 391636,
+      "title": "Why Would Russia Want to Invade Europe?",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/why-would-russia-want-to-invade-europe/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a Q&A commentary discussing Cold War history, geopolitical motivations for conflict, and current NATO/EU dynamics; it contains no ECM model reference and no specific dated prediction of a future turning point."
+    },
+    {
+      "wp_id": 391677,
+      "title": "Civil Unrest Is Coming: Will America Hold Together?",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/civil-unrest-is-coming-will-america-hold-together/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post title and empty body provide no ECM reference, specific event prediction, or future dated forecast; classification as commentary due to lack of substantive content."
+    },
+    {
+      "wp_id": 391777,
+      "title": "PRIVATE BLOG – The Interest Rate Confusion",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/interest-rates/private-blog-the-interest-rate-confusion/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser with no ECM-dated predictions or specific forecasted events; promotional post for Socrates subscription."
+    },
+    {
+      "wp_id": 391765,
+      "title": "Market Talk – October 16, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-16-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current market data and prices with no ECM reference, specific event prediction, or future-dated forecast."
+    },
+    {
+      "wp_id": 391738,
+      "title": "Prepare for Nuclear War – There is No Choice",
+      "link": "https://www.armstrongeconomics.com/world-news/war/prepare-for-nuclear-war-there-is-no-choice/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post discusses economic decline extending into 2028 but lacks explicit ECM model reference and specific dated turning point prediction; general geopolitical commentary without a concrete ECM-derived forecast."
+    },
+    {
+      "wp_id": 391672,
+      "title": "Iran's Oil Exports Have Collapsed to ZERO",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/irans-oil-exports-have-collapsed-to-zero/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of current Iran oil blockade crisis and Middle East sovereign debt with no ECM reference or specific future-dated event prediction; economic commentary on present conditions."
+    },
+    {
+      "wp_id": 391666,
+      "title": "America May Need a Wall Along the Canadian Border",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/america-may-need-a-wall-along-the-canadian-border/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece on Canadian immigration policy and US border security with no ECM reference, specific predicted event, or future dated forecast."
+    },
+    {
+      "wp_id": 391715,
+      "title": "COMMENTS FROM READERS & US Separation",
+      "link": "https://www.armstrongeconomics.com/world-news/separatists/comments-from-readers-us-separation/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Post explicitly references 'Panic Cycle in 2027 in the Senate for the Democrats' and predicts political disruption and recession into 2028 based on the ECM model."
+    },
+    {
+      "wp_id": 391727,
+      "title": "Diesel & Democrats",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/diesel-democrats/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Post explicitly states 'We have a Panic Cycle in the Senate for 2027' and 'Panic Cycle in 2027 for the Democrats in the House AND Senate' with predicted geopolitical and governmental disruption, and references major risks in Q1 next year."
+    },
+    {
+      "wp_id": 391722,
+      "title": "Market Talk – October 15, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-15-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current price data with no ECM reference or dated prediction."
     }
   ]
 }

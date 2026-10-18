@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-11T08:57:53.030343+00:00",
+  "generated_at": "2026-10-18T07:18:23.575746+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
-  "post_count": 24,
+  "post_count": 25,
   "usage": {
-    "input_tokens": 78502,
-    "output_tokens": 8138,
-    "estimated_cost_usd": 0.357576,
+    "input_tokens": 81779,
+    "output_tokens": 8304,
+    "estimated_cost_usd": 0.36989700000000003,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -225,8 +225,17 @@
       "synthesis": "The ECM forecast points to Q3 2029 as a Pi cycle target beyond which Ukraine may not survive as a coherent state, with a corresponding major turning point flagged for BlackRock at that same time. With BlackRock holding an $800 billion Ukraine reconstruction fund alongside nearly $40 billion in defense contractor stakes, the financial incentives driving war escalation are substantial. The cycle suggests 2029 marks a structural inflection for both the conflict's resolution and the financial interests entangled in its outcome.",
       "category_suggestion": "ecm_pi_target",
       "tag_suggestion": "pi_cycle_geopolitical"
+    },
+    {
+      "wp_id": 391577,
+      "title": "Kallas & Zelensky Cannot Sleep as Long As One Russian is Still Breathing",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/kallas-zelensky-cannot-sleep-as-long-as-one-russian-is-still-breathing/",
+      "predicted_date": "2027-03-01",
+      "synthesis": "The ECM forecast points to a final high in diesel fuel and heating oil by March 2027, with war-driven refinery damage accelerating the move. Diesel underpins global food supply chains—from farming to maritime shipping—making this forecast far broader than an energy trade. A year-end close above 4.78 in heating oil would confirm the bullish trajectory into that target.",
+      "category_suggestion": "asset_panic_cycle",
+      "tag_suggestion": "oil_panic"
     }
   ],
-  "auto_cleaned_at": "2026-10-11T08:57:53.114262+00:00",
-  "auto_clean_dropped": 50
+  "auto_cleaned_at": "2026-10-18T07:18:23.663781+00:00",
+  "auto_clean_dropped": 53
 }

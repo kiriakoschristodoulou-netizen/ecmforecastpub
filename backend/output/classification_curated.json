@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-11T08:54:27.577026+00:00",
+  "generated_at": "2026-10-18T07:14:49.969997+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 165,
-  "kept_count": 74,
+  "input_post_count": 170,
+  "kept_count": 78,
   "usage": {
-    "input_tokens": 5186,
-    "output_tokens": 400,
-    "estimated_cost_usd": 0.007186,
+    "input_tokens": 5690,
+    "output_tokens": 512,
+    "estimated_cost_usd": 0.00825,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1495,6 +1495,51 @@
       "confidence": "medium",
       "predicted_date": null,
       "reason": "Post contains Armstrong's editorial speculation ('serious economic catastrophe into 2028') and discussion of policy issues, but no explicit model-attributed dated prediction with future specificity beyond year-only reference."
+    },
+    {
+      "wp_id": 391577,
+      "title": "Kallas & Zelensky Cannot Sleep as Long As One Russian is Still Breathing",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/kallas-zelensky-cannot-sleep-as-long-as-one-russian-is-still-breathing/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-03-01",
+      "reason": "Armstrong's model attributes a final high in diesel fuel/heating oil to March (next year), with specific month-level precision and model-based reasoning about directional changes and market cycles."
+    },
+    {
+      "wp_id": 391604,
+      "title": "Zelensky – No Peace",
+      "link": "https://www.armstrongeconomics.com/international-news/ukraine/zelensky-no-peace/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references an existing known model forecast (2032 chaos/reform) without amending it, and contains editorial speculation about peace and Zelensky without new model-attributed dated predictions."
+    },
+    {
+      "wp_id": 391622,
+      "title": "The Sheer Ignorance Of What's At Stake Globally",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/the-sheer-ignorance-of-whats-at-stake-globally/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2032-01-01",
+      "reason": "Armstrong's computer explicitly projects diesel prices of $10+ per gallon by 2032, and projects stagflation into 2028 on a global scale, both attributed to the model with year-level specificity (2032) and intermediate milestone (2028)."
+    },
+    {
+      "wp_id": 391715,
+      "title": "COMMENTS FROM READERS & US Separation",
+      "link": "https://www.armstrongeconomics.com/world-news/separatists/comments-from-readers-us-separation/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong attributes a Panic Cycle in 2027 in the Senate for Democrats to his model, and references 2032 as a required reset point, with model-based predictions about economic recession into 2028."
+    },
+    {
+      "wp_id": 391727,
+      "title": "Diesel & Democrats",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/diesel-democrats/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong attributes Panic Cycles in both the Senate and House to his model for 2027, and Socrates predicted rising diesel prices with major risks in Q1 next year (2027), though current high/retest timing is vague."
     }
   ]
 }
