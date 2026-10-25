@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-18T07:14:43.371410+00:00",
+  "generated_at": "2026-10-25T07:36:58.069660+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1410,
-  "kept_count": 170,
+  "post_count": 1444,
+  "kept_count": 180,
   "usage": {
-    "input_tokens": 33526,
-    "output_tokens": 2562,
-    "estimated_cost_usd": 0.046336,
+    "input_tokens": 38855,
+    "output_tokens": 3153,
+    "estimated_cost_usd": 0.05462,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -12700,6 +12700,312 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Daily market roundup reporting current price data with no ECM reference or dated prediction."
+    },
+    {
+      "wp_id": 391735,
+      "title": "Wholesale Inflation is a Problem",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/wholesale-inflation-is-a-problem/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current inflation data (September 2026) and economic analysis without ECM reference or specific dated predictions for future events."
+    },
+    {
+      "wp_id": 391720,
+      "title": "The Housing Market Is Not Returning to 2020",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/real_estate/the-housing-market-is-not-returning-to-2020/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of mortgage rate forecasts from Fannie Mae for 2026-2027 without ECM model reference or specific dated ECM predictions."
+    },
+    {
+      "wp_id": 391669,
+      "title": "Hyundai Bets $15.5 Billion on India's Manufacturing Future",
+      "link": "https://www.armstrongeconomics.com/international-news/india/hyundai-bets-15-5-billion-on-indias-manufacturing-future/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting and commentary on Hyundai's $15.5 billion India investment announcement and geopolitical economic trends without ECM reference or specific dated predictions."
+    },
+    {
+      "wp_id": 391802,
+      "title": "The Prospects",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-prospects/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post with political commentary and opinions about Trump, neocons, and geopolitical scenarios; mentions Socrates but provides no specific ECM-dated forecast in this post."
+    },
+    {
+      "wp_id": 391811,
+      "title": "Europe & Civil Unrest On Time",
+      "link": "https://www.armstrongeconomics.com/world-news/civil-unrest/europe-civil-unrest-on-time/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2029-01-01",
+      "reason": "Armstrong's computer model explicitly predicts a Panic Cycle in civil unrest in 2029, and states 2026 was the major target for widespread civil unrest with continuation possible into November 2026 and beyond, directly referencing the ECM model and international war alignment."
+    },
+    {
+      "wp_id": 391789,
+      "title": "UK Preparing for War As Soon As November",
+      "link": "https://www.armstrongeconomics.com/uncategorized/uk-preparing-for-war-as-soon-as-november/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-11-01",
+      "reason": "Post warns of a false flag war event 'as soon as this November but no later than February/March 2027' and references critical week of November 9th across European markets, implying ECM-derived turning points, though explicit ECM model reference is minimal."
+    },
+    {
+      "wp_id": 391782,
+      "title": "Trump vs Zelensky",
+      "link": "https://www.armstrongeconomics.com/international-news/ukraine/trump-vs-zelensky/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is commentary on Armstrong's past predictions (Zelensky, Iran, civil unrest in France/UK) and political opinion about current events; no specific future dated prediction is made in this post."
+    },
+    {
+      "wp_id": 391759,
+      "title": "The 1999 WEC Warning of 2000 Bubble",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/the-1999-wec-warning-of-2000-bubble/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "Post explicitly references ECM waves and states 'we face the formidable turning point going into 2028' as the next major cycle turning point, with the current wave having peaked when Putin was sworn in."
+    },
+    {
+      "wp_id": 391795,
+      "title": "PRIVATE BLOG – The Dow Ready to Make New Highs?",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/stock-indicies/dow-jones/private-blog-the-dow-ready-to-make-new-highs/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a promotional/teaser post for a private Socrates subscriber blog; it contains no actual forecast content or specific dated predictions."
+    },
+    {
+      "wp_id": 391771,
+      "title": "The Political Confrontation",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/the-political-confrontation/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a Q&A commentary on current political/legal issues regarding NATO withdrawal law; while it mentions 'chaotic 2 years into 2028,' this is general trend commentary without an ECM reference or specific predicted event."
+    },
+    {
+      "wp_id": 391891,
+      "title": "British Columbia Is Giving Away Public Land Behind Closed Doors",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/british-columbia-is-giving-away-public-land-behind-closed-doors/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on British Columbia land policy controversies and property rights issues; mentions the 2026 Canadian Report but makes no ECM-derived prediction tied to a specific future date."
+    },
+    {
+      "wp_id": 391877,
+      "title": "Poland's Right to Defend Its Borders",
+      "link": "https://www.armstrongeconomics.com/international-news/poland/polands-right-to-defend-its-borders/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary and debate about Poland's border defense and immigration policy; no ECM model reference, no specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 391824,
+      "title": "Knowledge is Dangerous when it Threatens Control",
+      "link": "https://www.armstrongeconomics.com/armstrong-economics-upcoming-events/world-economic-conference/knowledge-is-dangerous-when-it-threatens-control/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post explaining Armstrong's naming of his computer after Socrates and historical commentary on Julius Caesar; no ECM forecast or dated prediction."
+    },
+    {
+      "wp_id": 391888,
+      "title": "Market Talk – October 20, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-20-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup with currency, equity, commodity, and bond prices for October 20, 2026; no ECM reference or forecast of future events."
+    },
+    {
+      "wp_id": 391875,
+      "title": "Alberta – It Ain't Over Til the Fat Lady Sings?",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/alberta-it-aint-over-til-the-fate-lady-sings/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Q&A commentary on Alberta separatism and future oil prices; mentions oil reaching $200 in \"the year ahead\" as general outlook rather than an ECM-specific dated turning point prediction."
+    },
+    {
+      "wp_id": 391863,
+      "title": "Alberta Votes to Remain- Grievances Unresolved",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/alberta-votes-to-remain-grievances-unresolved/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "Post references ECM model and predicts Alberta separatist issues will 'explode' and 'grow larger as we move into 2028,' with cyclically no separation expected before 2029 going into 2031, tying political instability to future dated ECM turning points."
+    },
+    {
+      "wp_id": 391835,
+      "title": "DOES THIS LOOK LIKE A STUDENT PROTEST?",
+      "link": "https://www.armstrongeconomics.com/international-news/france/does-this-look-like-a-student-protest/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2029-01-01",
+      "reason": "Post explicitly references Civil Unrest Model identifying 2026 as major unrest target, states model indicates unrest could continue into November, and predicts a Panic Cycle in Civil Unrest in 2029, with Economic Confidence Model pointing to major turning point in 2032."
+    },
+    {
+      "wp_id": 391841,
+      "title": "Poland Refuses to Surrender Its Borders to Brussels",
+      "link": "https://www.armstrongeconomics.com/international-news/poland/poland-refuses-to-surrender-its-borders-to-brussels/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is news analysis and historical commentary about Poland's immigration policies and EU relations; no ECM reference, model prediction, or specific future dated event tied to Armstrong's computer model."
+    },
+    {
+      "wp_id": 391845,
+      "title": "2032 Can't Come Fast Enough",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/2032-cant-come-fast-enough/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2032-01-01",
+      "reason": "Post explicitly references Armstrong's computer model predicting 2032 as a major turning point when 'the road ahead comes to an end,' with models projecting collapse and systemic breakdown leading to that date."
+    },
+    {
+      "wp_id": 391838,
+      "title": "Market Talk – October 19, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-19-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a daily market roundup ('Market Talk') reporting current price data for stocks, currencies, commodities, and bonds; no ECM reference, forecast prediction, or future dated event."
+    },
+    {
+      "wp_id": 391858,
+      "title": "America Is Borrowing $3 Billion a Day Just to Pay Interest",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/america-is-borrowing-3-billion-a-day-just-to-pay-interest/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing current U.S. federal debt and interest payment trends with no reference to ECM, computer model, or specific future dated predictions."
+    },
+    {
+      "wp_id": 391757,
+      "title": "Americans Are Borrowing to Survive",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/americans-are-borrowing-to-survive/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary reporting on current household debt and buy-now-pay-later trends with no ECM reference or specific future dated prediction."
+    },
+    {
+      "wp_id": 391926,
+      "title": "Eurozone vs Banking Crisis",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/eurozone-vs-banking-crisis/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "Post references Socrates/ECM model and mentions EU Commission will present sovereign bond diversification proposals in early 2027, implying a specific policy turning point tied to that date."
+    },
+    {
+      "wp_id": 391947,
+      "title": "PRIVATE BLOG – European Bond Crisis",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/private-blog-european-bond-crisis/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private subscriber-only content with no actual forecast content provided."
+    },
+    {
+      "wp_id": 391945,
+      "title": "PRIVATE BLOG – Middle East Broader Regional Conflict into 2028?",
+      "link": "https://www.armstrongeconomics.com/international-news/middle_east/private-blog-middle-east-broader-regional-conflict-into-2028/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private subscriber-only content; title mentions 2028 but provides no substantive forecast or ECM-derived prediction."
+    },
+    {
+      "wp_id": 391938,
+      "title": "France & the Demise of Macron",
+      "link": "https://www.armstrongeconomics.com/international-news/france/france-the-demise-of-macron/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2028-01-01",
+      "reason": "References the computer model projecting France's situation ('the year 2028 will be the 18th cycle') and mentions directional changes in French real estate and confidence declining into 2031, though the specific event prediction is implied rather than explicitly stated."
+    },
+    {
+      "wp_id": 391906,
+      "title": "Turkey Is Rebuilding Its Military Influence Across the Middle East",
+      "link": "https://www.armstrongeconomics.com/world-news/war/turkey-is-rebuilding-its-military-influence-across-the-middle-east/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is geopolitical commentary and analysis of Turkey's military positioning; while it mentions 'the 2026 geopolitical turning point,' this is a past reference (today is 2026-10-25) and the post makes no ECM-derived prediction with a specific future date for a predicted event."
+    },
+    {
+      "wp_id": 391830,
+      "title": "Iran's Former Labor Minister Says the Economy Is Fine If You Ignore Inflation",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/irans-former-labor-minister-says-the-economy-is-fine-if-you-ignore-inflation/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is critical commentary on Iran's economic situation and an official's absurd statements; it contains no ECM reference, computer model prediction, or specific dated forecast about a future event."
+    },
+    {
+      "wp_id": 391881,
+      "title": "US Home Builder Pessimism Peaks",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/real_estate/us-home-builders-pessimism-peaks/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is economic analysis and commentary on the deteriorating U.S. housing market using current builder confidence data; it contains no ECM reference, computer model prediction, or specific dated forecast."
+    },
+    {
+      "wp_id": 391914,
+      "title": "The Value Decade – Revolt or Revolution",
+      "link": "https://www.armstrongeconomics.com/world-news/civil-unrest/the-value-decade-revolt-or-revolution/",
+      "is_forecast": true,
+      "confidence": "low",
+      "predicted_date": "2026-11-01",
+      "reason": "References cyclical analysis and states 'Cyclically, a revolt should continue into November, since it began in France in mid-September 2026' with implied ECM/cycle reasoning, but the prediction is vague (whether unrest 'continues beyond November') and the forecast event itself is not clearly specified."
+    },
+    {
+      "wp_id": 391967,
+      "title": "How Market Trade & Civil Unrest Coming to USA?",
+      "link": "https://www.armstrongeconomics.com/world-news/civil-unrest/how-market-trade-civil-unrest-coming-to-usa/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "The computer model predicts civil unrest and war will spread to North America going into 2028, with the economy turning down and heating up from February 2027, based on Armstrong's ECM tracking behavioral economics and historical contagion patterns."
+    },
+    {
+      "wp_id": 391960,
+      "title": "Ukraine Burned Starlink – OOPS",
+      "link": "https://www.armstrongeconomics.com/international-news/ukraine/ukraine-burned-starlink-oops/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This post reports current events (Starlink antenna sabotage in Bulgaria and Poland) without referencing the ECM model or making a specific dated forecast."
+    },
+    {
+      "wp_id": 391958,
+      "title": "Germany's AfD",
+      "link": "https://www.armstrongeconomics.com/international-news/germany/germanys-afd/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This post is a media link/commentary about Germany's AfD party without any ECM reference or dated prediction."
+    },
+    {
+      "wp_id": 391963,
+      "title": "PRIVATE BLOG – US 10 Yr Rate Drops – WHY?",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-us-10-yr-rate-drops-why/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a promotional teaser for a private Socrates subscriber blog post with no specific forecast content or dated prediction included."
     }
   ]
 }

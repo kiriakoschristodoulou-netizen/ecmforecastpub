@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-18T07:18:23.575746+00:00",
+  "generated_at": "2026-10-25T07:41:19.436919+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
-  "post_count": 25,
+  "post_count": 29,
   "usage": {
-    "input_tokens": 81779,
-    "output_tokens": 8304,
-    "estimated_cost_usd": 0.36989700000000003,
+    "input_tokens": 91215,
+    "output_tokens": 9354,
+    "estimated_cost_usd": 0.413955,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -234,8 +234,44 @@
       "synthesis": "The ECM forecast points to a final high in diesel fuel and heating oil by March 2027, with war-driven refinery damage accelerating the move. Diesel underpins global food supply chains—from farming to maritime shipping—making this forecast far broader than an energy trade. A year-end close above 4.78 in heating oil would confirm the bullish trajectory into that target.",
       "category_suggestion": "asset_panic_cycle",
       "tag_suggestion": "oil_panic"
+    },
+    {
+      "wp_id": 391789,
+      "title": "UK Preparing for War As Soon As November",
+      "link": "https://www.armstrongeconomics.com/uncategorized/uk-preparing-for-war-as-soon-as-november/",
+      "predicted_date": "2026-11-01",
+      "synthesis": "The ECM flags the week of October 26 and November 9 as critical inflection points across European markets, aligning with rising geopolitical pressure from Brussels toward a potential escalation with Russia. The cycle suggests that a manufactured pretext for war could emerge as early as November 2026, driven by EU establishment fears of electoral losses to nationalist parties in Germany and France. Watch crude oil and European defense-related markets as leading signals of any accelerating crisis.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "war_escalation_trigger"
+    },
+    {
+      "wp_id": 391938,
+      "title": "France & the Demise of Macron",
+      "link": "https://www.armstrongeconomics.com/international-news/france/france-the-demise-of-macron/",
+      "predicted_date": "2031-12-31",
+      "synthesis": "The computer model registered a Directional Change in French real estate in 2026, with volatility projected to rise substantially into 2031, signaling a long-term decline in confidence tied to fiscal and social instability. France's sub-1% GDP growth, compounded by immigration-driven social unrest, aligns with the model's indication of structural deterioration rather than a cyclical dip. The 2031 horizon marks the outer edge of this volatility window and coincides with the broader 2032 confidence low the ECM has long targeted.",
+      "category_suggestion": "asset_panic_cycle",
+      "tag_suggestion": "real_estate_panic"
+    },
+    {
+      "wp_id": 391914,
+      "title": "The Value Decade – Revolt or Revolution",
+      "link": "https://www.armstrongeconomics.com/world-news/civil-unrest/the-value-decade-revolt-or-revolution/",
+      "predicted_date": "2026-11-30",
+      "synthesis": "The ECM forecast flags November 2026 as a cyclical turning point for European civil unrest, with the French revolt that erupted in mid-September serving as the trigger. The model identified a key Directional Change in the 10-year rate in September, reinforcing the cyclical significance of this period. If unrest persists beyond November, the cycle suggests Europe faces a deeper structural breakdown in social order and capital flows.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "civil_unrest_inflection"
+    },
+    {
+      "wp_id": 391967,
+      "title": "How Market Trade & Civil Unrest Coming to USA?",
+      "link": "https://www.armstrongeconomics.com/world-news/civil-unrest/how-market-trade-civil-unrest-coming-to-usa/",
+      "predicted_date": "2027-02-01",
+      "synthesis": "The computer model forecasts that civil unrest spreading across Europe will accelerate into North America beginning around February 2027, intensifying through 2028 as economic conditions deteriorate. The cycle links social instability directly to economic downturns, with the model projecting a global recession deepening through 2026–2028 as its core driver. Watch for protests escalating in the U.S. as fiscal tightening and declining urban real estate markets amplify public discontent.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "civil_unrest_inflection"
     }
   ],
-  "auto_cleaned_at": "2026-10-18T07:18:23.663781+00:00",
-  "auto_clean_dropped": 53
+  "auto_cleaned_at": "2026-10-25T07:41:19.525558+00:00",
+  "auto_clean_dropped": 56
 }

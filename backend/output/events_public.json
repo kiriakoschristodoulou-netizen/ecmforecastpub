@@ -1,9 +1,9 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-18T07:18:23.724474+00:00",
+  "generated_at": "2026-10-25T07:41:19.584521+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 25 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 150 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
-  "forecast_count": 64,
+  "source_summary": "39 chart-derived ECM cycle dates + 29 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 150 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "forecast_count": 68,
   "forecasts": [
     {
       "id": "euro-wave2-trough-2026-01-11",
@@ -836,6 +836,70 @@
       "first_seen_at": "2026-08-30T08:23:20.591839+00:00"
     },
     {
+      "id": "blog-391789",
+      "event_date": "2026-11-01",
+      "title": "UK Preparing for War As Soon As November",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "war_escalation_trigger",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM flags the week of October 26 and November 9 as critical inflection points across European markets, aligning with rising geopolitical pressure from Brussels toward a potential escalation with Russia. The cycle suggests that a manufactured pretext for war could emerge as early as November 2026, driven by EU establishment fears of electoral losses to nationalist parties in Germany and France. Watch crude oil and European defense-related markets as leading signals of any accelerating crisis.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/uncategorized/uk-preparing-for-war-as-soon-as-november/"
+      },
+      "related_events": [
+        {
+          "date": "2026-11-03",
+          "title": "United States, House of Representatives and Senate",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
+          "date": "2026-10-29",
+          "title": "ECB Governing Council monetary policy meeting",
+          "category": "central_bank",
+          "url": "https://www.ecb.europa.eu/press/calendars/mgcgc/html/index.en.html"
+        },
+        {
+          "date": "2026-10-27",
+          "title": "Israel, Knesset",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        }
+      ],
+      "origin": "blog",
+      "first_seen_at": "2026-10-25T07:41:19.584521+00:00"
+    },
+    {
+      "id": "blog-391914",
+      "event_date": "2026-11-30",
+      "title": "The Value Decade – Revolt or Revolution",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "civil_unrest_inflection",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The ECM forecast flags November 2026 as a cyclical turning point for European civil unrest, with the French revolt that erupted in mid-September serving as the trigger. The model identified a key Directional Change in the 10-year rate in September, reinforcing the cyclical significance of this period. If unrest persists beyond November, the cycle suggests Europe faces a deeper structural breakdown in social order and capital flows.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/world-news/civil-unrest/the-value-decade-revolt-or-revolution/"
+      },
+      "related_events": [
+        {
+          "date": "2026-12-01",
+          "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
+          "category": "summit",
+          "url": "https://www.opec.org/opec_web/en/press_room/"
+        }
+      ],
+      "origin": "blog",
+      "first_seen_at": "2026-10-25T07:41:19.584521+00:00"
+    },
+    {
       "id": "dow-panic-2026-12-01",
       "event_date": "2026-12-01",
       "title": "Dow Jones Panic Cycle (December 2026)",
@@ -879,6 +943,38 @@
       "related_events": [],
       "origin": "chart",
       "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
+    },
+    {
+      "id": "blog-391967",
+      "event_date": "2027-02-01",
+      "title": "How Market Trade & Civil Unrest Coming to USA?",
+      "subtitle": "",
+      "category": "geopolitical_cycle",
+      "tag": "civil_unrest_inflection",
+      "importance": "medium",
+      "is_convergence": true,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The computer model forecasts that civil unrest spreading across Europe will accelerate into North America beginning around February 2027, intensifying through 2028 as economic conditions deteriorate. The cycle links social instability directly to economic downturns, with the model projecting a global recession deepening through 2026–2028 as its core driver. Watch for protests escalating in the U.S. as fiscal tightening and declining urban real estate markets amplify public discontent.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/world-news/civil-unrest/how-market-trade-civil-unrest-coming-to-usa/"
+      },
+      "related_events": [
+        {
+          "date": "2027-01-30",
+          "title": "Germany, President",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar"
+        },
+        {
+          "date": "2027-01-26",
+          "title": "FOMC meeting (rate decision)",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+        }
+      ],
+      "origin": "blog",
+      "first_seen_at": "2026-10-25T07:41:19.584521+00:00"
     },
     {
       "id": "ecm-wave-2027-02-15",
@@ -1204,6 +1300,25 @@
       "related_events": [],
       "origin": "chart",
       "first_seen_at": "2026-05-18T10:07:25.147493+00:00"
+    },
+    {
+      "id": "blog-391938",
+      "event_date": "2031-12-31",
+      "title": "France & the Demise of Macron",
+      "subtitle": "",
+      "category": "asset_panic_cycle",
+      "tag": "real_estate_panic",
+      "importance": "medium",
+      "is_convergence": false,
+      "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
+      "synthesis": "The computer model registered a Directional Change in French real estate in 2026, with volatility projected to rise substantially into 2031, signaling a long-term decline in confidence tied to fiscal and social instability. France's sub-1% GDP growth, compounded by immigration-driven social unrest, aligns with the model's indication of structural deterioration rather than a cyclical dip. The 2031 horizon marks the outer edge of this volatility window and coincides with the broader 2032 confidence low the ECM has long targeted.",
+      "source": {
+        "name": "Armstrong Economics blog (public RSS)",
+        "url": "https://www.armstrongeconomics.com/international-news/france/france-the-demise-of-macron/"
+      },
+      "related_events": [],
+      "origin": "blog",
+      "first_seen_at": "2026-10-25T07:41:19.584521+00:00"
     },
     {
       "id": "blog-379889",

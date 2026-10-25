@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-18T07:14:49.969997+00:00",
+  "generated_at": "2026-10-25T07:37:12.039568+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 170,
-  "kept_count": 78,
+  "input_post_count": 180,
+  "kept_count": 85,
   "usage": {
-    "input_tokens": 5690,
-    "output_tokens": 512,
-    "estimated_cost_usd": 0.00825,
+    "input_tokens": 12861,
+    "output_tokens": 1070,
+    "estimated_cost_usd": 0.018210999999999998,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1540,6 +1540,96 @@
       "confidence": "medium",
       "predicted_date": "2027-01-01",
       "reason": "Armstrong attributes Panic Cycles in both the Senate and House to his model for 2027, and Socrates predicted rising diesel prices with major risks in Q1 next year (2027), though current high/retest timing is vague."
+    },
+    {
+      "wp_id": 391811,
+      "title": "Europe & Civil Unrest On Time",
+      "link": "https://www.armstrongeconomics.com/world-news/civil-unrest/europe-civil-unrest-on-time/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-11-01",
+      "reason": "Armstrong attributes to his computer model that civil unrest will 'perhaps continue into November' in Europe, with a Panic Cycle in Civil Unrest predicted for 2029; the November continuation is model-attributed but lacks specific day/week precision."
+    },
+    {
+      "wp_id": 391789,
+      "title": "UK Preparing for War As Soon As November",
+      "link": "https://www.armstrongeconomics.com/uncategorized/uk-preparing-for-war-as-soon-as-november/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-11-01",
+      "reason": "Armstrong warns of a false flag war event 'as soon as this November but no later than February/March 2027' attributed to Brussels/EU actions, with specific critical dates mentioned (October 26 week, November 9th); November is model-attributed though without exact date."
+    },
+    {
+      "wp_id": 391759,
+      "title": "The 1999 WEC Warning of 2000 Bubble",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/the-1999-wec-warning-of-2000-bubble/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post is historical analysis of past bubbles and ECM waves; mentions 'formidable turning point going into 2028' but this is year-only without month specificity, and defers detailed analysis to the WEC without providing a new model-attributed amendment."
+    },
+    {
+      "wp_id": 391863,
+      "title": "Alberta Votes to Remain- Grievances Unresolved",
+      "link": "https://www.armstrongeconomics.com/international-news/canada/alberta-votes-to-remain-grievances-unresolved/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "Post reports on Alberta referendum result (historical event) and editorial speculation about separatism; mentions 'cyclically we should not expect separation to succeed before 2029 going into 2031' but this is commentary without a specific model-dated prediction at month-level or better."
+    },
+    {
+      "wp_id": 391835,
+      "title": "DOES THIS LOOK LIKE A STUDENT PROTEST?",
+      "link": "https://www.armstrongeconomics.com/international-news/france/does-this-look-like-a-student-protest/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-11-01",
+      "reason": "Armstrong's Civil Unrest Model identified 2026 as major target and 'model also indicates that the unrest could continue into November,' with Panic Cycle in Civil Unrest predicted for 2029; November continuation is model-attributed though without specific date precision."
+    },
+    {
+      "wp_id": 391845,
+      "title": "2032 Can't Come Fast Enough",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/2032-cant-come-fast-enough/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references the existing 2032 ECM target repeatedly but does not amend or introduce a new model-dated prediction; it is editorial commentary on political dysfunction and speculation about Democratic policies."
+    },
+    {
+      "wp_id": 391926,
+      "title": "Eurozone vs Banking Crisis",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/ecm-armstrongeconomics101/eurozone-vs-banking-crisis/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong explicitly attributes to the EU Commission a model-derived proposal presentation on sovereign bond diversification in 'early 2027,' positioning this as a turning point in the Eurozone crisis cycle aligned with his ECM framework."
+    },
+    {
+      "wp_id": 391938,
+      "title": "France & the Demise of Macron",
+      "link": "https://www.armstrongeconomics.com/international-news/france/france-the-demise-of-macron/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2031-12-31",
+      "reason": "Armstrong states his computer models show French real estate experienced a directional change in 2026 with volatility rising substantially 'into 2031,' explicitly attributing this to computer projections of declining confidence."
+    },
+    {
+      "wp_id": 391914,
+      "title": "The Value Decade – Revolt or Revolution",
+      "link": "https://www.armstrongeconomics.com/world-news/civil-unrest/the-value-decade-revolt-or-revolution/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2026-11-30",
+      "reason": "Armstrong's cyclical analysis attributes to the computer a forecast that the French revolt (begun mid-September 2026) should 'continue into November' as a cyclical turning point; he ties this to a September directional change in the 10-year rate."
+    },
+    {
+      "wp_id": 391967,
+      "title": "How Market Trade & Civil Unrest Coming to USA?",
+      "link": "https://www.armstrongeconomics.com/world-news/civil-unrest/how-market-trade-civil-unrest-coming-to-usa/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-02-01",
+      "reason": "Armstrong explicitly attributes to his computer model a forecast that civil unrest spreading from Europe 'will heat up from February 2027' as part of the acceleration into 2028, directly linking it to economic downturn cycles."
     }
   ]
 }
