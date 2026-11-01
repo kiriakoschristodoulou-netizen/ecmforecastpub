@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T07:37:12.039568+00:00",
+  "generated_at": "2026-11-01T09:18:20.063740+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 180,
-  "kept_count": 85,
+  "input_post_count": 184,
+  "kept_count": 89,
   "usage": {
-    "input_tokens": 12861,
-    "output_tokens": 1070,
-    "estimated_cost_usd": 0.018210999999999998,
+    "input_tokens": 3870,
+    "output_tokens": 372,
+    "estimated_cost_usd": 0.005730000000000001,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1630,6 +1630,42 @@
       "confidence": "high",
       "predicted_date": "2027-02-01",
       "reason": "Armstrong explicitly attributes to his computer model a forecast that civil unrest spreading from Europe 'will heat up from February 2027' as part of the acceleration into 2028, directly linking it to economic downturn cycles."
+    },
+    {
+      "wp_id": 392035,
+      "title": "The Elections & Diesel",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-elections-diesel/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-03-01",
+      "reason": "Armstrong states 'I do not see this reaching a conclusion until next March,' referring to the diesel/energy crisis and political conflict, presented as his assessment of near-term developments."
+    },
+    {
+      "wp_id": 392133,
+      "title": "Get Out of Brazil Before It's Too Late",
+      "link": "https://www.armstrongeconomics.com/international-news/brazil/get-out-of-brazil-before-its-too-late/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong's computer is explicitly shown forecasting 'a sharp rise in volatility in 2027' for Brazil as the country approaches revolution."
+    },
+    {
+      "wp_id": 392103,
+      "title": "France & the Prospects for Revolution",
+      "link": "https://www.armstrongeconomics.com/international-news/france/france-the-prospects-for-revolution/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-04-01",
+      "reason": "Armstrong predicts 'Le Pen to power in April 2027' contingent on economic pressure and energy rallies into March, based on cyclic analysis of French political turmoil timing."
+    },
+    {
+      "wp_id": 392245,
+      "title": "France – Beyond Hope?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/france-beyond-hope/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2026-12-16",
+      "reason": "Armstrong explicitly attributes to his model that French protests 'could continue into December 16, 2026,' providing a specific dated prediction for near-term unrest."
     }
   ]
 }

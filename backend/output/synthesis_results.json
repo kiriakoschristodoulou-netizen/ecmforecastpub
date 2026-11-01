@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-10-25T07:41:19.436919+00:00",
+  "generated_at": "2026-11-01T09:22:24.987636+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
-  "post_count": 29,
+  "post_count": 31,
   "usage": {
-    "input_tokens": 91215,
-    "output_tokens": 9354,
-    "estimated_cost_usd": 0.413955,
+    "input_tokens": 90487,
+    "output_tokens": 9418,
+    "estimated_cost_usd": 0.412731,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -270,8 +270,26 @@
       "synthesis": "The computer model forecasts that civil unrest spreading across Europe will accelerate into North America beginning around February 2027, intensifying through 2028 as economic conditions deteriorate. The cycle links social instability directly to economic downturns, with the model projecting a global recession deepening through 2026–2028 as its core driver. Watch for protests escalating in the U.S. as fiscal tightening and declining urban real estate markets amplify public discontent.",
       "category_suggestion": "geopolitical_cycle",
       "tag_suggestion": "civil_unrest_inflection"
+    },
+    {
+      "wp_id": 392103,
+      "title": "France & the Prospects for Revolution",
+      "link": "https://www.armstrongeconomics.com/international-news/france/france-the-prospects-for-revolution/",
+      "predicted_date": "2027-04-01",
+      "synthesis": "The cycle points to April 2027 as a window when economic pressure and a sharp energy rally into March could catalyze a governmental collapse in France, potentially bringing the far-right opposition to power. The model identifies 2027 as the critical inflection where police or military loyalty could shift—the historical trigger for revolution. Watch energy markets in Q1 2027 as the leading indicator for whether this scenario accelerates.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "france_political_inflection"
+    },
+    {
+      "wp_id": 392245,
+      "title": "France – Beyond Hope?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/france-beyond-hope/",
+      "predicted_date": "2026-12-16",
+      "synthesis": "The ECM forecast flags December 16, 2026 as a near-term crest for the French protest movement, which escalated into nationwide unrest beginning October 17, 2026. France's public spending at 57.3% of GDP—the EU's highest—is identified as the structural driver compressing living standards and fueling social instability. The model further indicates protest intensity could peak as late as August 2027, with the risk of government collapse rising into 2028–2029 as a global recession amplifies pressure.",
+      "category_suggestion": "geopolitical_cycle",
+      "tag_suggestion": "france_political_inflection"
     }
   ],
-  "auto_cleaned_at": "2026-10-25T07:41:19.525558+00:00",
-  "auto_clean_dropped": 56
+  "auto_cleaned_at": "2026-11-01T09:22:25.073734+00:00",
+  "auto_clean_dropped": 58
 }

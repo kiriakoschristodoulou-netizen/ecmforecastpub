@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-25T07:36:58.069660+00:00",
+  "generated_at": "2026-11-01T09:18:15.273944+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1444,
-  "kept_count": 180,
+  "post_count": 1480,
+  "kept_count": 184,
   "usage": {
-    "input_tokens": 38855,
-    "output_tokens": 3153,
-    "estimated_cost_usd": 0.05462,
+    "input_tokens": 38674,
+    "output_tokens": 3166,
+    "estimated_cost_usd": 0.054504,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -13006,6 +13006,330 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "This is a promotional teaser for a private Socrates subscriber blog post with no specific forecast content or dated prediction included."
+    },
+    {
+      "wp_id": 392024,
+      "title": "Netanyahu Has Turned Israel Into a Country Its Own People Are Fleeing",
+      "link": "https://www.armstrongeconomics.com/world-news/war/netanyahu-has-turned-israel-into-a-country-its-own-people-are-fleeing/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Israeli emigration trends and Netanyahu's political situation; no ECM reference, no specific dated prediction, and no reference to Armstrong's model."
+    },
+    {
+      "wp_id": 392019,
+      "title": "Britain Tells Citizens to Stockpile Supplies as the War Cycle Escalates",
+      "link": "https://www.armstrongeconomics.com/world-news/war/britain-tells-citizens-to-stockpile-supplies-as-the-war-cycle-escalates/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Britain's emergency preparedness campaign and vulnerability analysis; discusses war cycle as general concept but makes no specific ECM-dated prediction."
+    },
+    {
+      "wp_id": 392021,
+      "title": "Rioters Storm Rome's Colosseum",
+      "link": "https://www.armstrongeconomics.com/international-news/italy/rioters-storm-romes-colosseum/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on civil unrest in Rome and Italy; news reporting of current events with no ECM reference or dated prediction."
+    },
+    {
+      "wp_id": 392029,
+      "title": "Britain Telling Its People Prepare for Riots & War",
+      "link": "https://www.armstrongeconomics.com/uncategorized/britain-telling-its-people-prepare-for-riots-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Video link only with minimal text; no substantive ECM-based prediction with specific future date."
+    },
+    {
+      "wp_id": 392035,
+      "title": "The Elections & Diesel",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-elections-diesel/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-03-01",
+      "reason": "Post explicitly references 'Socrates is forecasting' a Democratic House win and states 'I do not see this reaching a conclusion until next March,' predicting an energy crisis and diesel situation for approximately March 2027 tied to ECM/Socrates model output."
+    },
+    {
+      "wp_id": 392032,
+      "title": "UK Politics Explained",
+      "link": "https://www.armstrongeconomics.com/humor/uk-politics-explained/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Media/video link with no predictive content, analysis, or ECM references."
+    },
+    {
+      "wp_id": 392027,
+      "title": "Market Talk – October 26, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-26-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current prices and indices with no ECM references or future predictions."
+    },
+    {
+      "wp_id": 392007,
+      "title": "The Political Chaos – End of Republicans?",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-political-chaos-end-of-republicans/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Post mentions 2032 and confidence in government collapse as a forecast outcome, but this is embedded in a Q&A answering a reader question about Kushner/treason; the 2032 reference is contextual commentary on broader political trends rather than a specific ECM-dated prediction with a concrete event in this post."
+    },
+    {
+      "wp_id": 391631,
+      "title": "India's Rise Is Becoming Harder to Ignore",
+      "link": "https://www.armstrongeconomics.com/international-news/india/indias-rise-is-becoming-harder-to-ignore/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Economic analysis and commentary on India's growth trajectory with IMF projections; no ECM model reference or specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 391902,
+      "title": "India's Economic Rise Has Left Millions Behind",
+      "link": "https://www.armstrongeconomics.com/international-news/india/indias-economic-rise-has-left-millions-behind/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on India's hunger crisis and income inequality using 2026 Global Hunger Index data; no ECM reference or specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 392075,
+      "title": "Salvini Calls for an End to Italy's Endless Funding of Ukraine",
+      "link": "https://www.armstrongeconomics.com/international-news/italy/salvini-calls-for-an-end-to-italys-endless-funding-of-ukraine/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current Italian political events regarding Ukraine funding; no ECM reference, specific event prediction, or future dated forecast."
+    },
+    {
+      "wp_id": 392115,
+      "title": "Pakistan's Taiwan Airspace Dispute Reveals China's Growing Influence",
+      "link": "https://www.armstrongeconomics.com/world-news/war/pakistans-taiwan-airspace-dispute-reveals-chinas-growing-influence/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Pakistan-Taiwan airspace dispute and geopolitical tensions; while it mentions March 27, 2027 as an authorization expiration, this is not an ECM-based prediction of a specific event."
+    },
+    {
+      "wp_id": 392113,
+      "title": "The New American Housing Divide: Those With Family Assets and Those Without",
+      "link": "https://www.armstrongeconomics.com/real-estate/the-new-american-housing-divide-those-with-family-assets-and-those-without/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing housing market trends and generational wealth inequality; no ECM reference or specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 392122,
+      "title": "Warren Buffett & the Dollar",
+      "link": "https://www.armstrongeconomics.com/uncategorized/warren-buffett-the-dollar/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A response comparing Armstrong's views to Warren Buffett's currency commentary; no ECM-specific forecast or dated prediction of a future event."
+    },
+    {
+      "wp_id": 392133,
+      "title": "Get Out of Brazil Before It's Too Late",
+      "link": "https://www.armstrongeconomics.com/international-news/brazil/get-out-of-brazil-before-its-too-late/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "The computer model predicts 'a sharp rise in volatility in 2027' and forecasts Brazil will 'undoubtedly end up in revolution,' referenced as computer output; specific event (revolution/volatility spike) tied to future year 2027."
+    },
+    {
+      "wp_id": 392125,
+      "title": "Interest Rates & Central Banks",
+      "link": "https://www.armstrongeconomics.com/uncategorized/interest-rates-central-banks/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A post discussing current Fed policy and central bank constraints; mentions Socrates showed 'no Directional Change here in October' (a past date relative to today 2026-11-01) without predicting a specific future event or turning point."
+    },
+    {
+      "wp_id": 392117,
+      "title": "Market Talk – October 28, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-28-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current price movements and data collection times; contains no ECM reference, no specific future prediction, and no dated forecast."
+    },
+    {
+      "wp_id": 392109,
+      "title": "PRIVATE BLOG – The Fed Paradox With Interest Rates",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-the-fed-paradox-with-interest-rates/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional teaser for private Socrates subscriber content; no substantive forecast content or specific dated prediction provided."
+    },
+    {
+      "wp_id": 392103,
+      "title": "France & the Prospects for Revolution",
+      "link": "https://www.armstrongeconomics.com/international-news/france/france-the-prospects-for-revolution/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Post references economic pressure and revolution timing, stating 'The risk of France seeing such a point will arrive in 2027' with possibility of economic/police turning point in Q1 2027 and Le Pen coming to power in April 2027; this predicts specific geopolitical events tied to future dates within the ECM framework."
+    },
+    {
+      "wp_id": 392055,
+      "title": "Qatar's LNG Empire Is Being Strangled by the War with Iran",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/energy/qatars-lng-empire-is-being-strangled-by-the-war-with-iran/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Detailed analysis of Qatar's LNG crisis due to Middle East War Cycle; discusses current and historical impacts (2025, 2026 data, 2030s delivery agreements) without predicting a specific dated turning point or ECM forecast."
+    },
+    {
+      "wp_id": 392052,
+      "title": "Civil Unrest and War Models Align in 2026",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/civil-unrest-and-war-models-align-in-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot assess whether it contains ECM reference, specific predicted event, or future dated prediction."
+    },
+    {
+      "wp_id": 392221,
+      "title": "PRIVATE BLOG – White House Trying to Talk the World Out of WWIII",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-white-house-trying-to-talk-the-world-out-of-wwiii/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Private blog teaser post with no substantive content; promotional in nature, not a specific ECM-dated forecast."
+    },
+    {
+      "wp_id": 392214,
+      "title": "Tusk Overthrows Government To Keep WWIII in Play",
+      "link": "https://www.armstrongeconomics.com/international-news/poland/tusk-overthrow-government-to-keep-wwiii-in-play/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "ECM reference present but commentary on past event (October 15 elections and Tusk government formation already occurred); no future-dated specific prediction made in this post."
+    },
+    {
+      "wp_id": 392206,
+      "title": "Market Talk – October 30, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-30-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current and past market data with no ECM model reference, specific predicted event, or future dated forecast."
+    },
+    {
+      "wp_id": 392185,
+      "title": "Pentagon tells NATO/EU Stop Pushing War",
+      "link": "https://www.armstrongeconomics.com/world-news/war/pentagon-tells-nato-eu-stop-pushing-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion and historical analysis piece without ECM model reference, specific dated prediction, or future turning point forecast."
+    },
+    {
+      "wp_id": 392176,
+      "title": "EU Prepared for Serious Times Ahead",
+      "link": "https://www.armstrongeconomics.com/uncategorized/eu-prepared-for-serious-times-ahead/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current EU political events (Lagarde resignation, Le Pen, AfD, Carney discussions, WEF connections) with no ECM model reference, no specific dated prediction, and no forecasting of future events."
+    },
+    {
+      "wp_id": 392167,
+      "title": "Britain Has Committed £35 Billion to Ukraine While Its Own Economy Deteriorates",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/britain-has-committed-35-billion-to-ukraine-while-its-own-economy-deteriorates/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary analyzing Britain's past and current spending commitments to Ukraine (£35 billion total, £10 billion announced October 28) with no ECM reference and no specific dated prediction of a future event; mentions 2030-2031 only as context for existing pledges, not as a predicted turning point."
+    },
+    {
+      "wp_id": 392164,
+      "title": "Americans Have Lost Confidence in Congress Ahead of the 2026 Midterms",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/americans-have-lost-confidence-in-congress-ahead-of-the-2026-midterms/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on the November 3 midterm elections and historical congressional approval patterns with no ECM reference and no specific dated prediction; analysis of public dissatisfaction but no ECM-derived forecast of a particular outcome."
+    },
+    {
+      "wp_id": 392144,
+      "title": "Why the Military/Police Decide Revolutions",
+      "link": "https://www.armstrongeconomics.com/international-news/revolution/why-the-military-police-decide-revolutions/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A commentary explaining historical events (1991 Russian coup, military defection, Yeltsin on tank) with no ECM reference and no prediction of future events."
+    },
+    {
+      "wp_id": 392171,
+      "title": "Market Talk – October 29, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-october-29-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting historical price data for October 29, 2026 with no ECM reference and no forecast of future events."
+    },
+    {
+      "wp_id": 392142,
+      "title": "Direct War with Russia, Iran War Invasion & Geopolitical Timelines",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/direct-war-with-russia-iran-war-invasion-geopolitical-timelines/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post title only; no body content provided to evaluate for ECM reference, specific predicted event, or future date."
+    },
+    {
+      "wp_id": 392191,
+      "title": "Predicting War – Somebody Always Knows in Advance",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/predicting-war-somebody-always-knows-in-advance/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post title only; no body content provided to evaluate for ECM reference, specific predicted event, or future date."
+    },
+    {
+      "wp_id": 392245,
+      "title": "France – Beyond Hope?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/france-beyond-hope/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-08-12",
+      "reason": "ECM reference via Armstrong's dated cyclical analysis; specific predicted events (France protests reaching major crest, government fall risk) tied to explicit future dates (August 12, 2027 for major crest, 2028/2029 for government fall risk)."
+    },
+    {
+      "wp_id": 392240,
+      "title": "PRIVATE BLOG – Gold the Crash into '27?",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/private-blog-gold-the-crash-into-27/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional/teaser post for private Socrates subscriber content; no actual forecast content provided, only registration link."
+    },
+    {
+      "wp_id": 392237,
+      "title": "PRIVATE BLOG – The Share Market Outlook",
+      "link": "https://www.armstrongeconomics.com/uncategorized/private-blog-the-share-market-outlook-2/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional/teaser post for private Socrates subscriber content; no actual forecast content provided, only registration link."
+    },
+    {
+      "wp_id": 392232,
+      "title": "The Midterms – Get Ready",
+      "link": "https://www.armstrongeconomics.com/uncategorized/the-midterms-get-ready/",
+      "is_forecast": false,
+      "confidence": "low",
+      "predicted_date": null,
+      "reason": "While the post mentions 'the computer is warning of chaos ahead,' it does not cite a specific ECM dated prediction; instead it provides political commentary on election dynamics and progressive policy without a concrete future event tied to a specific date."
     }
   ]
 }
