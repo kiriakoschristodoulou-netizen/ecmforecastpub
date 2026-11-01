@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-01T09:22:25.123299+00:00",
+  "generated_at": "2026-11-01T10:39:58.422486+00:00",
   "feed_type": "public",
-  "source_summary": "39 chart-derived ECM cycle dates + 31 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 150 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
+  "source_summary": "39 chart-derived ECM cycle dates + 31 blog-derived forecasts (Pass 1 -> 1.5 -> 2 synthesis, auto-cleaned). 158 scheduled events attached within per-category windows (FOMC +/-14d, elections +/-5d). Merged and sorted ascending by event_date. first_seen_at preserved across rebuilds; new entries get now.",
   "forecast_count": 70,
   "forecasts": [
     {
@@ -798,6 +798,12 @@
           "title": "20-Year Bond auction (reopening)",
           "category": "sovereign_debt",
           "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/"
+        },
+        {
+          "date": "2026-10-07",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         }
       ],
       "origin": "blog",
@@ -824,6 +830,18 @@
           "title": "Brazil, President, Chamber of Deputies and Senate",
           "category": "election",
           "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
+          "date": "2026-10-04",
+          "title": "Brazil, President (1st round), Chamber of Deputies and Senate",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
+          "date": "2026-10-07",
+          "title": "FOMC meeting",
+          "category": "central_bank",
+          "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
         },
         {
           "date": "2026-10-01",
@@ -858,6 +876,12 @@
           "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
         },
         {
+          "date": "2026-11-03",
+          "title": "United States, Senate and House of Representatives",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
+        {
           "date": "2026-10-29",
           "title": "ECB Governing Council monetary policy meeting",
           "category": "central_bank",
@@ -881,7 +905,7 @@
       "category": "geopolitical_cycle",
       "tag": "civil_unrest_inflection",
       "importance": "medium",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Auto-derived from blog post synthesis. Standard blog-derived forecast.",
       "synthesis": "The ECM forecast flags November 2026 as a cyclical turning point for European civil unrest, with the French revolt that erupted in mid-September serving as the trigger. The model identified a key Directional Change in the 10-year rate in September, reinforcing the cyclical significance of this period. If unrest persists beyond November, the cycle suggests Europe faces a deeper structural breakdown in social order and capital flows.",
       "source": {
@@ -889,6 +913,12 @@
         "url": "https://www.armstrongeconomics.com/world-news/civil-unrest/the-value-decade-revolt-or-revolution/"
       },
       "related_events": [
+        {
+          "date": "2026-11-29",
+          "title": "Spain, Senate and Congress of Deputies",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
+        },
         {
           "date": "2026-12-01",
           "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
@@ -907,7 +937,7 @@
       "category": "asset_panic_cycle",
       "tag": "dow_panic",
       "importance": "medium",
-      "is_convergence": false,
+      "is_convergence": true,
       "importance_justification": "Second yellow Panic Cycle block on Dow monthly timing array, late in 2026.",
       "synthesis": "A second Panic Cycle marker on the Dow Jones monthly timing array for late 2026.",
       "source": {
@@ -920,6 +950,12 @@
           "title": "OPEC+ JMMC meeting (estimated, confirm via opec.org)",
           "category": "summit",
           "url": "https://www.opec.org/opec_web/en/press_room/"
+        },
+        {
+          "date": "2026-11-29",
+          "title": "Spain, Senate and Congress of Deputies",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar"
         }
       ],
       "origin": "chart",
@@ -998,6 +1034,12 @@
         "url": "https://www.armstrongeconomics.com/world-news/civil-unrest/how-market-trade-civil-unrest-coming-to-usa/"
       },
       "related_events": [
+        {
+          "date": "2027-02-01",
+          "title": "Brazil, President of the Federal Senate",
+          "category": "election",
+          "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar"
+        },
         {
           "date": "2027-01-30",
           "title": "Germany, President",

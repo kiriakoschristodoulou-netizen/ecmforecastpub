@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-01T10:18:55.554253+00:00",
-  "event_count": 150,
+  "generated_at": "2026-11-01T10:39:58.380546+00:00",
+  "event_count": 158,
   "sources": [
     "fomc",
     "wikipedia_electoral",
@@ -739,6 +739,20 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-10-04",
+      "title": "Brazil, President (1st round), Chamber of Deputies and Senate",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2026-10-07",
+      "title": "FOMC meeting",
+      "category": "central_bank",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "fomc"
+    },
+    {
       "date": "2026-10-14",
       "title": "30-Year Bond auction (reopening)",
       "category": "sovereign_debt",
@@ -751,6 +765,13 @@
       "category": "sovereign_debt",
       "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
       "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-10-25",
+      "title": "Brazil, President (2nd round)",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
     },
     {
       "date": "2026-10-27",
@@ -774,6 +795,13 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-11-03",
+      "title": "United States, Senate and House of Representatives",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
       "date": "2026-11-11",
       "title": "30-Year Bond auction",
       "category": "sovereign_debt",
@@ -786,6 +814,13 @@
       "category": "sovereign_debt",
       "url": "https://www.treasurydirect.gov/auctions/when-auctions-happen/",
       "source": "treasury_pattern"
+    },
+    {
+      "date": "2026-11-29",
+      "title": "Spain, Senate and Congress of Deputies",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
     },
     {
       "date": "2026-12-01",
@@ -839,6 +874,13 @@
     {
       "date": "2027-01-30",
       "title": "Germany, President",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2027-02-01",
+      "title": "Brazil, President of the Federal Senate",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
       "source": "wikipedia_electoral"
@@ -919,6 +961,13 @@
       "category": "central_bank",
       "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
       "source": "fomc"
+    },
+    {
+      "date": "2027-05-24",
+      "title": "Netherlands, Senate",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
+      "source": "wikipedia_electoral"
     },
     {
       "date": "2027-06-06",
@@ -1031,6 +1080,13 @@
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
       "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2027-10-28",
+      "title": "FOMC meeting",
+      "category": "central_bank",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm",
+      "source": "fomc"
     },
     {
       "date": "2027-11-10",

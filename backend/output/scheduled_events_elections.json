@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0",
   "source": "wikipedia_electoral",
-  "generated_at": "2026-10-01T10:18:55.406012+00:00",
-  "event_count": 27,
+  "generated_at": "2026-11-01T10:39:58.216607+00:00",
+  "event_count": 33,
   "events": [
     {
       "date": "2026-02-08",
@@ -152,6 +152,20 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-10-04",
+      "title": "Brazil, President (1st round), Chamber of Deputies and Senate",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2026-10-25",
+      "title": "Brazil, President (2nd round)",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
       "date": "2026-10-27",
       "title": "Israel, Knesset",
       "category": "election",
@@ -166,6 +180,20 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2026-11-03",
+      "title": "United States, Senate and House of Representatives",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2026-11-29",
+      "title": "Spain, Senate and Congress of Deputies",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2026_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
       "date": "2027-01-30",
       "title": "Germany, President",
       "category": "election",
@@ -173,8 +201,22 @@
       "source": "wikipedia_electoral"
     },
     {
+      "date": "2027-02-01",
+      "title": "Brazil, President of the Federal Senate",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
       "date": "2027-04-18",
       "title": "France, President",
+      "category": "election",
+      "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
+      "source": "wikipedia_electoral"
+    },
+    {
+      "date": "2027-05-24",
+      "title": "Netherlands, Senate",
       "category": "election",
       "url": "https://en.wikipedia.org/wiki/2027_national_electoral_calendar",
       "source": "wikipedia_electoral"
