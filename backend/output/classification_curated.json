@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-01T09:18:20.063740+00:00",
+  "generated_at": "2026-11-08T09:01:25.490781+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 184,
-  "kept_count": 89,
+  "input_post_count": 187,
+  "kept_count": 91,
   "usage": {
-    "input_tokens": 3870,
-    "output_tokens": 372,
-    "estimated_cost_usd": 0.005730000000000001,
+    "input_tokens": 4919,
+    "output_tokens": 318,
+    "estimated_cost_usd": 0.006509,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1666,6 +1666,33 @@
       "confidence": "high",
       "predicted_date": "2026-12-16",
       "reason": "Armstrong explicitly attributes to his model that French protests 'could continue into December 16, 2026,' providing a specific dated prediction for near-term unrest."
+    },
+    {
+      "wp_id": 392318,
+      "title": "Twas the night before Chaos, and all through the House, People are Fleeing even the Mouse",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/twas-the-night-before-chaos-and-all-through-the-house-people-are-fleeing-even-the-mouse/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2027-01-01",
+      "reason": "Armstrong's computer explicitly projects Panic Cycles in 2027 and 2029, with a major turning point in 2028 for third-party activity; the 2027 panic cycle is model-attributed and month-specific enough to qualify as a future ECM forecast."
+    },
+    {
+      "wp_id": 392224,
+      "title": "Democrat's Recession into 2028 & New Beginning",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/democrats-recession-into-2028-new-beginning/",
+      "is_forecast": true,
+      "confidence": "high",
+      "predicted_date": "2028-01-01",
+      "reason": "Armstrong states 'Our computer has shown that the economy will now enter a recession into 2028,' providing an explicit computer-attributed recession forecast with a specific future target year."
+    },
+    {
+      "wp_id": 392412,
+      "title": "Texas is Blue",
+      "link": "https://www.armstrongeconomics.com/uncategorized/texas-is-blue/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "The post mentions a 2026 Directional Change (already occurred as of today 2026-11-08) and discusses historical Pi Cycle analysis; no new or amended model-attributed future prediction with month-level specificity is presented."
     }
   ]
 }

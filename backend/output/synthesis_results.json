@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-01T09:22:24.987636+00:00",
+  "generated_at": "2026-11-08T09:05:36.839660+00:00",
   "partial": false,
   "model": "claude-sonnet-4-6",
   "post_count": 31,
   "usage": {
-    "input_tokens": 90487,
-    "output_tokens": 9418,
-    "estimated_cost_usd": 0.412731,
+    "input_tokens": 91164,
+    "output_tokens": 9393,
+    "estimated_cost_usd": 0.414387,
     "model": "claude-sonnet-4-6"
   },
   "results": [
@@ -290,6 +290,6 @@
       "tag_suggestion": "france_political_inflection"
     }
   ],
-  "auto_cleaned_at": "2026-11-01T09:22:25.073734+00:00",
-  "auto_clean_dropped": 58
+  "auto_cleaned_at": "2026-11-08T09:05:36.906733+00:00",
+  "auto_clean_dropped": 60
 }
