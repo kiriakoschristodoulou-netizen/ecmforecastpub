@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-08T09:01:21.076012+00:00",
+  "generated_at": "2026-11-15T09:29:15.753427+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1510,
+  "post_count": 1543,
   "kept_count": 187,
   "usage": {
-    "input_tokens": 35793,
-    "output_tokens": 2575,
-    "estimated_cost_usd": 0.048667999999999996,
+    "input_tokens": 34365,
+    "output_tokens": 2746,
+    "estimated_cost_usd": 0.048095,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -13600,6 +13600,303 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Commentary on 2026 midterm election results and Democrat-Republican policy differences; the statement 'What you will see for the next two years is more of the same' lacks a specific event prediction and ECM reference."
+    },
+    {
+      "wp_id": 392541,
+      "title": "Armstrong on USA WatchDog",
+      "link": "https://www.armstrongeconomics.com/uncategorized/armstrong-on-usa-watchdog-6/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post about a media appearance; no ECM model reference, no specific dated prediction, and no forecast content."
+    },
+    {
+      "wp_id": 392505,
+      "title": "When Trust becomes a Weapon",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/when-trust-becomes-a-weapon/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting and advisory about financial scams with no ECM reference, model prediction, or future dated forecast."
+    },
+    {
+      "wp_id": 392510,
+      "title": "Auto Loan Delinquencies Signal a Consumer Debt Crisis",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/auto-loan-delinquencies-signal-a-consumer-debt-crisis/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "General economic analysis and commentary on current auto loan delinquencies; no ECM model reference and no specific dated prediction."
+    },
+    {
+      "wp_id": 392446,
+      "title": "Russia Slashes Military Recruitment Bonuses",
+      "link": "https://www.armstrongeconomics.com/world-news/war/russia-slashes-military-recruitment-bonuses/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical news analysis of Russia's military recruitment strategy; no ECM reference and no specific dated prediction."
+    },
+    {
+      "wp_id": 392560,
+      "title": "Balkan Info Interview Post-Serbian Revolution Part-II",
+      "link": "https://www.armstrongeconomics.com/uncategorized/balkan-info-interview-post-serbian-revolution-part-ii/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional post linking to a video interview; no ECM forecast content or specific dated prediction."
+    },
+    {
+      "wp_id": 392557,
+      "title": "Balkan Info Serbia Interview Armstrong Post-Serbian Revolution Part-I",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/balkan-info-serbia-interview-armstrong-post-serbian-revolution-part-i/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a promotional post linking to a video interview; it contains no ECM reference, specific predicted event, or future dated prediction."
+    },
+    {
+      "wp_id": 392554,
+      "title": "Poland Coverup?",
+      "link": "https://www.armstrongeconomics.com/uncategorized/poland-coverup/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is historical and current-event commentary about a recent Poland incident; it contains no ECM reference or future dated prediction."
+    },
+    {
+      "wp_id": 392515,
+      "title": "Join the 2026 World Economic Conference – December 4–6",
+      "link": "https://www.armstrongeconomics.com/uncategorized/join-the-2026-world-economic-conference-december-4-6/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a promotional post for the 2026 World Economic Conference (December 4–6); it mentions Socrates but only to advertise what projections may be discussed, not to announce a specific dated ECM forecast."
+    },
+    {
+      "wp_id": 392503,
+      "title": "Interview on Balkan Info – Serbia",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/interview-on-serbian-podcast/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This post has no body content—it is a stub or placeholder for a media appearance announcement."
+    },
+    {
+      "wp_id": 392524,
+      "title": "How Socrates Forecast The Midterms",
+      "link": "https://www.armstrongeconomics.com/uncategorized/how-socrates-forecast-the-midterms/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Although the post references Socrates and historical forecasts (2016 Trump, BREXIT, 1993 LDP, Texas 2026 midterms), it does not present a specific future-dated ECM prediction; the 2028 statement ('The computer does NOT show a 2028 victory for the Democrats') is a negation/commentary on past forecasts, not a new dated forecast announcement."
+    },
+    {
+      "wp_id": 392603,
+      "title": "Europe Accuses Iran of Cyberwarfare Against Its Food Supply",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/europe-accuses-iran-of-cyberwarfare-against-its-food-supply/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting and analysis of current/recent cyberattack incidents (October 2026) and geopolitical implications; no ECM model reference, no specific dated prediction for future event."
+    },
+    {
+      "wp_id": 392600,
+      "title": "October Inflation",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/inflation/october-inflation/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Economic commentary on October 2026 inflation data and Federal Reserve policy; mentions Fed may raise rates in December but as general discussion of monetary policy options, not an ECM-dated specific forecast."
+    },
+    {
+      "wp_id": 392592,
+      "title": "Palantir's Political Repositioning",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/palantirs-political-repositioning/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion and political commentary on Palantir's hiring of Jon Tester; no ECM reference and no specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 392597,
+      "title": "Market Talk – November 10, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-november-10-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting price movements and indices for November 10, 2026; standard Market Talk format with no ECM model reference or future dated prediction."
+    },
+    {
+      "wp_id": 392567,
+      "title": "Germany Threatens to Hold the Entire EU Budget Hostage for Ukraine",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/germany-threatens-to-hold-the-entire-eu-budget-hostage-for-ukraine/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Political and economic commentary on current EU budget negotiations and Germany's demands regarding Ukraine financing; no ECM reference and no specific dated prediction of future events."
+    },
+    {
+      "wp_id": 392579,
+      "title": "Flock Safety Is Financing the Politicians Who Oversee Its Surveillance Contracts",
+      "link": "https://www.armstrongeconomics.com/government-surveillance/flock-safety-is-financing-the-politicians-who-oversee-its-surveillance-contracts/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece analyzing Flock Safety's political contributions and surveillance practices; no ECM reference, no dated prediction."
+    },
+    {
+      "wp_id": 392564,
+      "title": "AIPAC Spent $84 Million Influencing American Midterm Elections",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/aipac-spent-84-million-influencing-american-elections/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on 2026 midterm election results and AIPAC spending; reports on past events, no ECM reference, no future-dated prediction."
+    },
+    {
+      "wp_id": 392586,
+      "title": "Fake News – Are they Stupid or On the Take?",
+      "link": "https://www.armstrongeconomics.com/world-news/press/fake-news-are-they-stupid-or-on-the-take/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece about media coverage of Russia-Ukraine conflict; no ECM reference, no specific dated prediction."
+    },
+    {
+      "wp_id": 392583,
+      "title": "Market Talk – November 9, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-november-9-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup for November 9, 2026 (a past date); no ECM reference, no forecast."
+    },
+    {
+      "wp_id": 392575,
+      "title": "Corruption of the Staff in the White House",
+      "link": "https://www.armstrongeconomics.com/world-news/corruption/corruption-of-the-staff-in-the-white-house/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Commentary on Trump administration staff blocking information; mentions 'the computer has forecast...chaos for the next two years' but references chaos generally without a specific ECM event or dated turning point."
+    },
+    {
+      "wp_id": 392664,
+      "title": "Nov 13, 2026 Welcome to Doomsday",
+      "link": "https://www.armstrongeconomics.com/uncategorized/nov-13-2026-welcome-to-doomsday/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post discusses historical population theory and mentions a 1960 doomsday prediction for November 13, 2026 (today/past), and references an ECM panic cycle for 2021 (past), but contains no specific future ECM-dated prediction or turning point forecast."
+    },
+    {
+      "wp_id": 392649,
+      "title": "Rutte Wants Portugal to Pay More for Ukraine While Its Own People Struggle",
+      "link": "https://www.armstrongeconomics.com/world-news/war/rutte-wants-portugal-to-pay-more-for-ukraine-while-its-own-people-struggle/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current NATO/Portugal geopolitical situation with no ECM reference, no specific future dated prediction, and no mention of Armstrong's model or computer forecasts."
+    },
+    {
+      "wp_id": 392640,
+      "title": "Iran's Economy Is Collapsing",
+      "link": "https://www.armstrongeconomics.com/international-news/iran/irans-economy-is-collapsing/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of Iran's current economic crisis (2026) with no ECM reference, no specific future event prediction, and no dated forecast from Armstrong's model."
+    },
+    {
+      "wp_id": 392644,
+      "title": "China Calls Israel a Friend as Capital Flows Beyond Political Alliances",
+      "link": "https://www.armstrongeconomics.com/international-news/china/china-calls-israel-a-friend-as-capital-flows-beyond-political-alliances/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current China-Israel-Iran relationships and geopolitical capital flows with no ECM reference and no specific future dated prediction."
+    },
+    {
+      "wp_id": 392669,
+      "title": "Bessent Flees to Military Camp",
+      "link": "https://www.armstrongeconomics.com/world-news/geopolitical/bessent-flees-to-military-camp/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece about Washington tensions and Iran-Israel conflict with no ECM reference, no specific future event forecast, and no dated prediction from Armstrong's model."
+    },
+    {
+      "wp_id": 392619,
+      "title": "California Voters Reject the Billionaire Tax",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/california-voters-reject-the-billionaire-tax/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on past California election (Prop 40 defeated Nov 2026) with historical analysis of capital flight; no ECM reference or future dated prediction."
+    },
+    {
+      "wp_id": 392616,
+      "title": "Americans Are Sacrificing Their Health to Afford Food",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/americans-are-sacrificing-their-health-to-afford-food/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of current food inflation and household economic behavior based on Penn State study; no ECM reference or future dated prediction."
+    },
+    {
+      "wp_id": 392613,
+      "title": "Zelensky Wants Western Taxpayers to Finance His Army for Another Decade",
+      "link": "https://www.armstrongeconomics.com/world-news/war/zelensky-wants-western-taxpayers-to-finance-his-army-for-another-decade/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece on Zelensky's military funding proposal and ongoing Ukraine negotiations; no ECM reference or future dated prediction despite discussion of long-term implications."
+    },
+    {
+      "wp_id": 392629,
+      "title": "The Solution to the Sovereign Debt Crisis",
+      "link": "https://www.armstrongeconomics.com/world-news/sovereign-debt-crisis/the-solution-to-the-sovereign-debt-crisis/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Promotional teaser for WEC event promising discussion of sovereign debt solution; lacks specific ECM-dated prediction and is primarily event promotion."
+    },
+    {
+      "wp_id": 392711,
+      "title": "Dialogue Works Interview",
+      "link": "https://www.armstrongeconomics.com/uncategorized/dialogue-works-interview/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Empty post body; no content to classify."
+    },
+    {
+      "wp_id": 392691,
+      "title": "Concern of False Flag Against Russia Q1 2027",
+      "link": "https://www.armstrongeconomics.com/armstrong-in-the-media/concern-of-false-flag-against-russia-q1-2027/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post has no body content; title alone mentions Q1 2027 but without ECM model reference or specific predicted event details, cannot classify as forecast."
+    },
+    {
+      "wp_id": 392698,
+      "title": "NVIDIA & Espionage",
+      "link": "https://www.armstrongeconomics.com/world-news/espionage/nvidia-espionage/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on NVIDIA CEO resignation and espionage concerns; contains historical anecdotes and general security observations but no ECM model reference, Socrates prediction, or dated forecast of a future event."
+    },
+    {
+      "wp_id": 392654,
+      "title": "Market Talk – November 12, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-november-12-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market data roundup reporting historical price movements from November 12, 2026; no ECM reference, model prediction, or future-dated event forecast."
     }
   ]
 }
