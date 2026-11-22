@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-15T09:29:15.753427+00:00",
+  "generated_at": "2026-11-22T09:48:30.026866+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "post_count": 1543,
-  "kept_count": 187,
+  "post_count": 1573,
+  "kept_count": 189,
   "usage": {
-    "input_tokens": 34365,
-    "output_tokens": 2746,
-    "estimated_cost_usd": 0.048095,
+    "input_tokens": 32849,
+    "output_tokens": 2549,
+    "estimated_cost_usd": 0.045594,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -13897,6 +13897,276 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "Daily market data roundup reporting historical price movements from November 12, 2026; no ECM reference, model prediction, or future-dated event forecast."
+    },
+    {
+      "wp_id": 392736,
+      "title": "Britain Refuses to Reveal the Truth About Migrant Crime",
+      "link": "https://www.armstrongeconomics.com/international-news/britain/britain-refuses-to-reveal-the-truth-about-migrant-crime/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting and opinion commentary on British government migration crime statistics; no ECM reference, no specific dated prediction."
+    },
+    {
+      "wp_id": 392728,
+      "title": "Macron Secretly Sent French Troops into Ukraine Without Informing Parliament",
+      "link": "https://www.armstrongeconomics.com/world-news/war/macron-secretly-sent-french-troops-into-ukraine-without-informing-parliament/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "News reporting on French military deployment to Ukraine with geopolitical analysis; mentions War Cycle in passing but makes no specific dated ECM prediction for a future event."
+    },
+    {
+      "wp_id": 392688,
+      "title": "China Is Rehearsing a Blockade of Taiwan",
+      "link": "https://www.armstrongeconomics.com/world-news/war/china-is-rehearsing-a-blockade-of-taiwan/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2029-01-01",
+      "reason": "References Economic Confidence Model pointing to 2026 as Panic Cycle year with rising geopolitical volatility into 2027 and major turning point approaching in 2029; predicts escalating geopolitical tensions and Taiwan confrontation risk during these cycles."
+    },
+    {
+      "wp_id": 392748,
+      "title": "What's Going on War or Peace?",
+      "link": "https://www.armstrongeconomics.com/international-news/europes-current-economy/whats-going-on-war-or-peace/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece warning of economic collapse and war risk; mentions gold forecast for December/January but no specific ECM model reference or formally dated prediction."
+    },
+    {
+      "wp_id": 392743,
+      "title": "Law is Silent in Time of War",
+      "link": "https://www.armstrongeconomics.com/armstrong-economics-upcoming-events/world-economic-conference/law-is-silent-in-time-of-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A response about future report coverage going into 2032; mentions timeline but makes no specific ECM-based prediction of a dated event."
+    },
+    {
+      "wp_id": 392739,
+      "title": "Market Talk – November 16, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-november-16-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market data roundup with no ECM reference, specific event prediction, or future-dated forecast; pure market reporting."
+    },
+    {
+      "wp_id": 392684,
+      "title": "Americans Are Borrowing to Survive as Credit Card Debt Hits $1.29 Trillion",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/americans-are-borrowing-to-survive-as-credit-card-debt-hits-1-29-trillion/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of current credit card debt and household financial distress with no ECM reference or specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 392680,
+      "title": "Ireland Refuses to Hunt Down Men for Zelensky",
+      "link": "https://www.armstrongeconomics.com/world-news/war/ireland-refuses-to-hand-ukrainian-refugees-over-to-zelenskys-draft/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on Ukraine war, refugee policy, and geopolitical tensions with no ECM reference or specific dated prediction."
+    },
+    {
+      "wp_id": 392721,
+      "title": "The Neocon Fool",
+      "link": "https://www.armstrongeconomics.com/world-news/neocons/the-neocon-fool/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Q&A response with historical/opinion commentary on neoconservative foreign policy and regional conflicts; no ECM reference or dated forecast."
+    },
+    {
+      "wp_id": 392714,
+      "title": "The Economic Choice",
+      "link": "https://www.armstrongeconomics.com/humor/the-economic-choice/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; insufficient content to classify as forecast."
+    },
+    {
+      "wp_id": 392829,
+      "title": "Democrats & Their Media Cronies are Their Own Worst Enemy",
+      "link": "https://www.armstrongeconomics.com/uncategorized/democrats-their-own-worst-enemy/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on current geopolitical events and political analysis; mentions 2032 as a general trend reference ('before we even reach 2032') without an ECM-specific dated prediction or model reference in this post."
+    },
+    {
+      "wp_id": 392806,
+      "title": "Europe's Humiliating Decline as China and Russia Reshape the World Order",
+      "link": "https://www.armstrongeconomics.com/world-news/world-trade/europes-humiliating-decline-as-china-and-russia-reshape-the-world-order/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Geopolitical and economic analysis of Europe's decline and China-Russia relations; includes planned dates (end of 2026, September 2027) as statements of fact, not ECM-based predictions, with no reference to Armstrong's model or computer."
+    },
+    {
+      "wp_id": 392802,
+      "title": "San Diego Rejects the Surveillance State",
+      "link": "https://www.armstrongeconomics.com/government-surveillance/san-diego-rejects-the-surveillance-state/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Policy analysis and opinion piece on surveillance systems and privacy rights; no ECM reference, no model, no specific dated prediction."
+    },
+    {
+      "wp_id": 392815,
+      "title": "The EU – Death Warmed Over?",
+      "link": "https://www.armstrongeconomics.com/world-news/war/392815/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "Commentary on EU economic conditions and military spending with reference to future WEC event ('timer at the WEC'); mentions no specific ECM-dated prediction, only general observation that developments will be monitored at the upcoming conference."
+    },
+    {
+      "wp_id": 392824,
+      "title": "Forgotten Cyber Warfare History",
+      "link": "https://www.armstrongeconomics.com/world-news/cyber-warefare/forgotten-cyber-warfare-history/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post body is empty; cannot classify as forecast."
+    },
+    {
+      "wp_id": 392795,
+      "title": "Cyber Warfare the Next Evolution Like Drones",
+      "link": "https://www.armstrongeconomics.com/world-news/cyber-warefare/cyber-warfare-the-next-evolution-like-drones/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Historical analysis of WWII counterfeiting and current commentary on cyber warfare threats; no ECM reference, no specific dated prediction for a future turning point."
+    },
+    {
+      "wp_id": 392809,
+      "title": "Market Talk – November 18, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-november-18-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market data roundup for November 18, 2026 with no ECM reference or dated predictions; purely reportage of current market movements."
+    },
+    {
+      "wp_id": 392764,
+      "title": "Trump's Midterm Problem: Americans Are Tired of Paying for War",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/trumps-midterm-problem-americans-are-tired-of-paying-for-war/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Political and economic commentary analyzing Trump's approval ratings, midterm election results, and consequences of Iran war policy; no ECM reference or specific future dated prediction."
+    },
+    {
+      "wp_id": 392773,
+      "title": "Washington Wants to Protect Employers Who Knowingly Hire Illegal Workers",
+      "link": "https://www.armstrongeconomics.com/international-news/north_america/americas-current-economy/washington-wants-to-protect-employers-who-knowingly-hire-illegal-workers/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion piece critiquing S. 5197 immigration legislation and employer protection provisions; no ECM reference or specific dated prediction of future events."
+    },
+    {
+      "wp_id": 392770,
+      "title": "Cyber Warfare: The Entire Digital World Is a Target",
+      "link": "https://www.armstrongeconomics.com/world-news/war/cyber-warfare-the-entire-digital-world-is-a-target/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Analysis of cyber warfare vulnerabilities and economic risks from digital infrastructure disruption; no ECM reference and no specific dated prediction despite discussing potential future crises."
+    },
+    {
+      "wp_id": 392909,
+      "title": "Make Europe Great Again",
+      "link": "https://www.armstrongeconomics.com/world-news/war/make-europe-great-again/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is commentary on current geopolitical events and historical context; while it references Armstrong's past 2013/2014 war cycle forecasts (which have already occurred), it makes no new specific dated predictions about future ECM turning points."
+    },
+    {
+      "wp_id": 392933,
+      "title": "Market Talk – November 20, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-november-20-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a daily market roundup (Market Talk format) with current price data; it contains no ECM reference, no specific dated predictions, and no forecasted events."
+    },
+    {
+      "wp_id": 392923,
+      "title": "PRIVATE BLOG – Gold & the War Premium",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/private-blog-gold-the-war-premium/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a promotional teaser for a private subscriber-only blog post with no actual content or predictions provided."
+    },
+    {
+      "wp_id": 392873,
+      "title": "Tax the Bastards Bernie Wants an Annual 5% Wealth Tax",
+      "link": "https://www.armstrongeconomics.com/armstrongeconomics101/socialist/tax-the-bastards-bernie-wants-an-annual-5-wealth-tax/",
+      "is_forecast": false,
+      "confidence": "medium",
+      "predicted_date": null,
+      "reason": "While Armstrong references the computer forecast that 'China will surpass the United States post-2032' and mentions US self-destruction 'post-2032', this is commentary on current tax policy and economic trends rather than a specific dated ECM prediction of a concrete turning point event."
+    },
+    {
+      "wp_id": 392868,
+      "title": "A Well-Deserved Place on American Coinage",
+      "link": "https://www.armstrongeconomics.com/uncategorized/a-well-deserved-place-on-american-coinage/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "This is a feel-good historical and cultural commentary about commemorative dog coins and ancient numismatics with no ECM reference or dated predictions."
+    },
+    {
+      "wp_id": 392864,
+      "title": "Xi Warns Trump Over Taiwan as the War Cycle Intensifies",
+      "link": "https://www.armstrongeconomics.com/world-news/war/xi-warns-trump-over-taiwan-as-the-war-cycle-intensifies/",
+      "is_forecast": true,
+      "confidence": "medium",
+      "predicted_date": "2027-01-01",
+      "reason": "References the War Cycle model identifying 2027 as a period of heightened international tensions and 2029 as a turning point, with Taiwan as a predicted flashpoint, though the post does not specify an exact date within 2027 for a concrete event."
+    },
+    {
+      "wp_id": 392859,
+      "title": "Trump, Putin, and Xi Meet as the Old World Order Begins to Crumble",
+      "link": "https://www.armstrongeconomics.com/international-news/politics/trump-putin-and-xi-meet-as-the-old-world-order-begins-to-crumble/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Commentary on the Trump-Putin-Xi summit and geopolitical realignment; discusses trends and implications without referencing the ECM model or making a specific dated prediction of a future event."
+    },
+    {
+      "wp_id": 392894,
+      "title": "Victory – But at What Price",
+      "link": "https://www.armstrongeconomics.com/world-news/war/victory-but-at-what-prices/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Opinion and commentary on European leadership and war policy; includes a historical anecdote (Pyrrhus victory in 279 BC) but makes no ECM-referenced forecast with a specific future date."
+    },
+    {
+      "wp_id": 392891,
+      "title": "PRIVATE BLOG – Gold – What Now",
+      "link": "https://www.armstrongeconomics.com/markets-by-sector/precious-metals/gold/private-blog-gold-what-now-2/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Promotional/teaser post for private Socrates subscriber content; does not contain any substantive prediction or ECM forecast."
+    },
+    {
+      "wp_id": 392853,
+      "title": "Market Talk – November 19, 2026",
+      "link": "https://www.armstrongeconomics.com/market-talk/market-talk-november-19-2026/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Daily market roundup reporting current and past prices; standard Market Talk post with no ECM reference or future-dated prediction."
     }
   ]
 }

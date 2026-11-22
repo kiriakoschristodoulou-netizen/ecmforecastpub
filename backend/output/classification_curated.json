@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-08T09:01:25.490781+00:00",
+  "generated_at": "2026-11-22T09:48:33.329113+00:00",
   "partial": false,
   "model": "claude-haiku-4-5-20251001",
-  "input_post_count": 187,
+  "input_post_count": 189,
   "kept_count": 91,
   "usage": {
-    "input_tokens": 4919,
-    "output_tokens": 318,
-    "estimated_cost_usd": 0.006509,
+    "input_tokens": 3064,
+    "output_tokens": 230,
+    "estimated_cost_usd": 0.004214,
     "model": "claude-haiku-4-5-20251001"
   },
   "results": [
@@ -1693,6 +1693,24 @@
       "confidence": "high",
       "predicted_date": null,
       "reason": "The post mentions a 2026 Directional Change (already occurred as of today 2026-11-08) and discusses historical Pi Cycle analysis; no new or amended model-attributed future prediction with month-level specificity is presented."
+    },
+    {
+      "wp_id": 392688,
+      "title": "China Is Rehearsing a Blockade of Taiwan",
+      "link": "https://www.armstrongeconomics.com/world-news/war/china-is-rehearsing-a-blockade-of-taiwan/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references existing ECM model dates (2026 panic cycle, 2027 volatility, 2029 turning point) without amending them; explicitly states 'should not be interpreted as a declaration that China will invade Taiwan on a specific date,' indicating no new model-attributed prediction."
+    },
+    {
+      "wp_id": 392864,
+      "title": "Xi Warns Trump Over Taiwan as the War Cycle Intensifies",
+      "link": "https://www.armstrongeconomics.com/world-news/war/xi-warns-trump-over-taiwan-as-the-war-cycle-intensifies/",
+      "is_forecast": false,
+      "confidence": "high",
+      "predicted_date": null,
+      "reason": "Post references existing War Cycle model dates (2027 tensions, 2029 turning point) without amending or refining them; explicitly disclaims specific prediction ('does not guarantee an invasion on any particular date'), making this reference-only commentary rather than a new dated forecast."
     }
   ]
 }
